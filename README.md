@@ -8,9 +8,9 @@ This vault will be used for all RIT 2025-2026 notes for Jeff Taylor (jet2898@rit
 
 This vault uses
 
-**Desmos** 
-**Git** 
-**LaTeX Math** 
+**Desmos**<br>
+**Git** <br>
+**LaTeX Math** <br>
 **Mermaid Tools** 
 ### General Notation Table
 
