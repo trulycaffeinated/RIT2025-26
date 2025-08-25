@@ -8,6 +8,6 @@ flowchart LR
     B --> C[Step C]
     C --> D[Step D]
     D --> E[Step E]
-    E --> A
+    E ---> A
 ```
 
