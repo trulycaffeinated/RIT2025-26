@@ -3,6 +3,15 @@ You are using Obsidian Markdown. Markdown is a great notetaking language that is
 The theme as of writing this note is GitHub.
 
 This vault will be used for all RIT 2025-2026 notes for Jeff Taylor (jet2898@rit.edu)
+
+### Plugins
+
+This vault uses
+
+**Desmos**<br>
+**Git** <br>
+**LaTeX Math** <br>
+**Mermaid Tools** 
 ### General Notation Table
 
 There are two options for delimiting a math expression inline with your text. You can either surround the expression with dollar symbols (`$`), or start the expression with `` $` `` and end it with `` `$ ``. The latter syntax is useful when the expression you are writing contains characters that overlap with markdown syntax.
