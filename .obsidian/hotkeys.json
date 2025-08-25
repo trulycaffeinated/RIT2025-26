@@ -1,0 +1,18 @@
+{
+  "latex-math:eval-latex-expression": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
+    }
+  ],
+  "latex-math:evalf-latex-expression": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ]
+}
