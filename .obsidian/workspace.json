@@ -11,10 +11,14 @@
             "id": "906b515473b9d3a0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2 BIOG 101.103/Anchor.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Anchor"
             }
           }
         ]
@@ -138,16 +142,27 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "2 BIOG 101.103/Anchor.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Anchor"
+            }
+          },
+          {
+            "id": "34176d67ef3b3ffc",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -167,10 +182,12 @@
   },
   "active": "906b515473b9d3a0",
   "lastOpenFiles": [
+    "Untitled.base",
+    "2 BIOG 101.103/Anchor.md",
+    "2 BIOG 101.103",
     "Untitled.md",
     "Welcome.md",
     "create a link.md",
-    "Untitled.base",
     "Image Graveyard EXE/Map_of_Mathematics.jpg",
     "README.md.md",
     "3 MLFR 151",
