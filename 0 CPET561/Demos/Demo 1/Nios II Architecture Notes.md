@@ -36,7 +36,16 @@ add immediate is addi
 division is div
 division immediate is divi
 
+add registers A and B and store in C
+
+<div algin="center">
+
+add rA, rB, rC
+
+</div>
+
 word instructions are abbreviated, see Nios II introduction for full list.
 Abbreviations start with either ld for load, or st for store. w for word, b for byte, h for halfword. u is added for unsigned. End with io for i/o
 
 Load halfword unsigned to io --> ldhuio
+
