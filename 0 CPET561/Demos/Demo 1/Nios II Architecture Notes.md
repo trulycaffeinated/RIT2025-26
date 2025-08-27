@@ -30,6 +30,7 @@ Three instruction formats...
 ![[Format of NIOS II Instructions.png]]
 
 #### Instructions
+##### Arithmetic
 The Nios II instruction set is pretty straightforward, arithmetic is the three letters of the operation, and then i for immediate. Ex...
 add is add
 add immediate is addi
@@ -38,14 +39,18 @@ division immediate is divi
 
 add registers A and B and store in C
 
-<div algin="center">
+<div align="center">
 
 add rA, rB, rC
 
 </div>
 
-word instructions are abbreviated, see Nios II introduction for full list.
+##### Load and Store
+Word instructions are abbreviated, see Nios II introduction for full list.
 Abbreviations start with either ld for load, or st for store. w for word, b for byte, h for halfword. u is added for unsigned. End with io for i/o
 
 Load halfword unsigned to io --> ldhuio
 
+See Nios II intro for examples on ld and st
+
+##### Logic
