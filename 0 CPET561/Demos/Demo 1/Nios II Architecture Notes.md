@@ -24,4 +24,7 @@ All Nios II instructions are 32 bits long. Nios II also includes a set of *pseud
 
 Three instruction formats...
 
-- *I-Type* - Five bit fields A and B are used to specify general-purpose registers. A 16-bit field IMMED16 provides immediate data which can be sign extended to 32-bit
+- *I-Type* - Five bit fields A and B are used to specify general-purpose registers. A 16-bit field IMMED16 provides immediate data which can be sign extended to 32-bit operand
+- *R-Type* - Five bit fields A,B, and C are used to specify general-purpose registers. An 11-bit field OPX is used to extend the OPX
+- *J-Type* - A 26-bit field IMMED26 contains an unsigned immediate value. This format is only in the call instruction.
+![[Format of NIOS II Instructions.png]]
