@@ -28,3 +28,6 @@ Three instruction formats...
 - *R-Type* - Five bit fields A,B, and C are used to specify general-purpose registers. An 11-bit field OPX is used to extend the OPX
 - *J-Type* - A 26-bit field IMMED26 contains an unsigned immediate value. This format is only in the call instruction.
 ![[Format of NIOS II Instructions.png]]
+
+#### Instructions
+The Nios II instruction set is pretty straightforward, arithmetic is 
