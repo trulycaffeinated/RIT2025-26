@@ -63,3 +63,9 @@ and rC, rA, rB
 These logic operations can also be done with the high modifier. As such...
 andh for and high. andhi for and high immediate.
 
+##### Move
+The "move" instruction done as mov copys the contents of one register to another.
+<div align="center">
+mov rC, rA <br>
+copies contents of rA to rC
+</div>
