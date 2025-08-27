@@ -59,3 +59,7 @@ AND rA, and rB, store result in rC
 <div align="center">
 and rC, rA, rB
 </div>
+
+These logic operations can also be done with the high modifier. As such...
+andh for and high. andhi for and high immediate.
+
