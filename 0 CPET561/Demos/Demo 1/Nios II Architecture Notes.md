@@ -54,3 +54,8 @@ Load halfword unsigned to io --> ldhuio
 See Nios II intro for examples on ld and st
 
 ##### Logic
+Logic instructions come with AND, OR, XOR, and NOR operations. Using them is straightforward. They also come with immediate varients in andi, ori, xori, nori.
+AND rA, and rB, store result in rC
+<div align="center">
+and rC, rA, rB
+</div>
