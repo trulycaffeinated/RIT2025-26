@@ -20,3 +20,4 @@ Five addressing modes
 - **Register indirect mode** – the effective address of the operand is the contents of a register specified in the instruction. This is equivalent to the displacement mode where the displacement value is equal to 0.
 - **Absolute mode** – a 16-bit absolute address of an operand can be specified by using the displacement mode with register `r0` which always contains the value 0.
 
+All Nios II instru
