@@ -1,5 +1,5 @@
 ```desmos-graph
-y=x
+y=x{0<x<5}
 ```
 
 THERES FUCKING DEMOS TOOO AHAHAAAAA
