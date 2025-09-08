@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="nios_system" kind="nios_system" version="1.0" fabric="QSYS">
  <!-- Format version 18.1 625 (Future versions may contain additional information.) -->
- <!-- 2025.09.08.10:51:27 -->
+ <!-- 2025.09.08.11:05:41 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1757343086</value>
+  <value>1757343941</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -3571,7 +3571,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="dataSlaveMapParam">
    <type>java.lang.String</type>
-   <value><![CDATA[<address-map><slave name='onchip_memory2_0.s1' start='0x1000' end='0x2000' type='altera_avalon_onchip_memory2.s1' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x2800' end='0x3000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='switches.s1' start='0x3000' end='0x3010' type='altera_avalon_pio.s1' /><slave name='pushbuttons.s1' start='0x3010' end='0x3020' type='altera_avalon_pio.s1' /><slave name='hex0.s1' start='0x3020' end='0x3030' type='altera_avalon_pio.s1' /><slave name='jtag_uart_0.avalon_jtag_slave' start='0x3030' end='0x3038' type='altera_avalon_jtag_uart.avalon_jtag_slave' /><slave name='sysid_qsys_0.control_slave' start='0x3038' end='0x3040' type='altera_avalon_sysid_qsys.control_slave' /></address-map>]]></value>
+   <value><![CDATA[<address-map><slave name='onchip_memory2_0.s1' start='0x1000' end='0x2000' type='altera_avalon_onchip_memory2.s1' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x2800' end='0x3000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='switches.s1' start='0x3000' end='0x3010' type='altera_avalon_pio.s1' /><slave name='pushbuttons.s1' start='0x3010' end='0x3020' type='altera_avalon_pio.s1' /><slave name='hex0.s1' start='0x3020' end='0x3030' type='altera_avalon_pio.s1' /><slave name='sysid_qsys_0.control_slave' start='0x3030' end='0x3038' type='altera_avalon_sysid_qsys.control_slave' /><slave name='jtag_uart_0.avalon_jtag_slave' start='0x3038' end='0x3040' type='altera_avalon_jtag_uart.avalon_jtag_slave' /></address-map>]]></value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -4242,7 +4242,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>jtag_uart_0</moduleName>
     <slaveName>avalon_jtag_slave</slaveName>
     <name>jtag_uart_0.avalon_jtag_slave</name>
-    <baseAddress>12336</baseAddress>
+    <baseAddress>12344</baseAddress>
     <span>8</span>
    </memoryBlock>
    <memoryBlock>
@@ -4250,7 +4250,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>sysid_qsys_0</moduleName>
     <slaveName>control_slave</slaveName>
     <name>sysid_qsys_0.control_slave</name>
-    <baseAddress>12344</baseAddress>
+    <baseAddress>12336</baseAddress>
     <span>8</span>
    </memoryBlock>
    <memoryBlock>
@@ -7599,7 +7599,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.TIMESTAMP</name>
-   <value>1757343086</value>
+   <value>1757343941</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.compatible</name>
@@ -7619,7 +7619,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.timestamp</name>
-   <value>1757343086</value>
+   <value>1757343941</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.vendor</name>
@@ -7635,7 +7635,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="timestamp">
    <type>int</type>
-   <value>1757343086</value>
+   <value>1757343941</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -8108,7 +8108,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x3030</value>
+   <value>0x3038</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -8159,7 +8159,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x3038</value>
+   <value>0x3030</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>

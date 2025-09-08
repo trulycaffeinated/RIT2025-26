@@ -8,10 +8,11 @@ use IEEE.numeric_std.all;
 
 entity nios_system is
 	port (
-		clk_clk         : in  std_logic                    := '0';             --      clk.clk
-		hex0_export     : out std_logic_vector(6 downto 0);                    --     hex0.export
-		reset_reset_n   : in  std_logic                    := '0';             --    reset.reset_n
-		switches_export : in  std_logic_vector(7 downto 0) := (others => '0')  -- switches.export
+		clk_clk            : in  std_logic                    := '0';             --         clk.clk
+		hex0_export        : out std_logic_vector(6 downto 0);                    --        hex0.export
+		pushbuttons_export : in  std_logic_vector(3 downto 0) := (others => '0'); -- pushbuttons.export
+		reset_reset_n      : in  std_logic                    := '0';             --       reset.reset_n
+		switches_export    : in  std_logic_vector(7 downto 0) := (others => '0')  --    switches.export
 	);
 end entity nios_system;
 
@@ -451,7 +452,7 @@ begin
 			reset_n  => rst_controller_reset_out_reset_ports_inv,  --               reset.reset_n
 			address  => mm_interconnect_0_pushbuttons_s1_address,  --                  s1.address
 			readdata => mm_interconnect_0_pushbuttons_s1_readdata, --                    .readdata
-			in_port  => open                                       -- external_connection.export
+			in_port  => pushbuttons_export                         -- external_connection.export
 		);
 
 	switches : component nios_system_switches
