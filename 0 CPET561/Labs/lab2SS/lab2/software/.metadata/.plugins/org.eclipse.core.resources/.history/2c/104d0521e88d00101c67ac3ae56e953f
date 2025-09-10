@@ -1,0 +1,82 @@
+# ---------------------------------------------------------------
+# Lab 2 – HEX0 counter with KEY1 and SW0
+# ---------------------------------------------------------------
+
+.text
+
+.macro MOVIA reg, addr
+  movhi \reg, %hi(\addr)
+  ori   \reg, \reg, %lo(\addr)
+.endm
+
+# device addresses (from system.h)
+.equ HEX0,        0x11000
+.equ PUSHBUTTONS, 0x11010
+.equ SWITCHES,    0x11020
+
+# masks
+.equ KEY1_MASK,   0x02    # KEY1 bit (active-low)
+.equ SW0_MASK,    0x01    # SW0 bit
+
+.global main
+main:
+  MOVIA r2, HEX0            # r2 -> HEX0
+  MOVIA r3, PUSHBUTTONS     # r3 -> KEY[3:0]
+  MOVIA r4, SWITCHES        # r4 -> SW[7:0]
+
+  movi  r5, 0               # r5 = current digit (0..9)
+  # display initial 0
+  MOVIA r8, seg_table
+  add   r8, r8, r5
+  ldbu  r9, 0(r8)
+  stbio r9, 0(r2)
+
+MAIN_LOOP:
+
+WAIT_PRESS:
+  ldbuio r6, 0(r3)          # read keys
+  andi   r6, r6, KEY1_MASK
+  bne    r6, r0, WAIT_PRESS # wait until KEY1 pressed (bit=0)
+
+  ldbuio r7, 0(r4)          # read switches
+  andi   r7, r7, SW0_MASK
+  beq    r7, r0, DO_DEC     # SW0=0 -> decrement
+
+DO_INC:
+  movi   r8, 9
+  beq    r5, r8, NO_UPDATE  # cap at 9
+  addi   r5, r5, 1
+  br     UPDATE
+
+DO_DEC:
+  beq    r5, r0, NO_UPDATE  # cap at 0
+  addi   r5, r5, -1
+
+UPDATE:
+  # write new digit to HEX0
+  MOVIA  r8, seg_table
+  add    r8, r8, r5
+  ldbu   r9, 0(r8)
+  stbio  r9, 0(r2)
+
+NO_UPDATE:
+WAIT_RELEASE:
+  ldbuio r6, 0(r3)
+  andi   r6, r6, KEY1_MASK
+  beq    r6, r0, WAIT_RELEASE   # wait until KEY1 released
+
+  br     MAIN_LOOP
+
+# seven-seg codes for 0..9 (active-low: g f e d c b a)
+.data
+seg_table:
+  .byte 0x40  # 0
+  .byte 0x79  # 1
+  .byte 0x24  # 2
+  .byte 0x30  # 3
+  .byte 0x19  # 4
+  .byte 0x12  # 5
+  .byte 0x02  # 6
+  .byte 0x78  # 7
+  .byte 0x00  # 8
+  .byte 0x10  # 9

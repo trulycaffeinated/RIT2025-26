@@ -1,0 +1,25 @@
+# ---------------------------------------------------------------
+# Assembly language program that reads data from the switches
+# and displays it on the LEDs.
+# ---------------------------------------------------------------
+
+.text
+
+# Define constants from system.h
+.equ HEX0, 0x11000   # HEX0_BASE from system.h
+
+# Define the main program
+.global main
+main:
+    # Load HEX0 address into r2
+    movia r2, HEX0
+
+    # Load 7-seg code for digit "0" into r3
+    # For active-low HEX display: 0 = 0x40
+    movi  r3, 0x40
+
+    # Store pattern to HEX0 PIO
+    stwio r3, 0(r2)
+
+hang:
+    br hang   # stay here forever
