@@ -18,6 +18,7 @@ There are two options for delimiting a math expression inline with your text. Yo
 
 | Notation                                  | Example                                      | Inline                                             |
 | ----------------------------------------- | -------------------------------------------- | -------------------------------------------------- |
+| Superscript                               | $a^b$                                        | `$a^b$`                                            |
 | Addition                                  | a+b                                          | ``$a-b$``                                          |
 | Subtraction                               | a-b                                          | ``$a-b$``                                          |
 | Multiplication                            | $a \times b$                                 | ``$a \times b``                                    |
@@ -61,13 +62,13 @@ $$
 ```Latex
 code for said block
 $$ 
-\text{math block begins}
 \begin{aligned}
+\text{math block begins} \\
 A = B \\
 B = C \\
 C = D \\
-\end{aligned}
 \text{math block ends}
+\end{aligned}
 $$
 ```
 ### Greek letters
