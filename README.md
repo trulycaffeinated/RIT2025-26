@@ -48,7 +48,7 @@ There are two options for delimiting a math expression inline with your text. Yo
 | Integration                               | $\int_a^b f(x)=x$                            | ``$\int_a^b f(x)=x$``                              |
 | Derivative                                | $\frac{df}{dx}$                              | ``$\frac{df}{dx}$``                                |
 | Partial Derivative                        | $\frac{\partial d}{\partial x}$              | ``$\frac{\partial d}{\partial x}$``                |
-
+You can align a
 ### Greek letters
 Greek letters are just ``$\letter$``
 
