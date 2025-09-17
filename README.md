@@ -18,8 +18,9 @@ There are two options for delimiting a math expression inline with your text. Yo
 
 | Notation                                  | Example                                      | Inline                                             |
 | ----------------------------------------- | -------------------------------------------- | -------------------------------------------------- |
-| Superscript                               | $a^b$                                        | `$a^b$`                                            |
-| Addition                                  | a+b                                          | ``$a-b$``                                          |
+| Superscript                               | $a^b$                                        | ``$a^b$``                                          |
+| Subscript                                 | $a_b$                                        | ``$a_b$``                                          |
+| Addition                                  | a+b                                          | ``$a+b$``                                          |
 | Subtraction                               | a-b                                          | ``$a-b$``                                          |
 | Multiplication                            | $a \times b$                                 | ``$a \times b``                                    |
 | Divison                                   | $a \div b$<br>$\frac{a}{b}$                  | ``$a \div b$``<br>``$\frac{a}{b}$``                |
