@@ -48,7 +48,28 @@ There are two options for delimiting a math expression inline with your text. Yo
 | Integration                               | $\int_a^b f(x)=x$                            | ``$\int_a^b f(x)=x$``                              |
 | Derivative                                | $\frac{df}{dx}$                              | ``$\frac{df}{dx}$``                                |
 | Partial Derivative                        | $\frac{\partial d}{\partial x}$              | ``$\frac{\partial d}{\partial x}$``                |
-You can align a
+You can align math blocks as such, and include text...
+$$ 
+\begin{aligned}
+\text{math block begins} \\
+A = B \\
+B = C \\
+C = D \\
+\text{math block ends}
+\end{aligned}
+$$
+```Latex
+code for said block
+$$ 
+\text{math block begins}
+\begin{aligned}
+A = B \\
+B = C \\
+C = D \\
+\end{aligned}
+\text{math block ends}
+$$
+```
 ### Greek letters
 Greek letters are just ``$\letter$``
 
