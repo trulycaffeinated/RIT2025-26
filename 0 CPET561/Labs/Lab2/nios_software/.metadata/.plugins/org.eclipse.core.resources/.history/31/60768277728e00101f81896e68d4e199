@@ -1,0 +1,27 @@
+# ------------------------------
+# Assembly language program that pushes a 0 to hex0
+# PRELAB portion
+# ------------------------------
+
+.text
+
+# define a macro to move a 32 bit address to a register
+
+.macro MOVIA reg, addr
+    movhi \reg, %hi(\addr)
+    ori \reg, \reg, %lo(\addr)
+.endm
+
+# define constants
+.equ HEX0, 11020
+.equ KEY, 0x11010
+.equ SW, 0x11000
+
+.global main
+main :
+    movia r2, HEX0
+
+loop:
+	ldbio r2, 0x40
+
+

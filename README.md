@@ -18,7 +18,9 @@ There are two options for delimiting a math expression inline with your text. Yo
 
 | Notation                                  | Example                                      | Inline                                             |
 | ----------------------------------------- | -------------------------------------------- | -------------------------------------------------- |
-| Addition                                  | a+b                                          | ``$a-b$``                                          |
+| Superscript                               | $a^b$                                        | ``$a^b$``                                          |
+| Subscript                                 | $a_b$                                        | ``$a_b$``                                          |
+| Addition                                  | a+b                                          | ``$a+b$``                                          |
 | Subtraction                               | a-b                                          | ``$a-b$``                                          |
 | Multiplication                            | $a \times b$                                 | ``$a \times b``                                    |
 | Divison                                   | $a \div b$<br>$\frac{a}{b}$                  | ``$a \div b$``<br>``$\frac{a}{b}$``                |
@@ -48,7 +50,28 @@ There are two options for delimiting a math expression inline with your text. Yo
 | Integration                               | $\int_a^b f(x)=x$                            | ``$\int_a^b f(x)=x$``                              |
 | Derivative                                | $\frac{df}{dx}$                              | ``$\frac{df}{dx}$``                                |
 | Partial Derivative                        | $\frac{\partial d}{\partial x}$              | ``$\frac{\partial d}{\partial x}$``                |
-
+You can align math blocks as such, and include text...
+$$ 
+\begin{aligned}
+\text{math block begins} \\
+A = B \\
+B = C \\
+C = D \\
+\text{math block ends}
+\end{aligned}
+$$
+```Latex
+code for said block
+$$ 
+\begin{aligned}
+\text{math block begins} \\
+A = B \\
+B = C \\
+C = D \\
+\text{math block ends}
+\end{aligned}
+$$
+```
 ### Greek letters
 Greek letters are just ``$\letter$``
 
