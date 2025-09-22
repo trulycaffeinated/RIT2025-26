@@ -96,7 +96,3 @@ Write-Host "This is a powershell block"
 ```C++
 std::cout << "This is a C++ block" << std::endl;
 ```
-
-$$
-f_r=
-$$
