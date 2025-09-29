@@ -8,12 +8,16 @@ f = 10MHz \\
 \text{Calculate Q for Series Ind and Shunt Cap} \\
 Q=\sqrt{\frac{200}{50} -1} = 1.732 \\
 \\
-X_{LS} \\
-X_{LS} = Q \times R_S = 1.732 \times 50\ohm = 86.6 \\
+X \\
+X = Q \times R_S = 1.732 \times 50\ohm = 86.6 \\
 \\
-\text{Series and Parallel values} \\
-L_S = \frac{X_{LS}}{2\pi \times f} = 1.3\mu H \\
+\text{Series and Parallel values (Series L)} \\
+L_S = \frac{X}{2\pi \times f} = 1.3\mu H \\
 L_P = L_S(1 + \frac{1}{Q^2}) = 1.8\mu H \\
-C_P = \frac{1}{2pi \times f)}
+C_P = \frac{1}{(2pi \times f)^2 \times L_P} = 13.7nF \\
+\\
+\text{Series and Parallel Values (Series C)} \\
+C_S = \frac{1}{2\pi \times f \times X} = 18.37nF \\
+X_{Shunt} = 
 \end{aligned}
 $$
