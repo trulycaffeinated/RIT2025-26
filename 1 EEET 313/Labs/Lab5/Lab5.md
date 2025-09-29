@@ -17,7 +17,7 @@ L_P = L_S(1 + \frac{1}{Q^2}) = 1.8\mu H \\
 C_P = \frac{1}{(2pi \times f)^2 \times L_P} = 13.7nF \\
 \\
 \text{Series and Parallel Values (Series C)} \\
-C_S = \frac{1}{2\pi \times f \times X} = 18.37nF \\
+C_S = \frac{1}{2\pi \times f \times X} = 183.7pF \\
 X_{Shunt} = X(1 + \frac{1}{Q^2}) = 115.47 \\
 L_P = \frac{X_{Shunt}}{2\pi \times f} = 1.83\mu H
 \end{aligned}
