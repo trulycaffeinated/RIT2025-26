@@ -22,5 +22,23 @@ X_{Shunt} = X(1 + \frac{1}{Q^2}) = 115.47 \\
 L_P = \frac{X_{Shunt}}{2\pi \times f} = 1.83\mu H
 \end{aligned}
 $$
-
-
+# PWB Board
+$$
+\begin{aligned}
+\text{Assigned Values} \\
+R_s = 50\ohm \\
+R_L = 180\ohm \\
+f = 435KHz \\
+\\
+\text{Calculate Q for Series Ind and Shunt Cap} \\
+Q=\sqrt{\frac{180}{50}-1} = 1.61 \\
+\\
+X \\
+X = Q \times R_S = 1.61 \times 50\ohm = 80.6 \\
+\\
+\text{Series and Parallel Values (Series C)} \\
+C_S = \frac{1}{2\pi \times f \times X} = 183.7pF \\
+X_{Shunt} = X(1 + \frac{1}{Q^2}) = 115.47 \\
+L_P = \frac{X_{Shunt}}{2\pi \times f} = 1.83\mu H
+\end{aligned}
+$$
