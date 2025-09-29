@@ -1,6 +1,6 @@
 $$
 \begin{aligned}
-\text{Preemptive Values} \\
+\text{Assigned Values} \\
 R_s = 50\ohm \\
 R_L = 200\ohm \\
 f = 10MHz \\
@@ -22,4 +22,5 @@ X_{Shunt} = X(1 + \frac{1}{Q^2}) = 115.47 \\
 L_P = \frac{X_{Shunt}}{2\pi \times f} = 1.83\mu H
 \end{aligned}
 $$
+
 
