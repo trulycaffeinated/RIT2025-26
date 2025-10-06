@@ -18,7 +18,10 @@ C_{matching} = 20.41pF - 8pF = 12.4pF \\
 \\
 \\
 \text{Lab 6 - Game Set Match Computations} \\
+\\
 \text{Resonance} \\
-
+Q = \sqrt{\frac{20\Omega}{50\Omega}-1} = 1.732 \text{- Q Match} \\
+X_{series} = \\
+X_{Shunt}
 \end{aligned}
 $$
