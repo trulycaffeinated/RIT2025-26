@@ -21,7 +21,8 @@ C_{matching} = 20.41pF - 8pF = 12.4pF \\
 \\
 \text{Resonance} \\
 Q = \sqrt{\frac{20\Omega}{50\Omega}-1} = 1.732 \text{- Q Match} \\
-X_{series} = \\
-X_{Shunt}
+X_{series} = Q \times R = 1.732 \times 50\Omega = 86.6 \\
+X_{shunt} = X_{series}(1+\frac{1}{Q^2} = 86.6(1+\frac{1}{1.732^2}) = 115.5 \\
+
 \end{aligned}
 $$
