@@ -23,6 +23,9 @@ C_{matching} = 20.41pF - 8pF = 12.4pF \\
 Q = \sqrt{\frac{20\Omega}{50\Omega}-1} = 1.732 \text{- Q Match} \\
 X_{series} = Q \times R = 1.732 \times 50\Omega = 86.6 \\
 X_{shunt} = X_{series}(1+\frac{1}{Q^2} = 86.6(1+\frac{1}{1.732^2}) = 115.5 \\
-
+\\
+\text{Getting L and C Values} \\
+C_{series} = \frac{1}{2\pi \times 86.6(3.5MHz)} = 52.5pF\\
+L_{shunt} = \frac{115.5}{2\pi(3.5MHz)} = 5.252\mu H\\
 \end{aligned}
 $$
