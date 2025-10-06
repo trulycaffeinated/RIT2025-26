@@ -5,6 +5,9 @@ $$
 \text{Absorbtion} \\
 \\
 Q = \sqrt{\frac{3k\Omega}{100\Omega}-1} = 5.385 \text{ - Q Match} \\
-X_{series} = Q \times R = 5.385 \times 100\Omega 
+X_{series} = Q \times R = 5.385 \times 100\Omega =538.5 \\
+X_{shunt} = X_{series}(1 + \frac{1}{Q^2}) = 538.5(1+\frac{1}{5.385^2}) = 557.1 \\
+\text{Getting L and C values} \\
+L_{series} = \frac{538.5\Omega}{2\pi}
 \end{aligned}
 $$
