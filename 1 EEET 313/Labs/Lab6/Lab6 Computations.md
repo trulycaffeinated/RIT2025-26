@@ -13,5 +13,10 @@ C_{shunt} = \frac{1}{557.1 \times 2\pi (14MHz)} = 20.41pF \\
 \\
 L_{matching} = 6.122\mu H - 1.2\mu H = 4.9\mu H \\
 C_{matching} = 20.41pF - 8pF = 12.4pF \\
+\\
+\\
+\text{Lab 6 - Game Set Match Computations} \\
+\text{Resonance} \\
+
 \end{aligned}
 $$
