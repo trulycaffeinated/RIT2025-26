@@ -26,6 +26,9 @@ X_{shunt} = X_{series}(1+\frac{1}{Q^2} = 86.6(1+\frac{1}{1.732^2}) = 115.5 \\
 \\
 \text{Getting L and C Values} \\
 C_{series} = \frac{1}{2\pi \times 86.6(3.5MHz)} = 52.5pF\\
-L_{shunt} = \frac{115.5}{2\pi(3.5MHz)} = 5.252\mu H\\
+L_{shunt} = \frac{115.5}{2\pi(3.5MHz)} = 5.252\mu H\\ 
+\\
+\text{Getting resonant values}
+L_{resonant} = \frac{1}{(2\pi)^2}
 \end{aligned}
 $$
