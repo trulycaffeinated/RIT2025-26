@@ -24,8 +24,8 @@ V_E = 2V \\
 \\
 I_B = \frac{2mA}{80} = 25\mu A \\
 V_B = 2.7 V \\
-R_3 = \frac{2.7V}{25\mu A \times 50} = 2.16k \ohm \\
-R_2 = \frac{5V-2.7V}{25\mu A \times 50 + 25\mu A} = 1.8k\ohm
+R_3 = \frac{2.7V}{25\mu A \times 10} = 10.8k \ohm \\
+R_2 = \frac{5V-2.7V}{25\mu A \times 10 + 25\mu A} = 8.3k\ohm
 \end{aligned}
 $$
 
