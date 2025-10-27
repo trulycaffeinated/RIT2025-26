@@ -19,6 +19,11 @@ $$
 $$
 \begin{aligned}
 \text{Side bias's calculations} \\
-I_{E(max)}
+I_{E(max)} = 2mA \\
+V_E = 2V \\
+\\
+I_B = \frac{2mA}{80} = 25\mu A \\
+V_B = 2.7 V \\
+R_3 = \frac{2.7V}{25\mu A \times 50} =
 \end{aligned}
 $$
