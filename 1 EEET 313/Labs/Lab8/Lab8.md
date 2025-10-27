@@ -1,3 +1,5 @@
+leave r107 and jmp1 out
+
 ## Calculations
 $$
 \begin{aligned}
