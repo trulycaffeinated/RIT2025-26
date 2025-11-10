@@ -48,4 +48,9 @@ Static Timing Analysis
 - What determines the max frequency of a synchronous system? - The critical path (Longest/slowest path)
 - **Netlist - Is the output of synthesis before the fitter**
 	- Fitter takes netlist like instructions
-- 
+- Setup and Hold
+- Modeling timing
+- Longest and Shortest Path
+- Clock jitter vs Clock Skew
+	- Skew is multiple flip flops
+	- Jitter is a single flip flop
