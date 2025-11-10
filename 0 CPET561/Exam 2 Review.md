@@ -33,4 +33,13 @@ Audio basics
 - Resolution - how many bits are used to represent data values
 Pipelining
 - Large combinational area - break up large number of if statements into smaller pieces to pass timing
-- Stag
+- Staging using registers.
+- Throughput - How many instructions can I push through / second
+- Latency - How long does it take for one instruction to make it through the pipeline
+- Instruction Time - How long does it take to execute instruction (doesn't change)
+- Hazards
+	- Data
+	- Structural
+	- Control
+- Branch Prediction and impacts
+- Processor stages and what th
