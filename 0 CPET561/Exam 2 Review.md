@@ -47,4 +47,5 @@ Static Timing Analysis
 - TimeQuest
 - What determines the max frequency of a synchronous system? - The critical path (Longest/slowest path)
 - **Netlist - Is the output of synthesis before the fitter**
+	- Fitter takes netlist like instructions
 - 
