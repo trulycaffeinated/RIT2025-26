@@ -54,3 +54,14 @@ Static Timing Analysis
 - Clock jitter vs Clock Skew
 	- Skew is multiple flip flops
 	- Jitter is a single flip flop
+Bus Structure
+- Basic wires
+- Some examples
+- Async vs Sync
+- Bandwidth vs. Effective Bandwidth
+- Bus Arbiters and possible strategies
+DMA/DMAC
+- What does a DMAC do? How is it configured?
+- What information does processor provide?
+- Advantages and disadvantages
+- Bus arbitration schemes
