@@ -20,4 +20,12 @@ end loop;
 Base-10 Integer Numbers
 Look at guide
 Take coefficient (say 0.1234)
-Multiply by $2^{15$
+Multiply by $2^{15}$
+floor it or ceiling it
+convert to hex
+Apply 2's compliment $+1$
+
+Text io!
+```VHDL
+use std_textio.all
+```
