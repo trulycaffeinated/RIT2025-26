@@ -20,4 +20,9 @@ Hardware Acceleration
 Single vs Multithreaded
 Speed up analysis
 Custom Instructions vs Custom components
+- Where do they exist?
+- How many can you have?
+- Different types and support?
+- Custom Instruction is your own special AND gate or bit swap etc. - two different locations in the NIOS (KNEE-O-s) system.
+- **Component sits on Avalon Interface vs Instruction sits in the execute stage inside the NIOS**
 
