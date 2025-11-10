@@ -42,4 +42,9 @@ Pipelining
 	- Structural
 	- Control
 - Branch Prediction and impacts
-- Processor stages and what th
+- Processor stages and what they do
+Static Timing Analysis
+- TimeQuest
+- What determines the max frequency of a synchronous system? - The critical path (Longest/slowest path)
+- **Netlist - Is the output of synthesis before the fitter**
+- 
