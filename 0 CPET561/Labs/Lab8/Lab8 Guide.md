@@ -18,3 +18,6 @@ end loop;
 ```
 
 Base-10 Integer Numbers
+Look at guide
+Take coefficient (say 0.1234)
+Multiply by $2^{15$
