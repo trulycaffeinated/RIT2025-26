@@ -1,0 +1,1 @@
+The overall purpose of Lab 8 is to implement a low-pass and a high pass digital filter
