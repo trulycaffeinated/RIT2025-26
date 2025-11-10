@@ -12,3 +12,12 @@ Locality Principles
 - Spatial
 - Temporal
 Cache mapping, hits vs misses, thrashing, replacements
+- Compulsory
+- Conflict
+- Capacity
+Hardware Acceleration
+- Advantages & Disadvantages 
+Single vs Multithreaded
+Speed up analysis
+Custom Instructions vs Custom components
+
