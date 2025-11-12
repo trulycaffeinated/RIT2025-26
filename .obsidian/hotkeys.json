@@ -14,5 +14,13 @@
       ],
       "key": "F"
     }
+  ],
+  "templater-obsidian:LaTeX Math Template.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
   ]
 }
