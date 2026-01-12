@@ -6,3 +6,6 @@ Rec. Reading
 **Link File** - where in memory your program is going to reside
 ***Never*** believe an RTOS vendor
 
+Operating system creates the framework for your applications, allowing **portability** and **abstraction**
+
+ehhh who the fuck cares about these notes anyways rahhhhhh
