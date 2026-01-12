@@ -2,3 +2,5 @@ Rec. Reading
 - The Soul of a New Machine
 - Death March - Edward Yourdon
 ---
+**.dll** is a collection of functions program can call upon
+! - **Link File** - where in memory your program is going to reside
