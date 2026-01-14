@@ -43,4 +43,10 @@ this is because we don't trust people
 
 Device drivers directly access the hardware and therefore must be part of the "trusted" software
 
-In addition to directly acc
+In addition to directly accessing the hardware devices, device drivers must also respond to interrupts from the hardware
+
+Device Driver Architecture is split into top half and bottom half
+"Top Half" - Application Interface (Driver API)
+Functional Layer between
+"Bottom Half" - Hardware Layer 1, 2, etc...
+
