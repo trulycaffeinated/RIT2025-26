@@ -33,3 +33,6 @@ Organization often becomes multi level
 
 Need to decide how to organize the subsystems, user interface, or protocol?
 
+When developing an API, it needs to be user friendly so that anyone can use it easily
+W/ an OS API you need to think the same way the developers did
+
