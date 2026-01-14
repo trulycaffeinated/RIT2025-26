@@ -50,3 +50,9 @@ Device Driver Architecture is split into top half and bottom half
 Functional Layer between
 "Bottom Half" - Hardware Layer 1, 2, etc...
 
+### Kernel Functions
+Many API functions are not part of a device driver - these are "Kernel Functions"
+
+They don't have anything to do with hardware
+Almost all Kernel Functions do NOT interact with the hardware
+
