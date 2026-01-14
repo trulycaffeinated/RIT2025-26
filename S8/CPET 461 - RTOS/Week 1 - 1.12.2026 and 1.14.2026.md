@@ -56,3 +56,6 @@ Many API functions are not part of a device driver - these are "Kernel Functions
 They don't have anything to do with hardware
 Almost all Kernel Functions do NOT interact with the hardware
 
+Our tasks are going to be functions, so instead of executing a program we will execute a function
+This cannot be done with any old function
+
