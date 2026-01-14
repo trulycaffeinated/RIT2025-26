@@ -16,4 +16,7 @@ Benefits of an OS
 - Portability - one application can be used on many systems
 - Abstraction - Application can be written with limited knowledge of hardware devices
 
-**Virtual Macahine** - OS will lie to the programmer 
+**Virtual Machine** - OS will lie to the programmer and tell the app that it has more resources than it does, so that the app can work on any machine
+
+*Bottom line is **Productivity** - software development is more efficient with an OS*
+
