@@ -20,3 +20,13 @@ Benefits of an OS
 
 *Bottom line is **Productivity** - software development is more efficient with an OS*
 
+An OS is broken up into pieces - subsystems - that are related to the hardware
+Generally around accessing discs
+- Data storage
+- Communication
+- Graphical displays
+- User Input (Peripherals)
+
+Organization often becomes multi level
+- Usb Devices - subdivided by hardware function (storage, keyboard, mouse, etc.)
+- Ethernet devices - subdivided by comm protocol
