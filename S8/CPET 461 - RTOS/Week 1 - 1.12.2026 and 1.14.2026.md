@@ -30,3 +30,6 @@ Generally around accessing discs
 Organization often becomes multi level
 - Usb Devices - subdivided by hardware function (storage, keyboard, mouse, etc.)
 - Ethernet devices - subdivided by comm protocol
+
+Need to decide how to organize the subsystems, user interface, or protocol?
+
