@@ -74,3 +74,6 @@ POSIX is an IEEE standard
 
 Defines an API that ensures that any POSIX compliant application can run on any POSIX compliant operating system
 
+**You cannot be POSIX compliant and be an RTOS**
+A "POSIX RTOS" implements only a subset of the kernel API functions
+
