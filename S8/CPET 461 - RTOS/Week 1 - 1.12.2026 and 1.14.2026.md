@@ -61,4 +61,9 @@ This cannot be done with any old function
 
 Tasks in an RTOS will interact with each other unlike tasks/applications in a standard OS ; the tasks in an RTOS all exist in the same memory space
 
-Multiple things executing in parallel w/ complete access to all variables will cause cha
+Multiple things executing in parallel w/ complete access to all variables will cause chaos
+- We will control that chaos using Kernel functions within the RTOS
+
+Generally the RTOS will contain only kernel functions
+- Functions that allow two tasks to interact with the RTOS and with each other
+Generally an RTOS does not contain device drivers
