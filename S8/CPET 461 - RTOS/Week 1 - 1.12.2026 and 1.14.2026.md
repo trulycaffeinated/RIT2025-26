@@ -35,4 +35,12 @@ Need to decide how to organize the subsystems, user interface, or protocol?
 
 When developing an API, it needs to be user friendly so that anyone can use it easily
 W/ an OS API you need to think the same way the developers did
+Advantage of an RTOS is it is relatively simple
 
+### Device Drivers
+W/ a traditional OS device drivers are considered part of the OS and form part of the API
+this is because we don't trust people
+
+Device drivers directly access the hardware and therefore must be part of the "trusted" software
+
+In addition to directly acc
