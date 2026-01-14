@@ -67,3 +67,10 @@ Multiple things executing in parallel w/ complete access to all variables will c
 Generally the RTOS will contain only kernel functions
 - Functions that allow two tasks to interact with the RTOS and with each other
 Generally an RTOS does not contain device drivers
+
+### POSIX
+**POSIX** - Portable Operating System Interface
+POSIX is an IEEE standard 
+
+Defines an API that ensures that any POSIX compliant application can run on any POSIX compliant operating system
+
