@@ -16,3 +16,5 @@ Likely tasks...
 - system integration
 - system and subsystem testing
 - program management (cost & schedule)
+- risk assessment and mitigation
+- Documentation
