@@ -15,6 +15,6 @@ Likely tasks...
 - algorithm development (labs)
 - system integration (Everybody - everything coming together)
 - system and subsystem testing **(Me preferably)**
-- program management (cost & schedule)
-- risk assessment and mitigation
+- program management (cost & schedule) 
+- risk assessment and mitigation **(Kinda goes in hand w/ testing)**
 - Documentation **(Me preferably)**
