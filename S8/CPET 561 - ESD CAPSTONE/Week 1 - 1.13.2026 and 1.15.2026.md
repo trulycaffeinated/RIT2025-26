@@ -7,3 +7,12 @@
 
 ## Project Description and Matlab Intro
 ---
+Likely tasks...
+- system architecture
+- firmware
+- software
+- gui
+- algorithm development
+- system integration
+- system and subsystem testing
+- program management (cost & schedule)
