@@ -8,13 +8,13 @@
 ## Project Description and Matlab Intro
 ---
 Likely tasks...
-- system architecture
-- firmware
-- software
-- gui
-- algorithm development
-- system integration
-- system and subsystem testing
+- system architecture **(group) (PRD)**
+- firmware (labs)
+- software (labs)
+- gui (labs)
+- algorithm development (labs)
+- system integration (Everybody - everything coming together)
+- system and subsystem testing **(Me preferably)**
 - program management (cost & schedule)
 - risk assessment and mitigation
-- Documentation
+- Documentation **(Me preferably)**
