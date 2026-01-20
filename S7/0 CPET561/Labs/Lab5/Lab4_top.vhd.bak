@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------
+-- Ian Woloshyn
+-- CPET 561 Embedded System Design 1
+-- Lab 4 top
+-- Feburary 19th 2025
+-------------------------------------------------------------------------
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity Lab4_top is
+    port (
+        CLOCK_50       : in  std_logic;
+        reset_n        : in  std_logic;
+        GPIO_0         : out std_logic
+    );
+end entity Lab4_top;
+
+architecture Behavioral of Lab4_top is
+
+signal write_enable	  :  std_logic := '1';
+signal write_address  :  std_logic := '0';
+signal write_data     :  unsigned(31 downto 0) := x"0000C350";
+signal irq_signal     :  std_logic := '0';
+
+begin
+
+    wrapper: entity work.lab4
+        port map (
+            CLOCK_50       => CLOCK_50,
+            reset_n        => reset_n,
+            pwm_out        => GPIO_0,
+
+			write_enable   => write_enable,
+			write_address  => write_address,
+			write_data     => write_data,
+			irq_signal     => irq_signal
+        );
+		
+end Behavioral;

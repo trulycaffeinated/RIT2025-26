@@ -1,0 +1,109 @@
+m255
+K4
+z2
+!s11e vcom 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dS:/Labs/Lab7/Quartus/part3/raminfr_be/sim/script
+T_opt
+!s110 1762890082
+VHOnFc=oGdWz1MJ>AEzz4c0
+04 13 3 work raminfr_be_tb beh 1
+=1-b07b2521b1c1-69139162-155-2aa0
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2019.2;69
+R0
+Eraminfr_be
+Z1 w1762371335
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z6 8../../src/raminfr_be.vhd
+Z7 F../../src/raminfr_be.vhd
+l0
+L8
+V1ie<VZYhU<0F3B@6WYeY>1
+!s100 00S5Z4cGaJc3gCOlFiPh13
+Z8 OL;C;2019.2;69
+31
+Z9 !s110 1762890307
+!i10b 1
+Z10 !s108 1762890307.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|../../src/raminfr_be.vhd|
+Z12 !s107 ../../src/raminfr_be.vhd|
+!i113 0
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+R5
+DEx4 work 10 raminfr_be 0 22 1ie<VZYhU<0F3B@6WYeY>1
+l32
+L20
+V`:><1Czflm8hT==^2jNWi0
+!s100 ma6@PG^6;I3`D8W^[IjN62
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Eraminfr_be_tb
+Z15 w1762890077
+Z16 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+R4
+R5
+R0
+Z17 8../src/raminfr_be_tb.vhd
+Z18 F../src/raminfr_be_tb.vhd
+l0
+L12
+V`]IWIX5U8H2hlJI_7UIW13
+!s100 @9=IZDL?D3RjXOU`1ICQ62
+R8
+31
+Z19 !s110 1762890308
+!i10b 1
+Z20 !s108 1762890308.000000
+Z21 !s90 -reportprogress|300|-93|-work|work|../src/raminfr_be_tb.vhd|
+Z22 !s107 ../src/raminfr_be_tb.vhd|
+!i113 0
+R13
+R14
+Abeh
+R16
+R2
+R3
+R4
+R5
+Z23 DEx4 work 13 raminfr_be_tb 0 22 `]IWIX5U8H2hlJI_7UIW13
+l39
+L15
+Z24 V8LRScoAHP1:l]lK`n6F@g2
+Z25 !s100 LJzo2boj9^M9SC4I`YdVI0
+R8
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 0
+R13
+R14

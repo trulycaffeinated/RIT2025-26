@@ -1,0 +1,126 @@
+#include "io.h"
+#include <stdio.h>
+#include "system.h"
+#include "alt_types.h"
+#include "sys/alt_irq.h"
+
+typedef unsigned char   uint8;  // 8-bit unsigned
+typedef unsigned short  uint16; // 16-bit unsigned
+typedef unsigned long   uint32; // 32-bit unsigned
+
+// Pointers for direct mem access
+volatile uint32 *leds = (uint32 *) LEDS_BASE;
+volatile uint32 *buttons = (uint32 *) KEY_BASE;
+volatile uint32 *base_address = (uint32 *) RAMINFER_BE_0_BASE;
+
+volatile uint8 stop_test = 0;  // Flag to stop test
+
+void byte_accessible_test(uint32* base, uint32 num_bytes, uint8* test_data){
+
+	uint8* start_addr = (uint8*) base;
+
+	*leds = 0x00;
+	// Write Test Data to ram
+	for(uint32 i = 0; i < num_bytes && !stop_test; i++){
+		*(start_addr + i) = test_data;
+	}
+
+	// Read test data
+	for(uint32 i = 0; i < num_bytes && !stop_test; i++){
+		if(*(start_addr + i) != test_data){
+			*leds = 0xFF;
+            printf("ERROR: Address: 0x%08X Read: 0x%02X Expected: 0x%02X\n", start_addr + i, *(start_addr + i), test_data);
+		}
+	}
+
+}
+
+void word_accessible_test(uint32* base, uint32 num_bytes, uint16* test_data){
+
+	uint16* start_addr = (uint16*) base;
+
+	*leds = 0x00;
+	// Write Test Data to ram
+	for(uint32 i = 0; i < num_bytes && !stop_test; i++){
+		*(start_addr + i) = test_data;
+	}
+
+	// Read test data
+	for(uint32 i = 0; i < num_bytes && !stop_test; i++){
+		if(*(start_addr + i) != test_data){
+			*leds = 0xFF;
+            printf("ERROR: Address: 0x%08X Read: 0x%04X Expected: 0x%04X\n", start_addr + i, *(start_addr + i), test_data);
+		}
+	}
+
+}
+
+void dwrd_accessible_test(uint32* start_addr, uint32 num_bytes, uint32* test_data){
+
+	*leds = 0x00;
+	// Write Test Data to ram
+	for(uint32 i = 0; i < num_bytes && !stop_test; i++){
+		*(start_addr + i) = test_data;
+	}
+
+	// Read test data
+	for(uint32 i = 0; i < num_bytes && !stop_test; i++){
+		if(*(start_addr + i) != test_data){
+			*leds = 0xFF;
+            printf("ERROR: Address: 0x%08X Read: 0x%08X Expected: 0x%08X\n", start_addr + i, *(start_addr + i), test_data);
+		}
+	}
+
+}
+
+void KEY_ISR(void* context){
+	stop_test = 1;
+	*leds = 0x5A;
+	printf("Test interrupted.\n");
+	//*(buttons + 3) &= 0xFF; // Clear interrupts
+}
+
+int main() {
+
+	// LED Hello world
+	*leds = 0xAA;
+
+	uint32 bytes = 16384;
+	uint32 words = 8192;
+	uint32 dwords = 4096;
+
+	uint8  byte_test_data = 0x00;
+	uint16 word_test_data = 0x1234;
+	uint32 dword_test_data = 0xABCDEF90;
+
+	//register isr
+	*(buttons + 2) &= 0x00;
+	*(buttons + 2) |= 0x02;
+	*(buttons + 3) &= 0xFF;
+    alt_ic_isr_register(KEY_IRQ_INTERRUPT_CONTROLLER_ID, KEY_IRQ, KEY_ISR, 0, 0);
+
+	while(1){
+		if(!stop_test){
+			printf("Running byte accessible test...\n");
+			byte_accessible_test(base_address, bytes, byte_test_data);
+		}
+
+		if(!stop_test){
+			printf("Running word accessible test...\n");
+			word_accessible_test(base_address, words, word_test_data);
+		}
+
+		if(!stop_test){
+			printf("Running d-word accessible test...\n");
+			dwrd_accessible_test(base_address, dwords, dword_test_data);
+		}
+
+		if(stop_test){
+			printf("RAM Test stopped");
+			*leds = 0x5A; // Unique pattern for stopping LEDS - 0101 1010
+			break;
+		}
+	}
+
+    return 0;
+}

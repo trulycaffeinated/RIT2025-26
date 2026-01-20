@@ -1,0 +1,106 @@
+m255
+K4
+z2
+!s11e vcom 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dS:/Labs/Lab8/low_pass_filter/simulation/sim/script
+T_opt
+!s110 1763414504
+VE;>PW4VMC]z5D5nAK8jV`0
+04 18 3 work low_pass_filter_tb beh 1
+=1-b07b2521adcc-691b91e8-13e-638c
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2019.2;69
+Elow_pass_filter
+Z1 w1763413140
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z7 8../../src/low_pass_filter.vhd
+Z8 F../../src/low_pass_filter.vhd
+l0
+L9
+VZbLdnda]7?G`iC=VnARR61
+!s100 41V0:aL`8oPJiV^aEoQT63
+Z9 OL;C;2019.2;69
+31
+Z10 !s110 1763414503
+!i10b 1
+Z11 !s108 1763414503.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|../../src/low_pass_filter.vhd|
+Z13 !s107 ../../src/low_pass_filter.vhd|
+!i113 0
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Abeh
+R2
+R3
+R4
+R5
+R6
+DEx4 work 15 low_pass_filter 0 22 ZbLdnda]7?G`iC=VnARR61
+l58
+L20
+VHA]IHh_ZE[f2V3kSHDUVL1
+!s100 7Kz`6fUMmZ=Xba1M[:fUJ0
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Elow_pass_filter_tb
+Z16 w1763414495
+R4
+R5
+R6
+R0
+Z17 8../src/low_pass_filter_tb.vhd
+Z18 F../src/low_pass_filter_tb.vhd
+l0
+L6
+VTgfdBGYCNBmnT`SfXHY1n1
+!s100 OMe:ETzK?R7HFWkFXVTiD2
+R9
+31
+R10
+!i10b 1
+R11
+Z19 !s90 -reportprogress|300|-93|-work|work|../src/low_pass_filter_tb.vhd|
+Z20 !s107 ../src/low_pass_filter_tb.vhd|
+!i113 0
+R14
+R15
+Abeh
+R4
+R5
+R6
+DEx4 work 18 low_pass_filter_tb 0 22 TgfdBGYCNBmnT`SfXHY1n1
+l31
+L9
+VfoXmefF@DSnQ[]g4PChbZ0
+!s100 PjVUAB90jB[EoWIOzg4750
+R9
+31
+R10
+!i10b 1
+R11
+R19
+R20
+!i113 0
+R14
+R15

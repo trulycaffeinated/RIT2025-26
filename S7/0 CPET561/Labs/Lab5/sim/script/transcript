@@ -1,0 +1,82 @@
+# //  ModelSim SE-64 2019.2 Apr 17 2019
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 14:19:59 on Feb 26,2025
+# vcom -reportprogress 300 -93 -work work ../Lab4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Lab4
+# -- Compiling architecture Behavioral of Lab4
+# End time: 14:19:59 on Feb 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 14:19:59 on Feb 26,2025
+# vcom -reportprogress 300 -93 -work work ../Lab4_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Lab4_tb
+# -- Compiling architecture Behavioral of Lab4_tb
+# End time: 14:20:00 on Feb 26,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" Lab4_tb 
+# Start time: 14:20:00 on Feb 26,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt13
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lab4_tb(behavioral)#1
+# Loading work.lab4(behavioral)#1
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ijw5387  Hostname: GOL-1360-16  ProcessID: 11840
+#           Attempting to use alternate WLF file "./wlftedw76t".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftedw76t
+# ** Error: (vish-4014) No objects found matching '/Lab4_tb/CLOCK_50_tb'.
+# Executing ONERROR command at macro ./wave.do line 11
+# ** Error: (vish-4014) No objects found matching '/Lab4_tb/reset_n_tb'.
+# Executing ONERROR command at macro ./wave.do line 12
+# ** Error: (vish-4014) No objects found matching '/Lab4_tb/write_enable_tb'.
+# Executing ONERROR command at macro ./wave.do line 13
+# ** Error: (vish-4014) No objects found matching '/Lab4_tb/write_address_tb'.
+# Executing ONERROR command at macro ./wave.do line 14
+# ** Error: (vish-4014) No objects found matching '/Lab4_tb/write_data_tb'.
+# Executing ONERROR command at macro ./wave.do line 15
+# ** Error: (vish-4014) No objects found matching '/Lab4_tb/pwm_out_tb'.
+# Executing ONERROR command at macro ./wave.do line 16
+# ** Error: (vish-4014) No objects found matching '/Lab4_tb/irq_signal_tb'.
+# Executing ONERROR command at macro ./wave.do line 17
+# ** Error: (vish-4016) Invalid radix value: update.
+# Usage: radix [-binary | -octal | -decimal | -hexadecimal | -unsigned | -ascii | -time] [-enumnumeric | -enumsymbolic | -showbase | -symbolic]
+# Executing ONERROR command at macro ./wave.do line 25
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /lab4_tb/uut
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /lab4_tb/uut
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /lab4_tb/uut
+# ** Note: Simulation complete
+#    Time: 39200 ns  Iteration: 0  Instance: /lab4_tb

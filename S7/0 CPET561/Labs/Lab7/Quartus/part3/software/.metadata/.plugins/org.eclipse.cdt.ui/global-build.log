@@ -1,0 +1,99 @@
+13:50:26 **** Incremental Build of configuration Nios II for project application ****
+make all 
+Info: Building ../application_bsp/
+C:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../application_bsp/
+[BSP build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../application_bsp//HAL/inc -I../application_bsp/ -I../application_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main.o main.c
+main.c: In function 'byte_accessible_test':
+main.c:25:21: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   *(start_addr + i) = test_data;
+                     ^
+main.c:30:24: warning: comparison between pointer and integer
+   if(*(start_addr + i) != test_data){
+                        ^
+main.c:32:20: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'uint8 * {aka unsigned char *}' [-Wformat=]
+             printf("ERROR: Address: 0x%08X Read: 0x%02X Expected: 0x%02X\n", start_addr + i, *(start_addr + i), test_data);
+                    ^
+main.c:32:20: warning: format '%X' expects argument of type 'unsigned int', but argument 4 has type 'uint8 * {aka unsigned char *}' [-Wformat=]
+main.c:32:20: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'uint8 * {aka unsigned char *}' [-Wformat=]
+main.c:32:20: warning: format '%X' expects argument of type 'unsigned int', but argument 4 has type 'uint8 * {aka unsigned char *}' [-Wformat=]
+main.c: In function 'word_accessible_test':
+main.c:45:21: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   *(start_addr + i) = test_data;
+                     ^
+main.c:50:24: warning: comparison between pointer and integer
+   if(*(start_addr + i) != test_data){
+                        ^
+main.c:52:20: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'uint16 * {aka short unsigned int *}' [-Wformat=]
+             printf("ERROR: Address: 0x%08X Read: 0x%04X Expected: 0x%04X\n", start_addr + i, *(start_addr + i), test_data);
+                    ^
+main.c:52:20: warning: format '%X' expects argument of type 'unsigned int', but argument 4 has type 'uint16 * {aka short unsigned int *}' [-Wformat=]
+main.c:52:20: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'uint16 * {aka short unsigned int *}' [-Wformat=]
+main.c:52:20: warning: format '%X' expects argument of type 'unsigned int', but argument 4 has type 'uint16 * {aka short unsigned int *}' [-Wformat=]
+main.c: In function 'dwrd_accessible_test':
+main.c:63:21: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   *(start_addr + i) = test_data;
+                     ^
+main.c:68:24: warning: comparison between pointer and integer
+   if(*(start_addr + i) != test_data){
+                        ^
+main.c:70:20: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'uint32 * {aka long unsigned int *}' [-Wformat=]
+             printf("ERROR: Address: 0x%08X Read: 0x%08X Expected: 0x%08X\n", start_addr + i, *(start_addr + i), test_data);
+                    ^
+main.c:70:20: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32 {aka long unsigned int}' [-Wformat=]
+main.c:70:20: warning: format '%X' expects argument of type 'unsigned int', but argument 4 has type 'uint32 * {aka long unsigned int *}' [-Wformat=]
+main.c:70:20: warning: format '%X' expects argument of type 'unsigned int', but argument 2 has type 'uint32 * {aka long unsigned int *}' [-Wformat=]
+main.c:70:20: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32 {aka long unsigned int}' [-Wformat=]
+main.c:70:20: warning: format '%X' expects argument of type 'unsigned int', but argument 4 has type 'uint32 * {aka long unsigned int *}' [-Wformat=]
+main.c: In function 'main':
+main.c:105:25: warning: passing argument 1 of 'byte_accessible_test' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+    byte_accessible_test(base_address, bytes, byte_test_data);
+                         ^
+main.c:18:6: note: expected 'uint32 * {aka long unsigned int *}' but argument is of type 'volatile uint32 * {aka volatile long unsigned int *}'
+ void byte_accessible_test(uint32* base, uint32 num_bytes, uint8* test_data){
+      ^
+main.c:105:46: warning: passing argument 3 of 'byte_accessible_test' makes pointer from integer without a cast [-Wint-conversion]
+    byte_accessible_test(base_address, bytes, byte_test_data);
+                                              ^
+main.c:18:6: note: expected 'uint8 * {aka unsigned char *}' but argument is of type 'uint8 {aka unsigned char}'
+ void byte_accessible_test(uint32* base, uint32 num_bytes, uint8* test_data){
+      ^
+main.c:110:25: warning: passing argument 1 of 'word_accessible_test' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+    word_accessible_test(base_address, words, word_test_data);
+                         ^
+main.c:38:6: note: expected 'uint32 * {aka long unsigned int *}' but argument is of type 'volatile uint32 * {aka volatile long unsigned int *}'
+ void word_accessible_test(uint32* base, uint32 num_bytes, uint16* test_data){
+      ^
+main.c:110:46: warning: passing argument 3 of 'word_accessible_test' makes pointer from integer without a cast [-Wint-conversion]
+    word_accessible_test(base_address, words, word_test_data);
+                                              ^
+main.c:38:6: note: expected 'uint16 * {aka short unsigned int *}' but argument is of type 'uint16 {aka short unsigned int}'
+ void word_accessible_test(uint32* base, uint32 num_bytes, uint16* test_data){
+      ^
+main.c:115:25: warning: passing argument 1 of 'dwrd_accessible_test' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+    dwrd_accessible_test(base_address, dwords, dword_test_data);
+                         ^
+main.c:58:6: note: expected 'uint32 * {aka long unsigned int *}' but argument is of type 'volatile uint32 * {aka volatile long unsigned int *}'
+ void dwrd_accessible_test(uint32* start_addr, uint32 num_bytes, uint32* test_data){
+      ^
+main.c:115:47: warning: passing argument 3 of 'dwrd_accessible_test' makes pointer from integer without a cast [-Wint-conversion]
+    dwrd_accessible_test(base_address, dwords, dword_test_data);
+                                               ^
+main.c:58:6: note: expected 'uint32 * {aka long unsigned int *}' but argument is of type 'uint32 {aka long unsigned int}'
+ void dwrd_accessible_test(uint32* start_addr, uint32 num_bytes, uint32* test_data){
+      ^
+Info: Linking application.elf
+nios2-elf-g++  -T'../application_bsp//linker.x' -msys-crt0='../application_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../application_bsp/  -msmallc  -Wl,-Map=application.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o application.elf obj/default/main.o -lm -msys-lib=m
+nios2-elf-insert application.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --id 6 --sidp 0x9020 --timestamp 1762732727 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name nios_system --quartus_project_dir "S:/Labs/Lab7/Quartus/part3" --jdi ../..//output_files/lab6_p1.jdi --sopcinfo S:/Labs/Lab7/Quartus/part3/software/application_bsp/../../nios_system.sopcinfo
+Info: (application.elf) 8792 Bytes program size (code + initialized data).
+Info:                   6856 Bytes free for stack + heap.
+Info: Creating application.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source application.elf >application.objdump
+[application build complete]
+13:50:50 **** Incremental Build of configuration Nios II for project application ****
+make all 
+Info: Building ../application_bsp/
+C:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../application_bsp/
+[BSP build complete]
+[application build complete]

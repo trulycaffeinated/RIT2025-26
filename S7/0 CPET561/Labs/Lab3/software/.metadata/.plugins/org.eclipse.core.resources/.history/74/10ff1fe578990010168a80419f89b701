@@ -1,0 +1,122 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 24, 2025
+ *      Author: jet2898
+ */
+
+
+/*
+ * main.c
+ *
+ *  Created on: Sep 24, 2025
+ *      Author: jet2898
+ */
+
+/* alt_types.h and sys/alt_irq.h need to be included for the interrupt
+  functions
+  system.h is necessary for the system constants
+  io.h has read and write functions */
+
+#include "io.h"
+#include <stdio.h>
+#include "system.h"
+#include "alt_types.h"
+#include "sys/alt_irq.h"
+#include "altera_avalon_timer_regs.h"
+#include "altera_avalon_timer.h"
+
+//definitions
+#define KEY1_MASK (1u << 1)
+#define SW0_MASK (1u << 1)
+
+// create standard embedded type definitions
+typedef   signed char   sint8;              // signed 8 bit values
+typedef unsigned char   uint8;              // unsigned 8 bit values
+typedef   signed short  sint16;             // signed 16 bit values
+typedef unsigned short  uint16;             // unsigned 16 bit values
+typedef   signed long   sint32;             // signed 32 bit values
+typedef unsigned long   uint32;             // unsigned 32 bit values
+typedef         float   real32;             // 32 bit real values
+
+// Segment display array
+//Hex values for displaying 0-9 on the hex display
+const uint8 HEX_VALUES[] = {0x40, 0x79, 0x24, 0x30, 0x19, 0x12, 0x02, 0x78, 0x00, 0x10};
+
+//set up pointers to peripherals
+
+volatile uint32* Hex0Ptr = (uint32*)HEX0_BASE; //Assign Hex0Ptr to the memory address of HEX0
+volatile uint32* SWPtr = (uint32*)SWITCHES_BASE; //Assign SWPtr to the memory address of SW
+volatile uint32* KEYSPtr = (uint32*)KEYS_BASE; //Assign KEYSPtr to the memory address of HEX0
+volatile uint32* LEDSPtr = (uint32*)LEDS_BASE; //Assign LEDSPtr to the memory address of LEDS
+
+int find_digit(uint8 current_digit){
+
+	int i = 0;
+
+	for(i = 0; i <= sizeof(HEX_VALUES) - 1; i++){
+		if(current_digit == HEX_VALUES[i]){
+			//digit found
+			break;
+		}
+	}
+
+	return(i);
+}
+
+void update_hex(void){
+	unsigned char sw_state;
+	uint8 hex_state;
+	sw_state = *SWPtr; //read current SW state
+
+	hex_state = *Hex0Ptr; //read current number on HEX
+
+	int current_digit = find_digit(hex_state);
+
+	uint8 SW_MASK_test = 0x01;
+
+
+	if(sw_state == 0x1){
+		if(current_digit < 9){
+			current_digit++;
+			*Hex0Ptr = HEX_VALUES[current_digit];
+		}
+	}
+	else{
+		if(current_digit > 0){
+			current_digit--;
+			*Hex0Ptr = HEX_VALUES[current_digit];
+		}
+	}
+
+}
+
+static void KEY_State_Check(){
+
+	uint32 key_edge = *(KEYSPtr + 2);
+
+	if(key_edge & KEY1_MASK){
+        update_hex();
+	}
+
+	*(KEYSPtr + 3) = key_edge;
+
+}
+
+int main(void){
+
+	//set initial outputs
+	*Hex0Ptr = HEX_VALUES[0]; //Show's 0 on hex display
+
+    KEY_State_Check();
+
+    //Pushbutton IRQ setup (KEY1)
+    //*(KEYSPtr + 3) = 0xF;        // clear any stale edges
+    //*(KEYSPtr + 2) = KEY1_MASK;  // enable only KEY1 (bit1)
+
+    //Interrupt thing - remove this later for prelab
+    //alt_ic_isr_register(KEYS_IRQ_INTERRUPT_CONTROLLER_ID,KEYS_IRQ,KEY_State_Check, 0, 0);
+
+    while(1);
+	return 0;
+}

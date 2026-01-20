@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11e vcom 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Software/ModelSim/examples
+T_opt
+!s110 1740588064
+V9Z?=S:jh`CI@V=fnY@mG=0
+04 7 10 work lab4_tb behavioral 1
+=1-b07b2521aedb-67bf441f-2a3-16dc
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;2019.2;69
+R0
+Elab4
+Z1 w1739997782
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z5 dS:/Lab4/sim
+Z6 8S:/Lab4/Lab4.vhd
+Z7 FS:/Lab4/Lab4.vhd
+l0
+L12
+V2R@:EkC8N?COmc:90YFge2
+!s100 6NcLfJR^MdeP2`:NzBB9J2
+Z8 OL;C;2019.2;69
+32
+Z9 !s110 1740588053
+!i10b 1
+Z10 !s108 1740588053.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/Lab4/Lab4.vhd|
+Z12 !s107 S:/Lab4/Lab4.vhd|
+!i113 0
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 4 lab4 0 22 2R@:EkC8N?COmc:90YFge2
+l42
+L25
+V>OP`G131lLFeM<iTa2=k=2
+!s100 ibMnTozB3`@8o`TIKQPPz3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Elab4_tb
+Z15 w1740587982
+R2
+R3
+R4
+R5
+Z16 8S:/Lab4/Lab4_tb.vhd
+Z17 FS:/Lab4/Lab4_tb.vhd
+l0
+L12
+V;g4MO^`9feBkmZT?M46<C1
+!s100 kbCoiQHiW`E_F=V[K<eQi0
+R8
+32
+Z18 !s110 1740588490
+!i10b 1
+Z19 !s108 1740588490.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/Lab4/Lab4_tb.vhd|
+Z21 !s107 S:/Lab4/Lab4_tb.vhd|
+!i113 0
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+Z22 DEx4 work 7 lab4_tb 0 22 ;g4MO^`9feBkmZT?M46<C1
+l43
+L15
+Z23 V?KeYW8Hedf5059IjJSnOX3
+Z24 !s100 ZIP;ck6Oh>?cE4PKNGf;82
+R8
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R13
+R14

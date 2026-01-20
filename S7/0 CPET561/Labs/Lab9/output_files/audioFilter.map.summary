@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Tue Dec 02 20:08:31 2025
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : audioFilter
+Top-level Entity Name : audio_filter_top
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 2121
+Total pins : 104
+Total virtual pins : 0
+Total block memory bits : 543,872
+Total DSP Blocks : 16
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 1
+Total DLLs : 0

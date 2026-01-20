@@ -1,0 +1,104 @@
+#include "io.h"
+#include <stdio.h>
+#include "system.h"
+#include "alt_types.h"
+#include "sys/alt_irq.h"
+#include "altera_avalon_timer_regs.h"
+#include "altera_avalon_timer.h"
+
+typedef   signed char   sint8;
+typedef unsigned char   uint8;
+typedef   signed short  sint16;
+typedef unsigned short  uint16;
+typedef   signed long   sint32;
+typedef unsigned long   uint32;
+typedef float   real32;
+
+#define SEG_0  0x40
+#define SEG_1  0x79
+#define SEG_2  0x24
+#define SEG_3  0x30
+#define SEG_4  0x19
+#define SEG_5  0x12
+#define SEG_6  0x02
+#define SEG_7  0x78
+#define SEG_8  0x00
+#define SEG_9  0x18
+#define Min_Hex 0
+#define Max_Hex 9
+#define KEY1_MASK (1u << 1)
+
+static volatile uint32 * const Hex0Ptr  = (uint32*) HEX0_BASE;         // 7-bit out
+static volatile uint32 * const KEYSPtr    = (uint32*) KEYS_BASE;  // 4-bit in + IRQ/EDGE
+static volatile uint32 * const SWPtr    = (uint32*) SWITCHES_BASE;     // 8-bit in
+static volatile uint8  * const LEDSPtr   = (uint8*)  LEDS_BASE;         // 8-bit out
+static volatile uint32 * const TimerPtr = (uint32*) TIMER_0_BASE;      // timer
+
+static volatile int digit = 0;
+
+static inline void hex0_show(int v)
+{
+    if (v < Min_Hex) {
+    	v = Min_Hex;
+    }
+    else if (v > Max_Hex){
+    	v = Max_Hex;
+    }
+
+    switch (v) {
+        case 0: *Hex0Ptr = SEG_0; break;
+        case 1: *Hex0Ptr = SEG_1; break;
+        case 2: *Hex0Ptr = SEG_2; break;
+        case 3: *Hex0Ptr = SEG_3; break;
+        case 4: *Hex0Ptr = SEG_4; break;
+        case 5: *Hex0Ptr = SEG_5; break;
+        case 6: *Hex0Ptr = SEG_6; break;
+        case 7: *Hex0Ptr = SEG_7; break;
+        case 8: *Hex0Ptr = SEG_8; break;
+        case 9: *Hex0Ptr = SEG_9; break;
+        default: *Hex0Ptr = SEG_0; break;
+    }
+}
+
+static void TIMER_isr(void *context)
+{
+    *TimerPtr = 0;
+    *LEDSPtr ^= 0xFFu;
+}
+
+static void KEY_isr(void *context)
+{
+    uint32 edge = *(KEYSPtr + 3);
+
+    if (edge & KEY1_MASK) {
+        uint32 sw0 = *SWPtr & 0x1u;
+        if (sw0) {
+        	if (digit < Max_Hex) digit++;
+        }
+        else{
+        	if (digit > Min_Hex) digit--;
+        }
+        hex0_show(digit);
+    }
+
+    *(KEYSPtr + 3) = edge;
+}
+
+int main(void)
+{
+    // Init
+    *LEDSPtr = 0x00;
+    digit = 0;
+    hex0_show(digit);
+    *(KEYSPtr + 3) = 0xF;        // clear any stale edges
+    *(KEYSPtr + 2) = KEY1_MASK;  // enable KEY1
+
+    alt_ic_isr_register(KEYS_IRQ_INTERRUPT_CONTROLLER_ID, KEYS_IRQ, KEY_isr, 0, 0);
+
+    //Timer interrupt
+    alt_ic_isr_register(TIMER_0_IRQ_INTERRUPT_CONTROLLER_ID, TIMER_0_IRQ, TIMER_isr, 0, 0);
+    alt_irq_cpu_enable_interrupts();
+
+    while (1) { }
+    return 0;
+}

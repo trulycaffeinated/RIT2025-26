@@ -1,0 +1,15 @@
+21:57:21 **** Build of configuration Nios II for project servo_controller ****
+make all 
+Info: Building ../servo_controller_bsp/
+C:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../servo_controller_bsp/
+[BSP build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../servo_controller_bsp//HAL/inc -I../servo_controller_bsp/ -I../servo_controller_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main.o main.c
+Info: Linking servo_controller.elf
+nios2-elf-g++  -T'../servo_controller_bsp//linker.x' -msys-crt0='../servo_controller_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../servo_controller_bsp/   -Wl,-Map=servo_controller.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o servo_controller.elf obj/default/main.o -lm -msys-lib=m
+nios2-elf-insert servo_controller.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --id 0 --sidp 0x11070 --timestamp 1742579748 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name nios_system --quartus_project_dir "C:/Users/jet2898/Downloads/Lab5/Lab5" --jdi C:/Users/jet2898/Downloads/Lab5/Lab5/software/servo_controller_bsp/../../Lab4.jdi --sopcinfo C:/Users/jet2898/Downloads/Lab5/Lab5/software/servo_controller_bsp/../../nios_system.sopcinfo
+Info: (servo_controller.elf) 16 KBytes program size (code + initialized data).
+Info:                        10200 Bytes free for stack + heap.
+Info: Creating servo_controller.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source servo_controller.elf >servo_controller.objdump
+[servo_controller build complete]

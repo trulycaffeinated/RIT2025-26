@@ -1,0 +1,90 @@
+-----------------------------------------------------------------------
+--- Note to future jeff : I think you're overthinking this
+--- 	The idea atp in lab was make a state machine that checks if a bit is high write to it. Issues...
+---		If all bits are high you write to all of them, do you check each individually? If so how do you avoid infinite loop
+--- 	Need a way to say "are any of them high? Okay if wbe_n(0) is high write writedata(7 downto 0) to RAM_0
+---		if wbe_n(1) is high write the 8 bits to RAM_1;
+--- 	But if we're righting 16 bits, what do we do then? 
+-----------------------------------------------------------------------
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.std_logic_unsigned.ALL;
+
+ENTITY raminfr_be IS
+PORT(
+	clk : IN std_logic;
+	reset_n : IN std_logic;
+	write_byte_enable_n : IN std_logic_vector(3 downto 0);
+	address : IN std_logic_vector(11 DOWNTO 0);
+	writedata : IN std_logic_vector(31 DOWNTO 0);
+	--
+	readdata : OUT std_logic_vector(31 DOWNTO 0)
+	);
+END ENTITY raminfr_be;
+
+ARCHITECTURE rtl OF raminfr_be IS
+
+-- Overall RAM block
+TYPE ram_type_32 IS ARRAY (4095 downto 0) OF std_logic_vector(31 downto 0);
+SIGNAL RAM_32 : ram_type_32; 
+SIGNAL ram_buffer : std_logic_vector(31 downto 0) := (OTHERS => '0');
+
+-- Smaller ram chunks to contribute to big RAM
+TYPE ram_type_8 IS ARRAY (4095 DOWNTO 0) OF std_logic_vector (7 DOWNTO 0);
+SIGNAL RAM_0 : ram_type_8;
+SIGNAL RAM_1 : ram_type_8;
+SIGNAL RAM_2 : ram_type_8;
+SIGNAL RAM_3 : ram_type_8;
+SIGNAL read_addr : std_logic_vector(11 DOWNTO 0);
+
+-- debug signal
+signal ram_write_debug : std_logic := '0';
+
+BEGIN
+
+RamBlock : PROCESS(clk)
+BEGIN
+	IF (clk'event AND clk = '1') THEN
+		IF (reset_n = '0') THEN
+			ram_write_debug <= '0';
+			read_addr <= (OTHERS => '0');
+		-- new stuff here
+		ELSE
+			IF (write_byte_enable_n < "1111") THEN
+				ram_write_debug <= '1';
+				-- check for stuff
+			END IF;
+		
+		/* OLD CODE
+
+			IF(write_byte_enable_n(0) = '0') THEN 
+				RAM_0(conv_integer(address)) <= writedata(7 downto 0);
+			END IF;
+			IF(write_byte_enable_n(1) = '0') THEN 
+				RAM_1(conv_integer(address)) <= writedata(15 downto 8);
+			END IF;
+			IF(write_byte_enable_n(2) = '0') THEN 
+				RAM_2(conv_integer(address)) <= writedata(23 downto 16);
+			END IF;
+			IF(write_byte_enable_n(3) = '0') THEN 
+				RAM_3(conv_integer(address)) <= writedata(31 downto 24);
+			END IF;
+		*/
+
+		END IF;
+		
+		-- Send all RAM chunks to a buffer to get put into the big one
+		ram_buffer(7 downto 0) <= RAM_0(conv_integer(address));
+		ram_buffer(15 downto 8) <= RAM_1(conv_integer(address));
+		ram_buffer(23 downto 16) <= RAM_2(conv_integer(address));
+		ram_buffer(31 downto 24) <= RAM_3(conv_integer(address));
+		RAM_32(conv_integer(read_addr)) <= ram_buffer;
+		
+		-- new stuff here
+		read_addr <= address;
+	END IF;
+END PROCESS RamBlock;
+
+readdata <= RAM_32(conv_integer(read_addr));
+
+END ARCHITECTURE rtl;

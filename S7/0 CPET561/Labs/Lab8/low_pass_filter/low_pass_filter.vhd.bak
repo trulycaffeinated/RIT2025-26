@@ -1,0 +1,107 @@
+-- Jeff Taylor
+-- LPF
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_signed.all;
+
+entity low_pass_filter is
+	port(
+		clk : in std_logic; -- CLOCK_50
+		reset_n : in std_logic; 
+		data_in : in std_logic_vector(15 downto 0);
+		filter_en : in std_logic;
+		--
+		data_out : out std_logic_vector(15 downto 0)
+	);
+end low_pass_filter;
+
+architecture beh of low_pass_filter is 
+
+type array_lpf is array (0 to 16) of std_logic_vector(15 downto 0);
+constant coefficients : array_lpf :=
+	(
+		0 => x"003E",	--  0.0019
+		1 =>  x"FF9A",  -- -0.0031
+		2 =>  x"FE9E",  -- -0.0108 
+		3 =>  x"0000",  --  0.0000
+		4 =>  x"0536",  --  0.0407
+		5 =>  x"05B2",  --  0.0445
+		6 =>  x"F5AC",  -- -0.0807
+		7 =>  x"DAB7",  -- -0.2913 
+		8 =>  x"4C92",  --  0.5982 
+		9 =>  x"DAB7",  -- -0.2913 
+		10 => x"F5AC",  -- -0.0807 
+		11 => x"05B2",  --  0.0445 
+		12 => x"0536",  --  0.0407 
+		13 => x"0000",  --  0.0000 
+		14 => x"FE9E",  -- -0.0108 
+		15 => x"FF9A",  -- -0.0031
+		16 => x"003E" 	--  0.0019
+	);
+
+signal sum : std_logic_vector(31 downto 0);
+signal input_delay : array_lpf := (OTHERS => (OTHERS => '0'));
+	
+component mult is
+	port(
+		dataa : in std_logic_vector(15 downto 0);
+		datab : in std_logic_vector(15 downto 0);
+		result : out std_logic_vector(31 downto 0)
+	);
+end component mult;
+
+type mult_array is array (0 to 16) of std_logic_vector(31 downto 0);
+signal mult_results : mult_array;
+
+begin
+
+-- generate 16 multipliers
+mult_generation : for i in 0 to 16 generate
+	mult_inst : mult PORT MAP (
+		dataa	 => input_delay(i),
+		datab	 => coefficients(i),
+		result	 => mult_results(i)
+	);
+end generate mult_generation;
+
+-- Fill up the input delay (will be passed to the multipler)
+process(clk, reset_n)
+begin
+	if(reset_n = '0') then
+		for i in 0 to 16 loop
+			-- fill with zeros
+			input_delay(i) <= (OTHERS => '0');
+		end loop;
+	elsif(rising_edge(clk)) then
+		if(filter_en = '1') then
+			input_delay(0) <= data_in;
+			for i in 1 to 16 loop
+				input_delay(i) <= input_delay(i - 1);
+			end loop;
+		end if;
+	end if;
+end process;
+
+-- do the sum
+process(clk, reset_n)
+	variable sum_buffer : std_logic_vector(31 downto 0);
+begin
+	if(reset_n = '0') then
+		sum <= (OTHERS => '0');
+	elsif(rising_edge(clk)) then
+		if(filter_en = '1') then
+			sum_buffer := (OTHERS => '0');
+			for i in 0 to 16 loop
+				sum_buffer := sum_buffer + mult_results(i);
+			end loop;
+			sum <= sum_buffer;
+		end if;
+	end if;
+end process;
+
+-- data out
+data_out <= sum(30 downto 15);
+
+end architecture beh;

@@ -1,0 +1,121 @@
+//-------------------------------------------------------------------------
+// CPET 561 - Lab 3 (Part 1 + Part 2)
+//-------------------------------------------------------------------------
+
+#include "io.h"
+#include <stdio.h>
+#include "system.h"
+#include "alt_types.h"
+#include "sys/alt_irq.h"
+#include "altera_avalon_timer_regs.h"
+#include "altera_avalon_timer.h"
+
+// types
+typedef   signed char   sint8;
+typedef unsigned char   uint8;
+typedef   signed short  sint16;
+typedef unsigned short  uint16;
+typedef   signed long   sint32;
+typedef unsigned long   uint32;
+typedef         float   real32;
+
+#define SEG_0  0x40
+#define SEG_1  0x79
+#define SEG_2  0x24
+#define SEG_3  0x30
+#define SEG_4  0x19
+#define SEG_5  0x12
+#define SEG_6  0x02
+#define SEG_7  0x78
+#define SEG_8  0x00
+#define SEG_9  0x18   // 9
+
+#define MIN_VAL 0
+#define MAX_VAL 9
+#define KEY1_MASK (1u << 1)
+
+#define PIO_DATA_OFFSET      0
+#define PIO_IRQ_MASK_OFFSET  2
+#define PIO_EDGE_CAP_OFFSET  3
+
+static volatile uint32 * const HEX0_PIO  = (uint32*) HEX0_BASE;         // 7-bit out
+static volatile uint32 * const PB_PIO    = (uint32*) PUSHBUTTONS_BASE;  // 4-bit in + IRQ/EDGE
+static volatile uint32 * const SW_PIO    = (uint32*) SWITCHES_BASE;     // 8-bit in
+static volatile uint8  * const LED_PIO   = (uint8*)  LEDS_BASE;         // 8-bit out
+static volatile uint32 * const TIMER_PTR = (uint32*) TIMER_0_BASE;      // timer
+
+static volatile int digit = 0;
+
+static inline void hex0_show(int v)
+{
+    if (v < MIN_VAL) v = MIN_VAL;
+    if (v > MAX_VAL) v = MAX_VAL;
+
+    switch (v) {
+        case 0: *HEX0_PIO = SEG_0; break;
+        case 1: *HEX0_PIO = SEG_1; break;
+        case 2: *HEX0_PIO = SEG_2; break;
+        case 3: *HEX0_PIO = SEG_3; break;
+        case 4: *HEX0_PIO = SEG_4; break;
+        case 5: *HEX0_PIO = SEG_5; break;
+        case 6: *HEX0_PIO = SEG_6; break;
+        case 7: *HEX0_PIO = SEG_7; break;
+        case 8: *HEX0_PIO = SEG_8; break;
+        case 9: *HEX0_PIO = SEG_9; break;
+        default: *HEX0_PIO = SEG_0; break;
+    }
+}
+
+static void TIMER_isr(void *context)
+{
+    *TIMER_PTR = 0;
+
+    // Toggle LED[7:0]
+    *LED_PIO ^= 0xFFu;
+}
+
+static void KEY_isr(void *context)
+{
+    uint32 edge = *(PB_PIO + PIO_EDGE_CAP_OFFSET);
+
+    if (edge & KEY1_MASK) {
+        uint32 sw0 = *SW_PIO & 0x1u;
+
+        if (sw0) { if (digit < MAX_VAL) digit++; }
+        else     { if (digit > MIN_VAL) digit--; }
+
+        hex0_show(digit);
+    }
+
+    *(PB_PIO + PIO_EDGE_CAP_OFFSET) = edge;
+}
+
+int main(void)
+{
+    // Init outputs
+    *LED_PIO = 0x00;
+    digit = 0;
+    hex0_show(digit);
+
+    // --- Pushbutton IRQ setup (KEY1) ---
+    *(PB_PIO + PIO_EDGE_CAP_OFFSET) = 0xF;        // clear any stale edges
+    *(PB_PIO + PIO_IRQ_MASK_OFFSET) = KEY1_MASK;  // enable only KEY1 (bit1)
+
+    alt_ic_isr_register(
+        PUSHBUTTONS_IRQ_INTERRUPT_CONTROLLER_ID,   // 0
+        PUSHBUTTONS_IRQ,                           // 1
+        KEY_isr, 0, 0
+    );
+
+    // --- Timer IRQ setup (blink LEDs) ---
+    alt_ic_isr_register(
+        TIMER_0_IRQ_INTERRUPT_CONTROLLER_ID,       // 0
+        TIMER_0_IRQ,                                // 0
+        TIMER_isr, 0, 0
+    );
+
+    alt_irq_cpu_enable_interrupts();
+
+    while (1) { }
+    return 0;
+}
