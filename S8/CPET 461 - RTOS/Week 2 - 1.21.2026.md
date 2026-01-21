@@ -35,4 +35,7 @@ An RTOS is always switching between tasks, so an RTOS cannot be idle. It must ha
 Scheduler can pick **ANY** task that it wants to perform next, it is undefined. 
 This is the ***Scheduling Policy***
 
-Within the RTOS there is the process of a clock, 
+Tasks never terminate *generally* - a task can terminate, but it's not common
+When a task is giving something, it is signaling a resource.
+When a task is delayed, it is waiting for a resource
+Task is to start application process, then terminate that task. Use t
