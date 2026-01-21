@@ -85,4 +85,9 @@ Necessary to create at least one task, as the scheduler will look through ready 
 Before scheduler starts, everything is put in ready state
 **EVERY TASK IS CREATED READY TO RUN**
 
-Once Scheduler is started, only
+Once Scheduler is started, only tasks will execute
+- We can create tasks from within a task, but if we don't create a task before the scheduler is started none can ever be created
+
+Program will never end, all tasks should be infinite loops. With the exception of default task should terminate itself
+
+**Suggestion** - try to modify ST Micro cod
