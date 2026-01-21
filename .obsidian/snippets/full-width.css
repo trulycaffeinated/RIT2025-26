@@ -1,0 +1,5 @@
+.markdown-source-view,
+.markdown-preview-view {
+  max-width: none !important; /* Removes width limit */
+  width: 100% !important;    /* Makes it full width */
+}

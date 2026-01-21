@@ -124,6 +124,8 @@ Generally speaking there won't be any arguments. Tasks will usually use global v
 Most OS's don't allow passing arguments to tasks
 
 ```C
-/**/
+/*Creation of defaultTask*/
 defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
 ```
+
+
