@@ -90,4 +90,12 @@ Once Scheduler is started, only tasks will execute
 
 Program will never end, all tasks should be infinite loops. With the exception of default task should terminate itself
 
-**Suggestion** - try to modify ST Micro cod
+**Suggestion** - try to modify ST Micro code as LITTLE as possible. Create our own files, our own code, etc... Create a C and header file for each task that you write, then you only need to modify the default main function to start up all your tasks. 
+- We aren't using object oriented, but we can style it as such
+
+```C
+void StartDefaultTask(void *argument)
+{
+
+}
+```
