@@ -7,10 +7,6 @@ flowchart TB
 	A ---> D[Delayed]
 	C ---> B
 	D ---> B
-	E[Suspended] ---> D
-	D <---> E
-	C <---> E
-	B <---> E
 ```
 1. Running -> Ready
 	1. **Running state can only have one task per CPU**
@@ -43,7 +39,19 @@ flowchart TB
 9. Ready <-> Suspended
 	1. osKernelSuspend() is called
 	2. osKernelResume() is called
-
+```mermaid
+flowchart TB
+	A[Running] ---> B[Ready]
+	B ---> A
+	A ---> C[Blocked]
+	A ---> D[Delayed]
+	C ---> B
+	D ---> B
+	E[Suspended] ---> D
+	D <---> E
+	C <---> E
+	B <---> E
+```
 An RTOS is always switching between tasks, so an RTOS cannot be idle. It must have a task to switch tasks (null task -> queued task)
 
 Scheduler can pick **ANY** task that it wants to perform next, it is undefined. 
@@ -56,5 +64,12 @@ Task is to start application process, then terminate that task. Use that task to
 
 **Deadlock** - waiting for tasks that will **NEVER** happen
 
+## FreeRTOS and ST-Micro Tools
+### RTOS Initialization
+```
+/* Init scheduler */
+osKernelInitialize();
 
-
+/* Start Scheduler */
+osKernelStart();
+/* We should never get here as 
