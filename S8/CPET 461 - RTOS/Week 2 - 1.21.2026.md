@@ -19,5 +19,15 @@
 6. Delayed -> Ready
 	1. Time Delay Expires
 
+```mermaid
+Flowchart TB
+	A[Running] ---> B[Ready]
+	B ---> A
+	A ---> C[Blocked]
+	A ---> D[Delayed]
+	C ---> A
+	D -> A
+```
+
 An RTOS is always switching between tasks, so an RTOS cannot be idle. It must have a task to switch tasks (null task -> queued task)
 
