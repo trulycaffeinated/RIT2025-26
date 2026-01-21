@@ -146,14 +146,15 @@ Each task is represented by a parallelogram
 Interactions between tasks are represented by arrows which connect "sockets"
 - Connections to hardware are simple arrows without sockets
 - Complex diagrams, where tasks interact, the socket characteristics become critical to the design and to understanding the task interaction
-
+---
 # Lab 2
 Two tasks
-
 ## UART Task 
 Will respond to a pushbutton, when pressed it will print our name
 Needs a poll interval, we do not have the capability to setup an interrupt
 Only when pressed, one print
-
 ## LED Task
 1 Hz rate at which LED is output
+Does not interact at all with the UART task
+
+If both tasks are delayed at the same time, Null task will run
