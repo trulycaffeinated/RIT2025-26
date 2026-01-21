@@ -119,3 +119,11 @@ void StartDefaultTask(void *argument)
 }
 ```
 **TASK FUNCTIONS ARE NOT ALLOWED TO REACH THEIR ENDING, USE A FUNCTION TO TERMINATE THE TASKS - A TASK CAN ONLY TERMINATE ITSELF**
+
+Generally speaking there won't be any arguments. Tasks will usually use global variables
+Most OS's don't allow passing arguments to tasks
+
+```C
+/**/
+defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
+```
