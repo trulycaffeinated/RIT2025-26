@@ -7,6 +7,10 @@ flowchart TB
 	A ---> D[Delayed]
 	C ---> B
 	D ---> B
+	E[Suspended] ---> D
+	D <---> E
+	C <---> E
+	B <---> E
 ```
 1. Running -> Ready
 	1. **Running state can only have one task per CPU**
@@ -29,6 +33,8 @@ flowchart TB
 	1. Resource is signaled
 6. Delayed -> Ready
 	1. Time Delay Expires
+7. Delayed <-> Suspended
+8. Blocked <
 
 An RTOS is always switching between tasks, so an RTOS cannot be idle. It must have a task to switch tasks (null task -> queued task)
 
@@ -38,4 +44,5 @@ This is the ***Scheduling Policy***
 Tasks never terminate *generally* - a task can terminate, but it's not common
 When a task is giving something, it is signaling a resource.
 When a task is delayed, it is waiting for a resource
-Task is to start application process, then terminate that task. Use t
+Task is to start application process, then terminate that task. Use that task to start *YOUR* stuff, then terminate the default task
+
