@@ -33,8 +33,16 @@ flowchart TB
 	1. Resource is signaled
 6. Delayed -> Ready
 	1. Time Delay Expires
+						 **THE FOLLOW STATES ARE BAD DESIGN**
 7. Delayed <-> Suspended
-8. Blocked <
+	1. osKernelSuspend() is called
+	2. osKernelResume() is called
+8. Blocked <-> Suspended
+	1. osKernelSuspend() is called
+	2. osKernelResume() is called
+9. Ready <-> Suspended
+	1. osKernelSuspend() is called
+	2. osKernelResume() is called
 
 An RTOS is always switching between tasks, so an RTOS cannot be idle. It must have a task to switch tasks (null task -> queued task)
 
@@ -45,4 +53,8 @@ Tasks never terminate *generally* - a task can terminate, but it's not common
 When a task is giving something, it is signaling a resource.
 When a task is delayed, it is waiting for a resource
 Task is to start application process, then terminate that task. Use that task to start *YOUR* stuff, then terminate the default task
+
+**Deadlock** - waiting for tasks that will **NEVER** happen
+
+
 
