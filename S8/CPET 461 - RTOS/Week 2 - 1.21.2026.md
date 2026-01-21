@@ -129,3 +129,16 @@ defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes)
 ```
 
 
+```C
+/* Definitions for defaultTask*/
+osThreadId_t defaultTaskHandle;
+const osThreadAttr_t defaultTask_attributes = {
+	.name = "defaultTask",
+	.stack_size = 128 * 4,
+	.priority = (osPriority_t) osNormalPriority
+};
+```
+
+NP Complete - You dont stand a chance at figuring it out
+
+### Visualizing Tasks
