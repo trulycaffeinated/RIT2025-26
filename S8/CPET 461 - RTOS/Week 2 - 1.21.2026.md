@@ -80,3 +80,9 @@ The RTOS requires a periodic timer, which is selected as TIM1 in CubeMX
 
 When other RTOS resources are used, additional init function calls are needed
 
+Necessary to create at least one task, as the scheduler will look through ready tasks and start one. If nothing is ready the RTOS will not run and crash
+
+Before scheduler starts, everything is put in ready state
+**EVERY TASK IS CREATED READY TO RUN**
+
+Once Scheduler is started, only
