@@ -1,4 +1,13 @@
 ## Task States
+```mermaid
+flowchart TB
+	A[Running] ---> B[Ready]
+	B ---> A
+	A ---> C[Blocked]
+	A ---> D[Delayed]
+	C ---> B
+	D ---> B
+```
 1. Running -> Ready
 	1. **Running state can only have one task per CPU**
 	2. Preempted by scheduler
@@ -19,15 +28,7 @@
 6. Delayed -> Ready
 	1. Time Delay Expires
 
-```mermaid
-Flowchart TB
-	A[Running] ---> B[Ready]
-	B ---> A
-	A ---> C[Blocked]
-	A ---> D[Delayed]
-	C ---> A
-	D -> A
-```
-
 An RTOS is always switching between tasks, so an RTOS cannot be idle. It must have a task to switch tasks (null task -> queued task)
 
+Scheduler can pick **ANY** task that it wants to perform next, it is undefined. 
+This is the ***Scheduling Policy***
