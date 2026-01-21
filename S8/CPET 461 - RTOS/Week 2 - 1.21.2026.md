@@ -142,3 +142,8 @@ const osThreadAttr_t defaultTask_attributes = {
 NP Complete - You dont stand a chance at figuring it out
 
 ### Visualizing Tasks
+Each task is represented by a parallelogram 
+Interactions between tasks are represented by arrows which connect "sockets"
+- Connections to hardware are simple arrows without sockets
+- Complex diagrams, where tasks interact, the socket characteristics become critical to the design and to understanding the task interaction
+
