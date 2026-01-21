@@ -20,6 +20,8 @@ flowchart TB
 		1. There is such a thing as a *null* task that runs when nothing else is happening -- typically nothing can be written for the null task, but some OS's allow it
 3. Running -> Blocked
 	1. Wait on unsigned resource
+	2. Something the task wants is not present
+	3. Blocked task does not automatically become the next task in queue
 4. Running -> Delayed
 	1. Call osDelay()
 	2. Call osDelayUntil()
