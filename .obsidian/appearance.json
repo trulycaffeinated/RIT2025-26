@@ -1,7 +1,5 @@
 {
   "cssTheme": "GitHub Theme",
   "theme": "obsidian",
-  "enabledCssSnippets": [
-    "full-width"
-  ]
+  "enabledCssSnippets": []
 }
