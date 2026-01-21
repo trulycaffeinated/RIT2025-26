@@ -66,10 +66,17 @@ Task is to start application process, then terminate that task. Use that task to
 
 ## FreeRTOS and ST-Micro Tools
 ### RTOS Initialization
-```
+```C
 /* Init scheduler */
 osKernelInitialize();
 
+//...Create at least one task...
+
 /* Start Scheduler */
 osKernelStart();
-/* We should never get here as 
+/* We should never get here as control is now taken by the scheduler */
+```
+The RTOS requires a periodic timer, which is selected as TIM1 in CubeMX
+
+When other RTOS resources are used, additional init function calls are needed
+
