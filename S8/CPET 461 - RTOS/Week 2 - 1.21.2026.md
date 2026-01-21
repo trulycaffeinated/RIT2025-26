@@ -96,6 +96,26 @@ Program will never end, all tasks should be infinite loops. With the exception o
 ```C
 void StartDefaultTask(void *argument)
 {
-
+	/*USER CODE BEGIN 5*/
+	/*Infinite Loop*/
+	for (;;;)
+	{
+		//...Task Body
+	}
+	/*USER CODE END 5*/
 }
 ```
+---
+Remove For loop
+```C
+void StartDefaultTask(void *argument)
+{
+	/*USER CODE BEGIN 5*/
+	
+	//create your own tasks
+	//create a function that ends this task
+	
+	/*USER CODE END 5*/
+}
+```
+**TASK FUNCTIONS ARE NOT ALLOWED TO REACH THEIR ENDING, USE A FUNCTION TO TERMINATE THE TASKS - A TASK CAN ONLY TERMINATE ITSELF**
