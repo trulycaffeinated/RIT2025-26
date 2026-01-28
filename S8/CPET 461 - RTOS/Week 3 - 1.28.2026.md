@@ -29,4 +29,5 @@ The issue with bare metal can really only do one thing at a time
 If there are multiple things to do you need an RTOS
 
 Q - Can you achieve some level of parallelism? 
-A - 
+A - Yes we can use an ISR to interrupt the main loop
+- This causes the state of the previous GPIO to remain high until the ISR clears
