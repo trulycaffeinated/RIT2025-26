@@ -47,3 +47,7 @@ Semaphores are meant to deal with the issues that arise from Bare-Metal and ISR'
 We have no real idea where the point of failure will be with an ISR and Bare-Metal
 
 With the STM32 you can have multiple interrupts at the same priority level -- adds complexity
+
+**SPIT CAN BE RUN IN PARALLEL - START EACH TASK IN IT'S OWN THREAD AND RETURN THE RESULT**
+
+**Nested** - interrupts can be interrupted
