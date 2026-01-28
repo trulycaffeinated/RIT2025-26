@@ -31,3 +31,7 @@ If there are multiple things to do you need an RTOS
 Q - Can you achieve some level of parallelism? 
 A - Yes we can use an ISR to interrupt the main loop
 - This causes the state of the previous GPIO to remain high until the ISR clears
+Functional, with problems
+
+Whatever happens in main() loop will be disrupted - this is primarily one way
+``main()`` 
