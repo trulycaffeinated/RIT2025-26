@@ -34,4 +34,8 @@ A - Yes we can use an ISR to interrupt the main loop
 Functional, with problems
 
 Whatever happens in main() loop will be disrupted - this is primarily one way
-``main()`` 
+``main()`` can disable/toggle the interrupt flag
+
+Q - When can the interrupt occur?
+A - anytime
+
