@@ -13,4 +13,12 @@
 In general RTOS will try to choose the task that was waiting the longest - it will create in essence a queue
 
 Q - is it possible to achieve real-time (guaranteed temporal performance) without an RTOS?
-A - Yes... firmawre imple
+A - Yes... firmware implementations can achieve real-time without an RTOS only for **simple systems**
+
+A "Bare Metal" firmware design is an implementation where there is only one thread of execution, often called the **main loop**
+
+```C
+do {
+	HAL_GPIO_TogglePin(<<GPIO PORT>>, <<GPIO PIN>);
+	HAL_DELAY(1)_
+```
