@@ -39,3 +39,4 @@ Whatever happens in main() loop will be disrupted - this is primarily one way
 Q - When can the interrupt occur?
 A - anytime
 
+Semaphores are meant to deal with the issues that arise from Bare-Metal and ISR's. 
