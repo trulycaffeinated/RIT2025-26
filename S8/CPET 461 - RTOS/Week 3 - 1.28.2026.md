@@ -18,7 +18,15 @@ A - Yes... firmware implementations can achieve real-time without an RTOS only f
 A "Bare Metal" firmware design is an implementation where there is only one thread of execution, often called the **main loop**
 
 ```C
+// Bare Metal (1)
 do {
 	HAL_GPIO_TogglePin(<<GPIO PORT>>, <<GPIO PIN>);
-	HAL_DELAY(1)_
+	HAL_Delay(1);
+} while(1);_
 ```
+
+The issue with bare metal can really only do one thing at a time
+If there are multiple things to do you need an RTOS
+
+Q - Can you achieve some level of parallelism? 
+A - 
