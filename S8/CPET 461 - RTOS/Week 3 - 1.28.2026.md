@@ -56,3 +56,8 @@ With the STM32 you can have multiple interrupts at the same priority level -- ad
 
 Lowered number interrupts have higher priority
 
+You want to...
+1. Own the lock
+2. Copy the private variable locally
+3. Release the lock
+4. do your shit
