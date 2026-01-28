@@ -60,4 +60,5 @@ You want to...
 1. Own the lock
 2. Copy the private variable locally
 3. Release the lock
-4. do your shit
+4. hot girl shit
+
