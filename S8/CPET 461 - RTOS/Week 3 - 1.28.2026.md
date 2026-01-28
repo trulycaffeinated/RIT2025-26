@@ -10,3 +10,7 @@
 |    6 | —                                                                                                                                       | Executes and begins sole access to the shared resource                                                                                                   |
 |    7 | —                                                                                                                                       | Completes sole access to the shared resource                                                                                                             |
 |    8 | —                                                                                                                                       | Performs an `up()` operation, incrementing the semaphore to **1**, allowing another task to acces                                                        |
+In general RTOS will try to choose the task that was waiting the longest - it will create in essence a queue
+
+Q - is it possible to achieve real-time (guaranteed temporal performance) without an RTOS?
+A - Yes... firmawre imple
