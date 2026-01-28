@@ -33,10 +33,16 @@ A - Yes we can use an ISR to interrupt the main loop
 - This causes the state of the previous GPIO to remain high until the ISR clears
 Functional, with problems
 
-Whatever happens in main() loop will be disrupted - this is primarily one way
+Whatever happens in ``main()`` loop will be disrupted - this is primarily one way
 ``main()`` can disable/toggle the interrupt flag
 
 Q - When can the interrupt occur?
 A - anytime
 
 Semaphores are meant to deal with the issues that arise from Bare-Metal and ISR's. 
+- Values being lost
+- Unwanted variability
+- ``main()`` being interrupted
+
+We have no real idea where the point of failure will be with an ISR and Bare-Metal
+
