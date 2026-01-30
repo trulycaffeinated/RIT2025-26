@@ -1,0 +1,33 @@
+S:/Labs/Lab4/servo_controller.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none S:/Labs/Lab4/servo_controller.vhd
+Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity servo_controller
+-- Compiling architecture rtl of servo_controller
+
+} {} {}} S:/Labs/Lab4/servo_controller_tb.vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none S:/Labs/Lab4/servo_controller_tb.vhd
+Model Technology ModelSim SE-64 vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity servo_controller_tb
+-- Compiling architecture tb of servo_controller_tb
+** Warning: S:/Labs/Lab4/servo_controller_tb.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: S:/Labs/Lab4/servo_controller_tb.vhd(59): (vcom-1604) No feasible entries for subprogram "TO_UNSIGNED" with expected return type "STD_LOGIC_VECTOR".
+   Visible subprograms are:
+      (explicit) NUMERIC_STD.TO_UNSIGNED[NATURAL, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1464)
+** Error: S:/Labs/Lab4/servo_controller_tb.vhd(60): (vcom-1136) Unknown identifier "TCK".
+** Error: S:/Labs/Lab4/servo_controller_tb.vhd(67): (vcom-1604) No feasible entries for subprogram "TO_UNSIGNED" with expected return type "STD_LOGIC_VECTOR".
+   Visible subprograms are:
+      (explicit) NUMERIC_STD.TO_UNSIGNED[NATURAL, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1464)
+** Error: S:/Labs/Lab4/servo_controller_tb.vhd(68): (vcom-1136) Unknown identifier "TCK".
+** Note: S:/Labs/Lab4/servo_controller_tb.vhd(72): VHDL Compiler exiting
+
+} {12.0 13.0 15.0 17.0 19.0 20.0} {}}
