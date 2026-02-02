@@ -97,7 +97,7 @@ Ale or Lager? : **Ale**
 Style : **IPA**
 Color (scale 0-8) : **4**
 Aroma Strength (scale 0-5) : **4**
-Aroma reminds me of... ****
+Aroma reminds me of... **Mango/Peach, Orange**
 Taste Strength (scale 0-5) : 
 Mouthfeel (scale 0-5) :
 Finish Strength (scale 0-5) : 
