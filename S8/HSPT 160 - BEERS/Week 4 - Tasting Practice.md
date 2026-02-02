@@ -95,9 +95,9 @@ Other Comments
 **Beer 5** : **Founders All Day IPA** (4.5% Alcohol)
 Ale or Lager? : **Ale**
 Style : **IPA**
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) :
-Aroma reminds me of...
+Color (scale 0-8) : **4**
+Aroma Strength (scale 0-5) : **4**
+Aroma reminds me of... ****
 Taste Strength (scale 0-5) : 
 Mouthfeel (scale 0-5) :
 Finish Strength (scale 0-5) : 
@@ -123,8 +123,8 @@ Other Comments
 
 ---
 **Beer 7** : **3HB** (5% Alcohol)
-Ale or Lager? : 
-Style :
+Ale or Lager? : **Ale**
+Style : **Fruited Sour**
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) :
 Aroma reminds me of...
@@ -137,9 +137,9 @@ Would I buy this beer?
 Other Comments
 
 ---
-**Beer 8** : 
-Ale or Lager? : 
-Style :
+**Beer 8** : **Keuka Brewing Afterburner** (4.2% Alcohol)
+Ale or Lager? : **Ale**
+Style : **Chile Beer**
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) :
 Aroma reminds me of...
