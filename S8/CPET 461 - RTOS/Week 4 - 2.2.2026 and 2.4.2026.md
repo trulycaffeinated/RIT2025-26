@@ -48,4 +48,7 @@ void PeriodicTask(void *argument)
 	}while(1);
 }
 ```
-This structure does not create time drift - as long as this task is not longer than 100msec i.e. it
+This structure does not create time drift - as long as this task is not longer than 100msec i.e. it does not go beyond ``nextTime``
+
+If the function runs longer than ``osDelayUntil(nextTime)`` it has consumed all of the CPU time... *this is a problem...*
+
