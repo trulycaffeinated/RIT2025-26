@@ -11,6 +11,10 @@ Good Adjuncts
 - Ingredients added to enhance the beer
 Bad adjuncts
 - Ingredients added that take away from the beer
+
+**Color**
+Water = 0
+Light Straw = 
 ---
 **Beer 1** : **Genesee** 
 Ale or Lager? : **Lager**
