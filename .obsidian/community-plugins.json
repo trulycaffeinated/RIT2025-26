@@ -1,10 +1,11 @@
 [
   "obsidian-git",
   "mermaid-tools",
-  "latex-math",
   "obsidian-desmos",
-  "emoji-shortcodes",
-  "code-styler",
+  "latex-math",
+  "vscode-editor",
+  "obsidian-style-settings",
   "templater-obsidian",
-  "obsidian-style-settings"
+  "emoji-shortcodes",
+  "code-styler"
 ]

@@ -50,13 +50,6 @@ const osThreadAttr_t defaultTask_attributes = {
   .stack_size = 128 * 4,
   .priority = (osPriority_t) osPriorityNormal,
 };
-/* Definitions for uartTask */
-osThreadId_t uartTaskHandle;
-const osThreadAttr_t uartTask_attributes = {
-  .name = "uartTask",
-  .stack_size = 128 * 4,
-  .priority = (osPriority_t) osPriorityLow,
-};
 /* Definitions for buttonTask */
 osThreadId_t buttonTaskHandle;
 const osThreadAttr_t buttonTask_attributes = {
@@ -64,17 +57,17 @@ const osThreadAttr_t buttonTask_attributes = {
   .stack_size = 128 * 4,
   .priority = (osPriority_t) osPriorityLow,
 };
-/* Definitions for greenLEDTask */
-osThreadId_t greenLEDTaskHandle;
-const osThreadAttr_t greenLEDTask_attributes = {
-  .name = "greenLEDTask",
+/* Definitions for updateLEDTask */
+osThreadId_t updateLEDTaskHandle;
+const osThreadAttr_t updateLEDTask_attributes = {
+  .name = "updateLEDTask",
   .stack_size = 128 * 4,
   .priority = (osPriority_t) osPriorityLow,
 };
-/* Definitions for xButtonMutex */
-osSemaphoreId_t xButtonMutexHandle;
-const osSemaphoreAttr_t xButtonMutex_attributes = {
-  .name = "xButtonMutex"
+/* Definitions for sharedStateSemaphore */
+osSemaphoreId_t sharedStateSemaphoreHandle;
+const osSemaphoreAttr_t sharedStateSemaphore_attributes = {
+  .name = "sharedStateSemaphore"
 };
 /* USER CODE BEGIN PV */
 
@@ -87,7 +80,6 @@ static void MX_USART2_UART_Init(void);
 void StartDefaultTask(void *argument);
 void StartTask02(void *argument);
 void StartTask03(void *argument);
-void StartTask04(void *argument);
 
 /* USER CODE BEGIN PFP */
 
@@ -95,12 +87,11 @@ void StartTask04(void *argument);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint8_t buttonState = 0;
-uint32_t flashCount = 0;
-uint32_t uptimeMs = 0;
+uint8_t buttonState = 0; /* Is the button in the pressed state (1) or released (0) */
+uint32_t  flashCount = 0; /* How many times has the LED flashed */
+uint32_t runtimeMs = 0; /* System runtime in ms - will convert to s on uart print */
 
 const char uartMsg[] = "Jeff Taylor - Lab 3\r\n CPET 461 - Resource Sharing (Semaphore)\r\n";
-
 /* USER CODE END 0 */
 
 /**
@@ -111,7 +102,6 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-  HAL_UART_Transmit(&huart2, (uint8_t*)uartMsg, sizeof(uartMsg) - 1, HAL_MAX_DELAY);
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -134,7 +124,7 @@ int main(void)
   MX_GPIO_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-
+	HAL_UART_Transmit(&huart2, (uint8_t*)uartMsg, sizeof(uartMsg) - 1, HAL_MAX_DELAY); // print UART message BEFORE rtos starts
   /* USER CODE END 2 */
 
   /* Init scheduler */
@@ -145,8 +135,8 @@ int main(void)
   /* USER CODE END RTOS_MUTEX */
 
   /* Create the semaphores(s) */
-  /* creation of xButtonMutex */
-  xButtonMutexHandle = osSemaphoreNew(1, 1, &xButtonMutex_attributes);
+  /* creation of sharedStateSemaphore */
+  sharedStateSemaphoreHandle = osSemaphoreNew(1, 1, &sharedStateSemaphore_attributes);
 
   /* USER CODE BEGIN RTOS_SEMAPHORES */
   /* add semaphores, ... */
@@ -164,14 +154,11 @@ int main(void)
   /* creation of defaultTask */
   defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
 
-  /* creation of uartTask */
-  uartTaskHandle = osThreadNew(StartTask02, NULL, &uartTask_attributes);
-
   /* creation of buttonTask */
-  buttonTaskHandle = osThreadNew(StartTask03, NULL, &buttonTask_attributes);
+  buttonTaskHandle = osThreadNew(StartTask02, NULL, &buttonTask_attributes);
 
-  /* creation of greenLEDTask */
-  greenLEDTaskHandle = osThreadNew(StartTask04, NULL, &greenLEDTask_attributes);
+  /* creation of updateLEDTask */
+  updateLEDTaskHandle = osThreadNew(StartTask03, NULL, &updateLEDTask_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -334,18 +321,26 @@ static void MX_GPIO_Init(void)
 void StartDefaultTask(void *argument)
 {
   /* USER CODE BEGIN 5 */
+
+	/* USING THE DEFAULT TASK AS THE RUNTIME UPDATER */
+
   /* Infinite loop */
   for(;;)
   {
-    // Put runtime here
-    osDelay(1);
+    uint32_t ticks = osKernelGetTickCount(); // Gets current OS tick, ticks is 1ms
+
+    osSemaphoreAcquire(sharedStateSemaphoreHandle, osWaitForever);
+    runtimeMs = ticks; // 1 tick is 1 ms - so straight conversion
+    osSemaphoreRelease(sharedStateSemaphoreHandle);
+
+    osDelay(10);
   }
   /* USER CODE END 5 */
 }
 
 /* USER CODE BEGIN Header_StartTask02 */
 /**
-* @brief Function implementing the uartTask thread.
+* @brief Function implementing the buttonTask thread.
 * @param argument: Not used
 * @retval None
 */
@@ -353,20 +348,41 @@ void StartDefaultTask(void *argument)
 void StartTask02(void *argument)
 {
   /* USER CODE BEGIN StartTask02 */
+
+	// BUTTON TASK
+
+	uint8_t lastState = GPIO_PIN_SET; // assumes button is released
+	uint32_t localRuntimeMs = 0; // local runtimeMs so I can grab items, and release semaphore
+	uint32_t localFlashCount = 0; //local flashCount so I can grab items, and release semaphore
+
+	char msg[100];
+
   /* Infinite loop */
-  osDelay(100);
+  for(;;)
+  {
+    uint8_t currentState = HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin); // reads pin B1
 
-  // Get rid of Task02 - Initial display is outside of the RTOS
+    osSemaphoreAcquire(sharedStateSemaphoreHandle, osWaitForever);
+    buttonState = currentState;
+    localRuntimeMs = runtimeMs;
+    localFlashCount = flashCount;
+    osSemaphoreRelease(sharedStateSemaphoreHandle);
 
-  osThreadExit();
+    if(currentState == GPIO_PIN_RESET && lastState == GPIO_PIN_SET){
+    	sprintf(msg, "Uptime: %lu s | Flashes %lu \r\n", localRuntimeMs/1000, localFlashCount);
 
+    	HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
+    }
 
+    lastState = currentState;
+    osDelay(10);
+  }
   /* USER CODE END StartTask02 */
 }
 
 /* USER CODE BEGIN Header_StartTask03 */
 /**
-* @brief Function implementing the buttonTask thread.
+* @brief Function implementing the updateLEDTask thread.
 * @param argument: Not used
 * @retval None
 */
@@ -374,83 +390,38 @@ void StartTask02(void *argument)
 void StartTask03(void *argument)
 {
   /* USER CODE BEGIN StartTask03 */
+
+	uint8_t ledState = 0; // Start with LED off
+
   /* Infinite loop */
-	 uint8_t lastState = GPIO_PIN_SET;
-	 uint8_t uptimeSeconds = 0;
-	 char msg[100];
+  for(;;)
+  {
+	uint32_t lastTick = osKernelGetTickCount();
+	osDelayUntil(lastTick + 500);
 
-	  for(;;)
-	  {
-	    uint8_t current = HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin);
+	osSemaphoreAcquire(sharedStateSemaphoreHandle, osWaitForever);
+	uint8_t localButtonState = buttonState;
+	osSemaphoreRelease(sharedStateSemaphoreHandle);
 
-	    osSemaphoreAcquire(xButtonMutexHandle, osWaitForever); //DOWN
-	    buttonState = current;
-	    osSemaphoreRelease(xButtonMutexHandle); //UP
+	if(localButtonState == GPIO_PIN_SET)
+	{
+		ledState = !ledState; //toggle
+		HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, ledState);
 
-	    // Rising edge: released -> pressed (Nucleo button is active LOW)
-	    if(current == GPIO_PIN_RESET && lastState == GPIO_PIN_SET)
-	    {
-	    	uptimeSeconds = uptimeMs / 1000;
-	      osSemaphoreAcquire(xButtonMutexHandle, osWaitForever);
-	      sprintf(msg, "Uptime: %lu s | Flashes: %lu\r\n",
-	              uptimeSeconds, flashCount);
-	      osSemaphoreRelease(xButtonMutexHandle);
-
-	      HAL_UART_Transmit(&huart2, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
-	    }
-
-	    lastState = current;
-	    osDelay(10);
-	  }
+		if(ledState)
+		{
+			//if flash
+			osSemaphoreAcquire(sharedStateSemaphoreHandle, osWaitForever);
+			flashCount++;
+			osSemaphoreRelease(sharedStateSemaphoreHandle);
+		}
+	}
+	else
+	{
+		HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
+	}
+  }
   /* USER CODE END StartTask03 */
-}
-
-/* USER CODE BEGIN Header_StartTask04 */
-/**
-* @brief Function implementing the greenLEDTask thread.
-* @param argument: Not used
-* @retval None
-*/
-/* USER CODE END Header_StartTask04 */
-void StartTask04(void *argument)
-{
-  /* USER CODE BEGIN StartTask04 */
-  /* Infinite loop */
-	  uint32_t lastTick = osKernelGetTickCount();
-	  uint8_t ledState = 0;
-	  uint8_t halfSecondTicks = 0;
-
-	  for(;;)
-	  {
-	    osDelayUntil(lastTick + 500);
-	    lastTick = osKernelGetTickCount();
-
-	    osSemaphoreAcquire(xButtonMutexHandle, osWaitForever);
-	    uint8_t state = buttonState;
-	    osSemaphoreRelease(xButtonMutexHandle);
-
-	    if(state == GPIO_PIN_SET)   // button released → blink
-	    {
-	      ledState = !ledState;
-	      HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, ledState);
-
-	      if(ledState)
-	      {
-	        osSemaphoreAcquire(xButtonMutexHandle, osWaitForever);
-	        flashCount++;
-	        osSemaphoreRelease(xButtonMutexHandle);
-	      }
-	    }
-	    else
-	    {
-	      HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
-	    }
-
-	    osSemaphoreAcquire(xButtonMutexHandle, osWaitForever);
-	    uptimeMs += 500;
-	    osSemaphoreRelease(xButtonMutexHandle);
-	  }
-  /* USER CODE END StartTask04 */
 }
 
 /**
