@@ -63,7 +63,7 @@ Ale or Lager? : **Lager**
 Style : **Vienna Style Lager**
 Color (scale 0-8) : **5**
 Aroma Strength (scale 0-5) : **2**
-Aroma reminds me of... **Apple cider?**
+Aroma reminds me of... **Apple cider, Pine, Hand Soap**
 Taste Strength (scale 0-5) : 
 Taste reminds me of...
 Mouthfeel (scale 0-5) :
