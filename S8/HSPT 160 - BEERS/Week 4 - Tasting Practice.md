@@ -1,6 +1,121 @@
+# Tasting Pr
 **Beer 1** : 
 Ale or Lager? : 
 Style :
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) :
-Taste Strength (scale 0-5)
+Aroma reminds me of...
+Taste Strength (scale 0-5) : 
+Mouthfeel (scale 0-5) :
+Finish Strength (scale 0-5) : 
+Finish reminds me of....
+Did I like it? 
+Would I buy this beer? 
+Other Comments
+
+---
+**Beer 2** : 
+Ale or Lager? : 
+Style :
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) :
+Aroma reminds me of...
+Taste Strength (scale 0-5) : 
+Mouthfeel (scale 0-5) :
+Finish Strength (scale 0-5) : 
+Finish reminds me of....
+Did I like it? 
+Would I buy this beer? 
+Other Comments
+
+---
+**Beer 3** : 
+Ale or Lager? : 
+Style :
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) :
+Aroma reminds me of...
+Taste Strength (scale 0-5) : 
+Mouthfeel (scale 0-5) :
+Finish Strength (scale 0-5) : 
+Finish reminds me of....
+Did I like it? 
+Would I buy this beer? 
+Other Comments
+
+---
+**Beer 4** : 
+Ale or Lager? : 
+Style :
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) :
+Aroma reminds me of...
+Taste Strength (scale 0-5) : 
+Mouthfeel (scale 0-5) :
+Finish Strength (scale 0-5) : 
+Finish reminds me of....
+Did I like it? 
+Would I buy this beer? 
+Other Comments
+
+---
+**Beer 5** : 
+Ale or Lager? : 
+Style :
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) :
+Aroma reminds me of...
+Taste Strength (scale 0-5) : 
+Mouthfeel (scale 0-5) :
+Finish Strength (scale 0-5) : 
+Finish reminds me of....
+Did I like it? 
+Would I buy this beer? 
+Other Comments
+
+---
+**Beer 6** : 
+Ale or Lager? : 
+Style :
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) :
+Aroma reminds me of...
+Taste Strength (scale 0-5) : 
+Mouthfeel (scale 0-5) :
+Finish Strength (scale 0-5) : 
+Finish reminds me of....
+Did I like it? 
+Would I buy this beer? 
+Other Comments
+
+---
+**Beer 7** : 
+Ale or Lager? : 
+Style :
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) :
+Aroma reminds me of...
+Taste Strength (scale 0-5) : 
+Mouthfeel (scale 0-5) :
+Finish Strength (scale 0-5) : 
+Finish reminds me of....
+Did I like it? 
+Would I buy this beer? 
+Other Comments
+
+---
+**Beer 8** : 
+Ale or Lager? : 
+Style :
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) :
+Aroma reminds me of...
+Taste Strength (scale 0-5) : 
+Mouthfeel (scale 0-5) :
+Finish Strength (scale 0-5) : 
+Finish reminds me of....
+Did I like it? 
+Would I buy this beer? 
+Other Comments
+
+---
