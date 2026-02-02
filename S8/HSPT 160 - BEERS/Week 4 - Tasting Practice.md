@@ -43,8 +43,8 @@ Other Comments...
 **Beer 2** : **Paulaner Pilsner** (4.8% Alcohol)
 Ale or Lager? : **Lager**
 Style : **German Pilsener**
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) :
+Color (scale 0-8) : **2**
+Aroma Strength (scale 0-5) : 
 Aroma reminds me of...
 Taste Strength (scale 0-5) : 
 Mouthfeel (scale 0-5) :
@@ -100,7 +100,7 @@ Would I buy this beer?
 Other Comments
 
 ---
-**Beer 6** : 
+**Beer 6** : **Kentucky Bourbon Ale** (8.2% Alcohol)
 Ale or Lager? : 
 Style :
 Color (scale 0-8) : 
