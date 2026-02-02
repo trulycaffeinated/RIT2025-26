@@ -31,6 +31,7 @@ Color (scale 0-8) : **1**
 Aroma Strength (scale 0-5) : **3**
 Aroma reminds me of... **Beer (only one its acceptable this semester), Corn flakes, sweet bread, white grape juice**
 Taste Strength (scale 0-5) : **1**
+Taste Reminds me of... **Corn, water**
 Mouthfeel (scale 0-5) : **0-1 (Skim Milk)**
 Finish Strength (scale 0-5) : **2**
 Finish reminds me of.... **Corn**
@@ -46,10 +47,11 @@ Style : **German Pilsener**
 Color (scale 0-8) : **1**
 Aroma Strength (scale 0-5) : **2**
 Aroma reminds me of... **I smell something sweet, sweet bread, sweet fruits, honey**
-Taste Strength (scale 0-5) : 
-Mouthfeel (scale 0-5) :
-Finish Strength (scale 0-5) : 
-Finish reminds me of....
+Taste Strength (scale 0-5) : **2**
+Taste Reminds me of... ****
+Mouthfeel (scale 0-5) : **0-1**
+Finish Strength (scale 0-5) : **3**
+Finish reminds me of.... **Somewhat bitter**
 Did I like it? 
 Would I buy this beer? 
 Other Comments
@@ -102,7 +104,7 @@ Other Comments
 ---
 **Beer 6** : **Kentucky Bourbon Ale** (8.2% Alcohol)
 Ale or Lager? : **Ale**
-Style : **EnglishStrong**
+Style : **English Strong**
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) :
 Aroma reminds me of...
