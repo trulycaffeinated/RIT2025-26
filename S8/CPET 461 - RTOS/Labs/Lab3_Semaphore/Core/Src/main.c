@@ -337,6 +337,7 @@ void StartDefaultTask(void *argument)
   /* Infinite loop */
   for(;;)
   {
+    // Put runtime here
     osDelay(1);
   }
   /* USER CODE END 5 */
@@ -354,6 +355,8 @@ void StartTask02(void *argument)
   /* USER CODE BEGIN StartTask02 */
   /* Infinite loop */
   osDelay(100);
+
+  // Get rid of Task02 - Initial display is outside of the RTOS
 
   osThreadExit();
 
