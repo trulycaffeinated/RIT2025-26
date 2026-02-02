@@ -28,7 +28,7 @@ void StartButtonTask(void *argument)
 		Down();
 		buttonState = x;
 		localRuntime = globalRuntime;
-		localFlash = Flash;
+		localFlash = flashCount;
 		Up();
 		
 		if(button pressed) {
@@ -47,13 +47,22 @@ void StartLEDTask(void *argument)
 	{
 		if(Button is not pressed)
 		{
-			HAL_GPIO_WritePin(LD2);
+			HAL_GPIO_WritePin(LD2, blink);
 			Delay(a corrected 500);
+			
+			Down();
+			flashCount++;
+			Up();
 		}
 		else
 		{
-			HAL
+			HAL_GPIO_WritePin(LD2, Off);
 		}
 	}
 }
+```
+
+```mermaid
+Flowchart LR
+	A[UART Display Lab \#] ---> B(Default Task)
 ```
