@@ -1,6 +1,7 @@
 ```mermaid
-flowchart TB
-	A ---> B
-	B ---> C
-	C ---> D
+%%{init: {"flowchart": {"curve": "basis"}} }%%
+flowchart LR
+	B[UART Print Once] ---> A[DefaultTask]
+	C ---> A
+	D ---> A
 ```
