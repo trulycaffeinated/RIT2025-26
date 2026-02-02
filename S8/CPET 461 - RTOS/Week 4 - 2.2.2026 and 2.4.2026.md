@@ -28,7 +28,7 @@ void PeriodicTask(void *argument)
 		/*body*/
 		
 		/* Delay the task until the next time to change the LED state*/
-		osDelay(PERIODIC_TASK_PERIOD_MSEC);
+		osDelay(PERIODIC_TASK_PERIOD_MSEC); //RELATIVE DELAY
 	}while(1);
 }
 ```
