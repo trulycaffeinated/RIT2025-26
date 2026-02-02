@@ -59,5 +59,24 @@ The physical device (plant) is the entity being controlled
 - Outputs are measured by the sensors
 
 The ``SensorManagerTask`` is responsible for initiating measurements at a periodic rate
+- Must execute periodically
+- Communicates with the ``SensingTask`` using an **inter-process communication** resource to cause sensor data to be aacquired
+	- All that is needed in the body of the ``SensorManagerTask`` is to signal a semaphore, the sensing task waits on this semaphore
+- Notice that this is a new use for a semaphore
+```C
+void SensorManagerTask(void *argument)
+{
+	#define PERIODIC_TASK_PERIOD_MSEC (100)
+	uin32_t nextTime = osKernelGetTickCount();
+	
+	do{
+		nextTime += PERIODIC_TASK_PERIOD_MSEC;
+		
+		/* Delay until next time */
+		osDelayUntil(nextTime); // ABSOLUTE DELAY
+	}while(1);
+}
+```
+The ``SensingTask`` is responsible for reading the sensors connected to the plant outputs and collecting measurement data
 
-The ``SensingTask`` is responsibl
+
