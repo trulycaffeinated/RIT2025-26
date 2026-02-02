@@ -1,7 +1,10 @@
-# Tasting Pr
-**Beer 1** : 
-Ale or Lager? : 
-Style :
+# Tasting Practice
+---
+## Background
+---
+**Beer 1** : **Genesee** 
+Ale or Lager? : **Lager**
+Style : **American Adjunct Lager**
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) :
 Aroma reminds me of...
