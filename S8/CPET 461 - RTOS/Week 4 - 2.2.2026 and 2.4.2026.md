@@ -6,4 +6,8 @@ Some RTOS's provide a mechanism to easily create a periodic task where the RTOS 
 - The RTOS is responsible for ensuring that the semaphore is signaled precisely at the periodic rate
 Free RTOS does not have this capability
 
-Fortunately there is a design pattern that we can use to e
+Fortunately there is a design pattern that we can use to ensure that the task executes at precisely the periodic rate that we desire
+
+``PeriodicTask()`` must execute ever 100ms
+The body of ``PeriodicTask()`` takes between 5msec and 12msec to complete
+
