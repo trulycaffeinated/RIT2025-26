@@ -376,7 +376,7 @@ void StartTask03(void *argument)
   /* Infinite loop */
 	 uint8_t lastState = GPIO_PIN_SET;
 	 uint8_t uptimeSeconds = 0;
-	  char msg[100];
+	 char msg[100];
 
 	  for(;;)
 	  {
