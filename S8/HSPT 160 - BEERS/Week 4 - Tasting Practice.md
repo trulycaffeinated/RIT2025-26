@@ -119,18 +119,18 @@ Taste Strength (scale 0-5) : **3-4**
 Taste reminds me of...**Chocolate bar dipped in bourbon**
 Mouthfeel (scale 0-5) : **2**
 Finish Strength (scale 0-5) : **1**
-Finish reminds me of.... ****
-Did I like it? 
-Would I buy this beer? 
+Finish reminds me of.... **Dark bitter chocolate**
+Did I like it? **No**
+Would I buy this beer? **No** 
 Other Comments
-**Barrel Aged - **
+**Barrel Aged - Too high alcohol content for my liking I think**
 
 ---
 **Beer 7** : **3HB** (5% Alcohol)
 Ale or Lager? : **Ale**
 Style : **Fruited Sour**
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) :
+Color (scale 0-8) : **6-7**
+Aroma Strength (scale 0-5) : 
 Aroma reminds me of...
 Taste Strength (scale 0-5) : 
 Mouthfeel (scale 0-5) :
