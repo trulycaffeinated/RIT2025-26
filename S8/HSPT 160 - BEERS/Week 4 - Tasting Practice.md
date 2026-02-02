@@ -77,7 +77,7 @@ Other Comments
 ---
 **Beer 4** : **Ommegang Witte** (5.2% Alcohol)
 Ale or Lager? : **Ale (Cloudy)**
-Style : **Witbier (Belgian Style)**
+Style : **Witbier (Belgian Style)** - Belgian style is added Citrus and Coriander 
 Color (scale 0-8) : **1-2**
 Aroma Strength (scale 0-5) : **1-2**
 Aroma reminds me of... **Cinnamon flavored bubblegum, Wax, Spice, Toasty like champagne**
