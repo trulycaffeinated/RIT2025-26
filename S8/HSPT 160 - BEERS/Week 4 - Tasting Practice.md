@@ -29,9 +29,9 @@ Ale or Lager? : **Lager**
 Style : **American Adjunct Lager**
 Color (scale 0-8) : **1**
 Aroma Strength (scale 0-5) : **3**
-Aroma reminds me of... **Beer (only one its acceptable this semester), Corn flakes/bread-y, white grapejuice**
-Taste Strength (scale 0-5) : 
-Mouthfeel (scale 0-5) :
+Aroma reminds me of... **Beer (only one its acceptable this semester), Corn flakes, sweet bread, white grape juice**
+Taste Strength (scale 0-5) : **1**
+Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of....
 Did I like it? 
