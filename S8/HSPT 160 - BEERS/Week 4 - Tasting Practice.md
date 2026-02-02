@@ -115,11 +115,11 @@ Style : **English Strong**
 Color (scale 0-8) : **5-6**
 Aroma Strength (scale 0-5) : **2**
 Aroma reminds me of... **Freshly cut wood, woodchips, chocolatey**
-Taste Strength (scale 0-5) : 
-Taste reminds me of...
-Mouthfeel (scale 0-5) :
-Finish Strength (scale 0-5) : 
-Finish reminds me of....
+Taste Strength (scale 0-5) : **3-4**
+Taste reminds me of...**Chocolate bar dipped in bourbon**
+Mouthfeel (scale 0-5) : **2**
+Finish Strength (scale 0-5) : **1**
+Finish reminds me of.... ****
 Did I like it? 
 Would I buy this beer? 
 Other Comments
