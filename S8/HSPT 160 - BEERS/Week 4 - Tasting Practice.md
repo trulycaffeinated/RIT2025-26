@@ -40,8 +40,8 @@ Other Comments
 
 ---
 **Beer 2** : **Paulaner Pilsner** (4.8% Alcohol)
-Ale or Lager? : 
-Style :
+Ale or Lager? : **Lager**
+Style : **German Pilsener**
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) :
 Aroma reminds me of...
@@ -54,9 +54,9 @@ Would I buy this beer?
 Other Comments
 
 ---
-**Beer 3** : 
-Ale or Lager? : 
-Style :
+**Beer 3** : **Sam Adams Boston Lager** (4.9% Alcohol)
+Ale or Lager? : **Lager**
+Style : **Vienna Style Lager**
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) :
 Aroma reminds me of...
@@ -69,9 +69,9 @@ Would I buy this beer?
 Other Comments
 
 ---
-**Beer 4** : 
-Ale or Lager? : 
-Style :
+**Beer 4** : **Ommegang Witte** (5.2% Alcohol)
+Ale or Lager? : **Ale**
+Style : **Witbier (Belgian Style)**
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) :
 Aroma reminds me of...
