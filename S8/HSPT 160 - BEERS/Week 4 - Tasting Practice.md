@@ -1,5 +1,8 @@
 # Tasting Practice
 ---
+
+## Favorites
+
 ## Background
 **Four basic ingredients** - Reinheitsgebot
 1. Water
@@ -149,13 +152,14 @@ Style : **Chile Beer**
 Color (scale 0-8) : **4**
 Aroma Strength (scale 0-5) : **1**
 Aroma reminds me of... **Sweet, candied?**
-Taste Strength (scale 0-5) : 
-Taste reminds me of...
-Mouthfeel (scale 0-5) :
-Finish Strength (scale 0-5) : 
-Finish reminds me of....
-Did I like it? 
-Would I buy this beer? 
+Taste Strength (scale 0-5) : **4**
+Taste reminds me of... **Hot pepper, Spice**
+Mouthfeel (scale 0-5) : **1**
+Finish Strength (scale 0-5) : **4** 
+Finish reminds me of.... **Hot pepper, very hot**
+Did I like it? **no no no**
+Would I buy this beer? **no no no**
 Other Comments
+**this is too hot for me**
 
 ---
