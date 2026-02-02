@@ -81,13 +81,13 @@ Style : **Witbier (Belgian Style)** - Belgian style is added Citrus and Coriande
 Color (scale 0-8) : **1-2**
 Aroma Strength (scale 0-5) : **1-2**
 Aroma reminds me of... **Cinnamon flavored bubblegum, Wax, Spice, Toasty like champagne**
-Taste Strength (scale 0-5) : 
-Taste reminds me of...
-Mouthfeel (scale 0-5) :
-Finish Strength (scale 0-5) : 
-Finish reminds me of....
-Did I like it? 
-Would I buy this beer? 
+Taste Strength (scale 0-5) : **2**
+Taste reminds me of... **Banana**
+Mouthfeel (scale 0-5) : **1**
+Finish Strength (scale 0-5) : **2**
+Finish reminds me of.... **Unpleasant, can't really identify anything specific**
+Did I like it? **Eh it's okay**
+Would I buy this beer? **No**
 Other Comments
 **Cloudy, hazy**
 
