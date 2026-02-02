@@ -14,9 +14,17 @@ Bad adjuncts
 
 **Color**
 Water = 0
-Light Straw = 
+Light Straw = 1
+Pale Straw = 2
+Dark Straw = 3
+Light Amber = 4
+Pale Amber = 5
+Dark Amber = 6
+Very Dark Amber = 7
+Black = 8
+
 ---
-**Beer 1** : **Genesee** 
+**Beer 1** : **Genesee** (4.5% Alcohol)
 Ale or Lager? : **Lager**
 Style : **American Adjunct Lager**
 Color (scale 0-8) : 
@@ -31,7 +39,7 @@ Would I buy this beer?
 Other Comments
 
 ---
-**Beer 2** : 
+**Beer 2** : **Paulaner Pilsner** (4.8% Alcohol)
 Ale or Lager? : 
 Style :
 Color (scale 0-8) : 
