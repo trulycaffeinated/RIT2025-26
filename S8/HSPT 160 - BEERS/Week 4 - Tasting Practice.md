@@ -6,6 +6,11 @@
 2. Yeast
 3. Grains
 4. Hops
+**Adjunct** - anything added to a beer, not allowed by the German purity laws
+Good Adjuncts
+- Ingredients added to enhance the beer
+Bad adjuncts
+- Ingredients added that take away from the beer
 ---
 **Beer 1** : **Genesee** 
 Ale or Lager? : **Lager**
