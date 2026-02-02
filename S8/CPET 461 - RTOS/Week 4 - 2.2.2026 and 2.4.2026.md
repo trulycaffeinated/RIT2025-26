@@ -35,5 +35,17 @@ void PeriodicTask(void *argument)
 This structure creates *time drift*
 
 ```C
-void Periodic
+void PeriodicTask(void *argument)
+{
+	#define PERIODIC_TASK_PERIOD_MSEC (100)
+	uin32_t nextTime = osKernelGetTickCount();
+	
+	do{
+		nextTime += PERIODIC_TASK_PERIOD_MSEC;
+		
+		/* Delay until next time */
+		osDelayUntil(nextTime); // ABSOLUTE DELAY
+	}while(1);
+}
 ```
+This structure does not create time drift - as long as this task is not longer than 100msec i.e. it
