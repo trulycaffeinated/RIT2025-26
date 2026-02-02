@@ -64,10 +64,10 @@ Style : **Vienna Style Lager**
 Color (scale 0-8) : **5**
 Aroma Strength (scale 0-5) : **2**
 Aroma reminds me of... **Apple cider, Pine, Hand Soap**
-Taste Strength (scale 0-5) : 
-Taste reminds me of...
-Mouthfeel (scale 0-5) :
-Finish Strength (scale 0-5) : 
+Taste Strength (scale 0-5) : **2**
+Taste reminds me of... **Soap, metallicy**
+Mouthfeel (scale 0-5) : **1**
+Finish Strength (scale 0-5) :  
 Finish reminds me of....
 Did I like it? 
 Would I buy this beer? 
