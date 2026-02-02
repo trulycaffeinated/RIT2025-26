@@ -2,7 +2,9 @@
 ---
 
 ## Favorites
-
+1. #7 3HB
+2. #4
+3. #1 (didn't really like it but still better than rest)
 ## Background
 **Four basic ingredients** - Reinheitsgebot
 1. Water
