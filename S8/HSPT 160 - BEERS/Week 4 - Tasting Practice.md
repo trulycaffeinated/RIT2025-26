@@ -132,8 +132,9 @@ Style : **Fruited Sour**
 Color (scale 0-8) : **6-7**
 Aroma Strength (scale 0-5) : **3**
 Aroma reminds me of... **Cranberry, Granny smith apple, apple cider vinegar**
-Taste Strength (scale 0-5) : 
-Mouthfeel (scale 0-5) :
+Taste Strength (scale 0-5) : **2.5**
+Taste reminds me of... **Apple juice**
+Mouthfeel (scale 0-5) : **1-2**
 Finish Strength (scale 0-5) : 
 Finish reminds me of....
 Did I like it? 
