@@ -34,7 +34,7 @@ Taste Strength (scale 0-5) : **1**
 Mouthfeel (scale 0-5) : **0-1 (Skim Milk)**
 Finish Strength (scale 0-5) : **2**
 Finish reminds me of.... **Corn**
-Did I like it? **Eh, didn't taste like much of anything to me**
+Did I like it? **Eh not really, didn't taste like much of anything to me**
 Would I buy this beer? **No**
 Other Comments...
 **This thing tastes like water to me, getting a bit of corn at the end** 
@@ -43,9 +43,9 @@ Other Comments...
 **Beer 2** : **Paulaner Pilsner** (4.8% Alcohol)
 Ale or Lager? : **Lager**
 Style : **German Pilsener**
-Color (scale 0-8) : **2**
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of...
+Color (scale 0-8) : **1**
+Aroma Strength (scale 0-5) : **2**
+Aroma reminds me of... **I smell something sweet, sweet bread, sweet fruits, honey**
 Taste Strength (scale 0-5) : 
 Mouthfeel (scale 0-5) :
 Finish Strength (scale 0-5) : 
