@@ -91,7 +91,7 @@ void SensingTask(void *argument)
 {	
 	do{
 		/* wait for the signal to take measurements */
-		osSemaphoreWait(SensingSem);
+		osSemaphoreAcquire(SensingSem);
 		
 		/* Cycle through sensors and collect data blah blah*/
 		//whatever code is needed//
@@ -102,4 +102,6 @@ void SensingTask(void *argument)
 ```
 
 The ``CalculationTask``...
-- Processed data buffers representing a coherent set of d
+- Processed data buffers representing a coherent set of data of all sensors and determines what actuator values fuuuuuck
+
+The ``ControlTask`` executes periodically to apply actuator values.
