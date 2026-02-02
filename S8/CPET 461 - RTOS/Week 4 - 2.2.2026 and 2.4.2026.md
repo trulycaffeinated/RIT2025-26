@@ -32,3 +32,8 @@ void PeriodicTask(void *argument)
 	}while(1);
 }
 ```
+This structure creates *time drift*
+
+```C
+void Periodic
+```
