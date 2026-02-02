@@ -70,3 +70,32 @@ flowchart LR
 	D <--> B
 ```
 
+```mermaid
+flowchart LR
+    %% Tasks
+    A[UART Display Lab 3]
+    B[Default Task (Runtime Publisher)]
+    C[Button Task (Input + UART)]
+    D[LED Task (Blink Control)]
+
+    %% Shared state protected by semaphore
+    subgraph S["Shared State (Protected by Semaphore)"]
+        BS[buttonState]
+        FC[flashCount]
+        RT[runtimeMs]
+    end
+
+    %% Relationships
+    A --> C
+
+    B --> RT
+    C --> BS
+    C --> FC
+    D --> BS
+    D --> FC
+
+    %% Logical ownership
+    C --> S
+    D --> S
+    B --> S
+```
