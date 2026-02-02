@@ -111,7 +111,7 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-
+  HAL_UART_Transmit(&huart2, (uint8_t*)uartMsg, sizeof(uartMsg) - 1, HAL_MAX_DELAY);
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -354,8 +354,6 @@ void StartTask02(void *argument)
   /* USER CODE BEGIN StartTask02 */
   /* Infinite loop */
   osDelay(100);
-
-  HAL_UART_Transmit(&huart2, (uint8_t*)uartMsg, sizeof(uartMsg) - 1, HAL_MAX_DELAY);
 
   osThreadExit();
 
