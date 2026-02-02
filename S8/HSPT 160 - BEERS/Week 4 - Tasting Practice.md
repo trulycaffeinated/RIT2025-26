@@ -76,11 +76,11 @@ Other Comments
 
 ---
 **Beer 4** : **Ommegang Witte** (5.2% Alcohol)
-Ale or Lager? : **Ale**
+Ale or Lager? : **Ale (Cloudy)**
 Style : **Witbier (Belgian Style)**
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) :
-Aroma reminds me of...
+Color (scale 0-8) : **1-2**
+Aroma Strength (scale 0-5) : **A**
+Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
 Taste reminds me of...
 Mouthfeel (scale 0-5) :
@@ -89,6 +89,7 @@ Finish reminds me of....
 Did I like it? 
 Would I buy this beer? 
 Other Comments
+**Cloudy, hazy**
 
 ---
 **Beer 5** : **Founders All Day IPA** (4.5% Alcohol)
