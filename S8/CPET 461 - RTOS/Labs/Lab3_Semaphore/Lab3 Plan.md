@@ -32,7 +32,27 @@ void StartButtonTask(void *argument)
 		Up();
 		
 		if(button pressed) {
-			HAL_UART_Transmit("Uptime )
+			HAL_UART_Transmit("Uptime : x s | Flashes : y");
+		}
+	}
+}
+```
+
+**LED Task** - Will update LED behavior based on buttonstate
+something like...
+```C
+void StartLEDTask(void *argument)
+{
+	for(;;)
+	{
+		if(Button is not pressed)
+		{
+			HAL_GPIO_WritePin(LD2);
+			Delay(a corrected 500);
+		}
+		else
+		{
+			HAL
 		}
 	}
 }
