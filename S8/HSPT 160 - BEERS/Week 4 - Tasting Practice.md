@@ -84,9 +84,9 @@ Would I buy this beer?
 Other Comments
 
 ---
-**Beer 5** : 
-Ale or Lager? : 
-Style :
+**Beer 5** : **Founders All Day IPA** (4.5% Alcohol)
+Ale or Lager? : **Ale**
+Style : **IPA**
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) :
 Aroma reminds me of...
