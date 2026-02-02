@@ -17,4 +17,23 @@ void StartDefaultTask(void *argument)
 }
 ```
 
-**Button Task** - 
+**Button Task** - Will check for button press, and display UART output accordingly, while updating the buttonState global variable protected by semaphore
+something like...
+```C
+void StartButtonTask(void *argument)
+{
+	for(;;)
+	{
+		x = HAL_GPIO_ReadPin(B1);
+		Down();
+		buttonState = x;
+		localRuntime = globalRuntime;
+		localFlash = Flash;
+		Up();
+		
+		if(button pressed) {
+			HAL_UART_Transmit("Uptime )
+		}
+	}
+}
+```
