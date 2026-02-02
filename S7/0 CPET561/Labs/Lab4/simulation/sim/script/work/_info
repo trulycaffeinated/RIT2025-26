@@ -1,0 +1,107 @@
+m255
+K4
+z2
+!s11e vcom 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dS:/Labs/Lab4/simulation/sim/script
+T_opt
+!s110 1761090901
+V9z?SDB__Q>2bFbz7Tm8eG3
+04 19 3 work servo_controller_tb beh 1
+=2-b07b2521aedb-68f81d55-e7-43f8
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2019.2;69
+R0
+Eservo_controller
+Z1 w1761090784
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z5 8../../src/servo_controller.vhd
+Z6 F../../src/servo_controller.vhd
+l0
+L8
+V=F_GQ8l=IfP3biiGg]mDI2
+!s100 SA68WHodE3:lbj:M8OVAL3
+Z7 OL;C;2019.2;69
+31
+Z8 !s110 1761145050
+!i10b 1
+Z9 !s108 1761145050.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|../../src/servo_controller.vhd|
+Z11 !s107 ../../src/servo_controller.vhd|
+!i113 0
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+DEx4 work 16 servo_controller 0 22 =F_GQ8l=IfP3biiGg]mDI2
+l39
+L22
+VXK=34iHIkld4GTD?7=Ycd2
+!s100 S<Bd8hjVQm:W>kEC[`bR;0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Eservo_controller_tb
+Z14 w1761090897
+R2
+Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z16 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R3
+R4
+R0
+Z17 8../src/servo_controller_tb.vhd
+Z18 F../src/servo_controller_tb.vhd
+l0
+L6
+V7CNf4Z7m2TZ_UW0L36aDz3
+!s100 lcA^mf<TiDFFag80j]zBh3
+R7
+31
+R8
+!i10b 1
+R9
+Z19 !s90 -reportprogress|300|-93|-work|work|../src/servo_controller_tb.vhd|
+Z20 !s107 ../src/servo_controller_tb.vhd|
+!i113 0
+R12
+R13
+Abeh
+R2
+R15
+R16
+R3
+R4
+Z21 DEx4 work 19 servo_controller_tb 0 22 7CNf4Z7m2TZ_UW0L36aDz3
+l36
+L9
+Z22 V<9hGn>IRoGUJAb1NBCzR13
+Z23 !s100 @ZGUaJ@GTd3>;a=>oCLm=2
+R7
+31
+R8
+!i10b 1
+R9
+R19
+R20
+!i113 0
+R12
+R13
