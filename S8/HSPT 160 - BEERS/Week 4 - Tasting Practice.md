@@ -48,22 +48,24 @@ Color (scale 0-8) : **1**
 Aroma Strength (scale 0-5) : **2**
 Aroma reminds me of... **I smell something sweet, sweet bread, sweet fruits, honey**
 Taste Strength (scale 0-5) : **2**
-Taste Reminds me of... ****
+Taste Reminds me of... **Tastes like a soda when I first taste it**
 Mouthfeel (scale 0-5) : **0-1**
 Finish Strength (scale 0-5) : **3**
-Finish reminds me of.... **Somewhat bitter**
-Did I like it? 
-Would I buy this beer? 
+Finish reminds me of.... **Bitter, like a lemon**
+Did I like it? **It's okay**
+Would I buy this beer? **No**
 Other Comments
+**N/A**
 
 ---
 **Beer 3** : **Sam Adams Boston Lager** (4.9% Alcohol)
 Ale or Lager? : **Lager**
 Style : **Vienna Style Lager**
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) :
+Color (scale 0-8) : **5**
+Aroma Strength (scale 0-5) : 
 Aroma reminds me of...
 Taste Strength (scale 0-5) : 
+Taste reminds me of...
 Mouthfeel (scale 0-5) :
 Finish Strength (scale 0-5) : 
 Finish reminds me of....
