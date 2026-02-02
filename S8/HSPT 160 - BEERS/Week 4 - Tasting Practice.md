@@ -130,8 +130,8 @@ Other Comments
 Ale or Lager? : **Ale**
 Style : **Fruited Sour**
 Color (scale 0-8) : **6-7**
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of...
+Aroma Strength (scale 0-5) : **3**
+Aroma reminds me of... **Cranberry, Granny smith apple, apple cider vinegar**
 Taste Strength (scale 0-5) : 
 Mouthfeel (scale 0-5) :
 Finish Strength (scale 0-5) : 
