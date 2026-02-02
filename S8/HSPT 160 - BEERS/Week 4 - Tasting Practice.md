@@ -5,7 +5,7 @@
 1. Water
 2. Yeast
 3. Grains
-4. 
+4. Hops
 ---
 **Beer 1** : **Genesee** 
 Ale or Lager? : **Lager**
