@@ -88,20 +88,18 @@ The ``SensingTask`` is responsible for reading the sensors connected to the plan
 - Must complete data collection before next notification arrives from the ``SensorManagerTask``
 ```C
 void SensingTask(void *argument)
-{
-	#define PERIODIC_TASK_PERIOD_MSEC (100)
-	uin32_t nextTime = osKernelGetTickCount();
-	
+{	
 	do{
-		nextTime += PERIODIC_TASK_PERIOD_MSEC;
+		/* wait for the signal to take measurements */
+		osSemaphoreWait(SensingSem);
 		
-		/* signal the seamphore so sensing task will return */
-		osSemaphoreRelease(SensingSem);
+		/* Cycle through sensors and collect data blah blah*/
+		//whatever code is needed//
 		
-		/* Delay until next time */
-		osDelayUntil(nextTime); // ABSOLUTE DELAY
+		/* signals a semaphore so the CalculationTask knows the data is ready */
+		osSemaphoreRelease(CalcSem);
 	}while(1);
 ```
 
 The ``CalculationTask``...
-
+- Processed data buffers representing a coherent set of d
