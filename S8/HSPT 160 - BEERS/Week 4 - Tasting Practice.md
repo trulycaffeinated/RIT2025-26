@@ -135,11 +135,12 @@ Aroma reminds me of... **Cranberry, Granny smith apple, apple cider vinegar**
 Taste Strength (scale 0-5) : **2.5**
 Taste reminds me of... **Apple juice**
 Mouthfeel (scale 0-5) : **1-2**
-Finish Strength (scale 0-5) : 
-Finish reminds me of....
-Did I like it? 
-Would I buy this beer? 
+Finish Strength (scale 0-5) : **1**
+Finish reminds me of.... **Plain apple cider**
+Did I like it? **Yes**
+Would I buy this beer? **Potentially** 
 Other Comments
+**Surprisingly good**
 
 ---
 **Beer 8** : **Keuka Brewing Afterburner** (4.2% Alcohol)
@@ -149,6 +150,7 @@ Color (scale 0-8) :
 Aroma Strength (scale 0-5) :
 Aroma reminds me of...
 Taste Strength (scale 0-5) : 
+Taste reminds me of...
 Mouthfeel (scale 0-5) :
 Finish Strength (scale 0-5) : 
 Finish reminds me of....
