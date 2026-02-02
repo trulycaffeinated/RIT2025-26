@@ -82,9 +82,12 @@ flowchart LR
 
     %% Shared variable interactions (labeled)
     D -- "write" --> RT
+    B -- "read"  --> RT
+
     B -- "write" --> BS
     L -- "read"  --> BS
 
     L -- "write" --> FC
     B -- "read"  --> FC
+
 ```
