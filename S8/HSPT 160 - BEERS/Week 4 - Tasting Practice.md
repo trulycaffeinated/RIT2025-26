@@ -146,9 +146,9 @@ Other Comments
 **Beer 8** : **Keuka Brewing Afterburner** (4.2% Alcohol)
 Ale or Lager? : **Ale**
 Style : **Chile Beer**
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) :
-Aroma reminds me of...
+Color (scale 0-8) : **4**
+Aroma Strength (scale 0-5) : **1**
+Aroma reminds me of... **Sweet, candied apple?**
 Taste Strength (scale 0-5) : 
 Taste reminds me of...
 Mouthfeel (scale 0-5) :
