@@ -63,29 +63,20 @@ void StartLEDTask(void *argument)
 ```
 
 ```mermaid
+%%{init: {"flowchart": {"nodeSpacing": 60, "rankSpacing": 80}, "themeVariables": {"fontSize": "14px"}} }%%
 flowchart LR
-	A[UART Display Lab \#] ---> B(Default Task)
-	B <--> C(buttonTask)
-	C <--> D(LedTask)
-	D <--> B
-```
+    A["UART Display Lab 3"]
 
-```mermaid
-flowchart LR
-    %% Tasks
-    A[UART Display Lab 3]
-    B[Default Task (Runtime Publisher)]
-    C[Button Task (Input + UART)]
-    D[LED Task (Blink Control)]
+    B["Default Task - Runtime Publisher"]
+    C["Button Task - Input and UART"]
+    D["LED Task - Blink Control"]
 
-    %% Shared state protected by semaphore
-    subgraph S["Shared State (Protected by Semaphore)"]
-        BS[buttonState]
-        FC[flashCount]
-        RT[runtimeMs]
+    subgraph S["Shared State - Protected by Semaphore"]
+        RT["runtimeMs"]
+        BS["buttonState"]
+        FC["flashCount"]
     end
 
-    %% Relationships
     A --> C
 
     B --> RT
@@ -94,8 +85,7 @@ flowchart LR
     D --> BS
     D --> FC
 
-    %% Logical ownership
+    B --> S
     C --> S
     D --> S
-    B --> S
 ```
