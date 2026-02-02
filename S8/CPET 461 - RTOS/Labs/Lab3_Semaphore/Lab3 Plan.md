@@ -63,6 +63,10 @@ void StartLEDTask(void *argument)
 ```
 
 ```mermaid
-Flowchart LR
+flowchart LR
 	A[UART Display Lab \#] ---> B(Default Task)
+	B <--> C(buttonTask)
+	C <--> D(LedTask)
+	D <--> B
 ```
+
