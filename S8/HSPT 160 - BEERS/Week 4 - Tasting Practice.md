@@ -98,13 +98,15 @@ Style : **IPA**
 Color (scale 0-8) : **4**
 Aroma Strength (scale 0-5) : **4**
 Aroma reminds me of... **Mango/Peach, Orange**
-Taste Strength (scale 0-5) : 
-Mouthfeel (scale 0-5) :
-Finish Strength (scale 0-5) : 
-Finish reminds me of....
-Did I like it? 
-Would I buy this beer? 
+Taste Strength (scale 0-5) : **2**
+Taste reminds me of... **Citrus, Orange? Mango?**
+Mouthfeel (scale 0-5) : **1**
+Finish Strength (scale 0-5) : **1**
+Finish reminds me of.... **Sour lemon**
+Did I like it? **No**
+Would I buy this beer? **No**
 Other Comments
+**Kinda disappointed by this one. It smelled super great, tasted not great**
 
 ---
 **Beer 6** : **Kentucky Bourbon Ale** (8.2% Alcohol)
