@@ -52,3 +52,4 @@ This structure does not create time drift - as long as this task is not longer t
 
 If the function runs longer than ``osDelayUntil(nextTime)`` it has consumed all of the CPU time... *this is a problem...*
 
+Fundamental constraint of the RTOS - the time slice it uses is 1 ms. Smaller time slice, OS uses more CPU
