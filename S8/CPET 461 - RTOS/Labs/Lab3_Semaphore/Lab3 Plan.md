@@ -63,24 +63,28 @@ void StartLEDTask(void *argument)
 ```
 
 ```mermaid
-%%{init: {"flowchart": {"nodeSpacing": 55, "rankSpacing": 75}, "themeVariables": {"fontSize": "14px"}} }%%
-flowchart LR
+%%{init: {"flowchart": {"nodeSpacing": 70, "rankSpacing": 90}, "themeVariables": {"fontSize": "14px"}} }%%
+flowchart TB
     %% Startup
-    U["Initial UART\n(Jeff Taylor - Lab 3)"] --> D["Default Task\n(Runtime Publisher)"]
+    U["Initial UART (Jeff Taylor - Lab 3)"]
+    D["Default Task (Runtime Publisher)"]
+    B["Button Task (Input + UART)"]
+    L["LED Task (Blink Control)"]
 
-    %% Trio back-and-forth interaction
-    D <--> B["Button Task\n(Input + UART)"]
-    B <--> L["LED Task\n(Blink Control)"]
+    %% Task relationships (logical loop)
+    U --> D
+    D <--> B
+    B <--> L
     L <--> D
 
-    %% Shared state protected by semaphore
-    subgraph S["Shared State\n(Semaphore Protected)"]
+    %% Shared state
+    subgraph S["Shared State (Semaphore Protected)"]
         RT["runtimeMs"]
         BS["buttonState"]
         FC["flashCount"]
     end
 
-    %% Shared variable interactions (labeled)
+    %% Place shared state below tasks
     D -- "write" --> RT
     B -- "read"  --> RT
 
@@ -89,5 +93,4 @@ flowchart LR
 
     L -- "write" --> FC
     B -- "read"  --> FC
-
 ```
