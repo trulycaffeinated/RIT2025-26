@@ -148,7 +148,7 @@ Ale or Lager? : **Ale**
 Style : **Chile Beer**
 Color (scale 0-8) : **4**
 Aroma Strength (scale 0-5) : **1**
-Aroma reminds me of... **Sweet, candied apple?**
+Aroma reminds me of... **Sweet, candied?**
 Taste Strength (scale 0-5) : 
 Taste reminds me of...
 Mouthfeel (scale 0-5) :
