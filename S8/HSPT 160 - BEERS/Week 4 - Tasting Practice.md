@@ -79,8 +79,8 @@ Other Comments
 Ale or Lager? : **Ale (Cloudy)**
 Style : **Witbier (Belgian Style)**
 Color (scale 0-8) : **1-2**
-Aroma Strength (scale 0-5) : **A**
-Aroma reminds me of... 
+Aroma Strength (scale 0-5) : **1-2**
+Aroma reminds me of... **Cinnamon flavored bubblegum, Wax, Spice, Toasty like champagne**
 Taste Strength (scale 0-5) : 
 Taste reminds me of...
 Mouthfeel (scale 0-5) :
