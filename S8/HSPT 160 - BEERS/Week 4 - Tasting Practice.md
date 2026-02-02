@@ -32,10 +32,10 @@ Aroma Strength (scale 0-5) : **3**
 Aroma reminds me of... **Beer (only one its acceptable this semester), Corn flakes, sweet bread, white grape juice**
 Taste Strength (scale 0-5) : **1**
 Mouthfeel (scale 0-5) : **0-1 (Skim Milk)**
-Finish Strength (scale 0-5) : 
-Finish reminds me of....
-Did I like it? 
-Would I buy this beer? 
+Finish Strength (scale 0-5) : **2**
+Finish reminds me of.... **Corn**
+Did I like it? **Eh, didn't taste like much of anything to me**
+Would I buy this beer? **No**
 Other Comments...
 **This thing tastes like water to me, getting a bit of corn at the end** 
 
