@@ -27,8 +27,8 @@ Black = 8
 **Beer 1** : **Genesee** (4.5% Alcohol)
 Ale or Lager? : **Lager**
 Style : **American Adjunct Lager**
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) :
+Color (scale 0-8) : **1**
+Aroma Strength (scale 0-5) : 
 Aroma reminds me of...
 Taste Strength (scale 0-5) : 
 Mouthfeel (scale 0-5) :
