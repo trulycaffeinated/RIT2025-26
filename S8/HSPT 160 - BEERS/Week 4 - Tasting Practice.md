@@ -112,9 +112,9 @@ Other Comments
 **Beer 6** : **Kentucky Bourbon Ale** (8.2% Alcohol)
 Ale or Lager? : **Ale**
 Style : **English Strong**
-Color (scale 0-8) : **6**
+Color (scale 0-8) : **5-6**
 Aroma Strength (scale 0-5) : **2**
-Aroma reminds me of... **Freshly cut wood, woodchips**
+Aroma reminds me of... **Freshly cut wood, woodchips, chocolatey**
 Taste Strength (scale 0-5) : 
 Taste reminds me of...
 Mouthfeel (scale 0-5) :
