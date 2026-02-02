@@ -1,6 +1,11 @@
 # Tasting Practice
 ---
 ## Background
+**Four basic ingredients** - Reinheitsgebot
+1. Water
+2. Yeast
+3. Grains
+4. 
 ---
 **Beer 1** : **Genesee** 
 Ale or Lager? : **Lager**
