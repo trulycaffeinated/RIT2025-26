@@ -65,13 +65,14 @@ Color (scale 0-8) : **5**
 Aroma Strength (scale 0-5) : **2**
 Aroma reminds me of... **Apple cider, Pine, Hand Soap**
 Taste Strength (scale 0-5) : **2**
-Taste reminds me of... **Soap, metallicy**
+Taste reminds me of... **Soap, metallicy (bad tap water)**
 Mouthfeel (scale 0-5) : **1**
-Finish Strength (scale 0-5) :  
-Finish reminds me of....
-Did I like it? 
-Would I buy this beer? 
+Finish Strength (scale 0-5) : **1** 
+Finish reminds me of.... **Soap**
+Did I like it? **No**
+Would I buy this beer? **No** 
 Other Comments
+**This tastes a lot like soap to me**
 
 ---
 **Beer 4** : **Ommegang Witte** (5.2% Alcohol)
@@ -81,6 +82,7 @@ Color (scale 0-8) :
 Aroma Strength (scale 0-5) :
 Aroma reminds me of...
 Taste Strength (scale 0-5) : 
+Taste reminds me of...
 Mouthfeel (scale 0-5) :
 Finish Strength (scale 0-5) : 
 Finish reminds me of....
@@ -119,7 +121,7 @@ Would I buy this beer?
 Other Comments
 
 ---
-**Beer 7** : 
+**Beer 7** : **3HB** (5% Alcohol)
 Ale or Lager? : 
 Style :
 Color (scale 0-8) : 
