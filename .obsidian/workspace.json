@@ -39,14 +39,12 @@
             "id": "56eac17068ccb041",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "vscode-editor",
               "state": {
-                "file": "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Lab3 Plan.md",
-                "mode": "source",
-                "source": false
+                "file": "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Core/Src/main.c"
               },
               "icon": "lucide-file",
-              "title": "Lab3 Plan"
+              "title": "main"
             }
           }
         ],
@@ -107,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205.5
+    "width": 366.5
   },
   "right": {
     "id": "65ce14e22470f287",
@@ -224,11 +222,11 @@
   },
   "active": "56eac17068ccb041",
   "lastOpenFiles": [
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Lab3 Plan.md",
     "S8/CPET 461 - RTOS/Week 4 - 2.2.2026 and 2.4.2026.md",
     "Teradyne Apartment Hunt.md",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Lab3_Semaphore.ioc",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Lab3_Semaphore Debug.launch",
-    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Lab3 Plan.md",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Lab3_Semaphore.list",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Lab3_Semaphore.elf",
     "S8/CPET 461 - RTOS/RTOS Book 1 - The Theory by Jim Cooling.pdf",
