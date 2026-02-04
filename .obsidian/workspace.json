@@ -121,20 +121,6 @@
             }
           },
           {
-            "id": "5f57a07bafe65b84",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "README.md.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from README.md"
-            }
-          },
-          {
             "id": "f0db1473bb97cdbe",
             "type": "leaf",
             "state": {
@@ -147,6 +133,20 @@
               },
               "icon": "lucide-tags",
               "title": "Tags"
+            }
+          },
+          {
+            "id": "5f57a07bafe65b84",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Core/Src/main.c",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from main"
             }
           },
           {
@@ -185,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
