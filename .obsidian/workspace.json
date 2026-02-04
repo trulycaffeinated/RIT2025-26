@@ -210,6 +210,8 @@
   },
   "active": "56eac17068ccb041",
   "lastOpenFiles": [
+    "S7/0 CPET561/Labs/Lab2/nios_assembly.qws",
+    "S7/0 CPET561/Labs/Lab2/db/nios_assembly.quiproj.29424.rdr.flock",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Core/Src/main.c",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Lab3 Plan.md",
     "S8/CPET 461 - RTOS/Week 4 - 2.2.2026 and 2.4.2026.md",
@@ -228,8 +230,6 @@
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/STM32L476RGTX_RAM.ld",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/STM32L476RGTX_FLASH.ld",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h",
-    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c",
-    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Drivers/CMSIS/Device/ST/STM32L4xx/License.md",
     "S8/CPET 561 - ESD CAPSTONE/Week 1 - 1.13.2026 and 1.15.2026.md",
     "S8/CPET 461 - RTOS/Week 2 - 1.21.2026.md",
