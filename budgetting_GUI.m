@@ -1,7 +1,6 @@
 function budgetPlannerGUI()
 % budgetPlannerGUI - Budget planner UI with sliders + edit fields + take-home estimator
-% Left: Quick Actions (top), Pay/Take-Home (middle), Budget sliders (bottom, scroll)
-% Right: Status (top), Paycheck breakdown (bi-weekly), Table, Totals panels
+% Auto-scales to different screen sizes using normalized figure + weighted grid rows
 %
 % Run: budgetPlannerGUI
 
@@ -40,11 +39,14 @@ end
 
 WHITE = [1 1 1];
 
-%% Build UI
-fig = uifigure('Name','Budget Planner (Sliders)','Position',[100 100 1400 800]);
+%% Build UI (UPDATED: normalized so it scales with screen)
+fig = uifigure( ...
+    'Name','Budget Planner (Sliders)', ...
+    'Units','normalized', ...
+    'Position',[0.08 0.08 0.84 0.84]);
 
 gl = uigridlayout(fig,[1 2]);
-gl.ColumnWidth = {640, '1x'};
+gl.ColumnWidth = {640, '1x'};   % left is a bit wider; right fills
 gl.RowHeight = {'1x'};
 gl.Padding = [10 10 10 10];
 gl.ColumnSpacing = 10;
@@ -52,7 +54,9 @@ gl.ColumnSpacing = 10;
 %% LEFT SIDE (3 PANELS): Quick Actions, Pay, Budget
 left = uigridlayout(gl,[3 1]);
 left.Layout.Row = 1; left.Layout.Column = 1;
-left.RowHeight = {90, 210, '1x'};
+
+% UPDATED: weighted heights so it scales on smaller screens
+left.RowHeight = {'0.15x', '0.25x', '1x'};
 left.ColumnWidth = {'1x'};
 left.RowSpacing = 10;
 left.Padding = [0 0 0 0];
@@ -63,12 +67,12 @@ btnPanel.Layout.Row = 1; btnPanel.Layout.Column = 1;
 
 bg = uigridlayout(btnPanel,[1 3]);
 bg.ColumnWidth = {'1x','1x','1x'};
-bg.RowHeight = {44};
+bg.RowHeight = {'1x'};
 bg.Padding = [10 10 10 10];
 bg.ColumnSpacing = 12;
 
-resetBtn = uibutton(bg,'Text','Reset','FontSize',12,'ButtonPushedFcn',@resetDefaults);
-allocBtn = uibutton(bg,'Text','Allocate','FontSize',12,'ButtonPushedFcn',@allocateRemaining);
+resetBtn  = uibutton(bg,'Text','Reset','FontSize',12,'ButtonPushedFcn',@resetDefaults);
+allocBtn  = uibutton(bg,'Text','Allocate','FontSize',12,'ButtonPushedFcn',@allocateRemaining);
 exportBtn = uibutton(bg,'Text','Export CSV','FontSize',12,'ButtonPushedFcn',@exportCSV);
 
 % Panel 2: Pay / Take-Home
@@ -76,8 +80,8 @@ salaryPanel = uipanel(left,'Title','Pay / Take-Home');
 salaryPanel.Layout.Row = 2; salaryPanel.Layout.Column = 1;
 
 sgLeft = uigridlayout(salaryPanel,[5 4]);
-sgLeft.RowHeight = {34,34,34,34,34};
-sgLeft.ColumnWidth = {240,'1x',60,120}; % label | field | $ | hint
+sgLeft.RowHeight = {'1x','1x','1x','1x','1x'};
+sgLeft.ColumnWidth = {240,'1x',60,120};
 sgLeft.Padding = [10 10 10 10];
 sgLeft.RowSpacing = 10;
 sgLeft.ColumnSpacing = 10;
@@ -122,8 +126,8 @@ budgetPanel = uipanel(left,'Title','Budget','Scrollable','on');
 budgetPanel.Layout.Row = 3; budgetPanel.Layout.Column = 1;
 
 lg = uigridlayout(budgetPanel,[n 4]);
-lg.RowHeight = repmat({54},1,n);
-lg.ColumnWidth = {260, '1x', 120, 40}; % label | slider | edit | $
+lg.RowHeight = repmat({'1x'},1,n);           % UPDATED: scalable rows
+lg.ColumnWidth = {260, '1x', 120, 40};
 lg.Padding = [10 10 10 10];
 lg.RowSpacing = 10;
 lg.ColumnSpacing = 10;
@@ -164,7 +168,9 @@ right = uipanel(gl,'Title','Budget Overview');
 right.Layout.Row = 1; right.Layout.Column = 2;
 
 rg = uigridlayout(right,[4 1]);
-rg.RowHeight = {70, 320, '1x', 300}; % paycheck taller, table pushed down
+
+% UPDATED: weighted heights so it scales on smaller screens
+rg.RowHeight = {'0.10x', '0.35x', '1x', '0.45x'};
 rg.ColumnWidth = {'1x'};
 rg.Padding = [10 10 10 10];
 rg.RowSpacing = 10;
@@ -178,8 +184,8 @@ statusLbl = uilabel(wg,'Text','OK','FontWeight','bold');
 % Paycheck Breakdown
 payPanel = uipanel(rg,'Title','Paycheck Breakdown (Bi-Weekly)');
 payGrid = uigridlayout(payPanel,[8 4]);
-payGrid.RowHeight = {32,32,32,32,12,32,32,32};
-payGrid.ColumnWidth = {220, 120, 150, '1x'}; % label | rate | amount | note
+payGrid.RowHeight = repmat({'1x'},1,8);      % UPDATED: scalable rows
+payGrid.ColumnWidth = {220, 120, 150, '1x'};
 payGrid.Padding = [10 10 10 10];
 payGrid.RowSpacing = 6;
 payGrid.ColumnSpacing = 10;
@@ -237,7 +243,7 @@ bottom.ColumnSpacing = 12;
 % Totals
 sumPanel = uipanel(bottom,'Title','Totals & Remaining');
 tg = uigridlayout(sumPanel,[6 4]);
-tg.RowHeight = {30,30,30,30,30,30};
+tg.RowHeight = repmat({'1x'},1,6);           % UPDATED: scalable rows
 tg.ColumnWidth = {260, 220, 260, 220};
 tg.Padding = [10 10 10 10];
 tg.RowSpacing = 10;
@@ -263,7 +269,7 @@ uilabel(tg,'Text','');
 % Category totals
 catPanel = uipanel(bottom,'Title','Category Totals');
 cg = uigridlayout(catPanel,[6 3]);
-cg.RowHeight = {30,30,30,30,30,30};
+cg.RowHeight = repmat({'1x'},1,6);           % UPDATED: scalable rows
 cg.ColumnWidth = {160, 220, 220};
 cg.Padding = [10 10 10 10];
 cg.RowSpacing = 10;
@@ -387,7 +393,7 @@ updateAll();
         payPeriods = 26;
         grossBiWeekly = salaryField.Value / payPeriods;
 
-        effectiveTotalRate = taxRateField.Value;  % total effective (incl state+fica)
+        effectiveTotalRate = taxRateField.Value;
         ficaRateVal  = 0.0765;
         stateRateVal = 0.0500;
 
