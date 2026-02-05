@@ -86,12 +86,12 @@ uilabel(sgLeft,'Text','Salary (Annual):','FontWeight','bold');
 salaryField = uieditfield(sgLeft,'numeric', ...
     'Value',salaryAnnualDefault,'Limits',[0 Inf],'ValueDisplayFormat','%.0f');
 uilabel(sgLeft,'Text','$');
-uilabel(sgLeft,'Text','', 'FontColor',WHITE);
+uilabel(sgLeft,'Text','');
 
 uilabel(sgLeft,'Text','Effective Tax Rate:','FontWeight','bold');
 taxRateField = uieditfield(sgLeft,'numeric', ...
     'Value',effectiveTaxRateDefault,'Limits',[0 0.60],'ValueDisplayFormat','%.3f');
-uilabel(sgLeft,'Text','', 'FontColor',WHITE);
+uilabel(sgLeft,'Text','');
 uilabel(sgLeft,'Text','(0–0.60)','HorizontalAlignment','left');
 
 uilabel(sgLeft,'Text','Net Take Home (Annual):','FontWeight','bold');
@@ -99,17 +99,17 @@ takeHomeField = uieditfield(sgLeft,'numeric', ...
     'Value',estimateTakeHome(salaryAnnualDefault,effectiveTaxRateDefault), ...
     'Limits',[0 Inf],'ValueDisplayFormat','%.0f');
 uilabel(sgLeft,'Text','$');
-uilabel(sgLeft,'Text','', 'FontColor',WHITE);
+uilabel(sgLeft,'Text','');
 
 uilabel(sgLeft,'Text','Auto-calc take-home:','FontWeight','bold');
 autoTakeHome = uicheckbox(sgLeft,'Value',true,'Text','On');
-uilabel(sgLeft,'Text','', 'FontColor',WHITE);
-uilabel(sgLeft,'Text','', 'FontColor',WHITE);
+uilabel(sgLeft,'Text','');
+uilabel(sgLeft,'Text','');
 
 uilabel(sgLeft,'Text','Net Take Home (Monthly):','FontWeight','bold');
 takeHomeMonthlyLabel = uilabel(sgLeft,'Text','$0.00','FontWeight','bold');
-uilabel(sgLeft,'Text','', 'FontColor',WHITE);
-uilabel(sgLeft,'Text','', 'FontColor',WHITE);
+uilabel(sgLeft,'Text','');
+uilabel(sgLeft,'Text','');
 
 % Pay callbacks
 salaryField.ValueChangedFcn = @updateTakeHomeFromSalary;
@@ -254,11 +254,11 @@ mkLbl('Remaining (Yearly):');       remainYearlyLbl  = mkVal('$0.00');
 
 mkLbl('Remaining % of Take-Home:'); remainPctLbl = mkVal('0.0%');
 uilabel(tg,'Text','(after expenses)','FontAngle','italic','HorizontalAlignment','left');
-uilabel(tg,'Text','', 'FontColor',WHITE);
+uilabel(tg,'Text','');
 
 mkLbl('Guideline check:'); guidelineLbl = mkVal('—');
 uilabel(tg,'Text','(Needs/Wants/Savings)','FontAngle','italic','HorizontalAlignment','left');
-uilabel(tg,'Text','', 'FontColor',WHITE);
+uilabel(tg,'Text','');
 
 % Category totals
 catPanel = uipanel(bottom,'Title','Category Totals');
@@ -523,7 +523,7 @@ end
 
 function forceWhite(varargin)
 for i = 1:nargin
-    varargin{i}.FontColor = [1 1 1];
+    %varargin{i}.FontColor = [1 1 1];
 end
 end
 
