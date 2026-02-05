@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 320.5
   },
   "right": {
     "id": "5f1eae98721f689d",
@@ -176,7 +176,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cfcc38310940409e",
+  "active": "da66448e3382b476",
   "lastOpenFiles": [
     "Budgetting_GUI.m"
   ]
