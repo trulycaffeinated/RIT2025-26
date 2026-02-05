@@ -170,7 +170,7 @@ right.Layout.Row = 1; right.Layout.Column = 2;
 rg = uigridlayout(right,[4 1]);
 
 % UPDATED: weighted heights so it scales on smaller screens
-rg.RowHeight = {'0.10x', '0.35x', '1x', '0.45x'};
+rg.RowHeight = {'fit', 'fit', '1x', 'fit'};   % Status, Paycheck, Table, Totals
 rg.ColumnWidth = {'1x'};
 rg.Padding = [10 10 10 10];
 rg.RowSpacing = 10;
@@ -243,7 +243,7 @@ bottom.ColumnSpacing = 12;
 % Totals
 sumPanel = uipanel(bottom,'Title','Totals & Remaining');
 tg = uigridlayout(sumPanel,[6 4]);
-tg.RowHeight = repmat({'1x'},1,6);           % UPDATED: scalable rows
+tg.RowHeight = repmat({'1x'},1,6);
 tg.ColumnWidth = {260, 220, 260, 220};
 tg.Padding = [10 10 10 10];
 tg.RowSpacing = 10;
@@ -269,7 +269,7 @@ uilabel(tg,'Text','');
 % Category totals
 catPanel = uipanel(bottom,'Title','Category Totals');
 cg = uigridlayout(catPanel,[6 3]);
-cg.RowHeight = repmat({'1x'},1,6);           % UPDATED: scalable rows
+cg.RowHeight = repmat({'1x'},1,6);
 cg.ColumnWidth = {160, 220, 220};
 cg.Padding = [10 10 10 10];
 cg.RowSpacing = 10;
