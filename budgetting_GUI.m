@@ -82,32 +82,32 @@ sgLeft.Padding = [10 10 10 10];
 sgLeft.RowSpacing = 10;
 sgLeft.ColumnSpacing = 10;
 
-uilabel(sgLeft,'Text','Salary (Annual):','FontWeight','bold','FontColor',WHITE);
+uilabel(sgLeft,'Text','Salary (Annual):','FontWeight','bold');
 salaryField = uieditfield(sgLeft,'numeric', ...
     'Value',salaryAnnualDefault,'Limits',[0 Inf],'ValueDisplayFormat','%.0f');
-uilabel(sgLeft,'Text','$','FontColor',WHITE);
+uilabel(sgLeft,'Text','$');
 uilabel(sgLeft,'Text','', 'FontColor',WHITE);
 
-uilabel(sgLeft,'Text','Effective Tax Rate:','FontWeight','bold','FontColor',WHITE);
+uilabel(sgLeft,'Text','Effective Tax Rate:','FontWeight','bold');
 taxRateField = uieditfield(sgLeft,'numeric', ...
     'Value',effectiveTaxRateDefault,'Limits',[0 0.60],'ValueDisplayFormat','%.3f');
 uilabel(sgLeft,'Text','', 'FontColor',WHITE);
-uilabel(sgLeft,'Text','(0–0.60)','FontColor',WHITE,'HorizontalAlignment','left');
+uilabel(sgLeft,'Text','(0–0.60)','HorizontalAlignment','left');
 
-uilabel(sgLeft,'Text','Net Take Home (Annual):','FontWeight','bold','FontColor',WHITE);
+uilabel(sgLeft,'Text','Net Take Home (Annual):','FontWeight','bold');
 takeHomeField = uieditfield(sgLeft,'numeric', ...
     'Value',estimateTakeHome(salaryAnnualDefault,effectiveTaxRateDefault), ...
     'Limits',[0 Inf],'ValueDisplayFormat','%.0f');
-uilabel(sgLeft,'Text','$','FontColor',WHITE);
+uilabel(sgLeft,'Text','$');
 uilabel(sgLeft,'Text','', 'FontColor',WHITE);
 
-uilabel(sgLeft,'Text','Auto-calc take-home:','FontWeight','bold','FontColor',WHITE);
+uilabel(sgLeft,'Text','Auto-calc take-home:','FontWeight','bold');
 autoTakeHome = uicheckbox(sgLeft,'Value',true,'Text','On');
 uilabel(sgLeft,'Text','', 'FontColor',WHITE);
 uilabel(sgLeft,'Text','', 'FontColor',WHITE);
 
-uilabel(sgLeft,'Text','Net Take Home (Monthly):','FontWeight','bold','FontColor',WHITE);
-takeHomeMonthlyLabel = uilabel(sgLeft,'Text','$0.00','FontWeight','bold','FontColor',WHITE);
+uilabel(sgLeft,'Text','Net Take Home (Monthly):','FontWeight','bold');
+takeHomeMonthlyLabel = uilabel(sgLeft,'Text','$0.00','FontWeight','bold');
 uilabel(sgLeft,'Text','', 'FontColor',WHITE);
 uilabel(sgLeft,'Text','', 'FontColor',WHITE);
 
@@ -137,7 +137,7 @@ for i = 1:n
     val  = items{i,3};
 
     uilabel(lg,'Text',sprintf('%s (%s)',name,cat), ...
-        'HorizontalAlignment','left','FontColor',WHITE,'FontWeight','bold');
+        'HorizontalAlignment','left','FontWeight','bold');
 
     s = uislider(lg, ...
         'Limits',[minVals(i) maxVals(i)], ...
@@ -153,7 +153,7 @@ for i = 1:n
         'ValueDisplayFormat','%.0f', ...
         'ValueChangedFcn',@(src,evt) onEditChanged(i,src.Value));
 
-    uilabel(lg,'Text','$','HorizontalAlignment','left','FontColor',WHITE);
+    uilabel(lg,'Text','$','HorizontalAlignment','left');
 
     sliders(i) = s;
     editFields(i) = ef;
@@ -173,7 +173,7 @@ rg.RowSpacing = 10;
 warnPanel = uipanel(rg,'Title','Status');
 wg = uigridlayout(warnPanel,[1 1]);
 wg.Padding = [10 8 10 8];
-statusLbl = uilabel(wg,'Text','OK','FontWeight','bold','FontColor',WHITE);
+statusLbl = uilabel(wg,'Text','OK','FontWeight','bold');
 
 % Paycheck Breakdown
 payPanel = uipanel(rg,'Title','Paycheck Breakdown (Bi-Weekly)');
@@ -184,42 +184,42 @@ payGrid.Padding = [10 10 10 10];
 payGrid.RowSpacing = 6;
 payGrid.ColumnSpacing = 10;
 
-uilabel(payGrid,'Text','Tax Type','FontWeight','bold','FontColor',WHITE);
-uilabel(payGrid,'Text','Rate','FontWeight','bold','FontColor',WHITE);
-uilabel(payGrid,'Text','Bi-Weekly ($)','FontWeight','bold','FontColor',WHITE);
-uilabel(payGrid,'Text','Notes','FontWeight','bold','FontColor',WHITE);
+uilabel(payGrid,'Text','Tax Type','FontWeight','bold');
+uilabel(payGrid,'Text','Rate','FontWeight','bold');
+uilabel(payGrid,'Text','Bi-Weekly ($)','FontWeight','bold');
+uilabel(payGrid,'Text','Notes','FontWeight','bold');
 
-uilabel(payGrid,'Text','Federal (est.)','FontColor',WHITE);
-federalRate = uilabel(payGrid,'Text','—','FontColor',WHITE);
-federalAmt  = uilabel(payGrid,'Text','$0.00','FontWeight','bold','FontColor',WHITE);
-uilabel(payGrid,'Text','Effective-based estimate','FontColor',WHITE,'FontAngle','italic');
+uilabel(payGrid,'Text','Federal (est.)');
+federalRate = uilabel(payGrid,'Text','—');
+federalAmt  = uilabel(payGrid,'Text','$0.00','FontWeight','bold');
+uilabel(payGrid,'Text','Effective-based estimate','FontAngle','italic');
 
-uilabel(payGrid,'Text','FICA','FontColor',WHITE);
-ficaRate = uilabel(payGrid,'Text','7.65%','FontColor',WHITE);
-ficaAmt  = uilabel(payGrid,'Text','$0.00','FontWeight','bold','FontColor',WHITE);
-uilabel(payGrid,'Text','Social Security + Medicare','FontColor',WHITE,'FontAngle','italic');
+uilabel(payGrid,'Text','FICA');
+ficaRate = uilabel(payGrid,'Text','7.65%');
+ficaAmt  = uilabel(payGrid,'Text','$0.00','FontWeight','bold');
+uilabel(payGrid,'Text','Social Security + Medicare','FontAngle','italic');
 
-uilabel(payGrid,'Text','State (MA est.)','FontColor',WHITE);
-stateRate = uilabel(payGrid,'Text','5.00%','FontColor',WHITE);
-stateAmt  = uilabel(payGrid,'Text','$0.00','FontWeight','bold','FontColor',WHITE);
-uilabel(payGrid,'Text','MA flat income tax (rough)','FontColor',WHITE,'FontAngle','italic');
+uilabel(payGrid,'Text','State (MA est.)');
+stateRate = uilabel(payGrid,'Text','5.00%');
+stateAmt  = uilabel(payGrid,'Text','$0.00','FontWeight','bold');
+uilabel(payGrid,'Text','MA flat income tax (rough)','FontAngle','italic');
 
 uilabel(payGrid,'Text',''); uilabel(payGrid,'Text',''); uilabel(payGrid,'Text',''); uilabel(payGrid,'Text','');
 
-uilabel(payGrid,'Text','Total Taxes','FontWeight','bold','FontColor',WHITE);
-totalTaxRate = uilabel(payGrid,'Text','—','FontWeight','bold','FontColor',WHITE);
-totalTaxAmt  = uilabel(payGrid,'Text','$0.00','FontWeight','bold','FontColor',WHITE);
-uilabel(payGrid,'Text','(bi-weekly)','FontColor',WHITE,'FontAngle','italic');
+uilabel(payGrid,'Text','Total Taxes','FontWeight','bold');
+totalTaxRate = uilabel(payGrid,'Text','—','FontWeight','bold');
+totalTaxAmt  = uilabel(payGrid,'Text','$0.00','FontWeight','bold');
+uilabel(payGrid,'Text','(bi-weekly)','FontAngle','italic');
 
-uilabel(payGrid,'Text','Income After Taxes','FontWeight','bold','FontColor',WHITE);
-afterTaxRate = uilabel(payGrid,'Text','—','FontColor',WHITE);
-afterTaxAmt  = uilabel(payGrid,'Text','$0.00','FontWeight','bold','FontColor',WHITE);
-uilabel(payGrid,'Text','(bi-weekly)','FontColor',WHITE,'FontAngle','italic');
+uilabel(payGrid,'Text','Income After Taxes','FontWeight','bold');
+afterTaxRate = uilabel(payGrid,'Text','—');
+afterTaxAmt  = uilabel(payGrid,'Text','$0.00','FontWeight','bold');
+uilabel(payGrid,'Text','(bi-weekly)','FontAngle','italic');
 
-uilabel(payGrid,'Text','Take-Home Pay','FontWeight','bold','FontColor',WHITE);
-takeHomeRate2 = uilabel(payGrid,'Text','—','FontColor',WHITE);
-takeHomeAmt2  = uilabel(payGrid,'Text','$0.00','FontWeight','bold','FontColor',WHITE);
-uilabel(payGrid,'Text','What hits your bank','FontColor',WHITE,'FontAngle','italic');
+uilabel(payGrid,'Text','Take-Home Pay','FontWeight','bold');
+takeHomeRate2 = uilabel(payGrid,'Text','—');
+takeHomeAmt2  = uilabel(payGrid,'Text','$0.00','FontWeight','bold');
+uilabel(payGrid,'Text','What hits your bank','FontAngle','italic');
 
 % Table
 t = uitable(rg);
@@ -243,8 +243,8 @@ tg.Padding = [10 10 10 10];
 tg.RowSpacing = 10;
 tg.ColumnSpacing = 14;
 
-mkLbl = @(txt) uilabel(tg,'Text',txt,'FontWeight','bold','FontColor',WHITE,'HorizontalAlignment','left');
-mkVal = @(txt) uilabel(tg,'Text',txt,'FontWeight','bold','FontColor',WHITE,'HorizontalAlignment','left');
+mkLbl = @(txt) uilabel(tg,'Text',txt,'FontWeight','bold','HorizontalAlignment','left');
+mkVal = @(txt) uilabel(tg,'Text',txt,'FontWeight','bold','HorizontalAlignment','left');
 
 mkLbl('Total Expenses (Monthly):'); totalMonthlyLbl = mkVal('$0.00');
 mkLbl('Total Expenses (Yearly):');  totalYearlyLbl  = mkVal('$0.00');
@@ -253,11 +253,11 @@ mkLbl('Remaining (Monthly):');      remainMonthlyLbl = mkVal('$0.00');
 mkLbl('Remaining (Yearly):');       remainYearlyLbl  = mkVal('$0.00');
 
 mkLbl('Remaining % of Take-Home:'); remainPctLbl = mkVal('0.0%');
-uilabel(tg,'Text','(after expenses)','FontAngle','italic','FontColor',WHITE,'HorizontalAlignment','left');
+uilabel(tg,'Text','(after expenses)','FontAngle','italic','HorizontalAlignment','left');
 uilabel(tg,'Text','', 'FontColor',WHITE);
 
 mkLbl('Guideline check:'); guidelineLbl = mkVal('—');
-uilabel(tg,'Text','(Needs/Wants/Savings)','FontAngle','italic','FontColor',WHITE,'HorizontalAlignment','left');
+uilabel(tg,'Text','(Needs/Wants/Savings)','FontAngle','italic','HorizontalAlignment','left');
 uilabel(tg,'Text','', 'FontColor',WHITE);
 
 % Category totals
@@ -269,29 +269,29 @@ cg.Padding = [10 10 10 10];
 cg.RowSpacing = 10;
 cg.ColumnSpacing = 14;
 
-uilabel(cg,'Text','Category','FontWeight','bold','FontColor',WHITE,'HorizontalAlignment','left');
-uilabel(cg,'Text','Monthly ($)','FontWeight','bold','FontColor',WHITE,'HorizontalAlignment','left');
-uilabel(cg,'Text','% of Net','FontWeight','bold','FontColor',WHITE,'HorizontalAlignment','left');
+uilabel(cg,'Text','Category','FontWeight','bold','HorizontalAlignment','left');
+uilabel(cg,'Text','Monthly ($)','FontWeight','bold','HorizontalAlignment','left');
+uilabel(cg,'Text','% of Net','FontWeight','bold','HorizontalAlignment','left');
 
-uilabel(cg,'Text','Needs','FontWeight','bold','FontColor',WHITE);
-needsMonthlyVal = uilabel(cg,'Text','$0.00','FontWeight','bold','FontColor',WHITE);
-needsMonthlyPct = uilabel(cg,'Text','0.0%','FontWeight','bold','FontColor',WHITE);
+uilabel(cg,'Text','Needs','FontWeight','bold');
+needsMonthlyVal = uilabel(cg,'Text','$0.00','FontWeight','bold');
+needsMonthlyPct = uilabel(cg,'Text','0.0%','FontWeight','bold');
 
-uilabel(cg,'Text','Wants','FontWeight','bold','FontColor',WHITE);
-wantsMonthlyVal = uilabel(cg,'Text','$0.00','FontWeight','bold','FontColor',WHITE);
-wantsMonthlyPct = uilabel(cg,'Text','0.0%','FontWeight','bold','FontColor',WHITE);
+uilabel(cg,'Text','Wants','FontWeight','bold');
+wantsMonthlyVal = uilabel(cg,'Text','$0.00','FontWeight','bold');
+wantsMonthlyPct = uilabel(cg,'Text','0.0%','FontWeight','bold');
 
-uilabel(cg,'Text','Savings','FontWeight','bold','FontColor',WHITE);
-savingsMonthlyVal = uilabel(cg,'Text','$0.00','FontWeight','bold','FontColor',WHITE);
-savingsMonthlyPct = uilabel(cg,'Text','0.0%','FontWeight','bold','FontColor',WHITE);
+uilabel(cg,'Text','Savings','FontWeight','bold');
+savingsMonthlyVal = uilabel(cg,'Text','$0.00','FontWeight','bold');
+savingsMonthlyPct = uilabel(cg,'Text','0.0%','FontWeight','bold');
 
-uilabel(cg,'Text','Total','FontWeight','bold','FontColor',WHITE);
-totalCatMonthlyVal = uilabel(cg,'Text','$0.00','FontWeight','bold','FontColor',WHITE);
-totalCatMonthlyPct = uilabel(cg,'Text','100.0%','FontWeight','bold','FontColor',WHITE);
+uilabel(cg,'Text','Total','FontWeight','bold');
+totalCatMonthlyVal = uilabel(cg,'Text','$0.00','FontWeight','bold');
+totalCatMonthlyPct = uilabel(cg,'Text','100.0%','FontWeight','bold');
 
-uilabel(cg,'Text','Tip','FontWeight','bold','FontColor',WHITE);
-uilabel(cg,'Text','Try 60/20/20 or 50/30/20','FontAngle','italic','FontColor',WHITE);
-uilabel(cg,'Text','Adjust as needed','FontAngle','italic','FontColor',WHITE);
+uilabel(cg,'Text','Tip','FontWeight','bold');
+uilabel(cg,'Text','Try 60/20/20 or 50/30/20','FontAngle','italic');
+uilabel(cg,'Text','Adjust as needed','FontAngle','italic');
 
 %% Initial render
 updateTakeHomeFromSalary();
