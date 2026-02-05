@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teradyne Apartment Hunt.md",
+                "file": "1 EEET 313/10.22.2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Teradyne Apartment Hunt"
+              "title": "10.22.2025"
+            }
+          },
+          {
+            "id": "56eac17068ccb041",
+            "type": "leaf",
+            "state": {
+              "type": "vscode-editor",
+              "state": {
+                "file": "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Core/Src/main.c"
+              },
+              "icon": "lucide-file",
+              "title": "main"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 609.5
+    "width": 366.5
   },
   "right": {
     "id": "65ce14e22470f287",
@@ -108,20 +121,6 @@
             }
           },
           {
-            "id": "5f57a07bafe65b84",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "README.md.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from README.md"
-            }
-          },
-          {
             "id": "f0db1473bb97cdbe",
             "type": "leaf",
             "state": {
@@ -134,6 +133,20 @@
               },
               "icon": "lucide-tags",
               "title": "Tags"
+            }
+          },
+          {
+            "id": "5f57a07bafe65b84",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Core/Src/main.c",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from main"
             }
           },
           {
@@ -172,11 +185,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 224.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,31 +206,31 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "23608f292b8e579b",
+  "active": "56eac17068ccb041",
   "lastOpenFiles": [
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Lab3_Semaphore.list",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Lab3_Semaphore.elf",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Lab3_Semaphore.map",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Core/Src/system_stm32l4xx.o",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Core/Src/stm32l4xx_it.o",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Core/Src/main.o",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.d",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Core/Src/main.d",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Core/Src/stm32l4xx_it.d",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Core/Src/system_stm32l4xx.d",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Lab3 Plan.md",
-    "Teradyne Apartment Hunt.md",
-    "Untitled.canvas",
-    "S8/CPET 461 - RTOS/Week 2 - 1.21.2026.md",
-    "S8/CPET 461 - RTOS/Week 3 - 1.28.2026.md",
     "S8/CPET 461 - RTOS/Week 4 - 2.2.2026 and 2.4.2026.md",
-    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Core/Src/main.c",
-    "S8/CPET 461 - RTOS/RTOS Book 1 - The Theory by Jim Cooling.pdf",
+    "Teradyne Apartment Hunt.md",
+    "S8/CPET 461 - RTOS/Week 3 - 1.28.2026.md",
     "S8/CPET 461 - RTOS/Week 1 - 1.12.2026 and 1.14.2026.md",
     "LaTeX Math Template.md",
     "README.md",
     "S8/HSPT 160 - BEERS/Week 4 - Tasting Practice.md",
     "S8/HSPT 160 - BEERS/Week 1 - 1.12.2026.md",
-    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/STM32L476RGTX_RAM.ld",
-    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/STM32L476RGTX_FLASH.ld",
-    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h",
-    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c",
-    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c",
-    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F",
-    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang",
-    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Drivers/CMSIS/Device/ST/STM32L4xx/License.md",
     "S8/CPET 561 - ESD CAPSTONE/Week 1 - 1.13.2026 and 1.15.2026.md",
+    "S8/CPET 461 - RTOS/Week 2 - 1.21.2026.md",
     "S8/CPET 461 - RTOS/Labs/Lab2_FreeRTOS/Drivers/CMSIS/Device/ST/STM32L4xx/License.md",
     "S7/0 CPET561/10.22.2025.md",
     "S7/0 CPET561/10.20.2025.md",
@@ -232,7 +245,6 @@
     "S8/CPET 461 - RTOS/Labs/Lab1_CPET461/Drivers/CMSIS/Device/ST/STM32L4xx/License.md",
     "S7/1 EEET 313/10.29.2025.md",
     "Image Graveyard/Pasted image 20251027113057.png",
-    "S7/0 CPET561/12.1.2025.md",
     "S7/2 BIOG 101.103/Screenshot 2025-10-06 181822.png",
     "Image Graveyard/Pasted image 20251027112341.png",
     "Image Graveyard/Pasted image 20251027111647.png",
@@ -241,6 +253,7 @@
     "Image Graveyard/Pasted image 20250929112452.png",
     "Image Graveyard/Pasted image 20250929111654.png",
     "Image Graveyard/Pasted image 20250929111545.png",
-    "Image Graveyard/Pasted image 20250929110846.png"
+    "Image Graveyard/Pasted image 20250929110846.png",
+    "Untitled.canvas"
   ]
 }
