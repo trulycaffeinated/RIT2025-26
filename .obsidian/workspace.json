@@ -25,12 +25,14 @@
             "id": "56eac17068ccb041",
             "type": "leaf",
             "state": {
-              "type": "vscode-editor",
+              "type": "markdown",
               "state": {
-                "file": "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Core/Src/main.c"
+                "file": "Teradyne Apartment Hunt.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "main"
+              "title": "Teradyne Apartment Hunt"
             }
           }
         ],
@@ -141,12 +143,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Core/Src/main.c",
+                "file": "Teradyne Apartment Hunt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from main"
+              "title": "Outgoing links from Teradyne Apartment Hunt"
             }
           },
           {
@@ -206,8 +208,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "57f74d58053b40bd",
+  "active": "56eac17068ccb041",
   "lastOpenFiles": [
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Core/Src/main.c",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Lab3_Semaphore.list",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Lab3_Semaphore.elf",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Lab3_Semaphore.map",
@@ -218,7 +221,6 @@
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.d",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Core/Src/main.d",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Core/Src/stm32l4xx_it.d",
-    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Core/Src/system_stm32l4xx.d",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Lab3 Plan.md",
     "S8/CPET 461 - RTOS/Week 4 - 2.2.2026 and 2.4.2026.md",
     "Teradyne Apartment Hunt.md",
