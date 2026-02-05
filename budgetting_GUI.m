@@ -240,16 +240,33 @@ bottom.RowHeight = {'1x'};
 bottom.Padding = [0 0 0 0];
 bottom.ColumnSpacing = 12;
 
-% Totals
-sumPanel = uipanel(bottom, ...
-    'Title','Totals & Remaining', ...
-    'Scrollable','on');
-tg = uigridlayout(sumPanel,[6 4]);
-tg.RowHeight = repmat({'1x'},1,6);
+% Totals (outer panel)
+sumPanel = uipanel(bottom,'Title','Totals & Remaining');
+
+% Scrollable viewport (fills the totals panel)
+sumScroll = uipanel(sumPanel, ...
+    'BorderType','none', ...
+    'Scrollable','on', ...
+    'Units','normalized', ...
+    'Position',[0 0 1 1]);
+
+% Fixed-width content canvas INSIDE the scrollable viewport
+CONTENT_W = 260 + 220 + 260 + 220 + 2*10 + 3*14;   % cols + padding + spacing
+CONTENT_H = 6*28 + 2*10 + 5*10;                    % rows + padding + spacing
+
+sumContent = uipanel(sumScroll, ...
+    'BorderType','none', ...
+    'Units','pixels', ...
+    'Position',[0 0 CONTENT_W CONTENT_H]);
+
+% Put the grid INSIDE the fixed-size content panel (this is the key)
+tg = uigridlayout(sumContent,[6 4]);
+tg.RowHeight = {28,28,28,28,28,28};
 tg.ColumnWidth = {260, 220, 260, 220};
 tg.Padding = [10 10 10 10];
 tg.RowSpacing = 10;
 tg.ColumnSpacing = 14;
+
 
 mkLbl = @(txt) uilabel(tg,'Text',txt,'FontWeight','bold','HorizontalAlignment','left');
 mkVal = @(txt) uilabel(tg,'Text',txt,'FontWeight','bold','HorizontalAlignment','left');
