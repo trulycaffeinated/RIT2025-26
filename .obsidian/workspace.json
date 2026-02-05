@@ -25,6 +25,7 @@
             "id": "27f5337f34d1bfbd",
             "type": "leaf",
             "state": {
+<<<<<<< HEAD
               "type": "split-diff-view",
               "state": {
                 "aFile": "budgetting_GUI.m",
@@ -48,6 +49,16 @@
               },
               "icon": "diff",
               "title": "Diff: conflict-files-obsidian-git"
+=======
+              "type": "markdown",
+              "state": {
+                "file": "Teradyne Apartment Hunt.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Teradyne Apartment Hunt"
+>>>>>>> 4a17091ac532f326fee3ae3629bddb4ad8db9e98
             }
           }
         ],
@@ -167,6 +178,23 @@
             }
           },
           {
+<<<<<<< HEAD
+=======
+            "id": "5f57a07bafe65b84",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Teradyne Apartment Hunt.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Teradyne Apartment Hunt"
+            }
+          },
+          {
+>>>>>>> 4a17091ac532f326fee3ae3629bddb4ad8db9e98
             "id": "271803bbb8a37026",
             "type": "leaf",
             "state": {
@@ -225,8 +253,24 @@
   },
   "active": "87a414b4e3688a81",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "conflict-files-obsidian-git.md",
     "Budgetting_GUI.m",
+=======
+    "budgetting_GUI.m",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Core/Src/main.c",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Lab3_Semaphore.list",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Lab3_Semaphore.elf",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Lab3_Semaphore.map",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Core/Src/system_stm32l4xx.o",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Core/Src/stm32l4xx_it.o",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Core/Src/main.o",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.d",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Core/Src/main.d",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Lab3 Plan.md",
+    "S8/CPET 461 - RTOS/Week 4 - 2.2.2026 and 2.4.2026.md",
+>>>>>>> 4a17091ac532f326fee3ae3629bddb4ad8db9e98
     "Teradyne Apartment Hunt.md",
     "budgetting_GUI.m",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Lab3 Plan.md",
