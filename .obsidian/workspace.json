@@ -20,8 +20,38 @@
               "icon": "lucide-file",
               "title": "Teradyne Apartment Hunt"
             }
+          },
+          {
+            "id": "27f5337f34d1bfbd",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "budgetting_GUI.m",
+                "bFile": "budgetting_GUI.m",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: budgetting_GUI.m"
+            }
+          },
+          {
+            "id": "87a414b4e3688a81",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -193,11 +223,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "57f74d58053b40bd",
+  "active": "87a414b4e3688a81",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Budgetting_GUI.m",
-    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Lab3 Plan.md",
     "Teradyne Apartment Hunt.md",
+    "budgetting_GUI.m",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Lab3 Plan.md",
     "Untitled.canvas",
     "S8/CPET 461 - RTOS/Week 2 - 1.21.2026.md",
     "S8/CPET 461 - RTOS/Week 3 - 1.28.2026.md",
@@ -215,8 +247,6 @@
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F",
-    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang",
-    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Drivers/CMSIS/Device/ST/STM32L4xx/License.md",
     "S8/CPET 561 - ESD CAPSTONE/Week 1 - 1.13.2026 and 1.15.2026.md",
     "S8/CPET 461 - RTOS/Labs/Lab2_FreeRTOS/Drivers/CMSIS/Device/ST/STM32L4xx/License.md",
@@ -231,7 +261,6 @@
     "S7/0 CPET561/9.3.2025.md",
     "S7/0 CPET561/8.27.2025.md",
     "S8/CPET 461 - RTOS/Labs/Lab1_CPET461/Drivers/CMSIS/Device/ST/STM32L4xx/License.md",
-    "S7/1 EEET 313/10.29.2025.md",
     "Image Graveyard/Pasted image 20251027113057.png",
     "S7/2 BIOG 101.103/Screenshot 2025-10-06 181822.png",
     "Image Graveyard/Pasted image 20251027112341.png",
