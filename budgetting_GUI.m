@@ -241,7 +241,9 @@ bottom.Padding = [0 0 0 0];
 bottom.ColumnSpacing = 12;
 
 % Totals
-sumPanel = uipanel(bottom,'Title','Totals & Remaining');
+sumPanel = uipanel(bottom, ...
+    'Title','Totals & Remaining', ...
+    'Scrollable','on');
 tg = uigridlayout(sumPanel,[6 4]);
 tg.RowHeight = repmat({'1x'},1,6);
 tg.ColumnWidth = {260, 220, 260, 220};
