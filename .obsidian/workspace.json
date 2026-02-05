@@ -185,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -206,7 +206,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "56eac17068ccb041",
+  "active": "57f74d58053b40bd",
   "lastOpenFiles": [
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Lab3_Semaphore.list",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Debug/Lab3_Semaphore.elf",
