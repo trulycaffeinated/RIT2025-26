@@ -89,11 +89,11 @@ Other Comments...
 Ale or Lager? : **Ale**
 Style : **Scotch Ale**
 Color (scale 0-8) : **5**
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
+Aroma Strength (scale 0-5) : **3**
+Aroma reminds me of... **Banana, Cherry, Caramel, Milk Chocolate**
+Taste Strength (scale 0-5) : **2**
+Taste Reminds me of... **Banana, very banana**
+Mouthfeel (scale 0-5) : **1-2**
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
 Did I like it? 
