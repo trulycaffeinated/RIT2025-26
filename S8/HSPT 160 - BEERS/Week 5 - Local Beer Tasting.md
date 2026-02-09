@@ -125,28 +125,14 @@ Style : **Double Dry Hopped IPA**
 Color (scale 0-8) :  **2-3 - Hazy**
 Aroma Strength (scale 0-5) : **3**
 Aroma reminds me of... **Peach, Hops (flat smell?)**
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Strength (scale 0-5) : **2**
+Taste Reminds me of... **Spice, Pepper? Bell Peppers to black pepper. Bitter**
+Mouthfeel (scale 0-5) : **2 - kinda milky**
+Finish Strength (scale 0-5) : **2**
+Finish reminds me of.... **Bitter IPA again**
+Did I like it? **No 2/10**
+Would I buy this beer? **No**
 Other Comments...
+**Learning to hate IPA's at this point**
 
-
----
-**Beer 1** : 
-Ale or Lager? : 
-Style : 
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
-Other Comments...
+TOP 3
