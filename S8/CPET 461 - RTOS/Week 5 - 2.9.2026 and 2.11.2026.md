@@ -36,4 +36,8 @@ RTOS configured with a 1msec timescale
 **Round Robin Scheduler** - The task that's been waiting the longest, is the task that goes next. 
 "Fair" scheduler, and is the most common
 
-***Priority* Round Robin Scheduling** - Round Robins through priority groups, Priority 1 round robins, once Group 1 is done, Priority 2 group goes until Group 1 needs it
+***Priority* Round Robin Scheduling** - Round Robins through priority groups, Priority 1 round robins, once Group 1 is done, Priority 2 group goes until Group 1 needs it. **NOT** a true round robin
+
+### Cooperative vs Preemptive Multitasking
+
+**Cooperative** 
