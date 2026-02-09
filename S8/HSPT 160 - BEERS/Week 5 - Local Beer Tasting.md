@@ -1,0 +1,144 @@
+# Local beer Tasting
+---
+**Beer 1** : Thin Man Pills Mafia (4.9% Alcohol)
+Ale or Lager? : Lager
+Style : 
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) : 
+Aroma reminds me of... 
+Taste Strength (scale 0-5) : 
+Taste Reminds me of... 
+Mouthfeel (scale 0-5) : 
+Finish Strength (scale 0-5) : 
+Finish reminds me of.... 
+Did I like it? 
+Would I buy this beer? 
+Other Comments...
+
+---
+**Beer 2** : Genesee Honey Brown (4.5% Alcohol)
+Ale or Lager? : Lager
+Style : 
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) : 
+Aroma reminds me of... 
+Taste Strength (scale 0-5) : 
+Taste Reminds me of... 
+Mouthfeel (scale 0-5) : 
+Finish Strength (scale 0-5) : 
+Finish reminds me of.... 
+Did I like it? 
+Would I buy this beer? 
+Other Comments...
+
+---
+**Beer 1** : Three Heads Bewing Little Biggie (3.3% Alcohol)
+Ale or Lager? : Ale (IPA)
+Style : 
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) : 
+Aroma reminds me of... 
+Taste Strength (scale 0-5) : 
+Taste Reminds me of... 
+Mouthfeel (scale 0-5) : 
+Finish Strength (scale 0-5) : 
+Finish reminds me of.... 
+Did I like it? 
+Would I buy this beer? 
+Other Comments...
+
+---
+**Beer 1** : Strangebird the Western (5.2% Alcohol)
+Ale or Lager? : Lager
+Style : 
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) : 
+Aroma reminds me of... 
+Taste Strength (scale 0-5) : 
+Taste Reminds me of... 
+Mouthfeel (scale 0-5) : 
+Finish Strength (scale 0-5) : 
+Finish reminds me of.... 
+Did I like it? 
+Would I buy this beer? 
+Other Comments...
+
+---
+**Beer 1** : Talking Cursive Crispy Girls After Dark (5.2% Czech)
+Ale or Lager? : Lager
+Style : 
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) : 
+Aroma reminds me of... 
+Taste Strength (scale 0-5) : 
+Taste Reminds me of... 
+Mouthfeel (scale 0-5) : 
+Finish Strength (scale 0-5) : 
+Finish reminds me of.... 
+Did I like it? 
+Would I buy this beer? 
+Other Comments...
+
+---
+**Beer 1** : 
+Ale or Lager? : 
+Style : 
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) : 
+Aroma reminds me of... 
+Taste Strength (scale 0-5) : 
+Taste Reminds me of... 
+Mouthfeel (scale 0-5) : 
+Finish Strength (scale 0-5) : 
+Finish reminds me of.... 
+Did I like it? 
+Would I buy this beer? 
+Other Comments...
+
+---
+**Beer 1** : 
+Ale or Lager? : 
+Style : 
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) : 
+Aroma reminds me of... 
+Taste Strength (scale 0-5) : 
+Taste Reminds me of... 
+Mouthfeel (scale 0-5) : 
+Finish Strength (scale 0-5) : 
+Finish reminds me of.... 
+Did I like it? 
+Would I buy this beer? 
+Other Comments...
+
+---
+**Beer 1** : 
+Ale or Lager? : 
+Style : 
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) : 
+Aroma reminds me of... 
+Taste Strength (scale 0-5) : 
+Taste Reminds me of... 
+Mouthfeel (scale 0-5) : 
+Finish Strength (scale 0-5) : 
+Finish reminds me of.... 
+Did I like it? 
+Would I buy this beer? 
+Other Comments...
+
+---
+**Beer 1** : 
+Ale or Lager? : 
+Style : 
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) : 
+Aroma reminds me of... 
+Taste Strength (scale 0-5) : 
+Taste Reminds me of... 
+Mouthfeel (scale 0-5) : 
+Finish Strength (scale 0-5) : 
+Finish reminds me of.... 
+Did I like it? 
+Would I buy this beer? 
+Other Comments...
