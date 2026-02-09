@@ -50,4 +50,6 @@ RTOS configured with a 1msec timescale
 - Tasks always get a "fair" share of the cpu
 - adding a task to the application only requires re-design of other tasks to the degree they interact 
 
-When preemptive multitasking is enabled, it really means that Cooperative and Preemptive multitasking is enabled
+When preemptive multitasking is enabled, it really means that Cooperative and Preemptive multitasking is in effect
+
+How does this relate to desktop operating systems? -- Desktop operating systems do not have a set timeslice, a task or process might have a bigger or smaller timeslice. 
