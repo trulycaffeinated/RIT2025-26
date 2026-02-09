@@ -8,3 +8,10 @@ All **Local Variables** for tasks are *similar* to static variables
 - Remember, each task has its own stack
 - One characteristic of a static variable we must always do is give it an initial value
 - Local variables that aren't initialized get whatever happens to be on the stack
+
+when using ``osSemaphoreAcquire()`` use ``HAL_MAX_DELAY`` or ``osWaitForever`` - try to get it for as long as possible
+
+```C
+osSemaphoreAcquire(handle, HAL_MAX_DELAY);
+
+```
