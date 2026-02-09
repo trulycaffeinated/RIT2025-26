@@ -17,7 +17,19 @@ osSemaphoreRelease();
 ```
 
 ---
-# Pre-emptive multitasking
+# Preemptive multitasking
 
 An Operating System will go from Running to Ready when it's not waiting for anything, and the CPU is taken from it.
-The task is still 
+The task is still running/would like to be running, but no CPU for it.
+
+**Preemptive** scheduling is so called because tasks are preempted while they're executing
+
+The RTOS is entirely responsible for preempting the execution of a task, there is nothing that the task can do about it and the task doesn't even know it's happening
+
+### Consider The following
+**Task 1** - Executes for 2msec every 20msec
+**Task 2** - Executes for 3msec every 10msec
+**Task 3** - Executes for 6msec every 25msec
+
+RTOS configured with a 1msec timescale
+
