@@ -35,4 +35,4 @@ Corked - TCA "baby carrots"
 ## True or False: German Rieslings tend to have lower alcohol content than Rieslings from almost everywhere else in the world?
 **True**
 ## What is Sussreserve? 
-Sussreserve is an unfermented grape juice added after fermentation to sweeten the wine 
+Sussreserve "Back Sweeten" - an unfermented grape juice added after fermentation to sweeten the wine 
