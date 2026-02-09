@@ -23,7 +23,16 @@ Dru. full bodied, with high alcohol and lower perceived acid
 The German words for the ripeness of a grape at harvest, Kabinett being the lease Ripe and Spatlese being more ripe. There are also Auslese
 ## What area couple of wine faults?
 Oxidization or "sherried"
+- Color
+- Nose
+Cooked "Maderized"
+Volatile Acidity
+$SO_2$ 
+Corked - TCA "baby carrots"
+-  Mustiness
+- Cant tell before bottle is opened
 
 ## True or False: German Rieslings tend to have lower alcohol content than Rieslings from almost everywhere else in the world?
-
+**True**
 ## What is Sussreserve? 
+Sussreserve is an unfermented grape juice added after fermentation to sweeten the wine 
