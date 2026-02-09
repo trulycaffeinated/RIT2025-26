@@ -72,21 +72,22 @@ Other Comments... **7/10**
 Ale or Lager? : **Lager**
 Style : **Czech Dark Lager**
 Color (scale 0-8) : **5**
-Aroma Strength (scale 0-5) : ****
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
+Aroma Strength (scale 0-5) : **2**
+Aroma reminds me of... **Cleaning agent**
+Taste Strength (scale 0-5) : **3**
+Taste Reminds me of... **Bleach**
+Mouthfeel (scale 0-5) : **2**
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Did I like it? **No**
+Would I buy this beer? **NO**
 Other Comments...
+**This tastes like a cleaning agent and I hate it**
 
 ---
-**Beer 1** : Rohrbach's Brewing Scotch Ale (6.8% Alcohol)
-Ale or Lager? : Ale
-Style : 
+**Beer 1** : **Rohrbach's Brewing Scotch Ale (6.8% Alcohol)**
+Ale or Lager? : **Ale**
+Style : **Scotch Ale**
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
