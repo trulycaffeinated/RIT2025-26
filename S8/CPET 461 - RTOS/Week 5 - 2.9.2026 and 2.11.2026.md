@@ -40,13 +40,14 @@ RTOS configured with a 1msec timescale
 
 ### Cooperative vs Preemptive Multitasking
 
-**Cooperative** 
+**Cooperative** (Simple RTOS design)
 - Tasks must be designed considering how they will ensure that all other tasks are allowed to execute when they need to - 
 - Tasks almost never get a "fair" share of the CPU
 - Adding a task to the application might require re-designing of the other tasks
 
-**Preemptive**
+**Preemptive** (More Complicated RTOS design (barely))
 - Tasks can be designed considering how they will interact with other tasks but not whether the other tasks will execute when they need to
 - Tasks always get a "fair" share of the cpu
 - adding a task to the application only requires re-design of other tasks to the degree they interact 
 
+When preemptive multitasking is enabled, it really means that Cooperative and Preemptive multitasking is enabled
