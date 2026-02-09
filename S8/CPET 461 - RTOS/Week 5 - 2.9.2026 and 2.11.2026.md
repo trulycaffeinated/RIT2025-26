@@ -10,8 +10,14 @@ All **Local Variables** for tasks are *similar* to static variables
 - Local variables that aren't initialized get whatever happens to be on the stack
 
 when using ``osSemaphoreAcquire()`` use ``HAL_MAX_DELAY`` or ``osWaitForever`` - try to get it for as long as possible
-
 ```C
 osSemaphoreAcquire(handle, HAL_MAX_DELAY);
-
+/* AS LITTLE CODE AS POSSIBLE */
+osSemaphoreRelease();
 ```
+
+---
+# Pre-emptive multitasking
+
+An Operating System will go from Running to Ready when it's not waiting for anything, and the CPU is taken from it.
+The task is still 
