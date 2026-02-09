@@ -94,14 +94,15 @@ Aroma reminds me of... **Banana, Cherry, Caramel, Milk Chocolate**
 Taste Strength (scale 0-5) : **2**
 Taste Reminds me of... **Banana, very banana**
 Mouthfeel (scale 0-5) : **1-2**
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Finish Strength (scale 0-5) : **2**
+Finish reminds me of.... **Nothing much, no bitter finish due to two hop brewing**
+Did I like it? **No - 2/10**
+Would I buy this beer? **No**
 Other Comments...
+**This gets more and more banana each sip and im not a fan**
 
 ---
-**Beer 7** : 
+**Beer 7** : **Three Heads Brewing The Kind (6.**
 Ale or Lager? : 
 Style : 
 Color (scale 0-8) : 
