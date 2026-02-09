@@ -58,14 +58,14 @@ Color (scale 0-8) : **7/8 - black**
 Aroma Strength (scale 0-5) : **4**
 Aroma reminds me of... **Coffee grounds**
 Taste Strength (scale 0-5) : **3**
-Taste Reminds me of... **Coffee, bitter taste.**
+Taste Reminds me of... **Coffee, bitter taste. Cold brew, chocolate**
 Mouthfeel (scale 0-5) : **1**
 Finish Strength (scale 0-5) : **2**
-Finish reminds me of.... ****
-Did I like it? 
-Would I buy this beer? 
-Other Comments...
-**German - I expect to like this. Update : Coffee smell, I love coffee if this is bad I riot**
+Finish reminds me of.... **Coffee after taste**
+Did I like it? **Yes**
+Would I buy this beer? **Yes** 
+Other Comments... **7/10**
+**German - I expect to like this. Update : Coffee smell, I love coffee if this is bad I riot. Liked it, expected a bit harder coffee taste but still good**
 
 ---
 **Beer 1** : Talking Cursive Crispy Girls After Dark (5.2% Alcohol)
