@@ -109,19 +109,20 @@ Color (scale 0-8) : **2**
 Aroma Strength (scale 0-5) : **2**
 Aroma reminds me of... **Peach**
 Taste Strength (scale 0-5) : **2**
-Taste Reminds me of... **Peach, bitter, **
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Reminds me of... **Peach, bitter, Grapefruit and a bit of tire**
+Mouthfeel (scale 0-5) : **1**
+Finish Strength (scale 0-5) : **2**
+Finish reminds me of.... **Just leaves a huge bitter taste in my mouth**
+Did I like it? **No 2/10**
+Would I buy this beer? **No** 
 Other Comments...
+**Disappointing, smells great tastes awful. Seems to be a trend with the IPA's**
 
 ---
-**Beer 1** : 
-Ale or Lager? : 
-Style : 
-Color (scale 0-8) : 
+**Beer 8** : **The Other Half Green City Hazy IPA (7% Alcohol)**
+Ale or Lager? : **Ale**
+Style : **Double Dry Hopped IPA**
+Color (scale 0-8) :  
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
@@ -132,6 +133,7 @@ Finish reminds me of....
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
+**Double dry hopped - dry hopping **
 
 ---
 **Beer 1** : 
