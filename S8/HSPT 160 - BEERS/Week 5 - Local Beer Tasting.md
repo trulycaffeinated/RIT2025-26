@@ -64,7 +64,7 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer 1** : Talking Cursive Crispy Girls After Dark (5.2% Czech)
+**Beer 1** : Talking Cursive Crispy Girls After Dark (5.2% Alcohol)
 Ale or Lager? : Lager
 Style : 
 Color (scale 0-8) : 
@@ -80,8 +80,8 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer 1** : 
-Ale or Lager? : 
+**Beer 1** : Rohrbach's Brewing Scotch Ale (6.8% Alcohol)
+Ale or Lager? : Ale
 Style : 
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
