@@ -52,4 +52,9 @@ RTOS configured with a 1msec timescale
 
 When preemptive multitasking is enabled, it really means that Cooperative and Preemptive multitasking is in effect
 
-How does this relate to desktop operating systems? -- Desktop operating systems do not have a set timeslice, a task or process might have a bigger or smaller timeslice. So if a timeslice is 1ms, your task may have 1 timeslice (1ms), but a microsoft task will be given 5 timeslices cause *fuck your task*
+How does this relate to desktop operating systems? -- Desktop operating systems do not have a set timeslice, a task or process might have a bigger or smaller timeslice. So if a timeslice is 1ms, your task may have 1 timeslice (1ms), but a microsoft task will be given 5 timeslices cause *fuck* your task
+
+Whether a task is **compute bound** or **io bound** 
+- IO bound tasks are typically low priority
+- Compute tasks use a lot of CPU so they are given higher priority 
+
