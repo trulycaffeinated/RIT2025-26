@@ -102,14 +102,14 @@ Other Comments...
 **This gets more and more banana each sip and im not a fan**
 
 ---
-**Beer 7** : **Three Heads Brewing The Kind (6.**
-Ale or Lager? : 
-Style : 
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+**Beer 7** : **Three Heads Brewing The Kind (6.8% Alcohol)**
+Ale or Lager? : **Ale**
+Style : **IPA**
+Color (scale 0-8) : **2** 
+Aroma Strength (scale 0-5) : **2**
+Aroma reminds me of... **Peach**
+Taste Strength (scale 0-5) : **2**
+Taste Reminds me of... **Peach, bitter, **
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
