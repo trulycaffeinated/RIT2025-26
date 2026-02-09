@@ -14,13 +14,15 @@ Usually unoaked
 Dry to semi-dessert style including ice wine
 Back sweeten
 ## What is the typical style of the majority of Australian Rieslings
-Dry. high acid, and very citrus 
+Dry. high acid, and very citrus with light to medium bodies
 
 ## What is the typical style of the majority of Alsatian Rieslings
+Dru. full bodied, with high alcohol and lower perceived acid
 
 ## What is Kabinett? Spatlese?
-
+The German words for the ripeness of a grape at harvest, Kabinett being the lease Ripe and Spatlese being more ripe. There are also Auslese
 ## What area couple of wine faults?
+Oxidization or "sherried"
 
 ## True or False: German Rieslings tend to have lower alcohol content than Rieslings from almost everywhere else in the world?
 
