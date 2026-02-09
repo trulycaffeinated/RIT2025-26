@@ -37,11 +37,11 @@ Other Comments...
 **Beer 3** : **Three Heads Bewing Little Biggie (3.3% Alcohol)**
 Ale or Lager? : **Ale (IPA)**
 Style : **IPA**
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Color (scale 0-8) : **1 - cloudy**
+Aroma Strength (scale 0-5) : **3**
+Aroma reminds me of... **Mango, Pineapple, Peach?**
+Taste Strength (scale 0-5) : **2**
+Taste Reminds me of... **Sour Peach, Pineapple, less intesn**
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
@@ -143,4 +143,4 @@ Finish Strength (scale 0-5) :
 Finish reminds me of.... 
 Did I like it? 
 Would I buy this beer? 
-Other Comments...
+Other C
