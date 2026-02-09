@@ -399,7 +399,7 @@ void StartTask03(void *argument)
 	uint32_t lastTick = osKernelGetTickCount();
 	osDelayUntil(lastTick + 500);
 
-	osSemaphoreAcquire(sharedStateSemaphoreHandle, osWaitForever);
+	osSemaphoreAcquire(sharedStateSemaphoreHandle, osWaitForever); // USE HAL_MAX_DELAY, or osWaitForever
 	uint8_t localButtonState = buttonState;
 	osSemaphoreRelease(sharedStateSemaphoreHandle);
 
