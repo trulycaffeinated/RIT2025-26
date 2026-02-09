@@ -122,9 +122,9 @@ Other Comments...
 **Beer 8** : **The Other Half Green City Hazy IPA (7% Alcohol)**
 Ale or Lager? : **Ale**
 Style : **Double Dry Hopped IPA**
-Color (scale 0-8) :  
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Color (scale 0-8) :  **2-3 - Hazy**
+Aroma Strength (scale 0-5) : **3**
+Aroma reminds me of... **Peach, Hops (flat smell?)**
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
@@ -133,7 +133,7 @@ Finish reminds me of....
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
-**Double dry hopped - dry hopping **
+
 
 ---
 **Beer 1** : 
