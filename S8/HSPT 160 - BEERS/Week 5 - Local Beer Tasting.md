@@ -136,3 +136,6 @@ Other Comments...
 **Learning to hate IPA's at this point**
 
 TOP 3
+1. Strangebird The Western
+2. Thin Man Pills Mafia
+3. Did not like the rest but we'll say Geneseee Honey Brown
