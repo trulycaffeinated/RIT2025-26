@@ -21,22 +21,22 @@ Other Comments...
 Ale or Lager? : **Lager**
 Style : **American Amber Lager**
 Color (scale 0-8) : **1-2**
-Aroma Strength (scale 0-5) : **2**
-Aroma reminds me of... **Subtle sweetness, honey? **
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Aroma Strength (scale 0-5) : **1**
+Aroma reminds me of... **Subtle sweetness, honey? Not a strong aroma, freshly opened a bag of honey nut cheerios**
+Taste Strength (scale 0-5) : **2**
+Taste Reminds me of... **Prof. Described it best, water that had a honey cough drop dropped in it**
+Mouthfeel (scale 0-5) : **1**
+Finish Strength (scale 0-5) : **1**
+Finish reminds me of.... **Not very strong, but subtle honey finish**
+Did I like it? **Not particularly**
+Would I buy this beer? **No**
 Other Comments...
 **Immediately looks like honey - perfect honey color**
 
 ---
-**Beer 1** : Three Heads Bewing Little Biggie (3.3% Alcohol)
-Ale or Lager? : Ale (IPA)
-Style : 
+**Beer 3** : **Three Heads Bewing Little Biggie (3.3% Alcohol)**
+Ale or Lager? : **Ale (IPA)**
+Style : **IPA**
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
