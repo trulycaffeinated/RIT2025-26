@@ -20,9 +20,9 @@ Other Comments...
 **Beer 2** : **Genesee Honey Brown (4.5% Alcohol)**
 Ale or Lager? : **Lager**
 Style : **American Amber Lager**
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Color (scale 0-8) : **1-2**
+Aroma Strength (scale 0-5) : **2**
+Aroma reminds me of... **Subtle sweetness, honey? **
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
@@ -31,6 +31,7 @@ Finish reminds me of....
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
+**Immediately looks like honey - perfect honey color**
 
 ---
 **Beer 1** : Three Heads Bewing Little Biggie (3.3% Alcohol)
