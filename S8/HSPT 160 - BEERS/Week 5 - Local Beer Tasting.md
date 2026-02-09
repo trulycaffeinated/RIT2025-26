@@ -51,12 +51,12 @@ Other Comments...
 **Underwhelming**
 
 ---
-**Beer 1** : Strangebird the Western (5.2% Alcohol)
-Ale or Lager? : Lager
-Style : 
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+**Beer 1** : **Strangebird the Western (5.2% Alcohol)**
+Ale or Lager? : **Lager**
+Style : **Schwarzbier**
+Color (scale 0-8) : **7/8 - black**
+Aroma Strength (scale 0-5) : **4**
+Aroma reminds me of... **Coffee**
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
@@ -65,6 +65,7 @@ Finish reminds me of....
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
+**German - I expect to like this. Update : Coffee smell, I love coffee if this is bad I riot**
 
 ---
 **Beer 1** : Talking Cursive Crispy Girls After Dark (5.2% Alcohol)
