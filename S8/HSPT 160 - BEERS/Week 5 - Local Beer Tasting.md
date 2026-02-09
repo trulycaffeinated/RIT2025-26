@@ -51,7 +51,7 @@ Other Comments...
 **Underwhelming**
 
 ---
-**Beer 1** : **Strangebird the Western (5.2% Alcohol)**
+**Beer 4** : **Strangebird the Western (5.2% Alcohol)**
 Ale or Lager? : **Lager**
 Style : **Schwarzbier**
 Color (scale 0-8) : **7/8 - black**
@@ -68,7 +68,7 @@ Other Comments... **7/10**
 **German - I expect to like this. Update : Coffee smell, I love coffee if this is bad I riot. Liked it, expected a bit harder coffee taste but still good**
 
 ---
-**Beer 1** : **Talking Cursive Crispy Girls After Dark (5.2% Alcohol)**
+**Beer 5** : **Talking Cursive Crispy Girls After Dark (5.2% Alcohol)**
 Ale or Lager? : **Lager**
 Style : **Czech Dark Lager**
 Color (scale 0-8) : **5**
@@ -85,10 +85,10 @@ Other Comments...
 **This tastes like a cleaning agent and I hate it**
 
 ---
-**Beer 1** : **Rohrbach's Brewing Scotch Ale (6.8% Alcohol)**
+**Beer 6** : **Rohrbach's Brewing Scotch Ale (6.8% Alcohol)**
 Ale or Lager? : **Ale**
 Style : **Scotch Ale**
-Color (scale 0-8) : 
+Color (scale 0-8) : **5**
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
@@ -101,7 +101,7 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer 1** : 
+**Beer 7** : 
 Ale or Lager? : 
 Style : 
 Color (scale 0-8) : 
