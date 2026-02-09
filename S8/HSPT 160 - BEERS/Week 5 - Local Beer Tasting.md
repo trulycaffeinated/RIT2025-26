@@ -11,7 +11,7 @@ Taste Reminds me of... **Watered down soda, grape aftertaste?**
 Mouthfeel (scale 0-5) : **2**
 Finish Strength (scale 0-5) : **3 - very strong after**
 Finish reminds me of.... **Grape, Lemon, sour or bitter tastes**
-Did I like it? **Yes? 50/50**
+Did I like it? **Yes? 6/10**
 Would I buy this beer? **Yea I think so**
 Other Comments...
 **Somewhat cloudy lager - which is abnormal. I liked it at the first taste but less and less each time. The initial thought of grape was weird to me.**
@@ -41,13 +41,14 @@ Color (scale 0-8) : **1 - cloudy**
 Aroma Strength (scale 0-5) : **3**
 Aroma reminds me of... **Mango, Pineapple, Peach?**
 Taste Strength (scale 0-5) : **2**
-Taste Reminds me of... **Sour Peach, Pineapple, less intesn**
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Reminds me of... **Sour Peach, Pineapple, less intense than the smell**
+Mouthfeel (scale 0-5) : **1**
+Finish Strength (scale 0-5) : **1**
+Finish reminds me of.... **Finish is no different than the regular taste**
+Did I like it? **Eh, 3/10**
+Would I buy this beer? **No**
 Other Comments...
+**Underwhelming**
 
 ---
 **Beer 1** : Strangebird the Western (5.2% Alcohol)
@@ -143,4 +144,4 @@ Finish Strength (scale 0-5) :
 Finish reminds me of.... 
 Did I like it? 
 Would I buy this beer? 
-Other C
+Other Comments...
