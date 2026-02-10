@@ -7,9 +7,9 @@ Gold rush to the Sierra Foothills. This lead to a global influx of people bringi
 ## How did some wineries survive during the prohibition?
 
 ## What is special about gallo?
-
+Ernest and Julio Gallo were a bulk producer, and consistent value producer in 1933 and is now the largest winery in the world with premium wines available too
 ## What is the grape used in Fume Blanc?
-
+Sauvignon Blanc
 ## What Happened in Paris in 1976 that rocked the global wine world?
 The "Judgement of Paris" - The French lost to California's wine industry, which put California's Cabernet Sauvignon and Chardonnay on the world stage, but also opened up the world to competing with the French wine industry. 
 ## What is California's Climate?
