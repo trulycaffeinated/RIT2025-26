@@ -3,7 +3,7 @@
 ## What happened in California during the mid 1800's and what effects did it have on their wine industry?
 Gold rush to the Sierra Foothills. This lead to a global influx of people bringing wine cuttings from their countries. Vineyards of a wide variety were founded and wineries were opened. Specifically, Hungarian Agoston Haraszthy brought over many varieties of grapes and is considered the father of Californian wine.
 ## What is phylloxera and how do you get rid of it?
-A root louse and other viruses that were not seen previously before 1857
+A root louse and other viruses that were not seen previously before 1857. It is managed by grafting vines onto American Species rootstocks that are resistant to Phylloxera.
 ## How did some wineries survive during the prohibition?
 Three primary methods of survival
 1. Vineyards switched to other crops like tree fruits and table grapes
