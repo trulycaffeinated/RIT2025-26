@@ -13,9 +13,9 @@ Gold rush to the Sierra Foothills. This lead to a global influx of people bringi
 ## What Happened in Paris in 1976 that rocked the global wine world?
 
 ## What is California's Climate?
-California's climate is large, and so it can't lump all wine regions together. There are around 150 AVA's (American Viticultural Area) in California - some of them are North Coast, Sierra Foothills, North Central Coast, South Central Coast, South - Temecula 
+California's climate is large, and so it can't lump all wine regions together. There are around 150 AVA's (American Viticultural Area - some of them are North Coast, Sierra Foothills, North Central Coast, South Central Coast, South - Temecula 
 ## What is an AVA? Name one from California.
-
+An AVA is an American Viticultural Area, a designated grape growing region within the United States. Napa Valley is an AVA in California. 
 ## Which unique red grape, often grown on old vines, has aromas of dark berries and spices?
-
+Zinfandel
 ## What effects does the age of a vine have on grapes?
