@@ -5,7 +5,7 @@
  original version 6/1/2022
 
  This program uses a state machine to control the TI-RSLK robot to drive
- in a pattern of forward, right turn, backward, left turn, forward, right turn, ….. 
+ in a pattern of forward, right turn, backward, left turn, forward, right turn, ï¿½.. 
 
  To control the motors on the TI-RSLK robot, there are three outputs that need
  to be driven.
