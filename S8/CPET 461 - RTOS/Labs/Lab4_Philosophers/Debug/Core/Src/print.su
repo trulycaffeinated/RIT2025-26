@@ -1,0 +1,2 @@
+../Core/Src/print.c:17:6:Print_Init	8	static
+../Core/Src/print.c:26:6:Print_Line	144	static
