@@ -46,4 +46,26 @@ flowchart LR
     G --> J[Put down both forks]
     J --> B
 ```
-the state machine wil
+the state machine will look something like this
+```C
+while(1){
+	//Thinking
+	Print_Line("Thinking");
+	
+	//delay
+	
+	Print_line("Hungry");
+	while(/*doesn't have both forks*/){
+		
+		getRight()
+		getLeft()
+		
+		if(/*Got left and not right*/) {
+			/*put left down and set bool false*/
+		}
+		if(/*Got right and not l*/) {
+			/*put left down and set bool false*/
+		}
+	}
+}
+```
