@@ -143,4 +143,4 @@ void PhilosopherTask(void *argument){
 }
 ```
 3. Adjusted the rand to go from 0 - 4001 + 1000 instead of 0-4 + 1
-4. Still keeping seed in though otherwise I get repeat values
+4. From Dr. S - "Whenever you use a random number generator function, you always want to use the maximum possible range of values to ensure that the sequence is in fact random.  With a range of 0-4, the sequence could produce a large number of identical values in a row before the value changes "randomly".  With a large range that is much less likely.  Random number generators are only guaranteed to produce different values each time they are called if the full 32-bit number is used.  Once modulus is performed on the value, that guarantee not longer exists." - using ``rand() % something`` will cause the "randomness" to no longer be guaranteed
