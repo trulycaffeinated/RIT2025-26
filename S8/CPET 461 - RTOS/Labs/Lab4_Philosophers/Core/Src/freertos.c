@@ -108,7 +108,7 @@ static void PhilosopherTask(void *argument)
 {
 
     int id = *(int*)argument; // Pull Philosopher ID from arbitrary argument
-	srand(id); // SEED Rand() with Philosopher ID - when removed, every philosopher has the same delays
+	//srand(id); // SEED Rand() with Philosopher ID - when removed, every philosopher has the same delays
 
     int desiredLeftFork  = id;
     int desiredRightFork = (id + NumPHIL - 1) % NumPHIL;
