@@ -95,7 +95,7 @@ void App_RTOS_Init(void){
 	// Make 8 Philosoper's (tasks)
 	for(int i = 0; i < NumPHIL; i++){
 		PhilosopherNum[i] = i;
-		osThreadNew(PhilosopherTask, &PhilosopherNum[i], &philAttr);
+		osThreadNew(PhilosopherTask, i, &philAttr);
 	}
 }
 
