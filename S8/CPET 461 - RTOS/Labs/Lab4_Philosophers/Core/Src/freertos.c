@@ -86,7 +86,6 @@ void App_RTOS_Init(void){
 
 	// Start Default Task - Print RTOS initialized, then close
 	osThreadNew(startDefaultTask, NULL, &defaultAttr);
-	osDelay(5000);
 
 	// Make 8 forks for the 8 philosophers
 	for(int i = 0; i < NumPHIL; i++){
@@ -121,13 +120,13 @@ static void PhilosopherTask(void *argument)
     {
 
     	// MAX Value for delay
-    	int ranMAX = 5;
+    	int ranMAX = 4001;
 
         // Thinking state
         Print_Line("Philosopher %d - Thinking...", id);
-        int ranNum = (rand() % ranMAX) + 1;
-        //Print_Line("Delay : %d", ranNum); // DEBUG LINE | DELAY
-        osDelay(ranNum * 1000);
+        int ranNum = (rand() % ranMAX) + 1000;
+        Print_Line("Delay : %d", ranNum); // DEBUG LINE | DELAY
+        osDelay(ranNum);
 
         // Hungry state
         Print_Line("Philosopher %d - Hungry...", id);
@@ -166,9 +165,9 @@ static void PhilosopherTask(void *argument)
 
         // Eat
         Print_Line("Philosopher %d - do I eat for I am hungry? Or because the creator said so?",id);
-        ranNum = (rand() % ranMAX) + 1;
-        //Print_Line("Delay : %d", ranNum); // DEBUG LINE | DELAY
-        osDelay(ranNum * 1000);
+        ranNum = (rand() % ranMAX) + 1000;
+        Print_Line("Delay : %d", ranNum); // DEBUG LINE | DELAY
+        osDelay(ranNum);
         putLeftFork(desiredLeftFork);
         putRightFork(desiredRightFork);
     } // End State Machine
