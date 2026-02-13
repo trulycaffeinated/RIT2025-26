@@ -86,6 +86,7 @@ void App_RTOS_Init(void){
 
 	// Start Default Task - Print RTOS initialized, then close
 	osThreadNew(startDefaultTask, NULL, &defaultAttr);
+	osDelay(5000);
 
 	// Make 8 forks for the 8 philosophers
 	for(int i = 0; i < NumPHIL; i++){

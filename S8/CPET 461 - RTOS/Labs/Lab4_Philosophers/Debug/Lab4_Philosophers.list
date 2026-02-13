@@ -27,25 +27,25 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
  11 .ARM.attributes 00000030  00000000  00000000  0000a06c  2**0
                   CONTENTS, READONLY
- 12 .debug_info   00017282  00000000  00000000  0000a09c  2**0
+ 12 .debug_info   00017285  00000000  00000000  0000a09c  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 13 .debug_abbrev 0000370a  00000000  00000000  0002131e  2**0
+ 13 .debug_abbrev 00003708  00000000  00000000  00021321  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 14 .debug_aranges 00001298  00000000  00000000  00024a28  2**3
+ 14 .debug_aranges 00001298  00000000  00000000  00024a30  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_rnglists 00000e2a  00000000  00000000  00025cc0  2**0
+ 15 .debug_rnglists 00000e2a  00000000  00000000  00025cc8  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_macro  000298cd  00000000  00000000  00026aea  2**0
+ 16 .debug_macro  000298cd  00000000  00000000  00026af2  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   000158b7  00000000  00000000  000503b7  2**0
+ 17 .debug_line   000158b7  00000000  00000000  000503bf  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    000f7304  00000000  00000000  00065c6e  2**0
+ 18 .debug_str    000f7304  00000000  00000000  00065c76  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000043  00000000  00000000  0015cf72  2**0
+ 19 .comment      00000043  00000000  00000000  0015cf7a  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  000055cc  00000000  00000000  0015cfb8  2**2
+ 20 .debug_frame  000055cc  00000000  00000000  0015cfc0  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line_str 0000008e  00000000  00000000  00162584  2**0
+ 21 .debug_line_str 0000008e  00000000  00000000  0016258c  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -453,436 +453,436 @@ void App_RTOS_Init(void){
 
 	// Start Default Task - Print RTOS initialized, then close
 	osThreadNew(startDefaultTask, NULL, &defaultAttr);
- 80005b6:	4a1a      	ldr	r2, [pc, #104]	@ (8000620 <App_RTOS_Init+0x74>)
+ 80005b6:	4a1c      	ldr	r2, [pc, #112]	@ (8000628 <App_RTOS_Init+0x7c>)
  80005b8:	2100      	movs	r1, #0
- 80005ba:	481a      	ldr	r0, [pc, #104]	@ (8000624 <App_RTOS_Init+0x78>)
+ 80005ba:	481c      	ldr	r0, [pc, #112]	@ (800062c <App_RTOS_Init+0x80>)
  80005bc:	f003 f9ac 	bl	8003918 <osThreadNew>
+	osDelay(5000);
+ 80005c0:	f241 3088 	movw	r0, #5000	@ 0x1388
+ 80005c4:	f003 fa41 	bl	8003a4a <osDelay>
 
 	// Make 8 forks for the 8 philosophers
 	for(int i = 0; i < NumPHIL; i++){
- 80005c0:	2300      	movs	r3, #0
- 80005c2:	607b      	str	r3, [r7, #4]
- 80005c4:	e00c      	b.n	80005e0 <App_RTOS_Init+0x34>
+ 80005c8:	2300      	movs	r3, #0
+ 80005ca:	607b      	str	r3, [r7, #4]
+ 80005cc:	e00c      	b.n	80005e8 <App_RTOS_Init+0x3c>
 		forkSemaphoreHandle[i] = osSemaphoreNew(1, 1, NULL);
- 80005c6:	2200      	movs	r2, #0
- 80005c8:	2101      	movs	r1, #1
- 80005ca:	2001      	movs	r0, #1
- 80005cc:	f003 fa58 	bl	8003a80 <osSemaphoreNew>
- 80005d0:	4602      	mov	r2, r0
- 80005d2:	4915      	ldr	r1, [pc, #84]	@ (8000628 <App_RTOS_Init+0x7c>)
- 80005d4:	687b      	ldr	r3, [r7, #4]
- 80005d6:	f841 2023 	str.w	r2, [r1, r3, lsl #2]
+ 80005ce:	2200      	movs	r2, #0
+ 80005d0:	2101      	movs	r1, #1
+ 80005d2:	2001      	movs	r0, #1
+ 80005d4:	f003 fa54 	bl	8003a80 <osSemaphoreNew>
+ 80005d8:	4602      	mov	r2, r0
+ 80005da:	4915      	ldr	r1, [pc, #84]	@ (8000630 <App_RTOS_Init+0x84>)
+ 80005dc:	687b      	ldr	r3, [r7, #4]
+ 80005de:	f841 2023 	str.w	r2, [r1, r3, lsl #2]
 	for(int i = 0; i < NumPHIL; i++){
- 80005da:	687b      	ldr	r3, [r7, #4]
- 80005dc:	3301      	adds	r3, #1
- 80005de:	607b      	str	r3, [r7, #4]
- 80005e0:	687b      	ldr	r3, [r7, #4]
- 80005e2:	2b07      	cmp	r3, #7
- 80005e4:	ddef      	ble.n	80005c6 <App_RTOS_Init+0x1a>
+ 80005e2:	687b      	ldr	r3, [r7, #4]
+ 80005e4:	3301      	adds	r3, #1
+ 80005e6:	607b      	str	r3, [r7, #4]
+ 80005e8:	687b      	ldr	r3, [r7, #4]
+ 80005ea:	2b07      	cmp	r3, #7
+ 80005ec:	ddef      	ble.n	80005ce <App_RTOS_Init+0x22>
 	}
 
 	// Make 8 Philosoper's (tasks)
 	for(int i = 0; i < NumPHIL; i++){
- 80005e6:	2300      	movs	r3, #0
- 80005e8:	603b      	str	r3, [r7, #0]
- 80005ea:	e010      	b.n	800060e <App_RTOS_Init+0x62>
+ 80005ee:	2300      	movs	r3, #0
+ 80005f0:	603b      	str	r3, [r7, #0]
+ 80005f2:	e010      	b.n	8000616 <App_RTOS_Init+0x6a>
 		PhilosopherNum[i] = i;
- 80005ec:	490f      	ldr	r1, [pc, #60]	@ (800062c <App_RTOS_Init+0x80>)
- 80005ee:	683b      	ldr	r3, [r7, #0]
- 80005f0:	683a      	ldr	r2, [r7, #0]
- 80005f2:	f841 2023 	str.w	r2, [r1, r3, lsl #2]
-		osThreadNew(PhilosopherTask, &PhilosopherNum[i], &philAttr);
+ 80005f4:	490f      	ldr	r1, [pc, #60]	@ (8000634 <App_RTOS_Init+0x88>)
  80005f6:	683b      	ldr	r3, [r7, #0]
- 80005f8:	009b      	lsls	r3, r3, #2
- 80005fa:	4a0c      	ldr	r2, [pc, #48]	@ (800062c <App_RTOS_Init+0x80>)
- 80005fc:	4413      	add	r3, r2
- 80005fe:	4a0c      	ldr	r2, [pc, #48]	@ (8000630 <App_RTOS_Init+0x84>)
- 8000600:	4619      	mov	r1, r3
- 8000602:	480c      	ldr	r0, [pc, #48]	@ (8000634 <App_RTOS_Init+0x88>)
- 8000604:	f003 f988 	bl	8003918 <osThreadNew>
+ 80005f8:	683a      	ldr	r2, [r7, #0]
+ 80005fa:	f841 2023 	str.w	r2, [r1, r3, lsl #2]
+		osThreadNew(PhilosopherTask, &PhilosopherNum[i], &philAttr);
+ 80005fe:	683b      	ldr	r3, [r7, #0]
+ 8000600:	009b      	lsls	r3, r3, #2
+ 8000602:	4a0c      	ldr	r2, [pc, #48]	@ (8000634 <App_RTOS_Init+0x88>)
+ 8000604:	4413      	add	r3, r2
+ 8000606:	4a0c      	ldr	r2, [pc, #48]	@ (8000638 <App_RTOS_Init+0x8c>)
+ 8000608:	4619      	mov	r1, r3
+ 800060a:	480c      	ldr	r0, [pc, #48]	@ (800063c <App_RTOS_Init+0x90>)
+ 800060c:	f003 f984 	bl	8003918 <osThreadNew>
 	for(int i = 0; i < NumPHIL; i++){
- 8000608:	683b      	ldr	r3, [r7, #0]
- 800060a:	3301      	adds	r3, #1
- 800060c:	603b      	str	r3, [r7, #0]
- 800060e:	683b      	ldr	r3, [r7, #0]
- 8000610:	2b07      	cmp	r3, #7
- 8000612:	ddeb      	ble.n	80005ec <App_RTOS_Init+0x40>
+ 8000610:	683b      	ldr	r3, [r7, #0]
+ 8000612:	3301      	adds	r3, #1
+ 8000614:	603b      	str	r3, [r7, #0]
+ 8000616:	683b      	ldr	r3, [r7, #0]
+ 8000618:	2b07      	cmp	r3, #7
+ 800061a:	ddeb      	ble.n	80005f4 <App_RTOS_Init+0x48>
 	}
 }
- 8000614:	bf00      	nop
- 8000616:	bf00      	nop
- 8000618:	3708      	adds	r7, #8
- 800061a:	46bd      	mov	sp, r7
- 800061c:	bd80      	pop	{r7, pc}
+ 800061c:	bf00      	nop
  800061e:	bf00      	nop
- 8000620:	08008508 	.word	0x08008508
- 8000624:	08000639 	.word	0x08000639
- 8000628:	20000088 	.word	0x20000088
- 800062c:	200000a8 	.word	0x200000a8
- 8000630:	0800852c 	.word	0x0800852c
- 8000634:	08000645 	.word	0x08000645
+ 8000620:	3708      	adds	r7, #8
+ 8000622:	46bd      	mov	sp, r7
+ 8000624:	bd80      	pop	{r7, pc}
+ 8000626:	bf00      	nop
+ 8000628:	08008508 	.word	0x08008508
+ 800062c:	08000641 	.word	0x08000641
+ 8000630:	20000088 	.word	0x20000088
+ 8000634:	200000a8 	.word	0x200000a8
+ 8000638:	0800852c 	.word	0x0800852c
+ 800063c:	0800064d 	.word	0x0800064d
 
-08000638 <startDefaultTask>:
+08000640 <startDefaultTask>:
 
 static void startDefaultTask(void *argument){
- 8000638:	b580      	push	{r7, lr}
- 800063a:	b082      	sub	sp, #8
- 800063c:	af00      	add	r7, sp, #0
- 800063e:	6078      	str	r0, [r7, #4]
+ 8000640:	b580      	push	{r7, lr}
+ 8000642:	b082      	sub	sp, #8
+ 8000644:	af00      	add	r7, sp, #0
+ 8000646:	6078      	str	r0, [r7, #4]
 	//Print_Line("RTOS Initialized");
 	osThreadExit();
- 8000640:	f003 f9fc 	bl	8003a3c <osThreadExit>
+ 8000648:	f003 f9f8 	bl	8003a3c <osThreadExit>
 
-08000644 <PhilosopherTask>:
+0800064c <PhilosopherTask>:
 }
 
 static void PhilosopherTask(void *argument)
 {
- 8000644:	b580      	push	{r7, lr}
- 8000646:	b08a      	sub	sp, #40	@ 0x28
- 8000648:	af00      	add	r7, sp, #0
- 800064a:	6078      	str	r0, [r7, #4]
+ 800064c:	b580      	push	{r7, lr}
+ 800064e:	b08a      	sub	sp, #40	@ 0x28
+ 8000650:	af00      	add	r7, sp, #0
+ 8000652:	6078      	str	r0, [r7, #4]
 
     int id = *(int*)argument; // Pull Philosopher ID from arbitrary argument
- 800064c:	687b      	ldr	r3, [r7, #4]
- 800064e:	681b      	ldr	r3, [r3, #0]
- 8000650:	623b      	str	r3, [r7, #32]
+ 8000654:	687b      	ldr	r3, [r7, #4]
+ 8000656:	681b      	ldr	r3, [r3, #0]
+ 8000658:	623b      	str	r3, [r7, #32]
 	srand(id); // SEED Rand() with Philosopher ID - when removed, every philosopher has the same delays
- 8000652:	6a3b      	ldr	r3, [r7, #32]
- 8000654:	4618      	mov	r0, r3
- 8000656:	f006 fd45 	bl	80070e4 <srand>
+ 800065a:	6a3b      	ldr	r3, [r7, #32]
+ 800065c:	4618      	mov	r0, r3
+ 800065e:	f006 fd41 	bl	80070e4 <srand>
 
     int desiredLeftFork  = id;
- 800065a:	6a3b      	ldr	r3, [r7, #32]
- 800065c:	61fb      	str	r3, [r7, #28]
+ 8000662:	6a3b      	ldr	r3, [r7, #32]
+ 8000664:	61fb      	str	r3, [r7, #28]
     int desiredRightFork = (id + NumPHIL - 1) % NumPHIL;
- 800065e:	6a3b      	ldr	r3, [r7, #32]
- 8000660:	3307      	adds	r3, #7
- 8000662:	425a      	negs	r2, r3
- 8000664:	f003 0307 	and.w	r3, r3, #7
- 8000668:	f002 0207 	and.w	r2, r2, #7
- 800066c:	bf58      	it	pl
- 800066e:	4253      	negpl	r3, r2
- 8000670:	61bb      	str	r3, [r7, #24]
+ 8000666:	6a3b      	ldr	r3, [r7, #32]
+ 8000668:	3307      	adds	r3, #7
+ 800066a:	425a      	negs	r2, r3
+ 800066c:	f003 0307 	and.w	r3, r3, #7
+ 8000670:	f002 0207 	and.w	r2, r2, #7
+ 8000674:	bf58      	it	pl
+ 8000676:	4253      	negpl	r3, r2
+ 8000678:	61bb      	str	r3, [r7, #24]
 
     bool gotLeft  = false;
- 8000672:	2300      	movs	r3, #0
- 8000674:	f887 3027 	strb.w	r3, [r7, #39]	@ 0x27
+ 800067a:	2300      	movs	r3, #0
+ 800067c:	f887 3027 	strb.w	r3, [r7, #39]	@ 0x27
     bool gotRight = false;
- 8000678:	2300      	movs	r3, #0
- 800067a:	f887 3026 	strb.w	r3, [r7, #38]	@ 0x26
+ 8000680:	2300      	movs	r3, #0
+ 8000682:	f887 3026 	strb.w	r3, [r7, #38]	@ 0x26
 
     while (1) // Begin state machine
     {
 
     	// MAX Value for delay
     	int ranMAX = 5;
- 800067e:	2305      	movs	r3, #5
- 8000680:	617b      	str	r3, [r7, #20]
+ 8000686:	2305      	movs	r3, #5
+ 8000688:	617b      	str	r3, [r7, #20]
 
         // Thinking state
         Print_Line("Philosopher %d - Thinking...", id);
- 8000682:	6a39      	ldr	r1, [r7, #32]
- 8000684:	484a      	ldr	r0, [pc, #296]	@ (80007b0 <PhilosopherTask+0x16c>)
- 8000686:	f000 fa0b 	bl	8000aa0 <Print_Line>
+ 800068a:	6a39      	ldr	r1, [r7, #32]
+ 800068c:	484a      	ldr	r0, [pc, #296]	@ (80007b8 <PhilosopherTask+0x16c>)
+ 800068e:	f000 fa07 	bl	8000aa0 <Print_Line>
         int ranNum = (rand() % ranMAX) + 1;
- 800068a:	f006 fd59 	bl	8007140 <rand>
- 800068e:	4603      	mov	r3, r0
- 8000690:	697a      	ldr	r2, [r7, #20]
- 8000692:	fb93 f2f2 	sdiv	r2, r3, r2
- 8000696:	6979      	ldr	r1, [r7, #20]
- 8000698:	fb01 f202 	mul.w	r2, r1, r2
- 800069c:	1a9b      	subs	r3, r3, r2
- 800069e:	3301      	adds	r3, #1
- 80006a0:	613b      	str	r3, [r7, #16]
+ 8000692:	f006 fd55 	bl	8007140 <rand>
+ 8000696:	4603      	mov	r3, r0
+ 8000698:	697a      	ldr	r2, [r7, #20]
+ 800069a:	fb93 f2f2 	sdiv	r2, r3, r2
+ 800069e:	6979      	ldr	r1, [r7, #20]
+ 80006a0:	fb01 f202 	mul.w	r2, r1, r2
+ 80006a4:	1a9b      	subs	r3, r3, r2
+ 80006a6:	3301      	adds	r3, #1
+ 80006a8:	613b      	str	r3, [r7, #16]
         //Print_Line("Delay : %d", ranNum); // DEBUG LINE | DELAY
         osDelay(ranNum * 1000);
- 80006a2:	693b      	ldr	r3, [r7, #16]
- 80006a4:	f44f 727a 	mov.w	r2, #1000	@ 0x3e8
- 80006a8:	fb02 f303 	mul.w	r3, r2, r3
- 80006ac:	4618      	mov	r0, r3
- 80006ae:	f003 f9cc 	bl	8003a4a <osDelay>
+ 80006aa:	693b      	ldr	r3, [r7, #16]
+ 80006ac:	f44f 727a 	mov.w	r2, #1000	@ 0x3e8
+ 80006b0:	fb02 f303 	mul.w	r3, r2, r3
+ 80006b4:	4618      	mov	r0, r3
+ 80006b6:	f003 f9c8 	bl	8003a4a <osDelay>
 
         // Hungry state
         Print_Line("Philosopher %d - Hungry...", id);
- 80006b2:	6a39      	ldr	r1, [r7, #32]
- 80006b4:	483f      	ldr	r0, [pc, #252]	@ (80007b4 <PhilosopherTask+0x170>)
- 80006b6:	f000 f9f3 	bl	8000aa0 <Print_Line>
+ 80006ba:	6a39      	ldr	r1, [r7, #32]
+ 80006bc:	483f      	ldr	r0, [pc, #252]	@ (80007bc <PhilosopherTask+0x170>)
+ 80006be:	f000 f9ef 	bl	8000aa0 <Print_Line>
         while (!(gotLeft && gotRight))
- 80006ba:	e04c      	b.n	8000756 <PhilosopherTask+0x112>
+ 80006c2:	e04c      	b.n	800075e <PhilosopherTask+0x112>
         {
 
         	gotLeft = false;
- 80006bc:	2300      	movs	r3, #0
- 80006be:	f887 3027 	strb.w	r3, [r7, #39]	@ 0x27
+ 80006c4:	2300      	movs	r3, #0
+ 80006c6:	f887 3027 	strb.w	r3, [r7, #39]	@ 0x27
         	gotRight = false;
- 80006c2:	2300      	movs	r3, #0
- 80006c4:	f887 3026 	strb.w	r3, [r7, #38]	@ 0x26
+ 80006ca:	2300      	movs	r3, #0
+ 80006cc:	f887 3026 	strb.w	r3, [r7, #38]	@ 0x26
 
         	// Randomize which fork is picked up first
             int randFork = rand() & 1;  // 0 or 1
- 80006c8:	f006 fd3a 	bl	8007140 <rand>
- 80006cc:	4603      	mov	r3, r0
- 80006ce:	f003 0301 	and.w	r3, r3, #1
- 80006d2:	60fb      	str	r3, [r7, #12]
+ 80006d0:	f006 fd36 	bl	8007140 <rand>
+ 80006d4:	4603      	mov	r3, r0
+ 80006d6:	f003 0301 	and.w	r3, r3, #1
+ 80006da:	60fb      	str	r3, [r7, #12]
             if (randFork == 0) {
- 80006d4:	68fb      	ldr	r3, [r7, #12]
- 80006d6:	2b00      	cmp	r3, #0
- 80006d8:	d10c      	bne.n	80006f4 <PhilosopherTask+0xb0>
+ 80006dc:	68fb      	ldr	r3, [r7, #12]
+ 80006de:	2b00      	cmp	r3, #0
+ 80006e0:	d10c      	bne.n	80006fc <PhilosopherTask+0xb0>
                 gotLeft  = GetLeftFork(desiredLeftFork);
- 80006da:	69f8      	ldr	r0, [r7, #28]
- 80006dc:	f000 f86e 	bl	80007bc <GetLeftFork>
- 80006e0:	4603      	mov	r3, r0
- 80006e2:	f887 3027 	strb.w	r3, [r7, #39]	@ 0x27
+ 80006e2:	69f8      	ldr	r0, [r7, #28]
+ 80006e4:	f000 f86e 	bl	80007c4 <GetLeftFork>
+ 80006e8:	4603      	mov	r3, r0
+ 80006ea:	f887 3027 	strb.w	r3, [r7, #39]	@ 0x27
                 gotRight = GetRightFork(desiredRightFork);
- 80006e6:	69b8      	ldr	r0, [r7, #24]
- 80006e8:	f000 f880 	bl	80007ec <GetRightFork>
- 80006ec:	4603      	mov	r3, r0
- 80006ee:	f887 3026 	strb.w	r3, [r7, #38]	@ 0x26
- 80006f2:	e00b      	b.n	800070c <PhilosopherTask+0xc8>
+ 80006ee:	69b8      	ldr	r0, [r7, #24]
+ 80006f0:	f000 f880 	bl	80007f4 <GetRightFork>
+ 80006f4:	4603      	mov	r3, r0
+ 80006f6:	f887 3026 	strb.w	r3, [r7, #38]	@ 0x26
+ 80006fa:	e00b      	b.n	8000714 <PhilosopherTask+0xc8>
             }
             else {
                 gotRight = GetRightFork(desiredRightFork);
- 80006f4:	69b8      	ldr	r0, [r7, #24]
- 80006f6:	f000 f879 	bl	80007ec <GetRightFork>
- 80006fa:	4603      	mov	r3, r0
- 80006fc:	f887 3026 	strb.w	r3, [r7, #38]	@ 0x26
+ 80006fc:	69b8      	ldr	r0, [r7, #24]
+ 80006fe:	f000 f879 	bl	80007f4 <GetRightFork>
+ 8000702:	4603      	mov	r3, r0
+ 8000704:	f887 3026 	strb.w	r3, [r7, #38]	@ 0x26
                 gotLeft  = GetLeftFork(desiredLeftFork);
- 8000700:	69f8      	ldr	r0, [r7, #28]
- 8000702:	f000 f85b 	bl	80007bc <GetLeftFork>
- 8000706:	4603      	mov	r3, r0
- 8000708:	f887 3027 	strb.w	r3, [r7, #39]	@ 0x27
+ 8000708:	69f8      	ldr	r0, [r7, #28]
+ 800070a:	f000 f85b 	bl	80007c4 <GetLeftFork>
+ 800070e:	4603      	mov	r3, r0
+ 8000710:	f887 3027 	strb.w	r3, [r7, #39]	@ 0x27
             }
 
             // Check forks
             if (gotLeft && !gotRight)
- 800070c:	f897 3027 	ldrb.w	r3, [r7, #39]	@ 0x27
- 8000710:	2b00      	cmp	r3, #0
- 8000712:	d00c      	beq.n	800072e <PhilosopherTask+0xea>
- 8000714:	f897 3026 	ldrb.w	r3, [r7, #38]	@ 0x26
- 8000718:	f083 0301 	eor.w	r3, r3, #1
- 800071c:	b2db      	uxtb	r3, r3
- 800071e:	2b00      	cmp	r3, #0
- 8000720:	d005      	beq.n	800072e <PhilosopherTask+0xea>
+ 8000714:	f897 3027 	ldrb.w	r3, [r7, #39]	@ 0x27
+ 8000718:	2b00      	cmp	r3, #0
+ 800071a:	d00c      	beq.n	8000736 <PhilosopherTask+0xea>
+ 800071c:	f897 3026 	ldrb.w	r3, [r7, #38]	@ 0x26
+ 8000720:	f083 0301 	eor.w	r3, r3, #1
+ 8000724:	b2db      	uxtb	r3, r3
+ 8000726:	2b00      	cmp	r3, #0
+ 8000728:	d005      	beq.n	8000736 <PhilosopherTask+0xea>
             {
                 putLeftFork(desiredLeftFork);
- 8000722:	69f8      	ldr	r0, [r7, #28]
- 8000724:	f000 f87a 	bl	800081c <putLeftFork>
+ 800072a:	69f8      	ldr	r0, [r7, #28]
+ 800072c:	f000 f87a 	bl	8000824 <putLeftFork>
                 gotLeft = false;
- 8000728:	2300      	movs	r3, #0
- 800072a:	f887 3027 	strb.w	r3, [r7, #39]	@ 0x27
+ 8000730:	2300      	movs	r3, #0
+ 8000732:	f887 3027 	strb.w	r3, [r7, #39]	@ 0x27
             }
 
             if (gotRight && !gotLeft)
- 800072e:	f897 3026 	ldrb.w	r3, [r7, #38]	@ 0x26
- 8000732:	2b00      	cmp	r3, #0
- 8000734:	d00c      	beq.n	8000750 <PhilosopherTask+0x10c>
- 8000736:	f897 3027 	ldrb.w	r3, [r7, #39]	@ 0x27
- 800073a:	f083 0301 	eor.w	r3, r3, #1
- 800073e:	b2db      	uxtb	r3, r3
- 8000740:	2b00      	cmp	r3, #0
- 8000742:	d005      	beq.n	8000750 <PhilosopherTask+0x10c>
+ 8000736:	f897 3026 	ldrb.w	r3, [r7, #38]	@ 0x26
+ 800073a:	2b00      	cmp	r3, #0
+ 800073c:	d00c      	beq.n	8000758 <PhilosopherTask+0x10c>
+ 800073e:	f897 3027 	ldrb.w	r3, [r7, #39]	@ 0x27
+ 8000742:	f083 0301 	eor.w	r3, r3, #1
+ 8000746:	b2db      	uxtb	r3, r3
+ 8000748:	2b00      	cmp	r3, #0
+ 800074a:	d005      	beq.n	8000758 <PhilosopherTask+0x10c>
             {
                 putRightFork(desiredRightFork);
- 8000744:	69b8      	ldr	r0, [r7, #24]
- 8000746:	f000 f87b 	bl	8000840 <putRightFork>
+ 800074c:	69b8      	ldr	r0, [r7, #24]
+ 800074e:	f000 f87b 	bl	8000848 <putRightFork>
                 gotRight = false;
- 800074a:	2300      	movs	r3, #0
- 800074c:	f887 3026 	strb.w	r3, [r7, #38]	@ 0x26
+ 8000752:	2300      	movs	r3, #0
+ 8000754:	f887 3026 	strb.w	r3, [r7, #38]	@ 0x26
             }
 
             osDelay(10);
- 8000750:	200a      	movs	r0, #10
- 8000752:	f003 f97a 	bl	8003a4a <osDelay>
+ 8000758:	200a      	movs	r0, #10
+ 800075a:	f003 f976 	bl	8003a4a <osDelay>
         while (!(gotLeft && gotRight))
- 8000756:	f897 3027 	ldrb.w	r3, [r7, #39]	@ 0x27
- 800075a:	f083 0301 	eor.w	r3, r3, #1
- 800075e:	b2db      	uxtb	r3, r3
- 8000760:	2b00      	cmp	r3, #0
- 8000762:	d1ab      	bne.n	80006bc <PhilosopherTask+0x78>
- 8000764:	f897 3026 	ldrb.w	r3, [r7, #38]	@ 0x26
- 8000768:	f083 0301 	eor.w	r3, r3, #1
- 800076c:	b2db      	uxtb	r3, r3
- 800076e:	2b00      	cmp	r3, #0
- 8000770:	d1a4      	bne.n	80006bc <PhilosopherTask+0x78>
+ 800075e:	f897 3027 	ldrb.w	r3, [r7, #39]	@ 0x27
+ 8000762:	f083 0301 	eor.w	r3, r3, #1
+ 8000766:	b2db      	uxtb	r3, r3
+ 8000768:	2b00      	cmp	r3, #0
+ 800076a:	d1ab      	bne.n	80006c4 <PhilosopherTask+0x78>
+ 800076c:	f897 3026 	ldrb.w	r3, [r7, #38]	@ 0x26
+ 8000770:	f083 0301 	eor.w	r3, r3, #1
+ 8000774:	b2db      	uxtb	r3, r3
+ 8000776:	2b00      	cmp	r3, #0
+ 8000778:	d1a4      	bne.n	80006c4 <PhilosopherTask+0x78>
         }
 
         // Eat
         Print_Line("Philosopher %d - do I eat for I am hungry? Or because the creator said so?",id);
- 8000772:	6a39      	ldr	r1, [r7, #32]
- 8000774:	4810      	ldr	r0, [pc, #64]	@ (80007b8 <PhilosopherTask+0x174>)
- 8000776:	f000 f993 	bl	8000aa0 <Print_Line>
+ 800077a:	6a39      	ldr	r1, [r7, #32]
+ 800077c:	4810      	ldr	r0, [pc, #64]	@ (80007c0 <PhilosopherTask+0x174>)
+ 800077e:	f000 f98f 	bl	8000aa0 <Print_Line>
         ranNum = (rand() % ranMAX) + 1;
- 800077a:	f006 fce1 	bl	8007140 <rand>
- 800077e:	4603      	mov	r3, r0
- 8000780:	697a      	ldr	r2, [r7, #20]
- 8000782:	fb93 f2f2 	sdiv	r2, r3, r2
- 8000786:	6979      	ldr	r1, [r7, #20]
- 8000788:	fb01 f202 	mul.w	r2, r1, r2
- 800078c:	1a9b      	subs	r3, r3, r2
- 800078e:	3301      	adds	r3, #1
- 8000790:	613b      	str	r3, [r7, #16]
+ 8000782:	f006 fcdd 	bl	8007140 <rand>
+ 8000786:	4603      	mov	r3, r0
+ 8000788:	697a      	ldr	r2, [r7, #20]
+ 800078a:	fb93 f2f2 	sdiv	r2, r3, r2
+ 800078e:	6979      	ldr	r1, [r7, #20]
+ 8000790:	fb01 f202 	mul.w	r2, r1, r2
+ 8000794:	1a9b      	subs	r3, r3, r2
+ 8000796:	3301      	adds	r3, #1
+ 8000798:	613b      	str	r3, [r7, #16]
         //Print_Line("Delay : %d", ranNum); // DEBUG LINE | DELAY
         osDelay(ranNum * 1000);
- 8000792:	693b      	ldr	r3, [r7, #16]
- 8000794:	f44f 727a 	mov.w	r2, #1000	@ 0x3e8
- 8000798:	fb02 f303 	mul.w	r3, r2, r3
- 800079c:	4618      	mov	r0, r3
- 800079e:	f003 f954 	bl	8003a4a <osDelay>
+ 800079a:	693b      	ldr	r3, [r7, #16]
+ 800079c:	f44f 727a 	mov.w	r2, #1000	@ 0x3e8
+ 80007a0:	fb02 f303 	mul.w	r3, r2, r3
+ 80007a4:	4618      	mov	r0, r3
+ 80007a6:	f003 f950 	bl	8003a4a <osDelay>
         putLeftFork(desiredLeftFork);
- 80007a2:	69f8      	ldr	r0, [r7, #28]
- 80007a4:	f000 f83a 	bl	800081c <putLeftFork>
+ 80007aa:	69f8      	ldr	r0, [r7, #28]
+ 80007ac:	f000 f83a 	bl	8000824 <putLeftFork>
         putRightFork(desiredRightFork);
- 80007a8:	69b8      	ldr	r0, [r7, #24]
- 80007aa:	f000 f849 	bl	8000840 <putRightFork>
+ 80007b0:	69b8      	ldr	r0, [r7, #24]
+ 80007b2:	f000 f849 	bl	8000848 <putRightFork>
     {
- 80007ae:	e766      	b.n	800067e <PhilosopherTask+0x3a>
- 80007b0:	08008464 	.word	0x08008464
- 80007b4:	08008484 	.word	0x08008484
- 80007b8:	080084a0 	.word	0x080084a0
+ 80007b6:	e766      	b.n	8000686 <PhilosopherTask+0x3a>
+ 80007b8:	08008464 	.word	0x08008464
+ 80007bc:	08008484 	.word	0x08008484
+ 80007c0:	080084a0 	.word	0x080084a0
 
-080007bc <GetLeftFork>:
+080007c4 <GetLeftFork>:
     //           id, desiredLeftFork, desiredRightFork);
     //osThreadExit();
 }
 
 
 static bool GetLeftFork(int leftForkIndex){
- 80007bc:	b580      	push	{r7, lr}
- 80007be:	b082      	sub	sp, #8
- 80007c0:	af00      	add	r7, sp, #0
- 80007c2:	6078      	str	r0, [r7, #4]
+ 80007c4:	b580      	push	{r7, lr}
+ 80007c6:	b082      	sub	sp, #8
+ 80007c8:	af00      	add	r7, sp, #0
+ 80007ca:	6078      	str	r0, [r7, #4]
 	return(osSemaphoreAcquire(forkSemaphoreHandle[leftForkIndex], 0) == osOK);
- 80007c4:	4a08      	ldr	r2, [pc, #32]	@ (80007e8 <GetLeftFork+0x2c>)
- 80007c6:	687b      	ldr	r3, [r7, #4]
- 80007c8:	f852 3023 	ldr.w	r3, [r2, r3, lsl #2]
- 80007cc:	2100      	movs	r1, #0
- 80007ce:	4618      	mov	r0, r3
- 80007d0:	f003 f9e0 	bl	8003b94 <osSemaphoreAcquire>
- 80007d4:	4603      	mov	r3, r0
- 80007d6:	2b00      	cmp	r3, #0
- 80007d8:	bf0c      	ite	eq
- 80007da:	2301      	moveq	r3, #1
- 80007dc:	2300      	movne	r3, #0
- 80007de:	b2db      	uxtb	r3, r3
+ 80007cc:	4a08      	ldr	r2, [pc, #32]	@ (80007f0 <GetLeftFork+0x2c>)
+ 80007ce:	687b      	ldr	r3, [r7, #4]
+ 80007d0:	f852 3023 	ldr.w	r3, [r2, r3, lsl #2]
+ 80007d4:	2100      	movs	r1, #0
+ 80007d6:	4618      	mov	r0, r3
+ 80007d8:	f003 f9dc 	bl	8003b94 <osSemaphoreAcquire>
+ 80007dc:	4603      	mov	r3, r0
+ 80007de:	2b00      	cmp	r3, #0
+ 80007e0:	bf0c      	ite	eq
+ 80007e2:	2301      	moveq	r3, #1
+ 80007e4:	2300      	movne	r3, #0
+ 80007e6:	b2db      	uxtb	r3, r3
 }
- 80007e0:	4618      	mov	r0, r3
- 80007e2:	3708      	adds	r7, #8
- 80007e4:	46bd      	mov	sp, r7
- 80007e6:	bd80      	pop	{r7, pc}
- 80007e8:	20000088 	.word	0x20000088
+ 80007e8:	4618      	mov	r0, r3
+ 80007ea:	3708      	adds	r7, #8
+ 80007ec:	46bd      	mov	sp, r7
+ 80007ee:	bd80      	pop	{r7, pc}
+ 80007f0:	20000088 	.word	0x20000088
 
-080007ec <GetRightFork>:
+080007f4 <GetRightFork>:
 
 static bool GetRightFork(int rightForkIndex){
- 80007ec:	b580      	push	{r7, lr}
- 80007ee:	b082      	sub	sp, #8
- 80007f0:	af00      	add	r7, sp, #0
- 80007f2:	6078      	str	r0, [r7, #4]
+ 80007f4:	b580      	push	{r7, lr}
+ 80007f6:	b082      	sub	sp, #8
+ 80007f8:	af00      	add	r7, sp, #0
+ 80007fa:	6078      	str	r0, [r7, #4]
 	return(osSemaphoreAcquire(forkSemaphoreHandle[rightForkIndex], 0) == osOK);
- 80007f4:	4a08      	ldr	r2, [pc, #32]	@ (8000818 <GetRightFork+0x2c>)
- 80007f6:	687b      	ldr	r3, [r7, #4]
- 80007f8:	f852 3023 	ldr.w	r3, [r2, r3, lsl #2]
- 80007fc:	2100      	movs	r1, #0
- 80007fe:	4618      	mov	r0, r3
- 8000800:	f003 f9c8 	bl	8003b94 <osSemaphoreAcquire>
- 8000804:	4603      	mov	r3, r0
- 8000806:	2b00      	cmp	r3, #0
- 8000808:	bf0c      	ite	eq
- 800080a:	2301      	moveq	r3, #1
- 800080c:	2300      	movne	r3, #0
- 800080e:	b2db      	uxtb	r3, r3
+ 80007fc:	4a08      	ldr	r2, [pc, #32]	@ (8000820 <GetRightFork+0x2c>)
+ 80007fe:	687b      	ldr	r3, [r7, #4]
+ 8000800:	f852 3023 	ldr.w	r3, [r2, r3, lsl #2]
+ 8000804:	2100      	movs	r1, #0
+ 8000806:	4618      	mov	r0, r3
+ 8000808:	f003 f9c4 	bl	8003b94 <osSemaphoreAcquire>
+ 800080c:	4603      	mov	r3, r0
+ 800080e:	2b00      	cmp	r3, #0
+ 8000810:	bf0c      	ite	eq
+ 8000812:	2301      	moveq	r3, #1
+ 8000814:	2300      	movne	r3, #0
+ 8000816:	b2db      	uxtb	r3, r3
 }
- 8000810:	4618      	mov	r0, r3
- 8000812:	3708      	adds	r7, #8
- 8000814:	46bd      	mov	sp, r7
- 8000816:	bd80      	pop	{r7, pc}
- 8000818:	20000088 	.word	0x20000088
+ 8000818:	4618      	mov	r0, r3
+ 800081a:	3708      	adds	r7, #8
+ 800081c:	46bd      	mov	sp, r7
+ 800081e:	bd80      	pop	{r7, pc}
+ 8000820:	20000088 	.word	0x20000088
 
-0800081c <putLeftFork>:
+08000824 <putLeftFork>:
 
 static void putLeftFork(int leftForkIndex){
- 800081c:	b580      	push	{r7, lr}
- 800081e:	b082      	sub	sp, #8
- 8000820:	af00      	add	r7, sp, #0
- 8000822:	6078      	str	r0, [r7, #4]
+ 8000824:	b580      	push	{r7, lr}
+ 8000826:	b082      	sub	sp, #8
+ 8000828:	af00      	add	r7, sp, #0
+ 800082a:	6078      	str	r0, [r7, #4]
 	osSemaphoreRelease(forkSemaphoreHandle[leftForkIndex]);
- 8000824:	4a05      	ldr	r2, [pc, #20]	@ (800083c <putLeftFork+0x20>)
- 8000826:	687b      	ldr	r3, [r7, #4]
- 8000828:	f852 3023 	ldr.w	r3, [r2, r3, lsl #2]
- 800082c:	4618      	mov	r0, r3
- 800082e:	f003 fa03 	bl	8003c38 <osSemaphoreRelease>
+ 800082c:	4a05      	ldr	r2, [pc, #20]	@ (8000844 <putLeftFork+0x20>)
+ 800082e:	687b      	ldr	r3, [r7, #4]
+ 8000830:	f852 3023 	ldr.w	r3, [r2, r3, lsl #2]
+ 8000834:	4618      	mov	r0, r3
+ 8000836:	f003 f9ff 	bl	8003c38 <osSemaphoreRelease>
 }
- 8000832:	bf00      	nop
- 8000834:	3708      	adds	r7, #8
- 8000836:	46bd      	mov	sp, r7
- 8000838:	bd80      	pop	{r7, pc}
  800083a:	bf00      	nop
- 800083c:	20000088 	.word	0x20000088
+ 800083c:	3708      	adds	r7, #8
+ 800083e:	46bd      	mov	sp, r7
+ 8000840:	bd80      	pop	{r7, pc}
+ 8000842:	bf00      	nop
+ 8000844:	20000088 	.word	0x20000088
 
-08000840 <putRightFork>:
+08000848 <putRightFork>:
 
 static void putRightFork(int rightForkIndex){
- 8000840:	b580      	push	{r7, lr}
- 8000842:	b082      	sub	sp, #8
- 8000844:	af00      	add	r7, sp, #0
- 8000846:	6078      	str	r0, [r7, #4]
+ 8000848:	b580      	push	{r7, lr}
+ 800084a:	b082      	sub	sp, #8
+ 800084c:	af00      	add	r7, sp, #0
+ 800084e:	6078      	str	r0, [r7, #4]
 	osSemaphoreRelease(forkSemaphoreHandle[rightForkIndex]);
- 8000848:	4a05      	ldr	r2, [pc, #20]	@ (8000860 <putRightFork+0x20>)
- 800084a:	687b      	ldr	r3, [r7, #4]
- 800084c:	f852 3023 	ldr.w	r3, [r2, r3, lsl #2]
- 8000850:	4618      	mov	r0, r3
- 8000852:	f003 f9f1 	bl	8003c38 <osSemaphoreRelease>
+ 8000850:	4a05      	ldr	r2, [pc, #20]	@ (8000868 <putRightFork+0x20>)
+ 8000852:	687b      	ldr	r3, [r7, #4]
+ 8000854:	f852 3023 	ldr.w	r3, [r2, r3, lsl #2]
+ 8000858:	4618      	mov	r0, r3
+ 800085a:	f003 f9ed 	bl	8003c38 <osSemaphoreRelease>
 }
- 8000856:	bf00      	nop
- 8000858:	3708      	adds	r7, #8
- 800085a:	46bd      	mov	sp, r7
- 800085c:	bd80      	pop	{r7, pc}
  800085e:	bf00      	nop
- 8000860:	20000088 	.word	0x20000088
+ 8000860:	3708      	adds	r7, #8
+ 8000862:	46bd      	mov	sp, r7
+ 8000864:	bd80      	pop	{r7, pc}
+ 8000866:	bf00      	nop
+ 8000868:	20000088 	.word	0x20000088
 
-08000864 <main>:
+0800086c <main>:
 /**
   * @brief  The application entry point.
   * @retval int
   */
 int main(void)
 {
- 8000864:	b580      	push	{r7, lr}
- 8000866:	af00      	add	r7, sp, #0
+ 800086c:	b580      	push	{r7, lr}
+ 800086e:	af00      	add	r7, sp, #0
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
   HAL_Init();
- 8000868:	f000 fbde 	bl	8001028 <HAL_Init>
+ 8000870:	f000 fbda 	bl	8001028 <HAL_Init>
   /* USER CODE BEGIN Init */
 
   /* USER CODE END Init */
 
   /* Configure the system clock */
   SystemClock_Config();
- 800086c:	f000 f81c 	bl	80008a8 <SystemClock_Config>
+ 8000874:	f000 f818 	bl	80008a8 <SystemClock_Config>
   /* USER CODE BEGIN SysInit */
 
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
- 8000870:	f000 f89c 	bl	80009ac <MX_GPIO_Init>
+ 8000878:	f000 f898 	bl	80009ac <MX_GPIO_Init>
   MX_USART2_UART_Init();
- 8000874:	f000 f86a 	bl	800094c <MX_USART2_UART_Init>
+ 800087c:	f000 f866 	bl	800094c <MX_USART2_UART_Init>
   /* USER CODE BEGIN 2 */
 	HAL_UART_Transmit(&huart2, (uint8_t*)uartMsg, sizeof(uartMsg) - 1, HAL_MAX_DELAY); // print UART message BEFORE rtos starts
- 8000878:	f04f 33ff 	mov.w	r3, #4294967295
- 800087c:	222f      	movs	r2, #47	@ 0x2f
- 800087e:	4908      	ldr	r1, [pc, #32]	@ (80008a0 <main+0x3c>)
- 8000880:	4808      	ldr	r0, [pc, #32]	@ (80008a4 <main+0x40>)
- 8000882:	f002 fa63 	bl	8002d4c <HAL_UART_Transmit>
-	osDelay(5000);
- 8000886:	f241 3088 	movw	r0, #5000	@ 0x1388
- 800088a:	f003 f8de 	bl	8003a4a <osDelay>
+ 8000880:	f04f 33ff 	mov.w	r3, #4294967295
+ 8000884:	222f      	movs	r2, #47	@ 0x2f
+ 8000886:	4906      	ldr	r1, [pc, #24]	@ (80008a0 <main+0x34>)
+ 8000888:	4806      	ldr	r0, [pc, #24]	@ (80008a4 <main+0x38>)
+ 800088a:	f002 fa5f 	bl	8002d4c <HAL_UART_Transmit>
   /* USER CODE END 2 */
 
   /* Init scheduler */
@@ -907,7 +907,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
  800089a:	bf00      	nop
- 800089c:	e7fd      	b.n	800089a <main+0x36>
+ 800089c:	e7fd      	b.n	800089a <main+0x2e>
  800089e:	bf00      	nop
  80008a0:	08008550 	.word	0x08008550
  80008a4:	200000c8 	.word	0x200000c8
@@ -2074,7 +2074,7 @@ LoopFillZerobss:
  8000e62:	f006 fbaf 	bl	80075c4 <__libc_init_array>
 /* Call the application's entry point.*/
 	bl	main
- 8000e66:	f7ff fcfd 	bl	8000864 <main>
+ 8000e66:	f7ff fd01 	bl	800086c <main>
 
 08000e6a <LoopForever>:
 
