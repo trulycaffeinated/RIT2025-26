@@ -82,7 +82,6 @@ static void putRightFork(int rightForkIndex);
 /* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */
 void App_RTOS_Init(void){
-	srand(HAL_GetTick());
 	Print_Init();
 
 	// Start Default Task - Print RTOS initialized, then close
@@ -101,14 +100,15 @@ void App_RTOS_Init(void){
 }
 
 static void startDefaultTask(void *argument){
-	Print_Line("RTOS Initialized");
+	//Print_Line("RTOS Initialized");
 	osThreadExit();
 }
 
 static void PhilosopherTask(void *argument)
 {
 
-    int id = *(int*)argument;
+    int id = *(int*)argument; // Pull Philosopher ID from arbitrary argument
+	srand(id); // SEED Rand() with Philosopher ID - when removed, every philosopher has the same delays
 
     int desiredLeftFork  = id;
     int desiredRightFork = (id + NumPHIL - 1) % NumPHIL;
@@ -116,34 +116,38 @@ static void PhilosopherTask(void *argument)
     bool gotLeft  = false;
     bool gotRight = false;
 
-    while (1)
+    while (1) // Begin state machine
     {
 
-    	int ranMAX = 25;
+    	// MAX Value for delay
+    	int ranMAX = 5;
+
         // Thinking state
         Print_Line("Philosopher %d - Thinking...", id);
         int ranNum = (rand() % ranMAX) + 1;
+        Print_Line("Delay : %d", ranNum); // DEBUG LINE | DELAY
         osDelay(ranNum * 1000);
 
         // Hungry state
         Print_Line("Philosopher %d - Hungry...", id);
-
         while (!(gotLeft && gotRight))
         {
 
         	gotLeft = false;
         	gotRight = false;
 
+        	// Randomize which fork is picked up first
             int randFork = rand() & 1;  // 0 or 1
-
             if (randFork == 0) {
                 gotLeft  = GetLeftFork(desiredLeftFork);
                 gotRight = GetRightFork(desiredRightFork);
-            } else {
+            }
+            else {
                 gotRight = GetRightFork(desiredRightFork);
                 gotLeft  = GetLeftFork(desiredLeftFork);
             }
 
+            // Check forks
             if (gotLeft && !gotRight)
             {
                 putLeftFork(desiredLeftFork);
@@ -159,12 +163,14 @@ static void PhilosopherTask(void *argument)
             osDelay(10);
         }
 
+        // Eat
         Print_Line("Philosopher %d - do I eat for I am hungry? Or because the creator said so?",id);
         ranNum = (rand() % ranMAX) + 1;
+        Print_Line("Delay : %d", ranNum); // DEBUG LINE | DELAY
         osDelay(ranNum * 1000);
         putLeftFork(desiredLeftFork);
         putRightFork(desiredRightFork);
-    }
+    } // End State Machine
 
     // Debug Section
     //Print_Line("Philosopher #: %d | Desired LF : %d | Desired Right Fork : %d",
