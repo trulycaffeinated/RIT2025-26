@@ -46,7 +46,15 @@ flowchart LR
     G --> J[Put down both forks]
     J --> B
 ```
-the state machine will look something like this
+We will create an array of philosophers and pass that array as an argument to the new task.
+```C
+	for(int i = 0; i < 8; i++){
+		PhilosopherNum[i] = i;
+		osThreadNew(PhilosopherTask, &PhilosopherNum[i], &philAttr); // by passing &PhilosopherNu
+	}
+```
+
+The state machine will look something like this
 ```C
 while(1){
 	//Thinking
@@ -97,9 +105,12 @@ gotLeft = GetLeftFork(desiredLeftFork);
    ```
    2. Seed the randomizer for each philosopher
 **When the randomizer is not seeded per philosopher - they will all have the same delay, and a pattern of who eats will occur**
-We can do this by giving the philosopher 
+We can do this by giving the seed the id of the philosopher
 ```C
 void PhilosopherTask(void *argument){
-	
+	srand(philId);
+	/*
+	do stuff
+	*/
 }
 ```
