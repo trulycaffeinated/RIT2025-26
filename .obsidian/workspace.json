@@ -25,12 +25,14 @@
             "id": "7b95dcc06ea9eb57",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.7"
+                "file": "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Lab 4 Plan.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
+              "icon": "lucide-file",
+              "title": "Lab 4 Plan"
             }
           }
         ],
@@ -195,6 +197,8 @@
   },
   "active": "7b95dcc06ea9eb57",
   "lastOpenFiles": [
+    "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Pasted image 20260213122238.png",
+    "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Lab 4 Plan.md",
     "S8/CPET 461 - RTOS/Week 5 - 2.9.2026 and 2.11.2026.md",
     "S8/HSPT 161 - WINES/Week 5 Quick Quiz 4.md",
     "S8/HSPT 161 - WINES/Week 4 Quick Quiz 3.md",
