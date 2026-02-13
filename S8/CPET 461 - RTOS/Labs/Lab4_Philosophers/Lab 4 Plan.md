@@ -85,5 +85,21 @@ while(1){
 Some things I noticed post lab
 1. Randomize which fork is attempted to be picked up first.
    ```C
-   
+int randFork = rand() & 1; // 0 or 1
+if (randFork == 0) {
+gotLeft = GetLeftFork(desiredLeftFork);
+gotRight = GetRightFork(desiredRightFork);
+}
+else {
+gotRight = GetRightFork(desiredRightFork);
+gotLeft = GetLeftFork(desiredLeftFork);
+}
    ```
+   2. Seed the randomizer for each philosopher
+**When the randomizer is not seeded per philosopher - they will all have the same delay, and a pattern of who eats will occur**
+We can do this by giving the philosopher 
+```C
+void PhilosopherTask(void *argument){
+	
+}
+```
