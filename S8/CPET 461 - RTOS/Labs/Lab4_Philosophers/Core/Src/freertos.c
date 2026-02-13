@@ -69,7 +69,7 @@ static int PhilosopherNum[NumPHIL];
 /* USER CODE BEGIN FunctionPrototypes */
 void App_RTOS_Init(void);
 
-static void StartDefaultTask(void *argument);
+static void startDefaultTask(void *argument);
 static void PhilosopherTask(void *argument);
 
 static bool GetLeftFork(int leftForkIndex);
@@ -85,7 +85,7 @@ void App_RTOS_Init(void){
 	Print_Init();
 
 	// Start Default Task - Print RTOS initialized, then close
-	osThreadNew(StartDefaultTask, NULL, &defaultAttr);
+	osThreadNew(startDefaultTask, NULL, &defaultAttr);
 
 	// Make 8 forks for the 8 philosophers
 	for(int i = 0; i < NumPHIL; i++){
@@ -95,60 +95,72 @@ void App_RTOS_Init(void){
 	// Make 8 Philosoper's (tasks)
 	for(int i = 0; i < NumPHIL; i++){
 		PhilosopherNum[i] = i;
-
 		osThreadNew(PhilosopherTask, &PhilosopherNum[i], &philAttr);
 	}
 }
 
-static void StartDefaultTask(void *argument){
+static void startDefaultTask(void *argument){
 	Print_Line("RTOS Initialized");
 	osThreadExit();
 }
 
-static void PhilosopherTask(void *argument){
-	int id = *(int*)argument;
+static void PhilosopherTask(void *argument)
+{
+    int id = *(int*)argument;
 
-	int desiredLeftFork = id;
-	int desiredRightFork = (id + NumPHIL - 1) % NumPHIL;
+    int desiredLeftFork  = id;
+    int desiredRightFork = (id + NumPHIL - 1) % NumPHIL;
 
-	bool gotLeft = false;
-	bool gotRight = false;
+    bool gotLeft  = false;
+    bool gotRight = false;
 
-	while(1) {
+    while (1)
+    {
+        // Thinking state
+        Print_Line("Philosopher %d - Thinking...", id);
+        int ranNum = (rand() % 5) + 1;
 
-		// Thinking state
-		Print_Line("Philosopher %d - Thinking...", id);
-		int ranNum = (rand() % 5) + 1;
+        Print_Line("Delay : %d sec", ranNum); // DEBUG LINE
+        osDelay(ranNum * 1000);
 
-		Print_Line("Delay : %d sec", ranNum); //DEBUG LINE
-		osDelay(ranNum * 1000);
+        // Hungry state
+        Print_Line("Philosopher %d - Hungry...", id);
 
-		Print_Line("Philosopher %d - Hungry...", id);
-		while(!(gotLeft && gotRight)){
+        while (!(gotLeft && gotRight))
+        {
+        	gotLeft = false;
+        	gotRight = false;
 
-			gotLeft = GetLeftFork(desiredLeftFork);
-			gotRight = GetRightFork(desiredRightFork);
+            gotLeft  = GetLeftFork(desiredLeftFork);
+            gotRight = GetRightFork(desiredRightFork);
 
-			if(gotLeft && !gotRight){
-				putLeftFork(desiredLeftFork);
-				gotLeft = false;
-			}
-			if(gotRight && !gotLeft){
-				putRightFork(desiredRightFork);
-				gotRight = false;
-			}
+            if (gotLeft && !gotRight)
+            {
+                putLeftFork(desiredLeftFork);
+                gotLeft = false;
+            }
 
-			osDelay(10);
-		}
+            if (gotRight && !gotLeft)
+            {
+                putRightFork(desiredRightFork);
+                gotRight = false;
+            }
 
-		Print_Line("Philosopher %d - do I eat for I am hungry? Or because the creator said so?", id);
-	}
+            osDelay(10);
+        }
 
-	// Debug Section
-	//Print_Line("Philosopher #: %d | Desired LF : %d | Desired Right Fork : %d", id, desiredLeftFork, desiredRightFork);
-	//osThreadExit();
+        Print_Line(
+            "Philosopher %d - do I eat for I am hungry? Or because the creator said so?",
+            id
+        );
+    }
 
+    // Debug Section
+    //Print_Line("Philosopher #: %d | Desired LF : %d | Desired Right Fork : %d",
+    //           id, desiredLeftFork, desiredRightFork);
+    //osThreadExit();
 }
+
 
 static bool GetLeftFork(int leftForkIndex){
 	return(osSemaphoreAcquire(forkSemaphoreHandle[leftForkIndex], 0) == osOK);
@@ -159,11 +171,11 @@ static bool GetRightFork(int rightForkIndex){
 }
 
 static void putLeftFork(int leftForkIndex){
-	osSemaphoreRelease(leftForkIndex);
+	osSemaphoreRelease(forkSemaphoreHandle[leftForkIndex]);
 }
 
 static void putRightFork(int rightForkIndex){
-	osSemaphoreRelease(rightForkIndex);
+	osSemaphoreRelease(forkSemaphoreHandle[rightForkIndex]);
 }
 /* USER CODE END Application */
 

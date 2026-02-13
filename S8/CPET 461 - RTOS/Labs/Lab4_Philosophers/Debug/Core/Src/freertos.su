@@ -1,7 +1,7 @@
 ../Core/Src/freertos.c:84:6:App_RTOS_Init	16	static
-../Core/Src/freertos.c:103:13:StartDefaultTask	16	static
-../Core/Src/freertos.c:108:13:PhilosopherTask	40	static
-../Core/Src/freertos.c:147:13:GetLeftFork	16	static
-../Core/Src/freertos.c:151:13:GetRightFork	16	static
-../Core/Src/freertos.c:155:13:putLeftFork	16	static
-../Core/Src/freertos.c:159:13:putRightFork	16	static
+../Core/Src/freertos.c:102:13:startDefaultTask	16	static
+../Core/Src/freertos.c:107:13:PhilosopherTask	40	static
+../Core/Src/freertos.c:165:13:GetLeftFork	16	static
+../Core/Src/freertos.c:169:13:GetRightFork	16	static
+../Core/Src/freertos.c:173:13:putLeftFork	16	static
+../Core/Src/freertos.c:177:13:putRightFork	16	static
