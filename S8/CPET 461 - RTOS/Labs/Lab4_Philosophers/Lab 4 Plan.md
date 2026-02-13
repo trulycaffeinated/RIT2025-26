@@ -50,8 +50,15 @@ We will create an array of philosophers and pass that array as an argument to th
 ```C
 	for(int i = 0; i < 8; i++){
 		PhilosopherNum[i] = i;
-		osThreadNew(PhilosopherTask, &PhilosopherNum[i], &philAttr); // by passing &PhilosopherNu
+		osThreadNew(PhilosopherTask, &PhilosopherNum[i], &philAttr); // by passing &PhilosopherNum[i] we can access the array number of the philosopher in the philosopher task
 	}
+```
+
+Array number as ID in philosopher task
+```C
+void PhilosopherTask(void *argument){
+	int id = *(int*)argument; // this takes the value of &PhilosopherNum[i] that we passed to the new thread
+}
 ```
 
 The state machine will look something like this
@@ -108,7 +115,7 @@ gotLeft = GetLeftFork(desiredLeftFork);
 We can do this by giving the seed the id of the philosopher
 ```C
 void PhilosopherTask(void *argument){
-	srand(philId);
+	srand(id);
 	/*
 	do stuff
 	*/
