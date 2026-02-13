@@ -53,7 +53,9 @@ while(1){
 	Print_Line("Thinking");
 	
 	//delay
+	osDelay(/*random numer*/);
 	
+	// Hungry
 	Print_line("Hungry");
 	while(/*doesn't have both forks*/){
 		
@@ -63,9 +65,25 @@ while(1){
 		if(/*Got left and not right*/) {
 			/*put left down and set bool false*/
 		}
-		if(/*Got right and not l*/) {
-			/*put left down and set bool false*/
+		if(/*Got right and not left*/) {
+			/*put right down and set bool false*/
 		}
+		
+		osDelay(10);
 	}
+	
+	// Eating
+	Print_Line("Eating");
+	//delay
+	osDelay(/*random numer*/);
+	
+	putForkLeft();
+	putForkRight();
 }
 ```
+
+Some things I noticed post lab
+1. Randomize which fork is attempted to be picked up first.
+   ```C
+   
+   ```
