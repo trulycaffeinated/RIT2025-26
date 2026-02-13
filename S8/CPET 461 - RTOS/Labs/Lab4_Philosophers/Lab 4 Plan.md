@@ -142,3 +142,5 @@ void PhilosopherTask(void *argument){
 	*/
 }
 ```
+3. Adjusted the rand to go from 0 - 4001 + 1000 instead of 0-4 + 1
+4. Still keeping seed in though otherwise I get repeat values
