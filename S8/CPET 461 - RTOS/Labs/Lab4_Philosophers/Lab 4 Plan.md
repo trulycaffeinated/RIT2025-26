@@ -29,4 +29,11 @@ void Print_Line(const char *fmt, ...)
 
 # Philosophers
 The meat
-We have ONE Philosopher task, that gets created ``NUM_PHIL`` times, in this case 8. 
+We have ONE Philosopher task, that gets created ``NumPHIL`` times, in this case 8. We will also have a fork Semaphore array of size 8. Each fork will be it's own semaphore.
+
+Each philosopher will identify which forks they want, then begin the state machine.
+```mermaid
+flowchart TB
+
+	
+```
