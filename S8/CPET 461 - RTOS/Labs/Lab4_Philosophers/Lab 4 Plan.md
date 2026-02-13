@@ -6,7 +6,13 @@ semaphore and allows text strings to be printed to the UART through a module-def
 function"
 
 Print Module will hold a ``Print_Line()`` function that will transmit to the UART after acquiring the semaphore.
+Will also need an Init to create the semaphore before ``Print_Line()`` is called.
 ```C
+void Print_Init(void)
+{
+	uartPrintSem = newSema(args);
+}
+
 void Print_Line(const char *fmt, ...)
 {
 	char buffer[256];
@@ -16,6 +22,11 @@ void Print_Line(const char *fmt, ...)
 	*/
 	
 	Down(); 
-	HAL_UART_Transmit()
+	HAL_UART_Transmit(/*line*/);
+	UP();
 }
 ```
+
+# Philosophers
+The meat
+We have ONE Philosopher task, that gets created ``NUM_PHIL`` times, in this case 8. 
