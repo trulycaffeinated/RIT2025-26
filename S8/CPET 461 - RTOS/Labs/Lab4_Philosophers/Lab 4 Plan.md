@@ -1,6 +1,7 @@
+# Lab 4 Plan
 ![[Pasted image 20260213122238.png]]
 
-# Print Module
+## Print Module
 "Provides a module (.h and .c files) which protects access to the UART with a binary
 semaphore and allows text strings to be printed to the UART through a module-defined
 function"
@@ -27,7 +28,7 @@ void Print_Line(const char *fmt, ...)
 }
 ```
 
-# Philosophers
+## Philosophers
 The meat
 We have ONE Philosopher task, that gets created ``NumPHIL`` times, in this case 8. We will also have a fork Semaphore array of size 8. Each fork will be it's own semaphore.
 
