@@ -97,6 +97,26 @@ while(1){
 }
 ```
 
+Fork functions
+```C
+static bool GetLeftFork(int leftForkIndex){
+return(osSemaphoreAcquire(forkSemaphoreHandle[leftForkIndex], 0) == osOK);
+}
+
+static bool GetRightFork(int rightForkIndex){
+return(osSemaphoreAcquire(forkSemaphoreHandle[rightForkIndex], 0) == osOK);
+}
+
+static void putLeftFork(int leftForkIndex){
+osSemaphoreRelease(forkSemaphoreHandle[leftForkIndex]);
+}
+
+static void putRightFork(int rightForkIndex){
+osSemaphoreRelease(forkSemaphoreHandle[rightForkIndex]);
+}
+```
+
+
 Some things I noticed post lab
 1. Randomize which fork is attempted to be picked up first.
    ```C
