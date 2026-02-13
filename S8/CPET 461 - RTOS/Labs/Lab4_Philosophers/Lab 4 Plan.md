@@ -33,14 +33,16 @@ We have ONE Philosopher task, that gets created ``NumPHIL`` times, in this case 
 
 Each philosopher will identify which forks they want, then begin the state machine.
 ```mermaid
-flowchart TB
-
-	A[Identify Forks] ---> B[Thinking]
-	B ---> C[Delay 1-5 sec]
-	C ---> D[Hungry]
-	D ---> E[Attempt to Get Left Fork & Right Fork]
-	E ---> F[Check Forks]
-	F -[if both forks]-> G[Eat]
-	F -[If no forks or one fork]-> E
-	G[Eat] ---> B
+flowchart LR
+    A[Identify Forks] --> B[Thinking]
+    B --> C[Delay 1–5 sec]
+    C --> D[Hungry]
+    D --> E[Attempt to Get Left Fork and Right Fork]
+    E --> F{Both forks acquired?}
+    F -- Yes --> G[Eating]
+    F -- No --> H[Put down any acquired fork]
+    H --> I[Delay briefly]
+    I --> E
+    G --> J[Put down both forks]
+    J --> B
 ```
