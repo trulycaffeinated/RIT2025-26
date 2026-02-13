@@ -46,3 +46,4 @@ flowchart LR
     G --> J[Put down both forks]
     J --> B
 ```
+the state machine wil
