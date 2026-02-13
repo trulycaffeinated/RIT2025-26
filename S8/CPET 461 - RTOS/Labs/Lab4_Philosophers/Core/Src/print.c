@@ -9,7 +9,6 @@ extern UART_HandleTypeDef huart2;
 
 /* Binary semaphore to protect UART */
 static osSemaphoreId_t uartPrintSem;
-const char debugmsg[] = "SEMAPHORE IS NULL";
 
 /**
  * @brief Initialize UART print semaphore
@@ -36,7 +35,6 @@ void Print_Line(const char *fmt, ...)
     osSemaphoreAcquire(uartPrintSem, osWaitForever);
 
     HAL_UART_Transmit(&huart2,(uint8_t *)buffer,strlen(buffer),HAL_MAX_DELAY);
-    if(uartPrintSem == NULL) {HAL_UART_Transmit(&huart2,(uint8_t *)debugmsg,strlen(debugmsg),HAL_MAX_DELAY);}
 
     /* newline */
     const char newline[] = "\r\n";

@@ -82,6 +82,7 @@ static void putRightFork(int rightForkIndex);
 /* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */
 void App_RTOS_Init(void){
+	srand(HAL_GetTick());
 	Print_Init();
 
 	// Start Default Task - Print RTOS initialized, then close
@@ -106,6 +107,7 @@ static void startDefaultTask(void *argument){
 
 static void PhilosopherTask(void *argument)
 {
+
     int id = *(int*)argument;
 
     int desiredLeftFork  = id;
@@ -116,11 +118,11 @@ static void PhilosopherTask(void *argument)
 
     while (1)
     {
+
+    	int ranMAX = 25;
         // Thinking state
         Print_Line("Philosopher %d - Thinking...", id);
-        int ranNum = (rand() % 5) + 1;
-
-        Print_Line("Delay : %d sec", ranNum); // DEBUG LINE
+        int ranNum = (rand() % ranMAX) + 1;
         osDelay(ranNum * 1000);
 
         // Hungry state
@@ -128,11 +130,19 @@ static void PhilosopherTask(void *argument)
 
         while (!(gotLeft && gotRight))
         {
+
         	gotLeft = false;
         	gotRight = false;
 
-            gotLeft  = GetLeftFork(desiredLeftFork);
-            gotRight = GetRightFork(desiredRightFork);
+            int randFork = rand() & 1;  // 0 or 1
+
+            if (randFork == 0) {
+                gotLeft  = GetLeftFork(desiredLeftFork);
+                gotRight = GetRightFork(desiredRightFork);
+            } else {
+                gotRight = GetRightFork(desiredRightFork);
+                gotLeft  = GetLeftFork(desiredLeftFork);
+            }
 
             if (gotLeft && !gotRight)
             {
@@ -149,10 +159,11 @@ static void PhilosopherTask(void *argument)
             osDelay(10);
         }
 
-        Print_Line(
-            "Philosopher %d - do I eat for I am hungry? Or because the creator said so?",
-            id
-        );
+        Print_Line("Philosopher %d - do I eat for I am hungry? Or because the creator said so?",id);
+        ranNum = (rand() % ranMAX) + 1;
+        osDelay(ranNum * 1000);
+        putLeftFork(desiredLeftFork);
+        putRightFork(desiredRightFork);
     }
 
     // Debug Section
