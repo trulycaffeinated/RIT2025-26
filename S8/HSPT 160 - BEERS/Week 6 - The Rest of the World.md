@@ -167,17 +167,18 @@ Other Comments...
 **Beer 6** : Monastere Blond
 Ale or Lager? : Ale
 Style : Belgian Blonde
-Color (scale 0-8) : **3-4**
+Color (scale 0-8) : **3**
 Aroma Strength (scale 0-5) : **3** 
-Aroma reminds me of... **Rotten, **
+Aroma reminds me of... **Rotten, stale bread,**
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Did I like it? **No**
+Would I buy this beer? **No**
 Other Comments...
+**Thankfully tastes slightly better than it smells. Bubbles clump together, not high alcohol (wheat in the mash)**
 
 ---
 **Beer 7** : Dragon Stout
