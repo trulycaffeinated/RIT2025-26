@@ -42,3 +42,6 @@ We can always substitute $n$ with the number of tasks we have
 # Exam Review Questions
 **MONDAY the 23RD!!!**
 
+## How to make a task Diagram?
+Task is represented by parallelogram - give a name.
+Variable is a rectangle (can be represented differently) - label at the top if its protected b
