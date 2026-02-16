@@ -188,12 +188,12 @@ Color (scale 0-8) : 7-8
 Aroma Strength (scale 0-5) : 2-3
 Aroma reminds me of... **Very strong coffee smell, hint of banana, rubber, kerosene or petrol**
 Taste Strength (scale 0-5) : **3**
-Taste Reminds me of... **Super burnt coffee, theres a sweetness though. **
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Reminds me of... **Super burnt coffee, theres a sweetness though.**
+Mouthfeel (scale 0-5) : **1**
+Finish Strength (scale 0-5) : **2**
+Finish reminds me of.... **Old coffee with too much sugar**
+Did I like it? **No**
+Would I buy this beer? **No**
 Other Comments...
 
 ---
@@ -215,5 +215,5 @@ Other Comments...
 ---
 ## Top 3 Favorites
 1. 
-2. 
+2. Asahi Super Dry
 3. 
