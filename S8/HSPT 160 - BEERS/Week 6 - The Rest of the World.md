@@ -1,3 +1,6 @@
+---
+color: 1
+---
 # Week 6 - The Rest of the World
 ---
 **Beer 1** : Asahi Super Dry
@@ -15,7 +18,7 @@ INPUT[inlineSelect(
 	option(6, "6 - Dark Amber"),
 	option(7, "7 - Very Dark Amber"),
 	option(8, "8 - Black")
-)]
+):color]
 ```
 Aroma Strength (scale 0-5) : 
 ```meta-bind
@@ -26,7 +29,7 @@ INPUT[inlineSelect(
 	option(3, "3 - Medium"),
 	option(4, "4 - High"),
 	option(5, "5 - Very High")
-)]
+):aroma_strength]
 ```
 Aroma reminds me of... 
 **Rice, Toast, Sake?**
@@ -46,12 +49,12 @@ Taste Reminds me of...
 Mouthfeel (scale 0-5) : 
 ```meta-bind
 INPUT[inlineSelect(
-	option(0, "0 - None"),
-	option(1, "1 - Very Short"),
-	option(2, "2 - Short"),
+	option(0, "0 - Water"),
+	option(1, "1 - Very Thin"),
+	option(2, "2 - Thin"),
 	option(3, "3 - Medium"),
-	option(4, "4 - Long"),
-	option(5, "5 - Very Long")
+	option(4, "4 - Creamy"),
+	option(5, "5 - Whole Milk")
 )]
 ```
 Finish Strength (scale 0-5) : 
@@ -66,6 +69,7 @@ INPUT[inlineSelect(
 )]
 ```
 Finish reminds me of.... 
+**Sushi in a weird way**
 Did I like it? 
 ```meta-bind
 INPUT[inlineSelect(
@@ -81,6 +85,7 @@ INPUT[inlineSelect(
 )]
 ```
 Other Comments...
+**Would pair well with sushi**
 
 ---
 **Beer #** : Foster's Lager
