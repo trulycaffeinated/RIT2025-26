@@ -40,3 +40,5 @@ We can always substitute $n$ with the number of tasks we have
 **The more tasks we have, the more free cpu there needs to be to handle those tasks**
 
 # Exam Review Questions
+**MONDAY the 23RD!!!**
+
