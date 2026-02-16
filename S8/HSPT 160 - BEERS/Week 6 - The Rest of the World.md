@@ -148,8 +148,8 @@ Other Comments...
 **Beer 5** : Modelo Negra
 Ale or Lager? : Lager
 Style : Munich Dunkel
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
+Color (scale 0-8) : 5-6 Pale Amber
+Aroma Strength (scale 0-5) : 1-2
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
