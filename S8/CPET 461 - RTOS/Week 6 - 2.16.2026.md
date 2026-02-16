@@ -44,4 +44,7 @@ We can always substitute $n$ with the number of tasks we have
 
 ## How to make a task Diagram?
 Task is represented by parallelogram - give a name.
-Variable is a rectangle (can be represented differently) - label at the top if its protected b
+Variable is a rectangle (can be represented differently) - label at the top if its protected by some thing
+Inside parallelogram but a smaller parallelogram to represent semaphore on edge of task, arrow from semaphore to variable to show task uses that semaphore to access that variable.
+Variables protected by the same semaphore should be in the same block, different semaphores are different blocks
+Piece of hardware like the UART will have an arrow from the device to a task **HARDWARE CAN ONLY BE ATTACHED TO ONE TASK**
