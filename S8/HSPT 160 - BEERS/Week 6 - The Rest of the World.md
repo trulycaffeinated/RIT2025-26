@@ -132,16 +132,17 @@ Other Comments...
 Ale or Lager? : Lager
 Style : Schwarzbier
 Color (scale 0-8) : 7-8
-Aroma Strength (scale 0-5) : Coffee 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Aroma Strength (scale 0-5) : 0-1 
+Aroma reminds me of... **Coffee**
+Taste Strength (scale 0-5) : **3-4** 
+Taste Reminds me of... ****
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Did I like it? **No**
+Would I buy this beer? **No** 
 Other Comments...
+**Incredibly weak aroma**
 
 ---
 **Beer 5** : Modelo Negra
