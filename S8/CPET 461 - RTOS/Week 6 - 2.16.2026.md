@@ -26,3 +26,8 @@ For each collection of tasks, we need to know each task's period and worst-case 
 We can measure WCET by setting a GPIO pin high at task start, and low at task completion and measuring with an oscilloscope\
 - Complex code will have a variable runtimes, so measuring WCET could take awhile to properly determine
 
+Compute Utilization of the CPU with the WCET of the tasks
+
+The tasks are schedulable using RM Scheduling if the calculated utiliation is less than the maximum allowed utilization
+$Util_{Max} = n \times (2^{1/n}-1)$
+in the limit as n -> infinity 
