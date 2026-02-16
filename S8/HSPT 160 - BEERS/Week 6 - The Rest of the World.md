@@ -64,9 +64,9 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer 5** : 
-Ale or Lager? : 
-Style : 
+**Beer 5** : Modelo Negra
+Ale or Lager? : Lager
+Style : Munich Dunkel
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -78,3 +78,57 @@ Finish reminds me of....
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
+
+---
+**Beer 6** : Monastere Blond
+Ale or Lager? : Ale
+Style : Belgian Blonde
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) : 
+Aroma reminds me of... 
+Taste Strength (scale 0-5) : 
+Taste Reminds me of... 
+Mouthfeel (scale 0-5) : 
+Finish Strength (scale 0-5) : 
+Finish reminds me of.... 
+Did I like it? 
+Would I buy this beer? 
+Other Comments...
+
+---
+**Beer 7** : Dragon Stout
+Ale or Lager? : ?
+Style : Foreign/Export Stout
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) : 
+Aroma reminds me of... 
+Taste Strength (scale 0-5) : 
+Taste Reminds me of... 
+Mouthfeel (scale 0-5) : 
+Finish Strength (scale 0-5) : 
+Finish reminds me of.... 
+Did I like it? 
+Would I buy this beer? 
+Other Comments...
+
+---
+**Beer 8** : Collective Arts - Jam up The Mash
+Ale or Lager? : Ale
+Style : Wild Ale
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) : 
+Aroma reminds me of... 
+Taste Strength (scale 0-5) : 
+Taste Reminds me of... 
+Mouthfeel (scale 0-5) : 
+Finish Strength (scale 0-5) : 
+Finish reminds me of.... 
+Did I like it? 
+Would I buy this beer? 
+Other Comments...
+
+---
+## Top 3 Favorites
+1. 
+2. 
+3. 
