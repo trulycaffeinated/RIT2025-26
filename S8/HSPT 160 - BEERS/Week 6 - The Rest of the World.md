@@ -204,7 +204,7 @@ Color (scale 0-8) : 1-2
 Aroma Strength (scale 0-5) : 4
 Aroma reminds me of... **Mango, or Peach - maybe pineapple**
 Taste Strength (scale 0-5) : 3
-Taste Reminds me of... **Overripe mango or peach, wayyyy overripe. incredibly sour to sweet**
+Taste Reminds me of... **Overripe mango or peach, wayyyy overripe. incredibly sour to sweet - citrus -> sour with a weird sweetness**
 Mouthfeel (scale 0-5) : **1-2**
 Finish Strength (scale 0-5) : **2**
 Finish reminds me of.... **Candy, or just putting sugar on your tongue, goes from sour to sweet**
