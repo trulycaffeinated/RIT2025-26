@@ -131,8 +131,8 @@ Other Comments...
 **Beer 4** : Xingu Black Beer
 Ale or Lager? : Lager
 Style : Schwarzbier
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
+Color (scale 0-8) : 7-8
+Aroma Strength (scale 0-5) : Coffee 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
