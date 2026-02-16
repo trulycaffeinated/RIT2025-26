@@ -9,3 +9,7 @@ Priorities are assigned inversely to periodicity
 - if the RTOS supports strict numeric priorities, they are assigned proportional to execution frequency, but the exact values are not important, the relation between the priorities is what matters
 - If the RTOS has enumerated priorities (like freeRTOS) they are assigned so that the task that executes most frequently (smallest period) has the highest priority, next most frequently has the next lower priority, etc.
 
+Tasks of the same period will be given the same priority, and round-robin scheduling will be used with such tasks
+
+**RM Scheduling** guarantees tasks will hit their deadlines
+
