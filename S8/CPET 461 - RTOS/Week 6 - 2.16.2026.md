@@ -24,4 +24,4 @@ For each collection of tasks, we need to know each task's period and worst-case 
 | Task 2 | 3msec | 9msec  |
 | Task 3 | 6msec | 25msec |
 We can measure WCET by setting a GPIO pin high at task start, and low at task completion and measuring with an oscilloscope\
-- Complex code will have a variable runtimes, 
+- Complex code will have a variable runtimes, so measuring WCET could take awhile to properly determine
