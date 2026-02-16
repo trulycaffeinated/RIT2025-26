@@ -38,3 +38,5 @@ We're kinda wasting around 30% of the CPU, and we're assuming we have an infinit
 We can always substitute $n$ with the number of tasks we have
 
 **The more tasks we have, the more free cpu there needs to be to handle those tasks**
+
+# Exam Review Questions
