@@ -1,6 +1,3 @@
----
-rating: 0
----
 **Beer #** : 
 Ale or Lager? : 
 Style : 
@@ -16,11 +13,22 @@ INPUT[inlineSelect(
 	option(6, "6 - Dark Amber"),
 	option(7, "7 - Very Dark Amber"),
 	option(8, "8 - Black")
-):rating]
+)]
 ```
 Aroma Strength (scale 0-5) : 
+```meta-bind
+INPUT[inlineSelect(
+	option(0, "0 - None"),
+	option(1, "1 - Very Low"),
+	option(2, "2 - Low"),
+	option(3, "3 - Medium"),
+	option(4, "4 - High"),
+	option(5, "5 - Very High")
+)]
+```
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
+
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
