@@ -8,6 +8,8 @@ like: 1
 buy: 0
 ---
 # Week 6 - The Rest of the World
+Small note : I sit on the right side of the room, so I consistently think things are a level darker than they might be 
+
 ---
 **Beer 1** : Asahi Super Dry
 Ale or Lager? : Lager
@@ -149,16 +151,17 @@ Other Comments...
 Ale or Lager? : Lager
 Style : Munich Dunkel
 Color (scale 0-8) : 5-6 Pale Amber
-Aroma Strength (scale 0-5) : 1-2
-Aroma reminds me of... 
+Aroma Strength (scale 0-5) : **1-2**
+Aroma reminds me of...
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
+Mouthfeel (scale 0-5) : **0-1**
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
+**Surprisingly thin**
 
 ---
 **Beer 6** : Monastere Blond
