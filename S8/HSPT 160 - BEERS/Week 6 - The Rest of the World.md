@@ -186,9 +186,9 @@ Ale or Lager? : Ale
 Style : Foreign/Export Stout
 Color (scale 0-8) : 7-8
 Aroma Strength (scale 0-5) : 2-3
-Aroma reminds me of... **Very strong coffee smell, hint of banana, rubber, **
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Aroma reminds me of... **Very strong coffee smell, hint of banana, rubber, kerosene or petrol**
+Taste Strength (scale 0-5) : **3**
+Taste Reminds me of... **Super burnt coffee, theres a sweetness though. **
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
