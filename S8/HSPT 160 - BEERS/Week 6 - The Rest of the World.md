@@ -29,14 +29,57 @@ INPUT[inlineSelect(
 )]
 ```
 Aroma reminds me of... 
-**Rice, Toast, Sake?, Ri**
+**Rice, Toast, Sake?**
 Taste Strength (scale 0-5) : 
+```meta-bind
+INPUT[inlineSelect(
+	option(0, "0 - None"),
+	option(1, "1 - Very Low"),
+	option(2, "2 - Low"),
+	option(3, "3 - Medium"),
+	option(4, "4 - High"),
+	option(5, "5 - Very High")
+)]
+```
 Taste Reminds me of... 
+**White wine, sake?, Somewhat sweet, would pair well with sushi**
 Mouthfeel (scale 0-5) : 
+```meta-bind
+INPUT[inlineSelect(
+	option(0, "0 - None"),
+	option(1, "1 - Very Short"),
+	option(2, "2 - Short"),
+	option(3, "3 - Medium"),
+	option(4, "4 - Long"),
+	option(5, "5 - Very Long")
+)]
+```
 Finish Strength (scale 0-5) : 
+```meta-bind
+INPUT[inlineSelect(
+	option(0, "0 - None"),
+	option(1, "1 - Very Short"),
+	option(2, "2 - Short"),
+	option(3, "3 - Medium"),
+	option(4, "4 - Long"),
+	option(5, "5 - Very Long")
+)]
+```
 Finish reminds me of.... 
 Did I like it? 
+```meta-bind
+INPUT[inlineSelect(
+	option(0, "No"),
+	option(1, "Yes")
+)]
+```
 Would I buy this beer? 
+```meta-bind
+INPUT[inlineSelect(
+	option(0, "No"),
+	option(1, "Yes")
+)]
+```
 Other Comments...
 
 ---
