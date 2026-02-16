@@ -204,15 +204,17 @@ Color (scale 0-8) : 1-2
 Aroma Strength (scale 0-5) : 4
 Aroma reminds me of... **Mango, or Peach - maybe pineapple**
 Taste Strength (scale 0-5) : 3
-Taste Reminds me of... **Overripe mango or peach, wayyyy overripe. incredibly Sweet**
+Taste Reminds me of... **Overripe mango or peach, wayyyy overripe. incredibly sour to sweet**
 Mouthfeel (scale 0-5) : **1-2**
 Finish Strength (scale 0-5) : **2**
-Finish reminds me of.... ****
-Did I like it? 
-Would I buy this beer? 
+Finish reminds me of.... **Candy, or just putting sugar on your tongue, goes from sour to sweet**
+Did I like it? **No?**
+Would I buy this beer? **No**
 Other Comments...
+**I could be convinced to drink this but I wouldn't buy it**
 
 ---
 ## Top 3 Favorites
-1. 
-2. Asahi Super Dry
+1.  Crabbie's Ginger Beer
+2.  Collective Arts - Jam Up the Mash
+3.  Asahi Super Dry
