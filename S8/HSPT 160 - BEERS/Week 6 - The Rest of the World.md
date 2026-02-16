@@ -96,7 +96,7 @@ Other Comments...
 **Would pair well with sushi**
 
 ---
-**Beer #** : Foster's Lager
+**Beer 2** : Foster's Lager
 Ale or Lager? : Lager
 Style : American Adjunct Lager
 Color (scale 0-8) : 1-2
