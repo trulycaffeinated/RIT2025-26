@@ -31,3 +31,8 @@ Compute Utilization of the CPU with the WCET of the tasks
 The tasks are schedulable using RM Scheduling if the calculated utiliation is less than the maximum allowed utilization
 $Util_{Max} = n \times (2^{1/n}-1)$
 in the limit as n -> infinity 
+Utilization max = ln(2) ie. 69.314%
+
+We're kinda wasting around 30% of the CPU, and we're assuming we have an infinite number of tasks which is unrealistic 
+
+We can always substitute $n$ with the number of tasks we have
