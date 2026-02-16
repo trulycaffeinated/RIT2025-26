@@ -116,15 +116,16 @@ Ale or Lager? : Ale
 Style : Ginger Beer (Ale)
 Color (scale 0-8) : 3 - Dark Straw
 Aroma Strength (scale 0-5) : 4
-Aroma reminds me of... **Orange Sauce, Orange or Citrus, Ginger Ginger Ginger**
-Taste Strength (scale 0-5) : ****
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Aroma reminds me of... **Orange Sauce, Orange or Citrus, Wasabi, Ginger Ginger Ginger**
+Taste Strength (scale 0-5) : **3**
+Taste Reminds me of... **Orange, Citrus, Ginger, Zero Sugar Canada Dry, Ginger Ale**
+Mouthfeel (scale 0-5) : **1**
+Finish Strength (scale 0-5) : **1** 
+Finish reminds me of.... **Finish is very dull, leaves behind citrus/orange/ginger but isn't very strong**
+Did I like it? **Loved this**
+Would I buy this beer? **Yes**
 Other Comments...
+**Might actually go buy these, can't taste the alcohol which is something I enjoy**
 
 ---
 **Beer 4** : Xingu Black Beer
