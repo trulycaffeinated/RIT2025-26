@@ -167,9 +167,9 @@ Other Comments...
 **Beer 6** : Monastere Blond
 Ale or Lager? : Ale
 Style : Belgian Blonde
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Color (scale 0-8) : **3-4**
+Aroma Strength (scale 0-5) : **3** 
+Aroma reminds me of... **Rotten, **
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
