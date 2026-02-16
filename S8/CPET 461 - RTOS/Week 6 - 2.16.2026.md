@@ -13,3 +13,5 @@ Tasks of the same period will be given the same priority, and round-robin schedu
 
 **RM Scheduling** guarantees tasks will hit their deadlines
 
+For each collection of tasks, we need to know each task's period and worst-case execution time (WCET)
+- Task 1 
