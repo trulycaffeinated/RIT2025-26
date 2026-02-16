@@ -125,7 +125,7 @@ static void PhilosopherTask(void *argument)
         // Thinking state
         Print_Line("Philosopher %d - Thinking...", id);
         int ranNum = (rand() % ranMAX) + 1000;
-        Print_Line("Delay : %d", ranNum); // DEBUG LINE | DELAY
+        //Print_Line("Delay : %d", ranNum); // DEBUG LINE | DELAY
         osDelay(ranNum);
 
         // Hungry state
@@ -166,7 +166,7 @@ static void PhilosopherTask(void *argument)
         // Eat
         Print_Line("Philosopher %d - do I eat for I am hungry? Or because the creator said so?",id);
         ranNum = (rand() % ranMAX) + 1000;
-        Print_Line("Delay : %d", ranNum); // DEBUG LINE | DELAY
+        //Print_Line("Delay : %d", ranNum); // DEBUG LINE | DELAY
         osDelay(ranNum);
         putLeftFork(desiredLeftFork);
         putRightFork(desiredRightFork);
