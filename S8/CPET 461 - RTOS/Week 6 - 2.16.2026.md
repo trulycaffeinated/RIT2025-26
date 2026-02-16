@@ -41,6 +41,7 @@ We can always substitute $n$ with the number of tasks we have
 
 # Exam Review Questions
 **MONDAY the 23RD!!!**
+Don't write any code to answer a question
 ## How to make a task Diagram?
 Task is represented by parallelogram - give a name.
 Variable is a rectangle (can be represented differently) - label at the top if its protected by some thing
@@ -49,4 +50,8 @@ Variables protected by the same semaphore should be in the same block, different
 Piece of hardware like the UART will have an arrow from the device to a task **HARDWARE CAN ONLY BE ATTACHED TO ONE TASK**
 
 ## Would you say a good majority of the information from slides, textbooks or labs?
-The slides 
+The slides should be used more as a refresher, syllabus will have textbook references which we should read.
+Labs are made as a way to perform operations - if we go through labs and you understand what they do, then we understand the topics.
+
+## No IDE Specific questions
+

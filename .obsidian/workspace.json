@@ -11,14 +11,12 @@
             "id": "da66448e3382b476",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "vscode-editor",
               "state": {
-                "file": "S8/CPET 461 - RTOS/Week 6 - 2.16.2026.md",
-                "mode": "source",
-                "source": false
+                "file": "S8/CPET 461 - RTOS/Labs/Lab1_CPET461/Core/Src/main.c"
               },
               "icon": "lucide-file",
-              "title": "Week 6 - 2.16.2026"
+              "title": "main"
             }
           }
         ]
@@ -182,10 +180,11 @@
   },
   "active": "da66448e3382b476",
   "lastOpenFiles": [
+    "S8/CPET 461 - RTOS/Week 6 - 2.16.2026.md",
+    "S8/CPET 461 - RTOS/Labs/Lab1_CPET461/Core/Src/main.c",
     "S8/CPET 461 - RTOS/Week 5 - 2.9.2026 and 2.11.2026.md",
     "S8/CPET 461 - RTOS/Week 4 - 2.2.2026 and 2.4.2026.md",
     "S8/CPET 461 - RTOS/Week 2 - 1.21.2026.md",
-    "S8/CPET 461 - RTOS/Week 6 - 2.16.2026.md",
     "S8/HSPT 160 - BEERS/Week 6 - The Rest of the World.md",
     "Week 6 - The Rest of the World.pdf",
     "Untitled.md",
@@ -205,7 +204,6 @@
     "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Debug/Core/Src/main.cyclo",
     "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Debug/Core/Src/main.su",
     "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Pasted image 20260213122238.png",
-    "S8/HSPT 161 - WINES/Week 4 Quick Quiz 3.md",
-    "S8/HSPT 161 - WINES"
+    "S8/HSPT 161 - WINES/Week 4 Quick Quiz 3.md"
   ]
 }
