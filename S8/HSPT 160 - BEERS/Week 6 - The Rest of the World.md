@@ -171,10 +171,10 @@ Color (scale 0-8) : **3**
 Aroma Strength (scale 0-5) : **3** 
 Aroma reminds me of... **Rotten, stale bread, sugar, spicy?**
 Taste Strength (scale 0-5) : **3**
-Taste Reminds me of... **Wax**
+Taste Reminds me of... **Wax, Banana, Cooked plantain**
 Mouthfeel (scale 0-5) : **1-2**
 Finish Strength (scale 0-5) : **2**
-Finish reminds me of.... ****
+Finish reminds me of.... **Smokey, citrus**
 Did I like it? **No**
 Would I buy this beer? **No**
 Other Comments...
