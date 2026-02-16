@@ -135,10 +135,10 @@ Color (scale 0-8) : 7-8
 Aroma Strength (scale 0-5) : 0-1 
 Aroma reminds me of... **Coffee**
 Taste Strength (scale 0-5) : **3-4** 
-Taste Reminds me of... ****
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
+Taste Reminds me of... **Coffee, Dirt, Watered down black coffee**
+Mouthfeel (scale 0-5) : **1**
+Finish Strength (scale 0-5) : **1**
+Finish reminds me of.... **Not a very strong finish, leaves the bitterness of choclate/coffee on**
 Did I like it? **No**
 Would I buy this beer? **No** 
 Other Comments...
