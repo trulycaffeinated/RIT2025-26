@@ -200,14 +200,14 @@ Other Comments...
 **Beer 8** : Collective Arts - Jam up The Mash
 Ale or Lager? : Ale
 Style : Wild Ale
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
+Color (scale 0-8) : 1-2
+Aroma Strength (scale 0-5) : 4
+Aroma reminds me of... **Mango, or Peach - maybe pineapple**
+Taste Strength (scale 0-5) : 3
+Taste Reminds me of... **Overripe mango or peach, wayyyy overripe. incredibly Sweet**
+Mouthfeel (scale 0-5) : **1-2**
+Finish Strength (scale 0-5) : **2**
+Finish reminds me of.... ****
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
@@ -216,4 +216,3 @@ Other Comments...
 ## Top 3 Favorites
 1. 
 2. Asahi Super Dry
-3. 
