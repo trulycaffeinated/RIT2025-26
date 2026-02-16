@@ -182,11 +182,11 @@ Other Comments...
 
 ---
 **Beer 7** : Dragon Stout
-Ale or Lager? : ?
+Ale or Lager? : Ale
 Style : Foreign/Export Stout
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Color (scale 0-8) : 7-8
+Aroma Strength (scale 0-5) : 2-3
+Aroma reminds me of... **Very strong coffee smell, hint of banana, rubber, **
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
