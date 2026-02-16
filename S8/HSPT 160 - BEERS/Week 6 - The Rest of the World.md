@@ -103,20 +103,21 @@ Aroma reminds me of...
 Taste Strength (scale 0-5) : 2
 Taste Reminds me of... **Cinnamon roll, sweetness? Honey? - Toasted or burnt**
 Mouthfeel (scale 0-5) : **1**
-Finish Strength (scale 0-5) :  
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Finish Strength (scale 0-5) :  1
+Finish reminds me of.... **Weirdly like toasted cheezits,**
+Did I like it? **Yes**
+Would I buy this beer?**No** 
 Other Comments...
+**For some reason it really tastes burnt, which is throwing me off**
 
 ---
 **Beer 3** : Crabbie's Ginger Beer 
 Ale or Lager? : Ale
 Style : Ginger Beer (Ale)
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
+Color (scale 0-8) : 3 - Dark Straw
+Aroma Strength (scale 0-5) : 4
+Aroma reminds me of... **Orange Sauce, Orange or Citrus, Ginger Ginger Ginger**
+Taste Strength (scale 0-5) : ****
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
