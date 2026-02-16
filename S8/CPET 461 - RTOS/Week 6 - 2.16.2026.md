@@ -14,4 +14,14 @@ Tasks of the same period will be given the same priority, and round-robin schedu
 **RM Scheduling** guarantees tasks will hit their deadlines
 
 For each collection of tasks, we need to know each task's period and worst-case execution time (WCET)
-- Task 1 
+- Task 1 - executes for not more than 2msec every 2msec
+- Task 2 - executes for not more than 3msec with an inter-arrival time of 9, 12,18 and 20msec
+- Task 3 - executes for not more than 6msec every 25msec
+
+| TASK   | WCETE | PERIOD |
+| ------ | ----- | ------ |
+| Task 1 | 2msec | 20msec |
+| Task 2 | 3msec | 9msec  |
+| Task 3 | 6msec | 25msec |
+We can measure WCET by setting a GPIO pin high at task start, and low at task completion and measuring with an oscilloscope\
+- Complex code will have a variable runtimes, 
