@@ -40,8 +40,12 @@ We can always substitute $n$ with the number of tasks we have
 **The more tasks we have, the more free cpu there needs to be to handle those tasks**
 
 # Task Scheduling 5
-**Earliest Deadline First Scheduler** - causes the task which must complete some operation nearest in the future to be scheduled next. (Clairvoyant Scheduler)
+**Earliest Deadline First Scheduler** - causes the task which must complete some operation nearest in the future to be scheduled next. **(Clairvoyant Scheduler) - sees what the future needs**
 
+The RTOS must chose the task to execute next which hsa the earliest future deadline
+- EDFS allows processor utilization to reach 100%
+	- Recall that utilization = $\Sum{n}{k=1}(\frac{WCET}{Period})$
+	- 
 # Exam Review Questions
 **MONDAY the 23RD!!!**
 Don't write any code to answer a question
@@ -57,3 +61,5 @@ The slides should be used more as a refresher, syllabus will have textbook refer
 Labs are made as a way to perform operations - if we go through labs and you understand what they do, then we understand the topics.
 
 ## No IDE Specific questions
+
+## 
