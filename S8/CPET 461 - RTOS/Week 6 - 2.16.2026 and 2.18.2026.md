@@ -72,7 +72,9 @@ otherwise the RTOS can do it
 The RTOS must infer the deadline from some information about the task
 We will have the RTOS know the periods of every task
 
-in Free
+in FreeRTOS this isn't the case - we construct periodic tasks using functions FreeRTOS provides. But FreeRTOS doesn't know why we're using those functions. There are other RTOS software's that let the task convey it's periodicity to the scheduler/RTOS. 
+
+Note : FreeRTOS does not support EDFS
 # Exam Review Questions
 **MONDAY the 23RD!!!**
 Don't write any code to answer a question
