@@ -1,10 +1,3 @@
--------------------------------------------------------------------------
--- Ian Woloshyn
--- CPET 561 Embedded System Design 1
--- Lab 4
--- Feburary 19th 2025
--------------------------------------------------------------------------
-
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
