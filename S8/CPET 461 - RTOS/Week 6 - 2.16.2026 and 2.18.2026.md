@@ -44,8 +44,13 @@ We can always substitute $n$ with the number of tasks we have
 
 The RTOS must chose the task to execute next which hsa the earliest future deadline
 - EDFS allows processor utilization to reach 100%
-	- Recall that utilization = $\Sum{n}{k=1}(\frac{WCET}{Period})$
-	- 
+	- Recall that utilization = $\displaystyle\sum_{k=1}^n(\frac{WCET}{Period})$
+	- For RMS
+		- Utilization = $U_{max} = n \times (2^{\frac{1}{n}}-1)$
+	- Allowing the CPU to be as high as 100% is a tremendous improvement
+		- this could allow us to use a slower, cheaper processor
+
+
 # Exam Review Questions
 **MONDAY the 23RD!!!**
 Don't write any code to answer a question
