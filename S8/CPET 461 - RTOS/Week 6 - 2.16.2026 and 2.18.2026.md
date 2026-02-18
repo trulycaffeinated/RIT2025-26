@@ -50,7 +50,13 @@ The RTOS must chose the task to execute next which hsa the earliest future deadl
 	- Allowing the CPU to be as high as 100% is a tremendous improvement
 		- this could allow us to use a slower, cheaper processor
 
+How do we know which task has a deadline in the early future?
 
+Two ways...
+at each scheduling decision...
+	deadlines for all tasks must be considered
+- Either
+	- When tasks are preempted the task must be able to describe it 
 # Exam Review Questions
 **MONDAY the 23RD!!!**
 Don't write any code to answer a question
