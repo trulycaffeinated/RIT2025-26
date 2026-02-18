@@ -28,7 +28,7 @@ We can measure WCET by setting a GPIO pin high at task start, and low at task co
 
 Compute Utilization of the CPU with the WCET of the tasks
 
-The tasks are schedulable using RM Scheduling if the calculated utiliation is less than the maximum allowed utilization
+The tasks are schedulable using RM Scheduling if the calculated utilization is less than the maximum allowed utilization
 $Util_{Max} = n \times (2^{1/n}-1)$
 in the limit as n -> infinity 
 Utilization max = ln(2) ie. 69.314%
@@ -56,7 +56,9 @@ Two ways...
 at each scheduling decision...
 	deadlines for all tasks must be considered
 - Either
-	- When tasks are preempted the task must be able to describe it 
+	- When tasks are preempted the task must be able to describe its future deadline - this is difficult because the task can't know when the RTOS will preempt it
+- or
+	- That determination must be made by the RTOS whenever it considers switching to a new task - this difficult because the RTOS has no way of knowing what the application was doing or what it will do next
 # Exam Review Questions
 **MONDAY the 23RD!!!**
 Don't write any code to answer a question
