@@ -75,6 +75,10 @@ We will have the RTOS know the periods of every task
 in FreeRTOS this isn't the case - we construct periodic tasks using functions FreeRTOS provides. But FreeRTOS doesn't know why we're using those functions. There are other RTOS software's that let the task convey it's periodicity to the scheduler/RTOS. 
 
 Note : FreeRTOS does not support EDFS
+
+If our CPU Utilization for our tasks is greater than the allowed value, we MUST use EDFS otherwise we cannot run the system - only other option is getting a better faster more expensive CPU.
+
+
 # Exam Review Questions
 **MONDAY the 23RD!!!**
 Don't write any code to answer a question
