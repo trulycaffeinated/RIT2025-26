@@ -68,6 +68,11 @@ void EDF_NextDeadlineRelative(uint32_t ticks);
 ```
 Only works with periodic tasks
 
+otherwise the RTOS can do it
+The RTOS must infer the deadline from some information about the task
+We will have the RTOS know the periods of every task
+
+in Free
 # Exam Review Questions
 **MONDAY the 23RD!!!**
 Don't write any code to answer a question
