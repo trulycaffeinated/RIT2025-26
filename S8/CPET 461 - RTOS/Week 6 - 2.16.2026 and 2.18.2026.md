@@ -59,6 +59,13 @@ at each scheduling decision...
 	- When tasks are preempted the task must be able to describe its future deadline - this is difficult because the task can't know when the RTOS will preempt it
 - or
 	- That determination must be made by the RTOS whenever it considers switching to a new task - this difficult because the RTOS has no way of knowing what the application was doing or what it will do next
+
+
+```C
+void EDF_NextDeadlineAbsolute(uint32_t ticks);
+// or
+void EDF_NextDeadlineRelative(uint32_t ticks);
+```
 # Exam Review Questions
 **MONDAY the 23RD!!!**
 Don't write any code to answer a question
