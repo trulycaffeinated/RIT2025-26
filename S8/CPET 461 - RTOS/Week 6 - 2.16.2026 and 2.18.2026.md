@@ -94,5 +94,3 @@ The slides should be used more as a refresher, syllabus will have textbook refer
 Labs are made as a way to perform operations - if we go through labs and you understand what they do, then we understand the topics.
 
 ## No IDE Specific questions
-
-## 
