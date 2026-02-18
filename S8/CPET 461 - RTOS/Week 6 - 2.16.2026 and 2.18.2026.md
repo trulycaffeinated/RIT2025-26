@@ -60,12 +60,14 @@ at each scheduling decision...
 - or
 	- That determination must be made by the RTOS whenever it considers switching to a new task - this difficult because the RTOS has no way of knowing what the application was doing or what it will do next
 
-
+These two functions are how we do this
 ```C
 void EDF_NextDeadlineAbsolute(uint32_t ticks);
 // or
 void EDF_NextDeadlineRelative(uint32_t ticks);
 ```
+Only works with periodic tasks
+
 # Exam Review Questions
 **MONDAY the 23RD!!!**
 Don't write any code to answer a question
