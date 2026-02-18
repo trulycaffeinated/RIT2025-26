@@ -40,7 +40,7 @@ We can always substitute $n$ with the number of tasks we have
 **The more tasks we have, the more free cpu there needs to be to handle those tasks**
 
 # Task Scheduling 5
-
+**Earliest Deadline First Scheduler** - causes the task which must complete some operation nearest in the future to be scheduled next. (Clairvoyant Scheduler)
 
 # Exam Review Questions
 **MONDAY the 23RD!!!**
@@ -57,5 +57,3 @@ The slides should be used more as a refresher, syllabus will have textbook refer
 Labs are made as a way to perform operations - if we go through labs and you understand what they do, then we understand the topics.
 
 ## No IDE Specific questions
-
-## 
