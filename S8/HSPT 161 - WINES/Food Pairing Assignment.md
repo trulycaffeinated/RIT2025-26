@@ -4,8 +4,8 @@
 **PRICE :** $4.99 (sample size)
 **ALCOHOL :** 16%
 
-**SEE :** 
-**SMELL :**
+**SEE :** CLEAR / Dark Straw (almost orange golden in color)
+**SMELL :** Very intense, can smell the high alcohol. 
 **SIP :**
 **SWALLOW OR SPIT:**
 **SAVOR :**
