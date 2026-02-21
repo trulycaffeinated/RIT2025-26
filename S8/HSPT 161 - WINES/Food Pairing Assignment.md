@@ -6,7 +6,13 @@
 
 **SEE :** CLEAR / Dark Straw (almost orange golden in color)
 **SMELL :** Very intense, can smell the high alcohol. Absolutely smell the peach as well. Also getting a rubbery smell, or like rubar ish? 
-**SIP :**
+**SIP :** 
+Not dry at all - 0
+Sweet - 5 (if the scale went past 5 I would) 
+Warmness in the chest
+Consistency of whole milk
+Low acid - does not sour the mouth much
+This wine tastes like pure peach and sugar. As if you juiced a peach and then added unholy amounts of sugar. You can f
 **SWALLOW OR SPIT:**
 **SAVOR :**
 **WOULD I BUY AGAIN?**
