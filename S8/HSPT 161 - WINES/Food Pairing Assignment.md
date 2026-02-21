@@ -14,11 +14,11 @@
 
 
 ---
-**VINTAGE :** 
-**PRODUCER :**
-**GRAPE/REGION :**
-**PRICE :**
-**ALCOHOL :**
+**VINTAGE :** NON-VINTAGE
+**PRODUCER :** La Marca
+**GRAPE/REGION :** Glera (85%) Pinot Noir (15%)
+**PRICE :** $4.99 (Sample Size)
+**ALCOHOL :** 11%
 
 **SEE :**
 **SMELL :**
