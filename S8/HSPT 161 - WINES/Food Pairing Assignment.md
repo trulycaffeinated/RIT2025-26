@@ -5,7 +5,7 @@
 **ALCOHOL :** 16%
 
 **SEE :** CLEAR / Dark Straw (almost orange golden in color)
-**SMELL :** Very intense, can smell the high alcohol. 
+**SMELL :** Very intense, can smell the high alcohol. Absolutely smell the peach as well. Also getting a rubbery smell, or like rubar ish? 
 **SIP :**
 **SWALLOW OR SPIT:**
 **SAVOR :**
