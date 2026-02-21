@@ -1,10 +1,10 @@
-**VINTAGE :**
-**PRODUCER :**
-**GRAPE/REGION :**
-**PRICE :**
-**ALCOHOL :**
+**VINTAGE :** NON-VINTAGE
+**PRODUCER :** XXL 
+**GRAPE/REGION :** MOSCATO
+**PRICE :** $4.99 (sample size)
+**ALCOHOL :** 16%
 
-**SEE :**
+**SEE :** 
 **SMELL :**
 **SIP :**
 **SWALLOW OR SPIT:**
@@ -14,7 +14,7 @@
 
 
 ---
-**VINTAGE :**
+**VINTAGE :** 
 **PRODUCER :**
 **GRAPE/REGION :**
 **PRICE :**
