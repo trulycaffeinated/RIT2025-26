@@ -35,7 +35,7 @@ There are four (typical) task states
 3. Blocked
 4. Delayed
 *A fifth*
-5. Suspend is available - but is considered poor design. As suspended states break determinism, external control interferes with schedular. **suspended s**
+5. Suspend is available - but is considered poor design. As suspended states break determinism, external control interferes with schedular. **suspended tasks break the ability for the rtos to guarantee a task is completed by deadlines**
 
 States
 1. Ready
@@ -140,3 +140,14 @@ With semaphores, you want to...
 1. Own the lock (down())
 2. Copy the private variable protected by the semaphore locally
 3. Release the lock (up())
+
+# Multitasking
+**Cooperative** (Simple RTOS design)
+- Tasks must be designed considering how they will ensure that all other tasks are allowed to execute when they need to - 
+- Tasks almost never get a "fair" share of the CPU
+- Adding a task to the application might require re-designing of the other tasks
+
+**Preemptive** (More Complicated RTOS design (barely))
+- Tasks can be designed considering how they will interact with other tasks but not whether the other tasks will execute when they need to
+- Tasks always get a "fair" share of the cpu
+- adding a task to the application only requires re-design of other tasks to the degree they interact 
