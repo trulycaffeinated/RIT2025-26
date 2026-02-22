@@ -69,3 +69,11 @@ is available
 13. Ready <-> Suspended
 	1. osKernelSuspend() is called
 	2. osKernelResume() is called
+
+Scheduler can pick **ANY** task that it wants to perform next, it is undefined. 
+This is the ***Scheduling Policy***
+
+Generally tasks never terminate - a task can be terminated but its not frequently used.
+
+When a task is GIVING something - its signaling a resource
+When a task is DELAYED - its waiting for a resource
