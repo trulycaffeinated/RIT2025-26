@@ -176,4 +176,6 @@ Example...
 | Task 3 | 6msec | 25msec |
 CPU utilization max is defined as $Util_{max} = n \times (2^{\frac{1}{n}} - 1)$ which we call $ln(2) = 69.314\%$
 current CPU Utilization is defined as 
-$\displaystyle\sim_{k=1}^n (WCET_k)
+$\displaystyle\sum_{k=1}^n \frac{WCET_k}{Period_k}$ = $\frac{WCET_{T1}}{Period_{T1}} + \frac{WCET_{T2}}{Period_{T2}} + \frac{WCET_{T3}}{Period_{T3}}$ = $\frac{2}{20} + \frac{3}{9} + \frac{6}{25}$ = 67.33%
+
+67.3 < 69.314 so we are good
