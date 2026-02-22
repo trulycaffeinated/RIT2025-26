@@ -223,4 +223,11 @@ This is unbounded because the intermediate priority can prevent the high priorit
 Task 3 (low priority) locks a shared resource
 Task 1 (high priority) attempts a ``down()`` on the shared resource but cannot -- Task 3 is now changed from low priority to *high* priority
 Task 2 (med priority) is ready to execute but is blocked by the now high priority task 3
-Task 3 f
+Task 3 finishes its use of the resource, and performs an ``up()`` -- and is reverted back to low priority
+Task 1 performs a ``down()`` and runs to completion before ``up()``
+Task 2 runs to completion
+
+**This is bounded priority inversion** - as the low priority task *inherits* the high priority to ensure the intermediate priority tasks do not execute
+- Has the same characteristics/conditions as unbounded priority inversion 
+
+**Priority Inheritance** - The process by which 
