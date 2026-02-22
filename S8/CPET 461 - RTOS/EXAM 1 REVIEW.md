@@ -110,3 +110,7 @@ there are three types of applications
 - Soft Real-Time
 - Hard Real-Time
 
+A temporal requirement is considered a deadline when the terminal event of the requirement is something that the software must perform
+A temporal requirement is considered a constraint when the software must interact with the hardware within timing limitations defined by the hardware
+![[Pasted image 20260222121950.png]]
+
