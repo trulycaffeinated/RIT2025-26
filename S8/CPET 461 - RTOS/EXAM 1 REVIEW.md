@@ -189,3 +189,5 @@ The RTOS can make this decision whenever it considers switching to a new task, h
 The RTOS must support **Periodic Construct** - an API function to allow a periodic task to specify it's period (which FreeRTOS does not support)
 
 The RTOS must infer or be told the deadline for EDFS to work! Which is a very difficult thing to do.
+
+# Priorities
