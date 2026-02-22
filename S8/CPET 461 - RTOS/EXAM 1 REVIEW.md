@@ -36,7 +36,7 @@ There are four (typical) task states
 4. Delayed
 *A fifth*
 *5. Suspend*
-is available
+is available - but is considered poor design. As suspended states break determinism, external control interferes with schedular guarantees
 
 5. Running -> Ready
 	1. **Running state can only have one task per CPU Core**
