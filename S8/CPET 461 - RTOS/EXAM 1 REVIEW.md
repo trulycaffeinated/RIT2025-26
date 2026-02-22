@@ -191,3 +191,4 @@ The RTOS must support **Periodic Construct** - an API function to allow a period
 The RTOS must infer or be told the deadline for EDFS to work! Which is a very difficult thing to do.
 
 # Priorities
+**Round Robin Scheduler** is typically considered fair because all tasks get to execute and no one task or group of tasks hog the CPU
