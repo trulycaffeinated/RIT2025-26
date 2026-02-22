@@ -36,8 +36,15 @@ There is no other flavor besides peach and sugar - it is heavily peach. And the 
 **SEE :** 
 CLEAR 
 Pale Straw
+Bubbles (Sparkling)
 **SMELL :**
+Somewhat intense,
+Strong alcohol smell despite only being 11%
+Peach, Citrus
+Getting a lemon smell too? 
 **SIP :**
+STANDALONE (No pairing) :
+
 **SWALLOW OR SPIT:**
 **SAVOR :**
 **WOULD I BUY AGAIN?**
