@@ -125,4 +125,4 @@ Basic functions of an RTOS are no different than a traditional operating system
 Idea is to guarantee performance by identifying the "worst case" performance scenario which is then used as the performance guarantee
 
 There is no guarantee in an RTOS to be fast - there is only the guarantee on performance
-- Even if an appli
+- Even if an application is "fast" it does not mean that it is real-time - real-time is only guaranteed by proving the temporal timing
