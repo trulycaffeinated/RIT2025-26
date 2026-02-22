@@ -185,3 +185,7 @@ $\displaystyle\sum_{k=1}^n \frac{WCET_k}{Period_k}$ = $\frac{WCET_{T1}}{Period_{
 Issue is that it's difficult to implement as the scheduler must know the tasks deadlines, which means the tasks must know the deadlines when they're preempted by the scheduler  - which is difficult because the task does not know when the scheduler will preempt the task.
 Alternatively...
 The RTOS can make this decision whenever it considers switching to a new task, however this is difficult because the RTOS has no way of knowing what a task was doing or what it will do next!
+
+The RTOS must support **Periodic Construct** - an API function to allow a periodic task to specify it's period (which FreeRTOS does not support)
+
+The RTOS must infer or be told the deadline for EDFS to work! Which is a very difficult thing to do.
