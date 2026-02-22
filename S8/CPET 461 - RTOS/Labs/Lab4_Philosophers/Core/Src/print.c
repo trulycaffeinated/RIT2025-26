@@ -26,13 +26,13 @@ void Print_Line(const char *fmt, ...)
 {
     char buffer[128];
 
+    /* Take UART semaphore */
+    osSemaphoreAcquire(uartPrintSem, osWaitForever);
+    
     va_list args;
     va_start(args, fmt);
     vsnprintf(buffer, sizeof(buffer), fmt, args);
     va_end(args);
-
-    /* Take UART semaphore */
-    osSemaphoreAcquire(uartPrintSem, osWaitForever);
 
     HAL_UART_Transmit(&huart2,(uint8_t *)buffer,strlen(buffer),HAL_MAX_DELAY);
 

@@ -33,10 +33,10 @@
             "state": {
               "type": "vscode-editor",
               "state": {
-                "file": "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Core/Src/freertos.c"
+                "file": "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Core/Src/print.c"
               },
               "icon": "lucide-file",
-              "title": "freertos"
+              "title": "print"
             }
           }
         ]
@@ -198,11 +198,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "11eeea1a3aae1dc2",
+  "active": "da66448e3382b476",
   "lastOpenFiles": [
-    "S8/CPET 461 - RTOS/Week 6 - 2.16.2026 and 2.18.2026.md",
-    "S8/CPET 461 - RTOS/EXAM 1 REVIEW.md",
     "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Core/Src/freertos.c",
+    "S8/CPET 461 - RTOS/EXAM 1 REVIEW.md",
+    "S8/CPET 461 - RTOS/Week 6 - 2.16.2026 and 2.18.2026.md",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Core/Src/main.c",
     "S8/CPET 461 - RTOS/Labs/Lab2_FreeRTOS/Core/Src/main.c",
     "S8/CPET 461 - RTOS/Labs/Lab1_CPET461/Core/Src/main.c",
