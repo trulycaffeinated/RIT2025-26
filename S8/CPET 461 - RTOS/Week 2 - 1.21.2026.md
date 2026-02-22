@@ -9,7 +9,7 @@ flowchart TB
 	D ---> B
 ```
 1. Running -> Ready
-	1. **Running state can only have one task per CPU**
+	1. **Running state can only have one task per CPU Core**
 	2. Preempted by scheduler
 	3. Wait on signaled resource
 	4. signal a resource
