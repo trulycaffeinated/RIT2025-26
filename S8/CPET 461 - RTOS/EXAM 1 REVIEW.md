@@ -9,3 +9,8 @@ Why do we need an operating system?
 - Manage hardware resources across applications
 	- Allow one application exclusive use of a hardware device
 	- Coordinate / manage multiple applications use of a hardware device
+
+**TLDR;**
+Operating Systems are used to provide a "virtual machine" for applications, and allow applications to exist and run without concern for other applications.
+Because an application is run on this "virtual machine" - changes in hardware should not cause any issue for the application, and no update should be required. 
+Lastly, the operating system allows one application exclusive use of a hardware device (STM32 GPIO).
