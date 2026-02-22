@@ -35,7 +35,7 @@ There are four (typical) task states
 3. Blocked
 4. Delayed
 *A fifth*
-5. Suspend is available - but is considered poor design. As suspended states break determinism, external control interferes with schedular guaranteesReady
+5. Suspend is available - but is considered poor design. As suspended states break determinism, external control interferes with schedular. **suspended s**
 
 States
 1. Ready
@@ -132,4 +132,11 @@ Can we achieve any parallelism? Yes we can as we can use an ISR to interrupt the
 - this causes the state of the previous GPIO to remain high until the ISR clears - hence why we use semaphores
 
 Semaphores prevent the issues with bare metal and ISR's
-- Values being lost
+- Values being lost 
+- Unwanted variability
+- main() being interrupted
+
+With semaphores, you want to...
+1. Own the lock (down())
+2. Copy the private variable protected by the semaphore locally
+3. Release the lock (up())
