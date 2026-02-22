@@ -195,9 +195,13 @@ The RTOS must infer or be told the deadline for EDFS to work! Which is a very di
 
 RTOS's support the ability for tasks to have different priorities
 
-**Priority Inversion** -the situation when a higher priority task is prevented from executing because a lower priority task is executing *with which it does not *interact*
+**Priority Inversion** -the situation when a higher priority task is prevented from executing because a lower priority task is executing *with which it does not interact*
 
 A higher priority task is blocked by a lower priority task happens all the time with tasks that interact with each other, and its a natural part of task interaction
 - Such as a higher priority task waiting on a semaphore signaled by a lower priority task
 
-However, having appli
+However, having application tasks with different priorities creates the possibility that a task will starve due to *priority inversion*
+![[Pasted image 20260222183753.png]]
+
+Take this diagram...
+Task 1 is the highest priority but is blocked from com
