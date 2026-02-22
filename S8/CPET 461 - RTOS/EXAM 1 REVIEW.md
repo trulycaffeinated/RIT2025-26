@@ -174,4 +174,6 @@ Example...
 | Task 1 | 2msec | 20msec |
 | Task 2 | 3msec | 9msec  |
 | Task 3 | 6msec | 25msec |
-CPU utilization is defined as $Util_{max} = n \times (2^{\frac{1}{n}} - 1)$
+CPU utilization max is defined as $Util_{max} = n \times (2^{\frac{1}{n}} - 1)$ which we call $ln(2) = 69.314\%$
+current CPU Utilization is defined as 
+$\displaystyle\sim_{k=1}^n (WCET_k)
