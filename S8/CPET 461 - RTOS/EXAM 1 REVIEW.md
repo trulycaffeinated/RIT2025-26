@@ -204,4 +204,9 @@ However, having application tasks with different priorities creates the possibil
 ![[Pasted image 20260222183753.png]]
 
 Take this diagram...
-Task 1 is the highest priority but is blocked from com
+Task 1 is the highest priority but is blocked from completing its task by the other tasks as it needs the shared resource.
+Task 3 has the shared resource taken via a ``down()``
+Task 2, a higher priority task than 3 takes the CPU but doesn't need the resource so it runs to completion - task 3 is now blocked
+Task 1 cannot overtake Task 2 because Task 3 has the resource which is blocked, this is **priority inversion** - as task 2 is taking the CPU despite it being a lower priority and not interacting with resources task 1 needs
+Once task 2 is completed task 3 may resume 
+Task 3 completes its task, releasing the resou
