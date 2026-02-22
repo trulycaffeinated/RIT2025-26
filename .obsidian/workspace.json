@@ -13,10 +13,10 @@
             "state": {
               "type": "vscode-editor",
               "state": {
-                "file": "S8/CPET 461 - RTOS/Labs/Lab2_FreeRTOS/Core/Src/main.c"
+                "file": "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Core/Src/freertos.c"
               },
               "icon": "lucide-file",
-              "title": "main"
+              "title": "freertos"
             }
           }
         ]
@@ -180,6 +180,8 @@
   },
   "active": "da66448e3382b476",
   "lastOpenFiles": [
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Core/Src/main.c",
+    "S8/CPET 461 - RTOS/Labs/Lab2_FreeRTOS/Core/Src/main.c",
     "S8/CPET 461 - RTOS/Labs/Lab1_CPET461/Core/Src/main.c",
     "S8/CPET 461 - RTOS/Week 6 - 2.16.2026 and 2.18.2026.md",
     "S8/CPET 461 - RTOS/Week 4 - 2.2.2026 and 2.4.2026.md",
@@ -202,9 +204,7 @@
     "S8/CPET 253 - MICROS (TA)/Lab 5",
     "S7/0 CPET561/Labs/Lab3/db/lab3.quiproj.12928.rdr.flock",
     "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Lab 4 Plan.md",
-    "Lab 4 Plan.pdf",
     "S8/CPET 461 - RTOS/Week 6 - 2.16.2026.md",
-    "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Core/Src/freertos.c",
     "S8/HSPT 160 - BEERS/Week 6 - The Rest of the World.md",
     "Untitled.md",
     "n.md",
