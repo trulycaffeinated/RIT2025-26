@@ -43,7 +43,15 @@ States
 	2. There must always be something running on the CPU - so other tasks will sit as "ready" "blocked" or "delayed"
 2. Running
 	1. Running state can only have one task per cpu core
-	2. There must always be something running on the CPU - so there is often a "null" task which does n
+	2. There must always be something running on the CPU - so there is often a "null" task which does nothing but keeps the cpu occupied until another task is ready
+	3. Only one thing can be running due to the CPU core only being able to execute one stream of instructions (thread) at a time
+3. Blocked
+	1. Waiting on an unsigned resource
+	2. Something the task wants is not available
+	3. Blocked tasks do not automatically become the next task in queue
+4. Delayed
+	1. osDelay()
+	2. osDelayUntil()
 
 Scheduler can pick **ANY** task that it wants to perform next, it is undefined. 
 This is the ***Scheduling Policy***
@@ -115,3 +123,4 @@ Memorize this chart
 |    7 | —                                                                                                                                       | Completes sole access to the shared resource                                                                                                             |
 |    8 | —                                                                                                                                       | Performs an `up()` operation, incrementing the semaphore to **1**, allowing another task to acces                                                        |
 **NULL TASK IS USED TO KEEP THE CPU DOING STUFF - AS THE CPU MUST ALWAYS BE DOING *SOMETHING***
+
