@@ -127,3 +127,9 @@ Memorize this chart
 Can Bare Metal systems achieve real time? - Yes some firmware implementations can achieve real time but it's restricted to very simple systems. 
 
 Bare Metal - one thread of execution, typically a main() loop
+
+Can we achieve any parallelism? Yes we can as we can use an ISR to interrupt the main loop and achieve parallelism
+- this causes the state of the previous GPIO to remain high until the ISR clears - hence why we use semaphores
+
+Semaphores prevent the issues with bare metal and ISR's
+- Values being lost
