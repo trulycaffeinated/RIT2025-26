@@ -220,3 +220,7 @@ Task 1 can now be completed LAST
 This is unbounded because the intermediate priority can prevent the high priority task from executing *forever*
 
 ![[Pasted image 20260222184220.png]]
+Task 3 (low priority) locks a shared resource
+Task 1 (high priority) attempts a ``down()`` on the shared resource but cannot -- Task 3 is now changed from low priority to *high* priority
+Task 2 (med priority) is ready to execute but is blocked by the now high priority task 3
+Task 3 f
