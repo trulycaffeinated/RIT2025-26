@@ -146,8 +146,11 @@ With semaphores, you want to...
 - Tasks must be designed considering how they will ensure that all other tasks are allowed to execute when they need to - 
 - Tasks almost never get a "fair" share of the CPU
 - Adding a task to the application might require re-designing of the other tasks
+*tasks decide when to give up cpu via delays*
 
 **Preemptive** (More Complicated RTOS design (barely))
 - Tasks can be designed considering how they will interact with other tasks but not whether the other tasks will execute when they need to
 - Tasks always get a "fair" share of the cpu
 - adding a task to the application only requires re-design of other tasks to the degree they interact 
+*rtos decides when to give up the cpu via the scheduler and scheduler policy*
+# **$Utilization = n \times (2^{\frac{1}{n}} - 1)$
