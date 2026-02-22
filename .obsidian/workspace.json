@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S8/CPET 461 - RTOS/Week 1 - 1.12.2026 and 1.14.2026.md",
+                "file": "S8/CPET 461 - RTOS/Week 4 - 2.2.2026 and 2.4.2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 1 - 1.12.2026 and 1.14.2026"
+              "title": "Week 4 - 2.2.2026 and 2.4.2026"
             }
           }
         ]
@@ -182,11 +182,13 @@
   },
   "active": "da66448e3382b476",
   "lastOpenFiles": [
-    "S8/CPET 461 - RTOS/EXAM 1 REVIEW.md",
-    "S8/CPET 461 - RTOS/Week 6 - 2.16.2026 and 2.18.2026.md",
-    "S8/CPET 461 - RTOS/Week 5 - 2.9.2026 and 2.11.2026.md",
     "S8/CPET 461 - RTOS/Week 3 - 1.28.2026.md",
+    "S8/CPET 461 - RTOS/Week 5 - 2.9.2026 and 2.11.2026.md",
+    "S8/CPET 461 - RTOS/EXAM 1 REVIEW.md",
     "S8/CPET 461 - RTOS/Week 4 - 2.2.2026 and 2.4.2026.md",
+    "S8/CPET 461 - RTOS/RTOS Book 1 - The Theory by Jim Cooling.pdf",
+    "S8/CPET 461 - RTOS/Week 1 - 1.12.2026 and 1.14.2026.md",
+    "S8/CPET 461 - RTOS/Week 6 - 2.16.2026 and 2.18.2026.md",
     "S8/CPET 461 - RTOS/Week 2 - 1.21.2026.md",
     "Image Graveyard/Pasted image 20260222121950.png",
     "Image Graveyard/Pasted image 20260222121103.png",
@@ -204,7 +206,6 @@
     "Lab 4 Plan.pdf",
     "S8/CPET 461 - RTOS/Week 6 - 2.16.2026.md",
     "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Core/Src/freertos.c",
-    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Core/Src/main.c",
     "S8/HSPT 160 - BEERS/Week 6 - The Rest of the World.md",
     "Untitled.md",
     "n.md",
