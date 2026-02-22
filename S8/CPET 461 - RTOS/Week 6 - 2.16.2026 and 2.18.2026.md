@@ -1,6 +1,6 @@
 # Task Scheduling 4
 
-**RM Scheduling** assigns static priorities to tasks at design time
+**Rate Monotonic Scheduling** assigns static priorities to tasks at design time
 All tasks must be strictly periodic, or can be modeled as periodic,
 - modeling an aperiodic task as periodic requries that the minumum inter-arrival time of the task be known
 - The inter-arrival time is time between any two successive times
