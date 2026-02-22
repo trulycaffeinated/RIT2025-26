@@ -38,37 +38,9 @@ There are four (typical) task states
 *5. Suspend*
 is available - but is considered poor design. As suspended states break determinism, external control interferes with schedular guarantees
 
-5. Running -> Ready
-	1. **Running state can only have one task per CPU Core**
-	2. Preempted by scheduler
-	3. Wait on signaled resource
-	4. signal a resource
-	5. Call osThreadYield()
-6. Ready -> Running
-	1. Selected by schedule
-	2. **There always has to be something running on the CPU**
-		1. There is such a thing as a *null* task that runs when nothing else is happening -- typically nothing can be written for the null task, but some OS's allow it
-7. Running -> Blocked
-	1. Wait on unsigned resource
-	2. Something the task wants is not present
-	3. Blocked task does not automatically become the next task in queue
-8. Running -> Delayed
-	1. Call osDelay()
-	2. Call osDelayUntil()
-9. Blocked -> Ready
-	1. Resource is signaled
-10. Delayed -> Ready
-	1. Time Delay Expires
-						 **THE FOLLOW STATES ARE BAD DESIGN**
-11. Delayed <-> Suspended
-	1. osKernelSuspend() is called
-	2. osKernelResume() is called
-12. Blocked <-> Suspended
-	1. osKernelSuspend() is called
-	2. osKernelResume() is called
-13. Ready <-> Suspended
-	1. osKernelSuspend() is called
-	2. osKernelResume() is called
+5. Ready
+	1. Tasks are created in the ready state
+	2. Preempted by the scheduler
 
 Scheduler can pick **ANY** task that it wants to perform next, it is undefined. 
 This is the ***Scheduling Policy***
