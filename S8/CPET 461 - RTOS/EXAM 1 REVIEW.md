@@ -126,3 +126,10 @@ Idea is to guarantee performance by identifying the "worst case" performance sce
 
 There is no guarantee in an RTOS to be fast - there is only the guarantee on performance
 - Even if an application is "fast" it does not mean that it is real-time - real-time is only guaranteed by proving the temporal timing
+
+
+An RTOS **MUST** support multitasking
+- Multitasking is not a pre-req for an application to be real-time; many Embedded real time systems have been built as single-threaded but there are significant limits to the scope of such applications, i.e., only the simplest real-time applications can be implemented with a single task model
+
+With multitasking comes the requirements that the RTOS provide a means for the tasks to communicate with each other and to manage resources
+- Basically, 
