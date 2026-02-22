@@ -13,4 +13,10 @@ Why do we need an operating system?
 **TLDR;**
 Operating Systems are used to provide a "virtual machine" for applications, and allow applications to exist and run without concern for other applications.
 Because an application is run on this "virtual machine" - changes in hardware should not cause any issue for the application, and no update should be required. 
-Lastly, the operating system allows one application exclusive use of a hardware device (STM32 GPIO).
+Lastly, the operating system allows one application exclusive use of a hardware device (like the STM32 GPIO). And manages the applications when multiple require the use of a hardware device.
+
+# H2
+![[Pasted image 20260222115241.png]]
+RTOS Contains only **one** kernel function - which are functions that involve interactions between tasks or between tasks and the RTOS itself
+
+Generally the RTOS does not contain device drivers. However, it is not uncommon that an RTOS will be packaged with 
