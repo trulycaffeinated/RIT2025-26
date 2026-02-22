@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S8/CPET 461 - RTOS/Week 5 - 2.9.2026 and 2.11.2026.md",
+                "file": "S8/CPET 461 - RTOS/Week 6 - 2.16.2026 and 2.18.2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 5 - 2.9.2026 and 2.11.2026"
+              "title": "Week 6 - 2.16.2026 and 2.18.2026"
             }
           }
         ]
@@ -200,12 +200,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "da66448e3382b476",
+  "active": "6b349da0280c65ce",
   "lastOpenFiles": [
-    "S8/CPET 461 - RTOS/EXAM 1 REVIEW.md",
-    "S8/CPET 461 - RTOS/Week 5 - 2.9.2026 and 2.11.2026.md",
-    "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Core/Src/print.c",
     "S8/CPET 461 - RTOS/Week 6 - 2.16.2026 and 2.18.2026.md",
+    "S8/CPET 461 - RTOS/Week 5 - 2.9.2026 and 2.11.2026.md",
+    "S8/CPET 461 - RTOS/EXAM 1 REVIEW.md",
+    "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Core/Src/print.c",
     "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Core/Src/freertos.c",
     "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Core/Src/main.c",
     "S8/CPET 461 - RTOS/Labs/Lab2_FreeRTOS/Core/Src/main.c",

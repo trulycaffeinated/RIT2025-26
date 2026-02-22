@@ -160,3 +160,7 @@ As n approaches infinity utilization goes to 70% (69.3)
 Whether a task is **compute bound** or **io bound** 
 - IO bound tasks are typically low priority
 - Compute tasks use a lot of CPU so they are given higher priority 
+
+# Scheduling
+**Rate Monotonic Scheduling** - assigns static priorities to tasks at design time - priorities are assigned **inversely** to periodicity 
+i.e. **TASK THAT EXECUTES THE FASTEST**
