@@ -209,4 +209,14 @@ Task 3 has the shared resource taken via a ``down()``
 Task 2, a higher priority task than 3 takes the CPU but doesn't need the resource so it runs to completion - task 3 is now blocked
 Task 1 cannot overtake Task 2 because Task 3 has the resource which is blocked, this is **priority inversion** - as task 2 is taking the CPU despite it being a lower priority and not interacting with resources task 1 needs
 Once task 2 is completed task 3 may resume 
-Task 3 completes its task, releasing the resou
+Task 3 completes its task, releasing the resource via ``up()``
+Task 1 can now be completed LAST
+**This is unbound priority inversion and it has four conditions**
+1. There must be at least three tasks
+2. There must be at least three different priorities
+3. A high priority task must interact with a low priority task
+4. There must be at least one task with a priority in-between the two interacting low/high priority tasks
+
+This is unbounded because the intermediate priority can prevent the high priority task from executing *forever*
+
+![[Pasted image 20260222184220.png]]
