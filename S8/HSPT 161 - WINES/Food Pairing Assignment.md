@@ -33,7 +33,9 @@ There is no other flavor besides peach and sugar - it is heavily peach. And the 
 **PRICE :** $4.99 (Sample Size)
 **ALCOHOL :** 11%
 
-**SEE :**
+**SEE :** 
+CLEAR 
+Pale Straw
 **SMELL :**
 **SIP :**
 **SWALLOW OR SPIT:**
