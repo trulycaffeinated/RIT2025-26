@@ -48,10 +48,6 @@ We have no real idea where the point of failure will be with an ISR and Bare-Met
 
 With the STM32 you can have multiple interrupts at the same priority level -- adds complexity
 
-#Teradyne
-***SPIT CAN BE RUN IN PARALLEL - START EACH TASK IN IT'S OWN CORE AND RETURN THE RESULT***
-**Hold results until return? To prevent data corruption**
-
 **Nested** - interrupts can be interrupted
 
 Lowered number interrupts have higher priority
@@ -61,4 +57,8 @@ You want to...
 2. Copy the private variable locally
 3. Release the lock
 4. hot girl shit
+
+#Teradyne
+***SPIT CAN BE RUN IN PARALLEL - START EACH TASK IN IT'S OWN CORE AND RETURN THE RESULT***
+**Hold results until return? To prevent data corruption**
 
