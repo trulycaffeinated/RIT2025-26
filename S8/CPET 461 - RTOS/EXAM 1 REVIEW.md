@@ -178,4 +178,7 @@ CPU utilization max is defined as $Util_{max} = n \times (2^{\frac{1}{n}} - 1)$ 
 current CPU Utilization is defined as 
 $\displaystyle\sum_{k=1}^n \frac{WCET_k}{Period_k}$ = $\frac{WCET_{T1}}{Period_{T1}} + \frac{WCET_{T2}}{Period_{T2}} + \frac{WCET_{T3}}{Period_{T3}}$ = $\frac{2}{20} + \frac{3}{9} + \frac{6}{25}$ = 67.33%
 
-67.3 < 69.314 so we are good
+67.3 < 69.314 so we are good - the three tasks here pass Rate Monotonic Analysis and so they will all meet their deadlines
+
+
+**Earliest Deadline First Scheduler** - Also known as the *Clairvoyant scheduler* -  causes the task with the closest deadline to have the highest priority so that it finishes on time before it's deadline.
