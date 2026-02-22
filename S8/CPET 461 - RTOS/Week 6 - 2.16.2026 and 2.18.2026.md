@@ -13,7 +13,7 @@ Tasks of the same period will be given the same priority, and round-robin schedu
 
 **RM Scheduling** guarantees tasks will hit their deadlines
 
-For each collection of tasks, we need to know each task's period and worst-case execution time (WCET)
+For each collection of tasks, we need to know each task's period and *worst-case execution time* (WCET)
 - Task 1 - executes for not more than 2msec every 2msec
 - Task 2 - executes for not more than 3msec with an inter-arrival time of 9, 12,18 and 20msec
 - Task 3 - executes for not more than 6msec every 25msec
@@ -42,7 +42,7 @@ We can always substitute $n$ with the number of tasks we have
 # Task Scheduling 5
 **Earliest Deadline First Scheduler** - causes the task which must complete some operation nearest in the future to be scheduled next. **(Clairvoyant Scheduler) - sees what the future needs**
 
-The RTOS must chose the task to execute next which hsa the earliest future deadline
+The RTOS must chose the task to execute next which has the earliest future deadline
 - EDFS allows processor utilization to reach 100%
 	- Recall that utilization = $\displaystyle\sum_{k=1}^n(\frac{WCET}{Period})$
 	- For RMS
