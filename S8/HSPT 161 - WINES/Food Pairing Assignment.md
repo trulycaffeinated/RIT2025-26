@@ -44,7 +44,10 @@ Peach, Citrus
 Getting a lemon smell too? 
 **SIP :**
 STANDALONE (No pairing) :
-
+Somewhat dry - 1-2
+Sweet : 2
+Warm throat 
+Body - 0-1 water to 1% milk
 **SWALLOW OR SPIT:**
 **SAVOR :**
 **WOULD I BUY AGAIN?**
