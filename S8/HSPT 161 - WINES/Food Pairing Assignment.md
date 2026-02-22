@@ -50,8 +50,13 @@ Warm throat
 Body - 0-1 water to 1% milk
 
 WITH SPAGHETTI:
-I read that they don't pair very well (after buying unfortunately) and I see why. The red sauce and the rose seem to dull each others flavors. It makes the beef of the Spaghetti Bolonese taste very unseasoned
+I read that they don't pair very well (after buying unfortunately) and I see why. The red sauce and the rose seem to dull each others flavors. It makes the beef of the Spaghetti Bolonese taste very unseasoned and bland and almost like it needs salt. Interestingly, together the wine tastes sweeter and more acidic?
 **SWALLOW OR SPIT:**
+Standalone : Swallow
+Together : Swallow
 **SAVOR :**
+No lasting after taste when alone
+The acidic feeling in my mouth seems to last longer after having it with food. 
 **WOULD I BUY AGAIN?**
+Yes
 **COMMENTS :**
