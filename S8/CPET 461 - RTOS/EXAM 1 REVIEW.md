@@ -116,4 +116,13 @@ A temporal requirement is considered a constraint when the software must interac
 
 Basic functions of an RTOS are no different than a traditional operating system
 - Manage access to (scarce) hardware resources
-- Establ
+- Establish and enforce fairness regarding how resources are shared
+- Provide primitive functions which cannot be provided by application code
+- Provide these services with minimal performance overhead
+
+**An RTOS guarantees performance where a traditional OS does not**
+
+Idea is to guarantee performance by identifying the "worst case" performance scenario which is then used as the performance guarantee
+
+There is no guarantee in an RTOS to be fast - there is only the guarantee on performance
+- Even if an appli
