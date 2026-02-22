@@ -48,6 +48,9 @@ Somewhat dry - 1-2
 Sweet : 2
 Warm throat 
 Body - 0-1 water to 1% milk
+
+WITH SPAGHETTI:
+I read that they don't pair very well (after buying unfortunately) and I see why. The red sauce and the rose seem to dull each others flavors. It makes the beef of the Spaghetti Bolonese taste very unseasoned
 **SWALLOW OR SPIT:**
 **SAVOR :**
 **WOULD I BUY AGAIN?**
