@@ -92,6 +92,7 @@ Interactions between tasks are represented by arrows which connect to "sockets"
 - Complex diagrams, where tasks interact, the socket characteristics become critical to design and to understanding the task interaction
 
 # H4
+Memorize this chart
 
 | Step | **Task A**                                                                                                                              | **Task B**                                                                                                                                               |
 | ---: | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -103,3 +104,9 @@ Interactions between tasks are represented by arrows which connect to "sockets"
 |    6 | —                                                                                                                                       | Executes and begins sole access to the shared resource                                                                                                   |
 |    7 | —                                                                                                                                       | Completes sole access to the shared resource                                                                                                             |
 |    8 | —                                                                                                                                       | Performs an `up()` operation, incrementing the semaphore to **1**, allowing another task to acces                                                        |
+Real Time applications are all about timeliness 
+there are three types of applications
+- Non-Real-Time
+- Soft Real-Time
+- Hard Real-Time
+
