@@ -132,4 +132,8 @@ An RTOS **MUST** support multitasking
 - Multitasking is not a pre-req for an application to be real-time; many Embedded real time systems have been built as single-threaded but there are significant limits to the scope of such applications, i.e., only the simplest real-time applications can be implemented with a single task model
 
 With multitasking comes the requirements that the RTOS provide a means for the tasks to communicate with each other and to manage resources
-- Basically, 
+- Basically, a means to control the singled threaded execution is needed so that no application is executing a block of code or accessing a resource that another application is also executing or accessing.
+
+An RTOS must provide a mechanism where multiple tasks can appear to be executing in parallel, even though the underlying processor hardware only supports executing a single task at a time
+
+**COUNTING SEMAPH**
