@@ -77,3 +77,9 @@ Generally tasks never terminate - a task can be terminated but its not frequentl
 
 When a task is GIVING something - its signaling a resource
 When a task is DELAYED - its waiting for a resource
+
+Tasks can enter a state called **deadlock** in which they are waiting for a resource that will never be available.
+
+If there are no tasks that are ready to run when the RTOS starts it will crash (i.e. when no tasks are created)
+
+Tasks will neve
