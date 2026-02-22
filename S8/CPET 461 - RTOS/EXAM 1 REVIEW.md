@@ -163,4 +163,15 @@ Whether a task is **compute bound** or **io bound**
 
 # Scheduling
 **Rate Monotonic Scheduling** - assigns static priorities to tasks at design time - priorities are assigned **inversely** to periodicity 
-i.e. **TASK THAT EXECUTES THE FASTEST**
+i.e. *TASK THAT EXECUTES THE MOST FREQUENTLY HAS THE HIGHEST PRIORITY*
+Guarantees that tasks will hit their deadlines
+
+**Rate Monotonic Analysis**
+Example...
+
+| TASK   | WCETE | PERIOD |
+| ------ | ----- | ------ |
+| Task 1 | 2msec | 20msec |
+| Task 2 | 3msec | 9msec  |
+| Task 3 | 6msec | 25msec |
+CPU utilization is defined as $Util_{max} = n \times (2^{\frac{1}{n}} - 1)$
