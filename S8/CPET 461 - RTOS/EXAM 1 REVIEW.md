@@ -28,3 +28,12 @@ We give up 2 things to achieve this GTP
 - Support for a wide variety of hardware devices, as RTOS are usually designed with specific hardware device(s) in mind
 - Common API
 
+# H3
+There are four (typical) task states
+1. Ready
+2. Running
+3. Blocked
+4. Delayed
+*A fifth*
+*5. Suspend*
+is available
