@@ -87,3 +87,19 @@ Tasks will never end, all tasks should be infinite loops with the exception of d
 Most operating systems don't allow arguments to be passed to the RTOS tasks
 ![[Pasted image 20260222121103.png]]
 Each task is represented by a parallelogram 
+Interactions between tasks are represented by arrows which connect to "sockets"
+- Connections to hardware are simple arrows without socks
+- Complex diagrams, where tasks interact, the socket characteristics become critical to design and to understanding the task interaction
+
+# H4
+
+| Step | **Task A**                                                                                                                              | **Task B**                                                                                                                                               |
+| ---: | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    1 | Performs a `down()` operation, decrementing the semaphore to **0**                                                                      | —                                                                                                                                                        |
+|    2 | —                                                                                                                                       | Executes and performs a `down()` operation (after Task A’s `down()` and before Task A’s `up()`). Because the semaphore is **0**, Task B is **suspended** |
+|    3 | Begins **sole access** to the shared resource                                                                                           | —                                                                                                                                                        |
+|    4 | Completes sole access to the shared resource                                                                                            | —                                                                                                                                                        |
+|    5 | Performs an `up()` operation. Because a task is waiting, the semaphore is **not incremented**; instead, Task B is made **ready to run** | The `up()` performed by Task A completes Task B’s pending `down()` and **transfers sole access** of the shared resource to Task B                        |
+|    6 | —                                                                                                                                       | Executes and begins sole access to the shared resource                                                                                                   |
+|    7 | —                                                                                                                                       | Completes sole access to the shared resource                                                                                                             |
+|    8 | —                                                                                                                                       | Performs an `up()` operation, incrementing the semaphore to **1**, allowing another task to acces                                                        |
