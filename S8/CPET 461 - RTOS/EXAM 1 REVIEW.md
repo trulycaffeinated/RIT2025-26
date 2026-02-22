@@ -19,4 +19,12 @@ Lastly, the operating system allows one application exclusive use of a hardware 
 ![[Pasted image 20260222115241.png]]
 RTOS Contains only **one** kernel function - which are functions that involve interactions between tasks or between tasks and the RTOS itself
 
-Generally the RTOS does not contain device drivers. However, it is not uncommon that an RTOS will be packaged with 
+Generally the RTOS does not contain device drivers. However, it is not uncommon that an RTOS will be packaged with a collection of device drivers.
+
+**We need an RTOS for *Guaranteed Temporal Performance***
+Which is when something needs to be happening in real time, it is.
+
+We give up 2 things to achieve this GTP
+- Support for a wide variety of hardware devices, as RTOS are usually designed with specific hardware device(s) in mind
+- Common API
+
