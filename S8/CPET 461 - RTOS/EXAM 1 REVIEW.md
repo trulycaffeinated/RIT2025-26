@@ -124,3 +124,6 @@ Memorize this chart
 |    8 | —                                                                                                                                       | Performs an `up()` operation, incrementing the semaphore to **1**, allowing another task to acces                                                        |
 **NULL TASK IS USED TO KEEP THE CPU DOING STUFF - AS THE CPU MUST ALWAYS BE DOING *SOMETHING***
 
+Can Bare Metal systems achieve real time? - Yes some firmware implementations can achieve real time but it's restricted to very simple systems. 
+
+Bare Metal - one thread of execution, typically a main() loop
