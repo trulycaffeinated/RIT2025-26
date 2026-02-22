@@ -155,4 +155,4 @@ With semaphores, you want to...
 *rtos decides when to give up the cpu via the scheduler and scheduler policy*
 # **$Utilization = n \times (2^{\frac{1}{n}} - 1)$
 
-As n approaches infinity utilization goes to 70% (9)
+As n approaches infinity utilization goes to 70% (69.3)
