@@ -230,4 +230,8 @@ Task 2 runs to completion
 **This is bounded priority inversion** - as the low priority task *inherits* the high priority to ensure the intermediate priority tasks do not execute
 - Has the same characteristics/conditions as unbounded priority inversion 
 
-**Priority Inheritance** - The process by which 
+**Priority Inheritance** - The process by which the priority of a task is increased when a higher priority task attempts to lock a resource, and its priority is restored when it releases the resource
+Implementing Priority inheritance can be computationally expensive because every time that any resource is locked there is the potential for the priority of a task to be changed, to do that the RTOS must keep track of which tasks have what resources at all times
+
+Many RTOS's only implement priority inheritance with *mutexes* (binary semaphore)
+
