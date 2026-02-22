@@ -114,3 +114,6 @@ A temporal requirement is considered a deadline when the terminal event of the r
 A temporal requirement is considered a constraint when the software must interact with the hardware within timing limitations defined by the hardware
 ![[Pasted image 20260222121950.png]]
 
+Basic functions of an RTOS are no different than a traditional operating system
+- Manage access to (scarce) hardware resources
+- Establ
