@@ -58,5 +58,7 @@ Together : Swallow
 No lasting after taste when alone
 The acidic feeling in my mouth seems to last longer after having it with food. 
 **WOULD I BUY AGAIN?**
-Yes
+Standalone : Yes - I would buy this again to have alone, not with anything. 
+Together : Potentially with a different meal, the light sparking wine and the heavy sauce of the meal I put together fight a bit much on the palette and don't play well.
 **COMMENTS :**
+My wine drinking fried from Washington was unhappy with my choice of food/wine pairing, and I understand why although I think she played up the negativity a bit much. While the spaghetti and the rose don't pair great together, its moreso because they dull each other out, rather than make one thing taste worse. 
