@@ -40,12 +40,12 @@ RTOS configured with a 1msec timescale
 
 ### Cooperative vs Preemptive Multitasking
 
-**Cooperative** (Simple RTOS design)
+**Cooperative** (Simple RTOS design) *tasks decide when to give up cpu via osDelay()*
 - Tasks must be designed considering how they will ensure that all other tasks are allowed to execute when they need to - 
 - Tasks almost never get a "fair" share of the CPU
 - Adding a task to the application might require re-designing of the other tasks
 
-**Preemptive** (More Complicated RTOS design (barely))
+**Preemptive** (More Complicated RTOS design (barely)) *rtos decides when tasks give up cpu via scheduling policy*
 - Tasks can be designed considering how they will interact with other tasks but not whether the other tasks will execute when they need to
 - Tasks always get a "fair" share of the cpu
 - adding a task to the application only requires re-design of other tasks to the degree they interact 
