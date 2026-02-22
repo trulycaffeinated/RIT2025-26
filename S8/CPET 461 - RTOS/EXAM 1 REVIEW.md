@@ -35,12 +35,15 @@ There are four (typical) task states
 3. Blocked
 4. Delayed
 *A fifth*
-*5. Suspend*
-is available - but is considered poor design. As suspended states break determinism, external control interferes with schedular guarantees
+5. Suspend is available - but is considered poor design. As suspended states break determinism, external control interferes with schedular guaranteesReady
 
-5. Ready
-	1. Tasks are created in the ready state
-	2. Preempted by the scheduler
+States
+1. Ready
+	1. All tasks are created "Ready" to run
+	2. There must always be something running on the CPU - so other tasks will sit as "ready" "blocked" or "delayed"
+2. Running
+	1. Running state can only have one task per cpu core
+	2. There must always be something running on the CPU - so there is often a "null" task which does n
 
 Scheduler can pick **ANY** task that it wants to perform next, it is undefined. 
 This is the ***Scheduling Policy***
