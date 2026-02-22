@@ -82,4 +82,8 @@ Tasks can enter a state called **deadlock** in which they are waiting for a reso
 
 If there are no tasks that are ready to run when the RTOS starts it will crash (i.e. when no tasks are created)
 
-Tasks will neve
+Tasks will never end, all tasks should be infinite loops with the exception of default task which should terminate itself asap
+
+Most operating systems don't allow arguments to be passed to the RTOS tasks
+![[Pasted image 20260222121103.png]]
+Each task is represented by a parallelogram 
