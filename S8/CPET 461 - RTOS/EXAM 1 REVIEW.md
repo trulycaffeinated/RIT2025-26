@@ -191,4 +191,13 @@ The RTOS must support **Periodic Construct** - an API function to allow a period
 The RTOS must infer or be told the deadline for EDFS to work! Which is a very difficult thing to do.
 
 # Priorities
-**Round Robin Scheduler** is typically considered fair because all tasks get to execute and no one task or group of tasks hog the CPU
+**Round Robin Scheduler** is typically considered fair because all tasks get to execute and no one task or group of tasks hog the CPU - however this is only true for tasks of the same priority group
+
+RTOS's support the ability for tasks to have different priorities
+
+**Priority Inversion** -the situation when a higher priority task is prevented from executing because a lower priority task is executing *with which it does not *interact*
+
+A higher priority task is blocked by a lower priority task happens all the time with tasks that interact with each other, and its a natural part of task interaction
+- Such as a higher priority task waiting on a semaphore signaled by a lower priority task
+
+However, having appli
