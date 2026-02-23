@@ -16,8 +16,8 @@ Style :  Kolsh
 Color (scale 0-8) : 2-2.5
 Aroma Strength (scale 0-5) : 3
 Aroma reminds me of... 
-Campfire wood, Toast, Bread, strong yeast smell, 
-Taste Strength (scale 0-5) : 
+Campfire wood, Toast, Bread, strong yeast smell, Honey, **ale yeast gives off fruity notes**
+Taste Strength (scale 0-5) : Honey, 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
