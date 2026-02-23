@@ -84,19 +84,20 @@ Color (scale 0-8) : 8 - Black
 Aroma Strength (scale 0-5) : 3
 Aroma reminds me of... Coffee, Caramel?  I'm getting something else down, oak? Dark Chocolate 
 Taste Strength (scale 0-5) : 1
-Taste Reminds me of... Burnt toast, roasted coffee, dark chocolate 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Reminds me of... Burnt toast, roasted coffee, fake dark chocolate 
+Mouthfeel (scale 0-5) : 1 
+Finish Strength (scale 0-5) : 1 
+Finish reminds me of.... Heavily bitter finish, tastes more like coffee
+Did I like it? 5/10
+Would I buy this beer? No
 Other Comments...
+I think Beer #4 heavily overpowered this one, and I didn't have much of it so there wasn't much for me to recover with.
 
 ---
 **Beer 6** : Hofbrau Munchner Weizen
 Ale or Lager? : Ale
 Style : Hefe-Welzen
-Color (scale 0-8) : 
+Color (scale 0-8) : 2 Pale Straw
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
