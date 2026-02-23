@@ -48,8 +48,8 @@ Its a bit tasteless in my eyes. Almost like if water was a soda
 Ale or Lager? : Lager
 Style : Helles (Pale Lager)
 Color (scale 0-8) : Pale Straw
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Aroma Strength (scale 0-5) : 1
+Aroma reminds me of... Similar to #2 not much, get a bit more of that grainy smell though - sour apple too
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
@@ -58,7 +58,7 @@ Finish reminds me of....
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
-Still a helles, but thinner foam at the head - goes away pretty quickly - thin head usually signifies a wheat beer but since this is German it can't be
+Still a helles, but thinner foam at the head - goes away pretty quickly - thin head usually signifies a wheat beer but since this is German it can't have wheat
 
 ---
 **Beer 4** : Brunonia Lager 
