@@ -137,9 +137,15 @@ Taste Strength (scale 0-5) : 3
 Taste Reminds me of... Very bitter, burnt coffee, when it first touches your mouth it feels/tastes just like a coca cola, then turns bitter
 Mouthfeel (scale 0-5) : 4 Very thick
 Finish Strength (scale 0-5) : 3
-Finish reminds me of.... Keeps
-Did I like it? 
-Would I buy this beer? 
+Finish reminds me of.... Keeps the very bitter taste from the initial taste just drags it out
+Did I like it? 6/10
+Would I buy this beer? No
 Other Comments...
 
 ---
+
+**Top 3.**
+1. **Beer #7 Aventiunus Weizenbock**
+2. **Hofbrau Munchuner Weizen**
+3. **Gaffel Kosh**
+
