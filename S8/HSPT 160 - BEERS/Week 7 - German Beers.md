@@ -131,8 +131,8 @@ Other Comments...
 Ale or Lager? : Lager
 Style : Dopplebock
 Color (scale 0-8) : 7-8
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Aroma Strength (scale 0-5) : 2
+Aroma reminds me of... Dog food, dog food, dog food - cooked grains, veggies
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
