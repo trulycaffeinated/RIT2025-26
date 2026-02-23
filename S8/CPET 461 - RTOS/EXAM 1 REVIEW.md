@@ -235,3 +235,5 @@ Implementing Priority inheritance can be computationally expensive because every
 
 Many RTOS's only implement priority inheritance with *mutexes* (binary semaphore)
 
+### Look these up
+Why can't a CPU be idle?
