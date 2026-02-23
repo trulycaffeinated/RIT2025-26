@@ -31,13 +31,13 @@ Other Comments...
 Ale or Lager? : Lager
 Style : Helles (Pale Lager)
 Color (scale 0-8) : 1 Pale Straw
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
+Aroma Strength (scale 0-5) : 2
+Aroma reminds me of... Can't put my finger on it...
+Taste Strength (scale 0-5) : 1
+Taste Reminds me of... A touch bitter, very light though like water. It really tastes like a bitter water to me
+Mouthfeel (scale 0-5) : 1
+Finish Strength (scale 0-5) : 2
+Finish reminds me of.... Finish is more bitter than the initial taste
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
