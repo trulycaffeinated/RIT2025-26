@@ -22,8 +22,8 @@ Taste Reminds me of... Honey, **white wine or apple (ale)**,
 Mouthfeel (scale 0-5) : 1-2
 Finish Strength (scale 0-5) : 1
 Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Did I like it? 6/10
+Would I buy this beer? If I had to 
 Other Comments...
 
 ---
@@ -38,9 +38,10 @@ Taste Reminds me of... A touch bitter, very light though like water. It really t
 Mouthfeel (scale 0-5) : 1
 Finish Strength (scale 0-5) : 2
 Finish reminds me of.... Finish is more bitter than the initial taste
-Did I like it? 
-Would I buy this beer? 
+Did I like it? 6/10
+Would I buy this beer? If I had to
 Other Comments...
+Its a bit tasteless in my eyes. Almost like if water was a soda
 
 ---
 **Beer 3** : Eichbaum Helles
@@ -57,6 +58,7 @@ Finish reminds me of....
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
+Still a helles, but thinner foam at the head - goes away pretty quickly - thin head usually signifies a wheat beer but since this is German it can't be
 
 ---
 **Beer 4** : Brunonia Lager 
