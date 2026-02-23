@@ -30,9 +30,9 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer 3** : Eichbaum H
-Ale or Lager? : 
-Style : 
+**Beer 3** : Eichbaum Helles
+Ale or Lager? : Lager
+Style : Helles
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -46,9 +46,9 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer #** : 
-Ale or Lager? : 
-Style : 
+**Beer 4** : Brunonia Lager 
+Ale or Lager? : Lager
+Style : German Lager
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -62,9 +62,9 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer #** : 
-Ale or Lager? : 
-Style : 
+**Beer 5** : Kostritzer Schwarzbier
+Ale or Lager? : Lager
+Style : Schwarzbier
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -78,9 +78,9 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer #** : 
-Ale or Lager? : 
-Style : 
+**Beer 6** : Hofbrau Munchner Weizen
+Ale or Lager? : Ale
+Style : Hefe-Welzen
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -94,9 +94,9 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer #** : 
-Ale or Lager? : 
-Style : 
+**Beer 7** : Aventinus Weizenbock
+Ale or Lager? : Ale
+Style : Weizenbock (Wheaat Doppelbock)
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -110,9 +110,9 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer #** : 
-Ale or Lager? : 
-Style : 
+**Beer 8** : Avinger Celebrator
+Ale or Lager? : Lager
+Style : Dopplebock
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
