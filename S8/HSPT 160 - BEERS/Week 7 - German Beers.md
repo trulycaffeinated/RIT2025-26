@@ -100,14 +100,15 @@ Style : Hefe-Weizen
 Color (scale 0-8) : 2 Pale Straw
 Aroma Strength (scale 0-5) : 3
 Aroma reminds me of... Very smokey smell, like a woodstove that was just opened up. Rubbery, or burnt rubber? **Leather is the big smell** 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Bubblegum, Banana
+Mouthfeel (scale 0-5) : 1
+Finish Strength (scale 0-5) : 2 
+Finish reminds me of.... Finish is pure banana for me 
+Did I like it? 7/10
+Would I buy this beer? Yes 
 Other Comments...
+Prof. mentioned something on the finish that some people react poorly too, I am not getting anything atm
 
 ---
 **Beer 7** : Aventinus Weizenbock
