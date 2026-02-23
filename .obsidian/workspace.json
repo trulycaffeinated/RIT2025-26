@@ -11,12 +11,14 @@
             "id": "da66448e3382b476",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "S8/CPET 461 - RTOS/RTOS Book 1 - The Theory by Jim Cooling.pdf"
+                "file": "S8/CPET 461 - RTOS/EXAM 1 REVIEW.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "RTOS Book 1 - The Theory by Jim Cooling"
+              "icon": "lucide-file",
+              "title": "EXAM 1 REVIEW"
             }
           }
         ]
@@ -180,9 +182,10 @@
   },
   "active": "da66448e3382b476",
   "lastOpenFiles": [
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Lab3 Plan.md",
+    "S8/CPET 461 - RTOS/EXAM 1 REVIEW.md",
     "S8/CPET 461 - RTOS/RTOS Book 2 - The Practice by Jim Cooling.pdf",
     "S8/CPET 461 - RTOS/RTOS Book 1 - The Theory by Jim Cooling.pdf",
-    "S8/CPET 461 - RTOS/EXAM 1 REVIEW.md",
     "Image Graveyard/Pasted image 20260222184220.png",
     "Image Graveyard/Pasted image 20260222183753.png",
     "S8/CPET 461 - RTOS/Week 6 - 2.16.2026 and 2.18.2026.md",
@@ -206,7 +209,6 @@
     "S8/HSPT 161 - WINES/Food Pairing Assignment.md",
     "S8/CPET 253 - MICROS (TA)/Lab 5/Lab5_Motor.c",
     "S8/CPET 253 - MICROS (TA)/Lab 5/Lab5_main_Solution.c",
-    "S8/CPET 253 - MICROS (TA)/Lab 5/Lab5_Init_Timers.c",
     "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Lab 4 Plan.md",
     "S8/CPET 461 - RTOS/Week 6 - 2.16.2026.md",
     "S8/HSPT 160 - BEERS/Week 6 - The Rest of the World.md",
