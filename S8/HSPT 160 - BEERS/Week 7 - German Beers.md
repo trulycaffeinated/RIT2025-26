@@ -98,8 +98,8 @@ I think Beer #4 heavily overpowered this one, and I didn't have much of it so th
 Ale or Lager? : Ale
 Style : Hefe-Welzen
 Color (scale 0-8) : 2 Pale Straw
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Aroma Strength (scale 0-5) : 3
+Aroma reminds me of... Very smokey smell, like a woodstove that was just opened up. Rubbery, 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
