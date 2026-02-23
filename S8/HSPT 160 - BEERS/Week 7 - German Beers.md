@@ -17,10 +17,10 @@ Color (scale 0-8) : 2-2.5
 Aroma Strength (scale 0-5) : 3
 Aroma reminds me of... 
 Campfire wood, Toast, Bread, strong yeast smell, Honey, **ale yeast gives off fruity notes**
-Taste Strength (scale 0-5) : Honey, 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Honey, **white wine or apple (ale)**, 
+Mouthfeel (scale 0-5) : 1-2
+Finish Strength (scale 0-5) : 1
 Finish reminds me of.... 
 Did I like it? 
 Would I buy this beer? 
@@ -29,8 +29,8 @@ Other Comments...
 ---
 **Beer 2** : Benediktner Helles 
 Ale or Lager? : Lager
-Style : Helles
-Color (scale 0-8) : 
+Style : Helles (Pale Lager)
+Color (scale 0-8) : 1 Pale Straw
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
@@ -45,8 +45,8 @@ Other Comments...
 ---
 **Beer 3** : Eichbaum Helles
 Ale or Lager? : Lager
-Style : Helles
-Color (scale 0-8) : 
+Style : Helles (Pale Lager)
+Color (scale 0-8) : Pale Straw
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
