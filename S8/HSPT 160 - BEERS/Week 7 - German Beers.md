@@ -16,7 +16,7 @@ Other Comments...
 ---
 **Beer 2** : Benediktner Helles 
 Ale or Lager? : Lager
-Style : Halles
+Style : Helles
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
