@@ -235,5 +235,11 @@ Implementing Priority inheritance can be computationally expensive because every
 
 Many RTOS's only implement priority inheritance with *mutexes* (binary semaphore)
 
+## What happens if a periodic task’s execution time exceeds its period?
+
+Answer:
+- Deadline miss.
+- Task consumes future CPU time. 
+- **System is no longer real-time.**
 ### Look these up
 Why can't a CPU be idle?
