@@ -67,22 +67,22 @@ Style : German Lager
 Color (scale 0-8) : 3 Dark Straw
 Aroma Strength (scale 0-5) : 2
 Aroma reminds me of... Skunky, painty, basement (lightstruck) 
-Taste Strength (scale 0-5) : 2
-Taste Reminds me of... Honey, 
+Taste Strength (scale 0-5) : 1
+Taste Reminds me of... Honey, somewhat dull - slight sweetness but not much. Like a candy apple that has sat out
 Mouthfeel (scale 0-5) : 1.5-2
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Finish Strength (scale 0-5) : 2
+Finish reminds me of.... Sweet, grows in sweetness before turning bitter
+Did I like it? 5/10
+Would I buy this beer? No
 Other Comments...
 
 ---
 **Beer 5** : Kostritzer Schwarzbier
 Ale or Lager? : Lager
-Style : Schwarzbier
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Style : Schwarzbier (Black Beer)
+Color (scale 0-8) : 8 - Black
+Aroma Strength (scale 0-5) : 3
+Aroma reminds me of... Coffee, Caramel? 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
