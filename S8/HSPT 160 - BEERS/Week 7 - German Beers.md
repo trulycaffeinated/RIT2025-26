@@ -13,9 +13,10 @@ Black = 8
 **Beer 1** : Gaffel Kolsh
 Ale or Lager? : Ale (Brewed like a Lager)
 Style :  Kolsh
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
+Color (scale 0-8) : 2-2.5
+Aroma Strength (scale 0-5) : 3
 Aroma reminds me of... 
+Campfire wood, Toast, Bread, strong yeast smell, 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
