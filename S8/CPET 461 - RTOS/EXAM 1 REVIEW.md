@@ -260,3 +260,5 @@ Can't hold semaphores due to **blocking higher priority tasks (priority inversio
 Interrupts vs RTOS - key word of determinism. Interrupts occur at unpredictable times and complicate timing analysis, making guaranteed temporal performance or determinism difficult to guarantee
 
 Control Tasks must execute periodically and deterministically, processing tasks may very in execution time more liberally. Separating them prevents computations from delaying controls
+
+Testing fails when WCET was never analyzed
