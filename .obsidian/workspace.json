@@ -11,14 +11,12 @@
             "id": "da66448e3382b476",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "S8/CPET 461 - RTOS/EXAM 1 REVIEW.md",
-                "mode": "source",
-                "source": false
+                "file": "S8/CPET 461 - RTOS/RTOS Book 1 - The Theory by Jim Cooling.pdf"
               },
-              "icon": "lucide-file",
-              "title": "EXAM 1 REVIEW"
+              "icon": "lucide-file-text",
+              "title": "RTOS Book 1 - The Theory by Jim Cooling"
             }
           }
         ]
@@ -182,12 +180,14 @@
   },
   "active": "da66448e3382b476",
   "lastOpenFiles": [
+    "S8/CPET 461 - RTOS/RTOS Book 2 - The Practice by Jim Cooling.pdf",
+    "S8/CPET 461 - RTOS/RTOS Book 1 - The Theory by Jim Cooling.pdf",
+    "S8/CPET 461 - RTOS/EXAM 1 REVIEW.md",
     "Image Graveyard/Pasted image 20260222184220.png",
     "Image Graveyard/Pasted image 20260222183753.png",
     "S8/CPET 461 - RTOS/Week 6 - 2.16.2026 and 2.18.2026.md",
     "S8/CPET 461 - RTOS/Week 4 - 2.2.2026 and 2.4.2026.md",
     "S8/CPET 461 - RTOS/Week 5 - 2.9.2026 and 2.11.2026.md",
-    "S8/CPET 461 - RTOS/EXAM 1 REVIEW.md",
     "README.md",
     "LaTeX Math Template.md",
     "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Core/Src/print.c",
@@ -196,7 +196,6 @@
     "S8/CPET 461 - RTOS/Labs/Lab2_FreeRTOS/Core/Src/main.c",
     "S8/CPET 461 - RTOS/Labs/Lab1_CPET461/Core/Src/main.c",
     "S8/CPET 461 - RTOS/Week 3 - 1.28.2026.md",
-    "S8/CPET 461 - RTOS/RTOS Book 1 - The Theory by Jim Cooling.pdf",
     "S8/CPET 461 - RTOS/Week 1 - 1.12.2026 and 1.14.2026.md",
     "S8/CPET 461 - RTOS/Week 2 - 1.21.2026.md",
     "Image Graveyard/Pasted image 20260222121950.png",
