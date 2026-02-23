@@ -132,12 +132,12 @@ Ale or Lager? : Lager
 Style : Dopplebock
 Color (scale 0-8) : 7-8
 Aroma Strength (scale 0-5) : 2
-Aroma reminds me of... Dog food, dog food, dog food - cooked grains, veggies
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
+Aroma reminds me of... Dog food, dog food, dog food - cooked grains, veggies. Somewhat molasses
+Taste Strength (scale 0-5) : 3
+Taste Reminds me of... Very bitter, burnt coffee, when it first touches your mouth it feels/tastes just like a coca cola, then turns bitter
+Mouthfeel (scale 0-5) : 4 Very thick
+Finish Strength (scale 0-5) : 3
+Finish reminds me of.... Keeps
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
