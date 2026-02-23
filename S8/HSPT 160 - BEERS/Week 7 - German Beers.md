@@ -65,11 +65,11 @@ Still a helles, but thinner foam at the head - goes away pretty quickly - thin h
 Ale or Lager? : Lager
 Style : German Lager
 Color (scale 0-8) : 3 Dark Straw
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
+Aroma Strength (scale 0-5) : 2
+Aroma reminds me of... Skunky, painty, basement (lightstruck) 
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Honey, 
+Mouthfeel (scale 0-5) : 1.5-2
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
 Did I like it? 
