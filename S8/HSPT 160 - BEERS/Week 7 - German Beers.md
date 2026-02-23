@@ -30,7 +30,7 @@ Other Comments...
 **Beer 2** : Benediktner Helles 
 Ale or Lager? : Lager
 Style : Helles (Pale Lager)
-Color (scale 0-8) : 1 Pale Straw
+Color (scale 0-8) : 1-2 Pale Straw
 Aroma Strength (scale 0-5) : 2
 Aroma reminds me of... Can't put my finger on it...
 Taste Strength (scale 0-5) : 1
@@ -47,7 +47,7 @@ Its a bit tasteless in my eyes. Almost like if water was a soda
 **Beer 3** : Eichbaum Helles
 Ale or Lager? : Lager
 Style : Helles (Pale Lager)
-Color (scale 0-8) : Pale Straw
+Color (scale 0-8) : 1-2 Pale Straw
 Aroma Strength (scale 0-5) : 1
 Aroma reminds me of... Similar to #2 not much, get a bit more of that grainy smell though - sour apple too
 Taste Strength (scale 0-5) : 2
@@ -64,7 +64,7 @@ Still a helles, but thinner foam at the head - goes away pretty quickly - thin h
 **Beer 4** : Brunonia Lager 
 Ale or Lager? : Lager
 Style : German Lager
-Color (scale 0-8) : 
+Color (scale 0-8) : 3 Dark Straw
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
