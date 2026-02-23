@@ -114,23 +114,23 @@ Prof. mentioned something on the finish that some people react poorly too, I am 
 **Beer 7** : Aventinus Weizenbock
 Ale or Lager? : Ale
 Style : Weizenbock (Wheaat Doppelbock)
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Color (scale 0-8) : 6 Dark Amber
+Aroma Strength (scale 0-5) : 1-2
+Aroma reminds me of... Chewing gum, banana taffy, dark banana bread
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Chocolate, unsweetened coffee
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 1 
+Finish reminds me of.... Leaves a coffee like bitter taste in my mouth, with a hint of banana
+Did I like it? 8/10
+Would I buy this beer? Yes 
 Other Comments...
 
 ---
 **Beer 8** : Avinger Celebrator
 Ale or Lager? : Lager
 Style : Dopplebock
-Color (scale 0-8) : 
+Color (scale 0-8) : 7-8
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
