@@ -262,3 +262,5 @@ Interrupts vs RTOS - key word of determinism. Interrupts occur at unpredictable 
 Control Tasks must execute periodically and deterministically, processing tasks may very in execution time more liberally. Separating them prevents computations from delaying controls
 
 Testing fails when WCET was never analyzed
+
+**Race conditions** - a race condition occurs when the correctness of a program depends on the unpredictable timing or order of multiple tasks accessing shared data or hardware - i.e. two tasks are *racing* to modify the same thing
