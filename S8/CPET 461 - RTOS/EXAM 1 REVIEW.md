@@ -253,6 +253,7 @@ Expected insight:
 - Tasks still block, delay, and signal resources.
 - Preemption alone cannot guarantee correct interaction.
 - RTOS operation is cooperative + preemptive.
+**A Task in the RTOS still has the ability to block, delay, and signal a mutex - therefore the scheduler needs to be able to respond to this and not sit idle when an event occurs**
 ### Look these up
 Why can't a CPU be idle?
 
