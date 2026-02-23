@@ -241,5 +241,18 @@ Answer:
 - Deadline miss.
 - Task consumes future CPU time. 
 - **System is no longer real-time.**
+## Why is a semaphore sometimes used for synchronization instead of mutual exclusion?
+
+Answer
+- **Used to signal events between tasks.**
+- **Not protecting data but coordinating execution order.**
+
+## Why is cooperative behavior still required in a preemptive RTOS?
+
+Expected insight:
+- Tasks still block, delay, and signal resources.
+- Preemption alone cannot guarantee correct interaction.
+- RTOS operation is cooperative + preemptive.
 ### Look these up
 Why can't a CPU be idle?
+
