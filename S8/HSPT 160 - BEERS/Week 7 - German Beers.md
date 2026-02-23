@@ -82,9 +82,9 @@ Ale or Lager? : Lager
 Style : Schwarzbier (Black Beer)
 Color (scale 0-8) : 8 - Black
 Aroma Strength (scale 0-5) : 3
-Aroma reminds me of... Coffee, Caramel? 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Aroma reminds me of... Coffee, Caramel?  I'm getting something else down, oak? Dark Chocolate 
+Taste Strength (scale 0-5) : 1
+Taste Reminds me of... Burnt toast, roasted coffee, dark chocolate 
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
