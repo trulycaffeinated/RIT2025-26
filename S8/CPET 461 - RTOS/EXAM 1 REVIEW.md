@@ -254,6 +254,7 @@ Expected insight:
 - Preemption alone cannot guarantee correct interaction.
 - RTOS operation is cooperative + preemptive.
 **A Task in the RTOS still has the ability to block, delay, and signal a mutex - therefore the scheduler needs to be able to respond to this and not sit idle when an event occurs**
-### Look these up
-Why can't a CPU be idle?
 
+Can't hold semaphores due to **blocking higher priority tasks (priority inversion risk)**
+
+Interrupts vs RTOS - key word of determinism. Interrupts occur at unpredictable times and complicate timi
