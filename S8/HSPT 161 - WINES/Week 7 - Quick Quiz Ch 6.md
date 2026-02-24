@@ -17,9 +17,13 @@
 **Vidal**
 
 7. What is Dr. Konstantin Frank known for accomplishing in New York State?
+**Successfully proving that european vinefra grapes could survive and moreso thrive in NY's climate, particularly the finger lakes region**
 
 8. How did the 1976 Farm Winery Act help NYS vineyards and wineries?
+**It added to small wineries by allowing them to open tasting rooms, sell directly to consumers, operate with fewer regulations**
 
 9. What is the Long Island AVA's climate?
+**Maritime climate which consists of longer growing season, milder winters, and moderate by the atlantic and long island sound**
 
 10. What red grape is often seen globally in blends, but shines as varietals in N.Y.S.?
+**Cabernet Franc**
