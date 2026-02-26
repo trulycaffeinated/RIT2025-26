@@ -11,7 +11,6 @@ entity Lab4 is
         write_data     : in  unsigned(31 downto 0);
         pwm_out        : out std_logic;
         irq_signal     : out std_logic;
-        angle_counter  : out unsigned(31 downto 0)
     );
 end entity Lab4;
 
@@ -145,8 +144,5 @@ begin
             pwm_out <= '0';
         end if;
     end process;
-
-    -- Output
-    angle_counter <= angle_count;
 
 end Behavioral;
