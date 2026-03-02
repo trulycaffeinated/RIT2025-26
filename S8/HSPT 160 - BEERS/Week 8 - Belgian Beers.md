@@ -100,7 +100,7 @@ Ale or Lager? : Ale
 Style : Flanders Red
 Color (scale 0-8) : 6 - Very cloudy
 Aroma Strength (scale 0-5) : 4
-Aroma reminds me of... Kitchen Cleaner, and bleach
+Aroma reminds me of... Apple Cider Vinegar. Kitchen Cleaner, and bleach
 Taste Strength (scale 0-5) : 3
 Taste Reminds me of... Sour, but like dulled? It tastes very sour but its a dull sour. Apple
 Mouthfeel (scale 0-5) : 2
