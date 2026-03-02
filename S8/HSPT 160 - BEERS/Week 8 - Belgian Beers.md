@@ -102,13 +102,14 @@ Color (scale 0-8) : 6 - Very cloudy
 Aroma Strength (scale 0-5) : 4
 Aroma reminds me of... Kitchen Cleaner, and bleach
 Taste Strength (scale 0-5) : 3
-Taste Reminds me of... Sour, but like dulled? It tastes very so
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Reminds me of... Sour, but like dulled? It tastes very sour but its a dull sour. Apple
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 0-1 
+Finish reminds me of.... The finish is very weak, the initial sour hits you but the finish just fades off
+Did I like it? 3/10
+Would I buy this beer? No 
 Other Comments...
+I typically like sour beers, but this just is not good
 
 ---
 **Beer 7** : Lindemans Framboise
