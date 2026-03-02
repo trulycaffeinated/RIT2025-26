@@ -98,9 +98,9 @@ Smells sweet, tastes like a soda with alcohol
 **Beer 6** : Rodenbach Grand Cru
 Ale or Lager? : Ale
 Style : Flanders Red
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Color (scale 0-8) : 6 - Very cloudy
+Aroma Strength (scale 0-5) : 4
+Aroma reminds me of... Kitchen Cleaner
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
