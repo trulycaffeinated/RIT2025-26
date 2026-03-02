@@ -79,7 +79,7 @@ Other Comments...
 **Beer 5** : Rochefort 10
 Ale or Lager? : Ale
 Style : Quadruple - Trappist Ale
-Color (scale 0-8) : 
+Color (scale 0-8) : 6
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
