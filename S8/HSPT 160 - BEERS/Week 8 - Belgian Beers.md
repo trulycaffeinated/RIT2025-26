@@ -46,9 +46,9 @@ This beer is very watery to me, like an extremely flat soda with fruit flavoring
 **Beer 3** : Duvel
 Ale or Lager? : Ale
 Style : Belgian Strong Pale Ale
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Color (scale 0-8) : 1-2
+Aroma Strength (scale 0-5) : 2
+Aroma reminds me of... Mystery Fruit - not quite apple, not quite kiwi. Smells like a sweet fruit 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
