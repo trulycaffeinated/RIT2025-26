@@ -28,7 +28,7 @@ Other Comments...
 ---
 **Beer #** : Ommegang Hennepin
 Ale or Lager? : Saison ?
-Style : Sai
+Style : Saison
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -42,9 +42,9 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer #** : 
-Ale or Lager? : 
-Style : 
+**Beer #** : Duvel
+Ale or Lager? : Ale
+Style : Belgian Strong Pale Ale
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -58,9 +58,9 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer #** : 
-Ale or Lager? : 
-Style : 
+**Beer #** : Dellirium Nocturnum
+Ale or Lager? : Ale
+Style : Belgian Strong Dark Ale
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -74,9 +74,9 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer #** : 
-Ale or Lager? : 
-Style : 
+**Beer #** : Rochefort 10
+Ale or Lager? : Ale
+Style : Quadruple - Trappist Ale
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -90,9 +90,9 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer #** : 
+**Beer #** : Rodenbach Grand Cru
 Ale or Lager? : 
-Style : 
+Style : Flanders Red
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -106,9 +106,9 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer #** : 
+**Beer #** : Lindemans Framboise
 Ale or Lager? : 
-Style : 
+Style : Fruit Lambec
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -122,9 +122,9 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer #** : 
-Ale or Lager? : 
-Style : 
+**Beer #** : Delirium Red
+Ale or Lager? : Ale?
+Style : Strong Fruit Beer
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
