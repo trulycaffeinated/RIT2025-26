@@ -80,9 +80,9 @@ The more I drink this one the more acceptable it becomes. Like it gets less bitt
 **Beer 5** : Rochefort 10
 Ale or Lager? : Ale
 Style : Quadruple - Trappist Ale
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Color (scale 0-8) : 6-7
+Aroma Strength (scale 0-5) : 2.5
+Aroma reminds me of... Very sweet smell, smells like banana bread fresh out of the oven. 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
@@ -91,6 +91,7 @@ Finish reminds me of....
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
+Dad's Banana Bread Beer
 
 ---
 **Beer 6** : Rodenbach Grand Cru
