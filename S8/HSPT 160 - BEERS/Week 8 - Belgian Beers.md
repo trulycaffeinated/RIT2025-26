@@ -33,13 +33,14 @@ Color (scale 0-8) : 3
 Aroma Strength (scale 0-5) : 2
 Aroma reminds me of... Very strong rubber smell, overripe mango?, orange 
 Taste Strength (scale 0-5) : 2
-Taste Reminds me of... Kiwi, Banana?,Definitely banana
-Mouthfeel (scale 0-5) : 1
+Taste Reminds me of... Kiwi, Banana?,Definitely banana, Apple Sauce
+Mouthfeel (scale 0-5) : Starts full body ends watery like a 3->1 
 Finish Strength (scale 0-5) : 1
-Finish reminds me of.... F
-Did I like it? 
-Would I buy this beer? 
+Finish reminds me of.... Finish ends on that banana note but get a little apple
+Did I like it? 4/10
+Would I buy this beer? No
 Other Comments...
+This beer is very watery to me, like an extremely flat soda with fruit flavoring
 
 ---
 **Beer 3** : Duvel
