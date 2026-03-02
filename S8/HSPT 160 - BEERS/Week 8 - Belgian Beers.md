@@ -29,14 +29,14 @@ Other Comments...
 **Beer 2** : Ommegang Hennepin
 Ale or Lager? : Saison ?
 Style : Saison
-Color (scale 0-8) : 4
+Color (scale 0-8) : 3
 Aroma Strength (scale 0-5) : 2
-Aroma reminds me of... Very strong rubber smell, overripe mango? 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
+Aroma reminds me of... Very strong rubber smell, overripe mango?, orange 
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Kiwi, Banana?,Definitely banana
+Mouthfeel (scale 0-5) : 1
+Finish Strength (scale 0-5) : 1
+Finish reminds me of.... F
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
