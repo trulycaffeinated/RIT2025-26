@@ -119,21 +119,22 @@ Color (scale 0-8) : 6 (Red not amber)
 Aroma Strength (scale 0-5) : 2
 Aroma reminds me of... Raspberry Ice Tea - Swedish Fish
 Taste Strength (scale 0-5) : 4
-Taste Reminds me of... Raspberry Very strong
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Reminds me of... Raspberry Iced tea Very strong
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 2
+Finish reminds me of.... Raspberry 
+Did I like it? 8/10
+Would I buy this beer? Yes 
 Other Comments...
+Tastes just like a standard raspberry drink just with a touch of alcohol
 
 ---
 **Beer 8** : Delirium Red
 Ale or Lager? : Ale?
 Style : Strong Fruit Beer
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Color (scale 0-8) : 7 - Very cloudy
+Aroma Strength (scale 0-5) : 3
+Aroma reminds me of... Bathroom Cleaner / Air Freshener - Sweet, almost pine / tree scented,  
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
