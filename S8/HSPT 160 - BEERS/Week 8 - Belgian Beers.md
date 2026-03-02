@@ -137,12 +137,16 @@ Aroma Strength (scale 0-5) : 3
 Aroma reminds me of... Bathroom Cleaner / Air Freshener - Sweet, almost pine / tree scented,  
 Taste Strength (scale 0-5) : 3
 Taste Reminds me of... Tastes exactly how it smells 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 3/10
+Mouthfeel (scale 0-5) : 3 thick
+Finish Strength (scale 0-5) : 1
+Finish reminds me of.... soap
+Did I like it? 1/10
 Would I buy this beer? NO
 Other Comments...
-the best way to describe this, is when youre a kid and you mix up all the soaps i
+the best way to describe this, is when youre a kid and you mix up all the soaps in the shower... this is how that tastes
 
 ---
+
+Top 3
+1. Lindemans Framboise
+2. Rochesfort 10
