@@ -115,7 +115,7 @@ I typically like sour beers, but this just is not good
 **Beer 7** : Lindemans Framboise
 Ale or Lager? : Ale
 Style : Fruit Lambec
-Color (scale 0-8) : 
+Color (scale 0-8) : 6 (Red not amber)
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
