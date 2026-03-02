@@ -10,7 +10,7 @@ Very Dark Amber = 7
 Black = 8
 
 ---
-**Beer #** : Orval Trappist Ale 
+**Beer 1** : Orval Trappist Ale 
 Ale or Lager? : Ale
 Style : Belgian Pale Ale
 Color (scale 0-8) : 
@@ -26,7 +26,7 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer #** : Ommegang Hennepin
+**Beer 2** : Ommegang Hennepin
 Ale or Lager? : Saison ?
 Style : Saison
 Color (scale 0-8) : 
@@ -42,7 +42,7 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer #** : Duvel
+**Beer 3** : Duvel
 Ale or Lager? : Ale
 Style : Belgian Strong Pale Ale
 Color (scale 0-8) : 
@@ -58,7 +58,7 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer #** : Dellirium Nocturnum
+**Beer 4** : Dellirium Nocturnum
 Ale or Lager? : Ale
 Style : Belgian Strong Dark Ale
 Color (scale 0-8) : 
@@ -74,7 +74,7 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer #** : Rochefort 10
+**Beer 5** : Rochefort 10
 Ale or Lager? : Ale
 Style : Quadruple - Trappist Ale
 Color (scale 0-8) : 
@@ -90,7 +90,7 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer #** : Rodenbach Grand Cru
+**Beer 6** : Rodenbach Grand Cru
 Ale or Lager? : 
 Style : Flanders Red
 Color (scale 0-8) : 
@@ -106,7 +106,7 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer #** : Lindemans Framboise
+**Beer 7** : Lindemans Framboise
 Ale or Lager? : 
 Style : Fruit Lambec
 Color (scale 0-8) : 
