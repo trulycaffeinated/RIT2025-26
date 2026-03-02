@@ -67,13 +67,14 @@ Color (scale 0-8) : 6
 Aroma Strength (scale 0-5) :  1
 Aroma reminds me of... ??? Smell like a cinnamon maybe? Aroma is not very strong. Chocolate? Fresh Cut Grass
 Taste Strength (scale 0-5) : 1-2
-Taste Reminds me of... Chocolate - a touch of pepper
+Taste Reminds me of... Chocolate - a touch of pepper. Almost like burnt caramel
 Mouthfeel (scale 0-5) : 1
 Finish Strength (scale 0-5) : 1
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Finish reminds me of.... Leaves like a slightly bitter dark chocolate taste in mouth
+Did I like it? 6/10
+Would I buy this beer? Wouldn't be opposed to it
 Other Comments...
+The more I drink this one the more acceptable it becomes. Like it gets less bitter
 
 ---
 **Beer 5** : Rochefort 10
