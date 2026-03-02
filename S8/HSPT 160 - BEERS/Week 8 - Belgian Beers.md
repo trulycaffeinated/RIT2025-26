@@ -50,13 +50,14 @@ Color (scale 0-8) : 1-2
 Aroma Strength (scale 0-5) : 2
 Aroma reminds me of... Mystery Fruit - not quite apple, not quite kiwi. Smells like a sweet fruit. Honey a touch of vinegar
 Taste Strength (scale 0-5) : 3
-Taste Reminds me of... Banana, Honey, Spice - Doughy 
+Taste Reminds me of... Banana, Honey, Spice - Doughy but more honey. Sweet and Spicy beer
 Mouthfeel (scale 0-5) : 1
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Finish Strength (scale 0-5) : 2
+Finish reminds me of.... Finish is the very similar black pepper as beer #1
+Did I like it? 5/10
+Would I buy this beer? No 
 Other Comments...
+Sweet and Spicy beer - don't taste the alcohol but I feel the burn at the very start.
 
 ---
 **Beer 4** : Dellirium Nocturnum
