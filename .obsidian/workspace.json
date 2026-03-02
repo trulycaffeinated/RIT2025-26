@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "c25abe54cf5657ea",
+        "id": "77f4f800e5b7f7d8",
         "type": "tabs",
         "children": [
           {
@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S8/HSPT 160 - BEERS/Week 7 - German Beers.md",
+                "file": "S8/HSPT 160 - BEERS/Week 8 - Belgian Beers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 7 - German Beers"
+              "title": "Week 8 - Belgian Beers"
             }
           }
         ]
@@ -182,46 +182,44 @@
   },
   "active": "da66448e3382b476",
   "lastOpenFiles": [
+    "Budget.m",
+    "S8/HSPT 160 - BEERS/Week 4 - Tasting Practice.md",
     "S8/HSPT 160 - BEERS/Week 8 - Belgian Beers.md",
-    "S8/CPET 461 - RTOS/EXAM 1 REVIEW.md",
-    "Untitled.md",
+    "S8/HSPT 160 - BEERS/TEMPLATE.md",
     "S8/HSPT 161 - WINES/Week 7 - Quick Quiz Ch 6.md",
-    "S8/HSPT 160 - BEERS/Week 7 - German Beers.md",
     "S8/CPET 253 - MICROS (TA)/Lab 6/Lab6_main_Solution.c",
-    "S8/CPET 253 - MICROS (TA)/Lab 6/Lab6_Init_Ports.c",
     "S8/CPET 253 - MICROS (TA)/Lab 6/Lab6_BumpInt.c",
+    "S8/CPET 253 - MICROS (TA)/Lab 6/Lab6_Init_Ports.c",
     "S8/CPET 253 - MICROS (TA)/Lab 6",
-    "S8/CPET 461 - RTOS/Week 5 - 2.9.2026 and 2.11.2026.md",
-    "S8/CPET 461 - RTOS/Week 6 - 2.16.2026 and 2.18.2026.md",
-    "S8/CPET 461 - RTOS/Week 4 - 2.2.2026 and 2.4.2026.md",
-    "S8/CPET 461 - RTOS/Week 3 - 1.28.2026.md",
-    "S8/CPET 461 - RTOS/Week 2 - 1.21.2026.md",
-    "S8/CPET 461 - RTOS/Week 1 - 1.12.2026 and 1.14.2026.md",
-    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Lab3 Plan.md",
-    "S8/CPET 461 - RTOS/RTOS Book 2 - The Practice by Jim Cooling.pdf",
-    "S8/CPET 461 - RTOS/RTOS Book 1 - The Theory by Jim Cooling.pdf",
+    "Untitled.md",
+    "S8/CPET 461 - RTOS/EXAM 1 REVIEW.md",
+    "S8/HSPT 160 - BEERS/Week 7 - German Beers.md",
+    "S8/HSPT 160 - BEERS/Week 1 - 1.12.2026.md",
+    "S8/HSPT 161 - WINES/Food Pairing Assignment.md",
     "Image Graveyard/Pasted image 20260222184220.png",
     "Image Graveyard/Pasted image 20260222183753.png",
-    "README.md",
-    "LaTeX Math Template.md",
-    "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Core/Src/print.c",
-    "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Core/Src/freertos.c",
-    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Core/Src/main.c",
-    "S8/CPET 461 - RTOS/Labs/Lab2_FreeRTOS/Core/Src/main.c",
     "Image Graveyard/Pasted image 20260222121950.png",
     "Image Graveyard/Pasted image 20260222121103.png",
     "Image Graveyard/Pasted image 20260222115241.png",
+    "S8/HSPT 161 - WINES/Food Pairing Assignment.pdf",
+    "S8/HSPT 161 - WINES/Week 4 Quick Quiz 3.md",
+    "S8/CPET 461 - RTOS/Week 6 - 2.16.2026 and 2.18.2026.md",
+    "README.md",
+    "LaTeX Math Template.md",
     "S8/HSPT 161 - WINES/Week 5 Quick Quiz 4.md",
-    "S8/HSPT 161 - WINES/Food Pairing Assignment.md",
+    "S8/CPET 461 - RTOS/Untitled.md",
     "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Lab 4 Plan.md",
-    "S8/CPET 461 - RTOS/Week 6 - 2.16.2026.md",
+    "Lab 4 Plan.pdf",
+    "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Core/Src/freertos.c",
+    "S8/CPET 461 - RTOS/Labs/Lab3_Semaphore/Core/Src/main.c",
+    "S8/CPET 461 - RTOS/Labs/Lab2_FreeRTOS/Core/Src/main.c",
+    "S8/CPET 461 - RTOS/Labs/Lab2_FreeRTOS/Core/Src/freertos.c",
+    "S8/CPET 461 - RTOS/Week 5 - 2.9.2026 and 2.11.2026.md",
+    "S8/CPET 461 - RTOS/Week 4 - 2.2.2026 and 2.4.2026.md",
+    "S8/CPET 461 - RTOS/Week 2 - 1.21.2026.md",
     "S8/HSPT 160 - BEERS/Week 6 - The Rest of the World.md",
     "n.md",
-    "S8/HSPT 160 - BEERS/TEMPLATE.md",
     "S8/HSPT 160 - BEERS/Week 5 - Local Beer Tasting.md",
-    "S8/HSPT 160 - BEERS/Week 4 - Tasting Practice.md",
-    "S8/HSPT 160 - BEERS/Week 1 - 1.12.2026.md",
-    "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Pasted image 20260213122238.png",
-    "S8/HSPT 161 - WINES/Week 4 Quick Quiz 3.md"
+    "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Pasted image 20260213122238.png"
   ]
 }

@@ -16,11 +16,11 @@ Style : Belgian Pale Ale
 Color (scale 0-8) : 5 - Also very cloudy cannot see my finger through it
 Aroma Strength (scale 0-5) : 3
 Aroma reminds me of... Granny Smith Apple, Cinnamon?, Citrus
-Taste Strength (scale 0-5) : 1
+Taste Strength (scale 0-5) : 2
 Taste Reminds me of... Watery, A bit of spice
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 3
+Finish reminds me of.... Finish is like pure black pepper 
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
