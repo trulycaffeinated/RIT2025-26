@@ -122,7 +122,7 @@ Would I buy this beer?
 Other Comments...
 
 ---
-**Beer #** : Delirium Red
+**Beer 8** : Delirium Red
 Ale or Lager? : Ale?
 Style : Strong Fruit Beer
 Color (scale 0-8) : 
