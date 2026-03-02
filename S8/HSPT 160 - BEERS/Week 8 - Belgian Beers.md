@@ -13,9 +13,9 @@ Black = 8
 **Beer 1** : Orval Trappist Ale 
 Ale or Lager? : Ale
 Style : Belgian Pale Ale
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Color (scale 0-8) : 3 - Also very cloudy cannot see my finger through it
+Aroma Strength (scale 0-5) : 3
+Aroma reminds me of... Granny Smith Apple, 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
@@ -91,7 +91,7 @@ Other Comments...
 
 ---
 **Beer 6** : Rodenbach Grand Cru
-Ale or Lager? : 
+Ale or Lager? : Ale
 Style : Flanders Red
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
@@ -107,7 +107,7 @@ Other Comments...
 
 ---
 **Beer 7** : Lindemans Framboise
-Ale or Lager? : 
+Ale or Lager? : Ale
 Style : Fruit Lambec
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
