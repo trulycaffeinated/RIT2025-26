@@ -135,8 +135,8 @@ Style : Strong Fruit Beer
 Color (scale 0-8) : 7 - Very cloudy
 Aroma Strength (scale 0-5) : 3
 Aroma reminds me of... Bathroom Cleaner / Air Freshener - Sweet, almost pine / tree scented,  
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Taste Strength (scale 0-5) : 3
+Taste Reminds me of... Tastes exactly how it smells 
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
