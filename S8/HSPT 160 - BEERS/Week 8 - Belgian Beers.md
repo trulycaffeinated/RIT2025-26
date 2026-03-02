@@ -13,11 +13,11 @@ Black = 8
 **Beer 1** : Orval Trappist Ale 
 Ale or Lager? : Ale
 Style : Belgian Pale Ale
-Color (scale 0-8) : 3 - Also very cloudy cannot see my finger through it
+Color (scale 0-8) : 5 - Also very cloudy cannot see my finger through it
 Aroma Strength (scale 0-5) : 3
-Aroma reminds me of... Granny Smith Apple, 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Aroma reminds me of... Granny Smith Apple, Cinnamon?, Citrus
+Taste Strength (scale 0-5) : 1
+Taste Reminds me of... Watery, A bit of spice
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
