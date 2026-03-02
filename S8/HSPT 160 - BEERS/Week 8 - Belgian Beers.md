@@ -116,10 +116,10 @@ I typically like sour beers, but this just is not good
 Ale or Lager? : Ale
 Style : Fruit Lambec
 Color (scale 0-8) : 6 (Red not amber)
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Aroma Strength (scale 0-5) : 2
+Aroma reminds me of... Raspberry Ice Tea - Swedish Fish
+Taste Strength (scale 0-5) : 4
+Taste Reminds me of... Raspberry Very strong
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
