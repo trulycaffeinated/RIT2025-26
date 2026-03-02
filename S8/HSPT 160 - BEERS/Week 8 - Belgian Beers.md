@@ -83,8 +83,8 @@ Style : Quadruple - Trappist Ale
 Color (scale 0-8) : 6-7
 Aroma Strength (scale 0-5) : 2.5
 Aroma reminds me of... Very sweet smell, smells like banana bread fresh out of the oven. 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Taste Strength (scale 0-5) : 2.5
+Taste Reminds me of... Alcoholic Coca Cola
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
