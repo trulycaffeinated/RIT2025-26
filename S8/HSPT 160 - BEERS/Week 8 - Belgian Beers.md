@@ -140,8 +140,9 @@ Taste Reminds me of... Tastes exactly how it smells
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Did I like it? 3/10
+Would I buy this beer? NO
 Other Comments...
+the best way to describe this, is when youre a kid and you mix up all the soaps i
 
 ---
