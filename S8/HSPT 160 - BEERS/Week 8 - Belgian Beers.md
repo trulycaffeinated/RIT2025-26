@@ -63,13 +63,13 @@ Sweet and Spicy beer - don't taste the alcohol but I feel the burn at the very s
 **Beer 4** : Dellirium Nocturnum
 Ale or Lager? : Ale
 Style : Belgian Strong Dark Ale
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
+Color (scale 0-8) : 6
+Aroma Strength (scale 0-5) :  1
+Aroma reminds me of... ??? Smell like a cinnamon maybe? Aroma is not very strong. Chocolate? Fresh Cut Grass
+Taste Strength (scale 0-5) : 1-2
+Taste Reminds me of... Chocolate - a touch of pepper
+Mouthfeel (scale 0-5) : 1
+Finish Strength (scale 0-5) : 1
 Finish reminds me of.... 
 Did I like it? 
 Would I buy this beer? 
@@ -79,7 +79,7 @@ Other Comments...
 **Beer 5** : Rochefort 10
 Ale or Lager? : Ale
 Style : Quadruple - Trappist Ale
-Color (scale 0-8) : 6
+Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
