@@ -49,9 +49,9 @@ Style : Belgian Strong Pale Ale
 Color (scale 0-8) : 1-2
 Aroma Strength (scale 0-5) : 2
 Aroma reminds me of... Mystery Fruit - not quite apple, not quite kiwi. Smells like a sweet fruit. Honey a touch of vinegar
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
+Taste Strength (scale 0-5) : 3
+Taste Reminds me of... Banana, Honey, Spice - Doughy 
+Mouthfeel (scale 0-5) : 1
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
 Did I like it? 
