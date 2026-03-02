@@ -82,16 +82,17 @@ Ale or Lager? : Ale
 Style : Quadruple - Trappist Ale
 Color (scale 0-8) : 6-7
 Aroma Strength (scale 0-5) : 2.5
-Aroma reminds me of... Very sweet smell, smells like banana bread fresh out of the oven. 
+Aroma reminds me of... Very sweet smell, smells like banana bread fresh out of the oven. Red Twizzlers
 Taste Strength (scale 0-5) : 2.5
 Taste Reminds me of... Alcoholic Coca Cola
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 2
+Finish reminds me of.... Alcohol and Sugar finish - no particular taste with either but I just taste like sugar laced with alcohol
+Did I like it? 7/10
+Would I buy this beer? Yes 
 Other Comments...
 Dad's Banana Bread Beer
+Smells sweet, tastes like a soda with alcohol
 
 ---
 **Beer 6** : Rodenbach Grand Cru
