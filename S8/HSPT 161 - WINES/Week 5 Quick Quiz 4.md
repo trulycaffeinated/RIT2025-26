@@ -1,4 +1,4 @@
-# Quick Quiz 4 - Chapter 4 - California
+ # Quick Quiz 4 - Chapter 4 - California
 
 ## What happened in California during the mid 1800's and what effects did it have on their wine industry?
 Gold rush to the Sierra Foothills. This lead to a global influx of people bringing wine cuttings from their countries. Vineyards of a wide variety were founded and wineries were opened. Specifically, Hungarian Agoston Haraszthy brought over many varieties of grapes and is considered the father of Californian wine.
