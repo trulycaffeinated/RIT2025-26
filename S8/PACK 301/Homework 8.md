@@ -22,10 +22,10 @@ Online - a big deal. Shoppers rely heavily on images and text in descriptions / 
 
 ### **4. What are four different ways to emphasize to the consumer that your packaging has changed? (10 points each = 40 points):**
 
-**a.)** 
+**a.)**  Add a "new look" badge on the new package products
 
-**b.)** 
+**b.)**  Mentioning it clearly in descriptions and bullets - especially online
 
-**c.)** 
+**c.)** Show side by side comparisons of new vs old product packaging 
 
-**d.)**
+**d.)** Website banners and promotions to advertise and inform people about the new look
