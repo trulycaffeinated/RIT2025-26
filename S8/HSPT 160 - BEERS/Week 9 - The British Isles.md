@@ -110,9 +110,9 @@ Other Comments...
 **Beer** : Guinness Foreign Extra Stout
 Ale or Lager? : Lager
 Style : Foreign Export Stout
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Color (scale 0-8) : 8
+Aroma Strength (scale 0-5) : 4
+Aroma reminds me of... Cigarette and a black coffee, Vinegar, citrus?
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
