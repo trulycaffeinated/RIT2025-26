@@ -21,7 +21,7 @@ Aroma Strength (scale 0-5) : 2
 Aroma reminds me of... molasses 
 Taste Strength (scale 0-5) : 4
 Taste Reminds me of... Dark chocolate, starts sweet then turns bitter. Get almost a bit of sour, like lemon
-Mouthfeel (scale 0-5) : 1 
+Mouthfeel (scale 0-5) : 3
 Finish Strength (scale 0-5) : 2
 Finish reminds me of.... Leaves the strong bitterness in mouth
 Did I like it? No 2/10
@@ -37,7 +37,7 @@ Aroma Strength (scale 0-5) : 3
 Aroma reminds me of... This is weird but it smells like my cousin from Colorado (Skunk smell - light struck), very nutty
 Taste Strength (scale 0-5) : 1
 Taste Reminds me of... Very weak flavors, very watery. "Skunky cardboard tea"- prof. - not inaccurate
-Mouthfeel (scale 0-5) : 1
+Mouthfeel (scale 0-5) : 3
 Finish Strength (scale 0-5) : 0 
 Finish reminds me of.... Finish is hardly noticeable to me
 Did I like it? No 1/10
@@ -53,7 +53,7 @@ Aroma Strength (scale 0-5) : 2
 Aroma reminds me of... Wheat, mango, touch of citrus, 
 Taste Strength (scale 0-5) : 2
 Taste Reminds me of... Citrus, grapefruit, bitter, but not super intense. Like coats your mouth in bitterness
-Mouthfeel (scale 0-5) : 1
+Mouthfeel (scale 0-5) : 3
 Finish Strength (scale 0-5) : 1
 Finish reminds me of.... Bitterness lasts, medicinal bitterness
 Did I like it? No 5/10
@@ -81,10 +81,10 @@ Ale or Lager? :
 Style : Dry Irish Stout
 Color (scale 0-8) : 7 - Very Dark amber - almost 8 Black
 Aroma Strength (scale 0-5) : 4
-Aroma reminds me of... Coffee bean isle in a grocery store, smoke
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
+Aroma reminds me of... Coffee bean isle in a grocery store, smokey 
+Taste Strength (scale 0-5) : 1
+Taste Reminds me of... Significantly weaker than I expected, watered down coffee, beef jerky?
+Mouthfeel (scale 0-5) : This one feels weird - 1 - unexpectedly watery
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
 Did I like it? 
