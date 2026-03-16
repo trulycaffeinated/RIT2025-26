@@ -2,10 +2,10 @@
 Ale or Lager? : Lager
 Style : Euro Pale Lager
 Color (scale 0-8) : Pale Straw
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Aroma Strength (scale 0-5) : 3 
+Aroma reminds me of... Sour cream, wheat,
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Granny Smith Apple, watery
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
