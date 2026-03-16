@@ -51,13 +51,13 @@ Style : Ale
 Color (scale 0-8) : 3 - Gold yellow - somewhat cloudy
 Aroma Strength (scale 0-5) : 2
 Aroma reminds me of... Wheat, mango, touch of citrus, 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Citrus, grapefruit, bitter, but not super intense. Like coats your mouth in bitterness
+Mouthfeel (scale 0-5) : 1
+Finish Strength (scale 0-5) : 1
+Finish reminds me of.... Bitterness lasts, medicinal bitterness
+Did I like it? No 5/10
+Would I buy this beer? No 
 Other Comments...
 
 **Beer** : Founders Dirty Bastard
