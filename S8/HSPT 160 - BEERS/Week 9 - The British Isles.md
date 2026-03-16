@@ -126,4 +126,5 @@ Other Comments...
 **Top 3**
 I'm learning I just don't like dark beers - also didn't like any of these really
 1. Sam Smiths Lager
-2. 
+2. Murphy's Stout 
+3. Sullivan's Irish Stout
