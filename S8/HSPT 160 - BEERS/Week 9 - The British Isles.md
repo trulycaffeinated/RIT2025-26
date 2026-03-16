@@ -36,12 +36,12 @@ Color (scale 0-8) : 5 Light amber
 Aroma Strength (scale 0-5) : 3
 Aroma reminds me of... This is weird but it smells like my cousin from Colorado (Skunk smell - light struck), very nutty
 Taste Strength (scale 0-5) : 1
-Taste Reminds me of... Very weak flavors, very watery. Skunky cardboard tea - prof.
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Reminds me of... Very weak flavors, very watery. "Skunky cardboard tea"- prof. - not inaccurate
+Mouthfeel (scale 0-5) : 1
+Finish Strength (scale 0-5) : 0 
+Finish reminds me of.... Finish is hardly noticeable to me
+Did I like it? No 1/10
+Would I buy this beer? No
 Other Comments...
 This made my tongue numb. Somewhat light struck - skunky smell. Disqualified from tasting exam haha
 
