@@ -34,15 +34,16 @@ Ale or Lager? : Ale
 Style : English Brown Ale
 Color (scale 0-8) : 5 Light amber
 Aroma Strength (scale 0-5) : 3
-Aroma reminds me of... This is weird but it smells like my cousin from Colorado, very nutty
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Aroma reminds me of... This is weird but it smells like my cousin from Colorado (Skunk smell - light struck), very nutty
+Taste Strength (scale 0-5) : 1
+Taste Reminds me of... Very weak flavors, very watery. Skunky cardboard tea - prof.
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
+This made my tongue numb. Somewhat light struck - skunky smell. Disqualified from tasting exam haha
 
 **Beer** : Sullivan's Irish Gold
 Ale or Lager? : English Pale Ale
