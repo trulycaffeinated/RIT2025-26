@@ -14,11 +14,20 @@ static void PeriodicControlTask(void* argument){
 static void HwSetupTask(void* argument){
 	do{
 		if(dataEvent){
-			registersIO = 
+			registersIO = 0xFF; // write to registers
 		}
 		
 		osDelay(50); // delay some period of time after registers
 	}while(1)
+}
+```
+
+```C
+static void AcquisitionTask(void* argument){
+	
+	do{
+	
+	}while(1);
 }
 ```
 
