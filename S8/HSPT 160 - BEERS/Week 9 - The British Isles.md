@@ -113,16 +113,17 @@ Style : Foreign Export Stout
 Color (scale 0-8) : 8
 Aroma Strength (scale 0-5) : 4
 Aroma reminds me of... Cigarette and a black coffee, Vinegar, citrus?
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Strength (scale 0-5) : 4
+Taste Reminds me of... Bitter, Very sour, somewhat like banana
+Mouthfeel (scale 0-5) : 2 - Ashy 
+Finish Strength (scale 0-5) : 3
+Finish reminds me of.... So so so so sour
+Did I like it? NO 1/01
+Would I buy this beer? NO - If I bought it it would be to throw it out 
 Other Comments...
 
 ---
 **Top 3**
-I'm learning I just don't like dark beers
-1. 
+I'm learning I just don't like dark beers - also didn't like any of these really
+1. Sam Smiths Lager
+2. 
