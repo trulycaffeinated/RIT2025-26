@@ -63,9 +63,9 @@ Other Comments...
 **Beer** : Founders Dirty Bastard
 Ale or Lager? : Ale
 Style : Wee Heavy/Scotch Ale
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Color (scale 0-8) : 6 dark amber
+Aroma Strength (scale 0-5) : 2
+Aroma reminds me of... Coffee beans, I'm getting a very faint fruityness like banana
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
