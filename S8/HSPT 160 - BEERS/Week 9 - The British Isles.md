@@ -87,6 +87,7 @@ Finish reminds me of....
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
+**This beer has a widget - so theres nitrogen **
 
 **Beer** : Sullivan's Black Marble Stout
 Ale or Lager? : 
