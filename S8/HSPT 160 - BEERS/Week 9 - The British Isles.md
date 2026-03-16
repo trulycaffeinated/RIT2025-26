@@ -1,7 +1,7 @@
 **Beer** : Sam Smiths Lager
 Ale or Lager? : Lager
 Style : Euro Pale Lager
-Color (scale 0-8) : 
+Color (scale 0-8) : Pale Straw
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
