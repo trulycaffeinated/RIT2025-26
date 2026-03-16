@@ -65,9 +65,9 @@ Ale or Lager? : Ale
 Style : Wee Heavy/Scotch Ale
 Color (scale 0-8) : 6 dark amber
 Aroma Strength (scale 0-5) : 2
-Aroma reminds me of... Coffee beans, I'm getting a very faint fruityness like banana
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Aroma reminds me of... Coffee beans, I'm getting a very faint fruityness like banana. Chocolate
+Taste Strength (scale 0-5) : 4
+Taste Reminds me of... BITTER BITTER BITTER, dark 
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
