@@ -16,17 +16,18 @@ Other Comments...
 **Beer** : Sullivan's Maltings Irish Ale
 Ale or Lager? : Ale
 Style : Irish Red Ale
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Color (scale 0-8) : 6 - dark amber
+Aroma Strength (scale 0-5) : 2 
+Aroma reminds me of... molasses 
+Taste Strength (scale 0-5) : 4
+Taste Reminds me of... Dark chocolate, starts sweet then turns bitter. Get almost a bit of sour, like lemon
+Mouthfeel (scale 0-5) : 1 
+Finish Strength (scale 0-5) : 2
+Finish reminds me of.... Leaves the strong bitterness in mouth
+Did I like it? No 
+Would I buy this beer? No 
 Other Comments...
+This is not good to me 
 
 **Beer** : Newcastle Brown Ale
 Ale or Lager? : Ale
