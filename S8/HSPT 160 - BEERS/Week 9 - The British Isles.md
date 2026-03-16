@@ -5,12 +5,12 @@ Color (scale 0-8) : Pale Straw
 Aroma Strength (scale 0-5) : 3 
 Aroma reminds me of... Sour cream, wheat,
 Taste Strength (scale 0-5) : 2
-Taste Reminds me of... Granny Smith Apple, watery
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Reminds me of... Granny Smith Apple, watery, prof's words "light beer flavor, slightly bitter on the back end"
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 1 
+Finish reminds me of.... Finish leaves a somewhat bitter taste in mouth, but not like flavorful. 
+Did I like it? 5/10
+Would I buy this beer? Wouldn't buy it, but would drink it if offered
 Other Comments...
 
 **Beer** : Sullivan's Maltings Irish Ale
