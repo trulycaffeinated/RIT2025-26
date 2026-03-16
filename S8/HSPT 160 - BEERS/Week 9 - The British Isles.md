@@ -79,9 +79,9 @@ Someone described it as an alcoholic banana bread, which is accurate, but this i
 **Beer** : Murphy's Stout
 Ale or Lager? : 
 Style : Dry Irish Stout
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Color (scale 0-8) : 7 - Very Dark amber - almost 8 Black
+Aroma Strength (scale 0-5) : 4
+Aroma reminds me of... Coffee bean isle in a grocery store, smoke
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
