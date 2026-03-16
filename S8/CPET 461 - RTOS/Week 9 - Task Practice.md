@@ -24,8 +24,19 @@ static void HwSetupTask(void* argument){
 
 ```C
 static void AcquisitionTask(void* argument){
-	
 	do{
+		ADCValues = registersIO;
+		
+		// calculate results
+		// math
+		// more math
+		// wow more math
+		finalResult = /*math*/;
+		osSemaphoreAcquire();
+		result = finalResult;
+		osSemaphoreRelease();
+		
+		// trigger result event
 	
 	}while(1);
 }
