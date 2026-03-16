@@ -48,15 +48,9 @@ static void ConsumerTask_X(void* argument){
 	void localData = null;
 
 	do{
-		if(resultEvent){
-			// do stuff
-			osSemaphoreAcquire(); // on the result sem
-			localData = globalData;
-			osSemaphoreRelease();
-			
-			// data processing
-			
-		}
+		
+		
+		
 	}while(1)
 }
 ```
