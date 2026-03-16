@@ -24,7 +24,7 @@ Taste Reminds me of... Dark chocolate, starts sweet then turns bitter. Get almos
 Mouthfeel (scale 0-5) : 1 
 Finish Strength (scale 0-5) : 2
 Finish reminds me of.... Leaves the strong bitterness in mouth
-Did I like it? No 
+Did I like it? No 2/10
 Would I buy this beer? No 
 Other Comments...
 This is not good to me 
@@ -32,9 +32,9 @@ This is not good to me
 **Beer** : Newcastle Brown Ale
 Ale or Lager? : Ale
 Style : English Brown Ale
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Color (scale 0-8) : 5 Light amber
+Aroma Strength (scale 0-5) : 3
+Aroma reminds me of... This is weird but it smells like my cousin from Colorado, very nutty
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
