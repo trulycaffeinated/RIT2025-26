@@ -95,9 +95,9 @@ Other Comments...
 **Beer** : Sullivan's Black Marble Stout
 Ale or Lager? : Lager
 Style : Dry Irish Stout
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Color (scale 0-8) : 7
+Aroma Strength (scale 0-5) : 3
+Aroma reminds me of... Sweet, burnt, coffee
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
@@ -121,3 +121,8 @@ Finish reminds me of....
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
+
+---
+**Top 3**
+I'm learning I just don't like dark beers
+1. 
