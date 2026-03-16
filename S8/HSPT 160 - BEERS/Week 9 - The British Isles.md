@@ -67,13 +67,14 @@ Color (scale 0-8) : 6 dark amber
 Aroma Strength (scale 0-5) : 2
 Aroma reminds me of... Coffee beans, I'm getting a very faint fruityness like banana. Chocolate
 Taste Strength (scale 0-5) : 4
-Taste Reminds me of... BITTER BITTER BITTER, dark 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Reminds me of... BITTER BITTER BITTER, dark chocolate, alcoholic banana bread
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 3
+Finish reminds me of.... Dark chocolate, and warm banana bread
+Did I like it? No 2/10
+Would I buy this beer? No 
 Other Comments...
+Someone described it as an alcoholic banana bread, which is accurate, but this is way too bitter and not close enough to banana bread for me 😭
 
 **Beer** : Murphy's Stout
 Ale or Lager? : 
