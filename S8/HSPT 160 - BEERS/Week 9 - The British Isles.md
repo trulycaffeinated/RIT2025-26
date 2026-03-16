@@ -98,13 +98,13 @@ Style : Dry Irish Stout
 Color (scale 0-8) : 7
 Aroma Strength (scale 0-5) : 3
 Aroma reminds me of... Sweet, burnt, coffee
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Strength (scale 0-5) : 3
+Taste Reminds me of... Burnt coffee, watered down coffee, very pure very dark chocolate
+Mouthfeel (scale 0-5) : 1 - feels to get fuller towards the end
+Finish Strength (scale 0-5) : 2
+Finish reminds me of.... Black coffee, left out
+Did I like it? No 3/10
+Would I buy this beer? No 
 Other Comments...
 
 **Beer** : Guinness Foreign Extra Stout
