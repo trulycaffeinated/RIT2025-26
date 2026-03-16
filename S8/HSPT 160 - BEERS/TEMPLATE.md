@@ -1,4 +1,4 @@
-**Beer #** : 
+**Beer** : 
 Ale or Lager? : 
 Style : 
 Color (scale 0-8) : 

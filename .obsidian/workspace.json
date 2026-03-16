@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S8/CPET 461 - RTOS/Week 8 - Shared Resources 2.md",
+                "file": "S8/HSPT 160 - BEERS/Week 9 - The British Isles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 8 - Shared Resources 2"
+              "title": "Week 9 - The British Isles"
             }
           }
         ]
@@ -182,8 +182,10 @@
   },
   "active": "da66448e3382b476",
   "lastOpenFiles": [
-    "S8/HSPT 161 - WINES/Week 7 - Quick Quiz Ch 6.md",
+    "S8/HSPT 160 - BEERS/TEMPLATE.md",
+    "S8/HSPT 160 - BEERS/Week 9 - The British Isles.md",
     "S8/CPET 461 - RTOS/Week 8 - Shared Resources 2.md",
+    "S8/HSPT 161 - WINES/Week 7 - Quick Quiz Ch 6.md",
     "S8/HSPT 161 - WINES/Week 8 - Belgian Beers.pdf",
     "S8/HSPT 161 - WINES/Week 5 Quick Quiz 4.md",
     "S8/HSPT 161 - WINES/Week 4 Quick Quiz 3.md",
@@ -196,7 +198,6 @@
     "budgetPlannerGUI_v10.m",
     "Budget.m",
     "S8/HSPT 160 - BEERS/Week 4 - Tasting Practice.md",
-    "S8/HSPT 160 - BEERS/TEMPLATE.md",
     "S8/CPET 253 - MICROS (TA)/Lab 6/Lab6_main_Solution.c",
     "S8/CPET 253 - MICROS (TA)/Lab 6/Lab6_BumpInt.c",
     "S8/CPET 253 - MICROS (TA)/Lab 6/Lab6_Init_Ports.c",
