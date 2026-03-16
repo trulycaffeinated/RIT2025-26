@@ -77,7 +77,7 @@ Other Comments...
 Someone described it as an alcoholic banana bread, which is accurate, but this is way too bitter and not close enough to banana bread for me 😭
 
 **Beer** : Murphy's Stout
-Ale or Lager? : 
+Ale or Lager? : Lager
 Style : Dry Irish Stout
 Color (scale 0-8) : 7 - Very Dark amber - almost 8 Black
 Aroma Strength (scale 0-5) : 4
@@ -85,15 +85,15 @@ Aroma reminds me of... Coffee bean isle in a grocery store, smokey
 Taste Strength (scale 0-5) : 1
 Taste Reminds me of... Significantly weaker than I expected, watered down coffee, beef jerky?
 Mouthfeel (scale 0-5) : This one feels weird - 1 - unexpectedly watery
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Finish Strength (scale 0-5) : 0
+Finish reminds me of.... Watered down coffee
+Did I like it? 5/10
+Would I buy this beer? Wouldn't buy it, would drink it if offered to me 
 Other Comments...
 **This beer has a widget - so theres nitrogen looked like coffee when first poured**
 
 **Beer** : Sullivan's Black Marble Stout
-Ale or Lager? : 
+Ale or Lager? : Lager
 Style : Dry Irish Stout
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
@@ -108,7 +108,7 @@ Would I buy this beer?
 Other Comments...
 
 **Beer** : Guinness Foreign Extra Stout
-Ale or Lager? : 
+Ale or Lager? : Lager
 Style : Foreign Export Stout
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
