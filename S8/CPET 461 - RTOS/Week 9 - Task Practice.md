@@ -60,10 +60,11 @@ static void ConsumerTask_X(void* argument){
 static void ControlTask(void* argument){
 	nextCandidate = 2;
 	while(nextCandidate < 4096){
-		workerCount
+		workerCount = allWorkers;
 		for(int i = 0; i < workerCount; i++){
 			if(worker[i]) {
-				
+				queue = nextCandidate;
+				nextCandidate++;
 			}
 		}
 	}
@@ -72,6 +73,9 @@ static void ControlTask(void* argument){
 
 ```C
 static void WorkerTask(void* argument){
-
+	while(1){
+		while(osMessageQueueGet() == 0);
+		
+	}
 }
 ```
