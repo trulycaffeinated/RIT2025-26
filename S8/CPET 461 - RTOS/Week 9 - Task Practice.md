@@ -86,7 +86,7 @@ static void WorkerTask(void* argument){
 		myCandidate = nextCandidate;
 		availableEvents[myCandidate] = 0;
 		if(isPrime(MyCandidate)) {
-			osSemaphoreAcquire();
+			osSemaphoreAcquire(&PrimeSemaphore);
 			Primes[NumPrimes] <= MyCandidate;
 			NumPrime++;
 			osSemaphoreRelease();
