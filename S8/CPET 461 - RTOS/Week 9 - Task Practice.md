@@ -60,12 +60,19 @@ static void ConsumerTask_X(void* argument){
 static void ControlTask(void* argument){
 	nextCandidate = 2;
 	while(nextCandidate < 4096){
+		
 		for(int i = 0; i < WorkerQueue.size(); i++) {
 			if(WorkerQueue[i]){
 				AvailableEvents (1 << i);
 			}
 		}
-		for(int i )
+		
+		for(int j = 0; j < AvailableEvents; j++){
+			if(AvailableEvents & (1 << j)) {
+				queue = nextCandidate;
+				nextCandidate++;
+			}
+		}
 	}
 }
 ```
@@ -84,7 +91,7 @@ static void WorkerTask(void* argument){
 			NumPrime++;
 			osSemaphoreRelease();
 		}
-		worker[myCandidate] = 1;
+		availableEvents[myCandidate] = 1;
 	}while(1);
 }
 ```
