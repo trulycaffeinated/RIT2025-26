@@ -60,9 +60,8 @@ static void ConsumerTask_X(void* argument){
 static void ControlTask(void* argument){
 	nextCandidate = 2;
 	while(nextCandidate < 4096){
-		workerCount = availableEvents;
-		for(int i = 0; i < workerCount; i++){
-			if(worker[i]) {
+		for(int i = 0; i < WorkerQueue.size(); i++){
+			if(workerCount[i]) {
 				queue = nextCandidate;
 				nextCandidate++;
 			}
