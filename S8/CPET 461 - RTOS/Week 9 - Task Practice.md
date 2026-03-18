@@ -59,7 +59,14 @@ static void ConsumerTask_X(void* argument){
 ```C
 static void ControlTask(void* argument){
 	nextCandidate = 2;
-	while(nextCandidate < 4096)
+	while(nextCandidate < 4096){
+		workerCount
+		for(int i = 0; i < workerCount; i++){
+			if(worker[i]) {
+				
+			}
+		}
+	}
 }
 ```
 
