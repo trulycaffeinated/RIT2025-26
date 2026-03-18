@@ -83,15 +83,14 @@ static void WorkerTask(void* argument){
 		// this is wrong v
 		while(osMessageQueueGet() == 0);
 		// this is wrong ^
-		myCandidate = nextCandidate;
-		availableEvents[myCandidate] = 0;
+		WORKER_X_AVAILABLE = 0; // passed via argument
 		if(isPrime(MyCandidate)) {
 			osSemaphoreAcquire(&PrimeSemaphore);
 			Primes[NumPrimes] <= MyCandidate;
 			NumPrime++;
 			osSemaphoreRelease();
 		}
-		availableEvents[myCandidate] = 1;
+		WORKER_X_AVAILABLE = 1; // passed via argument
 	}while(1);
 }
 ```
