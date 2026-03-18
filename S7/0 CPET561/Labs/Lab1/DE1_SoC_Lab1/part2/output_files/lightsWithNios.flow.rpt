@@ -1,6 +1,6 @@
 Flow report for lightsWithNios
-Wed Sep 03 16:07:39 2025
-Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Tue Mar 17 19:36:32 2026
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
 ---------------------
@@ -37,29 +37,29 @@ refer to the applicable agreement for further details.
 
 
 
-+-----------------------------------------------------------------------------------+
-; Flow Summary                                                                      ;
-+---------------------------------+-------------------------------------------------+
-; Flow Status                     ; Successful - Wed Sep 03 16:07:32 2025           ;
-; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
-; Revision Name                   ; lightsWithNios                                  ;
-; Top-level Entity Name           ; lightsWithNios                                  ;
-; Family                          ; Cyclone V                                       ;
-; Device                          ; 5CSEMA5F31C6                                    ;
-; Timing Models                   ; Final                                           ;
-; Logic utilization (in ALMs)     ; 735 / 32,070 ( 2 % )                            ;
-; Total registers                 ; 1026                                            ;
-; Total pins                      ; 25 / 457 ( 5 % )                                ;
-; Total virtual pins              ; 0                                               ;
-; Total block memory bits         ; 273,408 / 4,065,280 ( 7 % )                     ;
-; Total DSP Blocks                ; 0 / 87 ( 0 % )                                  ;
-; Total HSSI RX PCSs              ; 0                                               ;
-; Total HSSI PMA RX Deserializers ; 0                                               ;
-; Total HSSI TX PCSs              ; 0                                               ;
-; Total HSSI PMA TX Serializers   ; 0                                               ;
-; Total PLLs                      ; 0 / 6 ( 0 % )                                   ;
-; Total DLLs                      ; 0 / 4 ( 0 % )                                   ;
-+---------------------------------+-------------------------------------------------+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Tue Mar 17 19:36:06 2026       ;
+; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                   ; lightsWithNios                              ;
+; Top-level Entity Name           ; lightsWithNios                              ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSEMA5F31C6                                ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 735 / 32,070 ( 2 % )                        ;
+; Total registers                 ; 1026                                        ;
+; Total pins                      ; 25 / 457 ( 5 % )                            ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 273,408 / 4,065,280 ( 7 % )                 ;
+; Total DSP Blocks                ; 0 / 87 ( 0 % )                              ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0 / 6 ( 0 % )                               ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
++---------------------------------+---------------------------------------------+
 
 
 +-----------------------------------------+
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/03/2025 16:05:13 ;
+; Start date & time ; 03/17/2026 19:31:40 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lightsWithNios      ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+---------------------------------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                                         ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+---------------------------------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 194042949994131.175692991319524                               ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 261883887411755.177379029902380                               ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                                            ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                                             ; --            ; --          ; --         ;
 ; MISC_FILE                           ; ../part1/nios_system/synthesis/../nios_system.cmp             ; --            ; --          ; --         ;
@@ -102,24 +102,24 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:22     ; 1.0                     ; 5033 MB             ; 00:00:41                           ;
-; Fitter               ; 00:01:47     ; 1.1                     ; 7300 MB             ; 00:08:16                           ;
-; Assembler            ; 00:00:06     ; 1.0                     ; 4875 MB             ; 00:00:06                           ;
-; Timing Analyzer      ; 00:00:06     ; 1.8                     ; 5287 MB             ; 00:00:09                           ;
-; Total                ; 00:02:21     ; --                      ; --                  ; 00:09:12                           ;
+; Analysis & Synthesis ; 00:00:42     ; 1.0                     ; 5046 MB             ; 00:01:26                           ;
+; Fitter               ; 00:03:20     ; 1.1                     ; 7847 MB             ; 00:18:27                           ;
+; Assembler            ; 00:00:18     ; 1.0                     ; 4873 MB             ; 00:00:12                           ;
+; Timing Analyzer      ; 00:00:24     ; 1.9                     ; 5357 MB             ; 00:00:35                           ;
+; Total                ; 00:04:44     ; --                      ; --                  ; 00:20:40                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                    ;
-+----------------------+------------------+------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; gol-1360-07      ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; gol-1360-07      ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; gol-1360-07      ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; gol-1360-07      ; Windows 10 ; 10.0       ; x86_64         ;
-+----------------------+------------------+------------+------------+----------------+
++-------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                     ;
++----------------------+-------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname  ; OS Name    ; OS Version ; Processor type ;
++----------------------+-------------------+------------+------------+----------------+
+; Analysis & Synthesis ; JeffreysG14Laptop ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; JeffreysG14Laptop ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; JeffreysG14Laptop ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; JeffreysG14Laptop ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+-------------------+------------+------------+----------------+
 
 
 ------------
