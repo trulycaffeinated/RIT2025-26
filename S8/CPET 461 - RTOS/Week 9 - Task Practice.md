@@ -60,12 +60,12 @@ static void ConsumerTask_X(void* argument){
 static void ControlTask(void* argument){
 	nextCandidate = 2;
 	while(nextCandidate < 4096){
-		for(int i = 0; i < WorkerQueue.size(); i++){
-			if(workerCount[i]) {
-				queue = nextCandidate;
-				nextCandidate++;
+		for(int i = 0; i < WorkerQueue.size(); i++) {
+			if(WorkerQueue[i]){
+				AvailableEvents (1 << i);
 			}
 		}
+		for(int i )
 	}
 }
 ```
@@ -73,7 +73,9 @@ static void ControlTask(void* argument){
 ```C
 static void WorkerTask(void* argument){
 	do{
+		// this is wrong v
 		while(osMessageQueueGet() == 0);
+		// this is wrong ^
 		myCandidate = nextCandidate;
 		availableEvents[myCandidate] = 0;
 		if(isPrime(MyCandidate)) {
