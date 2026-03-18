@@ -74,8 +74,16 @@ static void ControlTask(void* argument){
 ```C
 static void WorkerTask(void* argument){
 	while(1){
-		while(osMessageQueueGet() == 0);
 		
+		while(osMessageQueueGet() == 0);
+		worker[myCandidate] = 0;
+		if(/*myCandidate is prime*/) {
+			osSemaphoreAcquire();
+			Primes[NumPrimes] <= MyCandidate;
+			NumPrime++;
+			osSemaphoreRelease();
+		}
+		worker[myCandidate] = 1;
 	}
 }
 ```
