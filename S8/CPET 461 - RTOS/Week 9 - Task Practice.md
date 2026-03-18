@@ -76,8 +76,8 @@ static void WorkerTask(void* argument){
 	do{
 		while(osMessageQueueGet() == 0);
 		myCandidate = nextCandidate;
-		worker[myCandidate] = 0;
-		if(/*myCandidate is prime*/) {
+		availableEvents[myCandidate] = 0;
+		if(isPrime(MyCandidate)) {
 			osSemaphoreAcquire();
 			Primes[NumPrimes] <= MyCandidate;
 			NumPrime++;
