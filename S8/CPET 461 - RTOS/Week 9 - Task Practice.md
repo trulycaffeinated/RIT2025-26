@@ -54,3 +54,17 @@ static void ConsumerTask_X(void* argument){
 	}while(1)
 }
 ```
+
+# Task Practice #2
+```C
+static void ControlTask(void* argument){
+	nextCandidate = 2;
+	while(nextCandidate < 4096)
+}
+```
+
+```C
+static void WorkerTask(void* argument){
+
+}
+```
