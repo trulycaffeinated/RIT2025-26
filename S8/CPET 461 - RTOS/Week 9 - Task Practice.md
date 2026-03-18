@@ -60,7 +60,7 @@ static void ConsumerTask_X(void* argument){
 static void ControlTask(void* argument){
 	nextCandidate = 2;
 	while(nextCandidate < 4096){
-		workerCount = allWorkers;
+		workerCount = availableEvents;
 		for(int i = 0; i < workerCount; i++){
 			if(worker[i]) {
 				queue = nextCandidate;
@@ -73,9 +73,9 @@ static void ControlTask(void* argument){
 
 ```C
 static void WorkerTask(void* argument){
-	while(1){
-		
+	do{
 		while(osMessageQueueGet() == 0);
+		myCandidate = nextCandidate;
 		worker[myCandidate] = 0;
 		if(/*myCandidate is prime*/) {
 			osSemaphoreAcquire();
@@ -84,6 +84,6 @@ static void WorkerTask(void* argument){
 			osSemaphoreRelease();
 		}
 		worker[myCandidate] = 1;
-	}
+	}while(1);
 }
 ```
