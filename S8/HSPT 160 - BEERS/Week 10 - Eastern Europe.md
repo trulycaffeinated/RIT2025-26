@@ -4,9 +4,9 @@ Style : Czech Pilsner
 Color (scale 0-8) : 2 - 2.5
 Aroma Strength (scale 0-5) : 2
 Aroma reminds me of... Burnt Toast, idk why but Im smelling nuts, Lemony, raisin, apple cider. 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Apple Cider, Lemon Juice, Pulp, Sour, bitter citrus 
+Mouthfeel (scale 0-5) : 2
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
 Did I like it? 
