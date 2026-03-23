@@ -14,8 +14,8 @@ Would I buy this beer?
 Other Comments...
 
 **Beer 2** : Mykhola Classic 
-Ale or Lager? : 
-Style : 
+Ale or Lager? : Lager
+Style : European Pale Lager
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -28,9 +28,9 @@ Did I like it?
 Would I buy this beer? 
 Other Comments...
 
-**Beer** : 
-Ale or Lager? : 
-Style : 
+**Beer 3** : Wolters Pilsner
+Ale or Lager? : Lager
+Style : German Pilsner
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -43,9 +43,9 @@ Did I like it?
 Would I buy this beer? 
 Other Comments...
 
-**Beer** : 
-Ale or Lager? : 
-Style : 
+**Beer 4** : Stigler Radler Grapefruit
+Ale or Lager? : Lager
+Style : Radler
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -58,9 +58,9 @@ Did I like it?
 Would I buy this beer? 
 Other Comments...
 
-**Beer** : 
-Ale or Lager? : 
-Style : 
+**Beer 5** : Zywiec Biale
+Ale or Lager? : Ale
+Style : Witbier
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -73,9 +73,9 @@ Did I like it?
 Would I buy this beer? 
 Other Comments...
 
-**Beer** : 
-Ale or Lager? : 
-Style : 
+**Beer 6** : Hofbrau Munich Dunkel
+Ale or Lager? : Lager
+Style : Munich Dunkel
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -88,9 +88,9 @@ Did I like it?
 Would I buy this beer? 
 Other Comments...
 
-**Beer** : 
-Ale or Lager? : 
-Style : 
+**Beer 7** : Warka Premium (Strong)
+Ale or Lager? : Lager
+Style : Euro Strong Lager
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -103,7 +103,7 @@ Did I like it?
 Would I buy this beer? 
 Other Comments...
 
-**Beer** : 
+**Beer 8** : Zywiec 1881 Porter
 Ale or Lager? : 
 Style : 
 Color (scale 0-8) : 
