@@ -118,6 +118,13 @@ Taste Reminds me of... Burnt Coffee, dark chocolate, dark licorice, over seasone
 Mouthfeel (scale 0-5) : 2
 Finish Strength (scale 0-5) : 1
 Finish reminds me of.... Not a strong finish, but the intense burnt taste lasts for a very long time
-Did I like it? 1/
-Would I buy this beer? 
+Did I like it? 1/10 NO
+Would I buy this beer? NO  
 Other Comments...
+This was not good
+
+--- 
+# Favorites
+1. Stigler Radler Grapefruit
+2. Mykhola Classic
+3. Pilsner Urquell
