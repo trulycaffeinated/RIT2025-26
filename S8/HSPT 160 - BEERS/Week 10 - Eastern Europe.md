@@ -35,13 +35,14 @@ Color (scale 0-8) : 3
 Aroma Strength (scale 0-5) : 1
 Aroma reminds me of... Smells somewhat like cat pee or skunk, church wine/white wine
 Taste Strength (scale 0-5) : 2
-Taste Reminds me of... Very watery, 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Reminds me of... Very watery, sour apple a little bit, somewhat tasteless. Honey, solid pilsner nothing special
+Mouthfeel (scale 0-5) : 1
+Finish Strength (scale 0-5) : 1
+Finish reminds me of.... just leaves a somewhat sour or bitter taste in my mouth
+Did I like it? 4/10
+Would I buy this beer? No 
 Other Comments...
+A surprisingly tasteless beer to me.
 
 **Beer 4** : Stigler Radler Grapefruit
 Ale or Lager? : Lager
