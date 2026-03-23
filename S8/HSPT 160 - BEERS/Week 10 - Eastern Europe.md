@@ -112,12 +112,12 @@ Ale or Lager? : Ale
 Style : Baltic Porter
 Color (scale 0-8) : 7 Dark Amber (almost black)
 Aroma Strength (scale 0-5) : 3
-Aroma reminds me of... Dark coffee, dark chocolate 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
+Aroma reminds me of... Dark coffee, dark chocolate. Barbeque? Honey? It's like half dark smells, half light smells. Soy, teriyaki, 
+Taste Strength (scale 0-5) : 4
+Taste Reminds me of... Burnt Coffee, dark chocolate, dark licorice, over seasoned burnt piece of meat
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 1
+Finish reminds me of.... Not a strong finish, but the intense burnt taste lasts for a very long time
+Did I like it? 1/
 Would I buy this beer? 
 Other Comments...
