@@ -1,9 +1,9 @@
 **Beer 1** : Pilsner Urquell
 Ale or Lager? : Lager
 Style : Czech Pilsner
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Color (scale 0-8) : 2 - 2.5
+Aroma Strength (scale 0-5) : 2
+Aroma reminds me of... Burnt Toast, idk why but Im smelling nuts, 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
