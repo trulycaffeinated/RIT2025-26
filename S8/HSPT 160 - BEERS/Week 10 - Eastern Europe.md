@@ -82,13 +82,14 @@ Color (scale 0-8) :  6 Amber
 Aroma Strength (scale 0-5) : 3
 Aroma reminds me of... Coffee, woodsy
 Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Taste Reminds me of... Coffee, light chocolate, licorice, spices
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Finish reminds me of.... Leaves behind the bitterness of the coffee like taste
+Did I like it? 4/10
+Would I buy this beer? No
 Other Comments...
+Don't like dark beers it seems
 
 **Beer 7** : Warka Premium (Strong)
 Ale or Lager? : Lager
