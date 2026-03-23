@@ -104,8 +104,8 @@ Would I buy this beer?
 Other Comments...
 
 **Beer 8** : Zywiec 1881 Porter
-Ale or Lager? : 
-Style : 
+Ale or Lager? : Ale
+Style : Baltic Porter
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
