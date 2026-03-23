@@ -66,13 +66,13 @@ Style : Witbier
 Color (scale 0-8) : 2
 Aroma Strength (scale 0-5) : 3
 Aroma reminds me of... Dish soap? Might be my bad, cleaner, minty. Wheat, medicine, floral. Hand soap - not my bad. Banana
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Tastes like rosewater, floral. Banana
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 1
+Finish reminds me of.... Not a strong finish, very minimal
+Did I like it? 4/10
+Would I buy this beer? No 
 Other Comments...
 
 **Beer 6** : Hofbrau Munich Dunkel
