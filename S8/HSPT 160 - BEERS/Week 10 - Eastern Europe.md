@@ -19,8 +19,8 @@ Style : European Pale Lager
 Color (scale 0-8) : 3
 Aroma Strength (scale 0-5) : 3
 Aroma reminds me of... Very very nutty - almonds. Smells like coffee grounds too, smells amazing
-Taste Strength (scale 0-5) :  
-Taste Reminds me of... 
+Taste Strength (scale 0-5) : 3 
+Taste Reminds me of... Cider, somewhat watery, and somehow sweet. Honey, cinnamon
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 4
 Finish reminds me of.... Finish has a sharp poke
@@ -32,7 +32,7 @@ Other Comments...
 Ale or Lager? : Lager
 Style : German Pilsner
 Color (scale 0-8) : 3
-Aroma Strength (scale 0-5) : 
+Aroma Strength (scale 0-5) : 1
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
@@ -47,8 +47,8 @@ Other Comments...
 Ale or Lager? : Lager
 Style : Radler
 Color (scale 0-8) : 1-2 / Very Cloudy
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Aroma Strength (scale 0-5) : 4
+Aroma reminds me of... Sour grape, sour patch kids
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
