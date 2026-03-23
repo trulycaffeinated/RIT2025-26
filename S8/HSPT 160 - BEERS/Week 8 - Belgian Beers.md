@@ -21,17 +21,17 @@ Taste Reminds me of... Watery, A bit of spice
 Mouthfeel (scale 0-5) : 2
 Finish Strength (scale 0-5) : 3
 Finish reminds me of.... Finish is like pure black pepper 
-Did I like it? 
-Would I buy this beer? 
+Did I like it? 5/10
+Would I buy this beer? Strangely yes even though I didn't like it a bunch
 Other Comments...
 
 ---
 **Beer 2** : Ommegang Hennepin
 Ale or Lager? : Saison ?
 Style : Saison
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Color (scale 0-8) : 4
+Aroma Strength (scale 0-5) : 2
+Aroma reminds me of... Very strong rubber smell, overripe mango? 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 

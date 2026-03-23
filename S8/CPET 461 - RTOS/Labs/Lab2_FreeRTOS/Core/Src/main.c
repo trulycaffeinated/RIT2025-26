@@ -27,7 +27,7 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-
+#define USE_HAL_DELAY 1
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -310,10 +310,7 @@ void StartDefaultTask(void *argument)
 {
   /* USER CODE BEGIN 5 */
   /* Infinite loop */
-  for(;;)
-  {
-    osDelay(1);
-  }
+	osThreadExit();
   /* USER CODE END 5 */
 }
 
@@ -365,7 +362,12 @@ void StartTask03(void *argument)
 		}
 
 		lastState = currentState; //pass along state
-		osDelay(10); //10ms seems like a good delay idk
+		if(USE_HAL_DELAY){
+			HAL_Delay(10);
+		}
+		else{
+			osDelay(10);
+		}
 	}
   /* USER CODE END StartTask03 */
 }

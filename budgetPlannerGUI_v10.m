@@ -1,4 +1,4 @@
-function Budget()
+function budgetPlannerGUI_v10()
 % budgetPlannerGUI_v10
 % Clean rebuild (syntax-safe) with:
 % - Budget sliders + numeric fields
