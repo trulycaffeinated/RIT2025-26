@@ -97,14 +97,15 @@ Style : Euro Strong Lager
 Color (scale 0-8) : 5 Light Amber
 Aroma Strength (scale 0-5) : 0
 Aroma reminds me of... I smell nothing. Literally nothing - other people are saying honey, sweet alcohol, biscuits
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Strength (scale 0-5) : 3
+Taste Reminds me of... sweet, but not like sugar sweet. Very unbalanced. Honey roasted peanuts, creamy water. 
+Mouthfeel (scale 0-5) : Starts very full, 4/5 then goes down to 2
+Finish Strength (scale 0-5) : 1
+Finish reminds me of.... Minimal finish, leaves like a honey coating on your tongue.
+Did I like it? 4/10
+Would I buy this beer? No
 Other Comments...
+Didn't taste the alcohol which is good, but still didn't like it
 
 **Beer 8** : Zywiec 1881 Porter
 Ale or Lager? : Ale
