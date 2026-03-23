@@ -7,16 +7,16 @@ Aroma reminds me of... Burnt Toast, idk why but Im smelling nuts, Lemony, raisin
 Taste Strength (scale 0-5) : 2
 Taste Reminds me of... Apple Cider, Lemon Juice, Pulp, Sour, bitter citrus 
 Mouthfeel (scale 0-5) : 2
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Finish Strength (scale 0-5) : 2
+Finish reminds me of.... Makes me want another taste, even though i don't particularly like it
+Did I like it? 6/10
+Would I buy this beer?  Wouldn't be opposed to it 
 Other Comments...
 
 **Beer 2** : Mykhola Classic 
 Ale or Lager? : Lager
 Style : European Pale Lager
-Color (scale 0-8) : 
+Color (scale 0-8) : 3
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
@@ -31,7 +31,7 @@ Other Comments...
 **Beer 3** : Wolters Pilsner
 Ale or Lager? : Lager
 Style : German Pilsner
-Color (scale 0-8) : 
+Color (scale 0-8) : 3
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
@@ -46,7 +46,7 @@ Other Comments...
 **Beer 4** : Stigler Radler Grapefruit
 Ale or Lager? : Lager
 Style : Radler
-Color (scale 0-8) : 
+Color (scale 0-8) : 1-2 / Very Cloudy
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
@@ -61,7 +61,7 @@ Other Comments...
 **Beer 5** : Zywiec Biale
 Ale or Lager? : Ale
 Style : Witbier
-Color (scale 0-8) : 
+Color (scale 0-8) : 2
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
@@ -76,7 +76,7 @@ Other Comments...
 **Beer 6** : Hofbrau Munich Dunkel
 Ale or Lager? : Lager
 Style : Munich Dunkel
-Color (scale 0-8) : 
+Color (scale 0-8) :  6 Amber
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
@@ -91,7 +91,7 @@ Other Comments...
 **Beer 7** : Warka Premium (Strong)
 Ale or Lager? : Lager
 Style : Euro Strong Lager
-Color (scale 0-8) : 
+Color (scale 0-8) : 5 Light Amber
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
@@ -106,7 +106,7 @@ Other Comments...
 **Beer 8** : Zywiec 1881 Porter
 Ale or Lager? : Ale
 Style : Baltic Porter
-Color (scale 0-8) : 
+Color (scale 0-8) : 7 Dark Amber (almost black)
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
