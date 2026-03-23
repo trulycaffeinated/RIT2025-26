@@ -33,9 +33,9 @@ Ale or Lager? : Lager
 Style : German Pilsner
 Color (scale 0-8) : 3
 Aroma Strength (scale 0-5) : 1
-Aroma reminds me of... Smells somewhat like cat pee
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Aroma reminds me of... Smells somewhat like cat pee or skunk, church wine/white wine
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Very watery, 
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
