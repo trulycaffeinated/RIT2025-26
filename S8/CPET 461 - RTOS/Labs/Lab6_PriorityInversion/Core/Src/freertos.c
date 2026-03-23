@@ -21,7 +21,6 @@
 #include "FreeRTOS.h"
 #include "task.h"
 #include "main.h"
-#include "cmsis_os.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -72,7 +71,6 @@ static const osThreadAttr_t highTask_attributes = {
   .stack_size = 128 * 4,
   .priority = (osPriority_t) osPriorityHigh,
 };
-
 #if USE_MUTEX
 static osMutexId_t sharedLockHandle;
 static const osMutexAttr_t sharedLock_attributes = {
@@ -103,13 +101,14 @@ void App_RTOS_Init(void)
 {
   Print_Init();
 
-#if USE_MUTEX
-  Print_Line("=== Lab 6: MUTEX run ===");
-  sharedLockHandle = osMutexNew(&sharedLock_attributes);
-#else
-  Print_Line("=== Lab 6: BINARY SEMAPHORE run ===");
-  sharedLockHandle = osSemaphoreNew(1, 1, &sharedLock_attributes);
-#endif
+  if(USE_MUTEX){
+	  Print_Line("===== LAB 6 RUNNING W/ MUTEX =====");
+	  sharedLockHandle = osMutexNew(&sharedLock_attributes);
+  }
+  else{
+	  Print_Line("===== LAB 6 RUNNING W/ SEMAPHORE =====");
+	  sharedLockHandle = osSemaphoreNew(1, 1, &sharedLock_attributes);
+  }
 
   if (sharedLockHandle == NULL)
   {
@@ -141,19 +140,19 @@ void App_RTOS_Init(void)
 
 static void StartLowTask(void *argument)
 {
-  (void)argument;
-
   Print_Line("LOW: starting");
   Print_Line("LOW: attempting to acquire shared resource");
 
-#if USE_MUTEX
-  osMutexAcquire(sharedLockHandle, osWaitForever);
-#else
-  osSemaphoreAcquire(sharedLockHandle, osWaitForever);
-#endif
+  if(USE_MUTEX){
+	  osMutexAcquire(sharedLockHandle, osWaitForever);
+  }
+  else{
+	  osSemaphoreAcquire(sharedLockHandle, osWaitForever);
+  }
 
   Print_Line("LOW: acquired shared resource");
 
+  // CPU IS WORKING - SHOULD NOT GET INTERRUPTED WHEN USE_MUTEX IS 1
   for (int i = 1; i <= LOW_WORK_ITERATIONS; i++)
   {
     Print_Line("LOW: working %d/%d", i, LOW_WORK_ITERATIONS);
@@ -161,64 +160,65 @@ static void StartLowTask(void *argument)
     HAL_Delay(LOW_WORK_DELAY_MS);
     Print_Line("LOW: tick after delay = %lu", HAL_GetTick());
   }
-
   Print_Line("LOW: releasing shared resource");
 
-#if USE_MUTEX
-  osMutexRelease(sharedLockHandle);
-#else
-  osSemaphoreRelease(sharedLockHandle);
-#endif
+  if(USE_MUTEX){
+	  osMutexAcquire(sharedLockHandle, osWaitForever);
+  }
+  else{
+	  osSemaphoreAcquire(sharedLockHandle, osWaitForever);
+  }
 
   Print_Line("LOW: done");
 
   for (;;)
   {
-    osDelay(1000);
+	  // process is done
+	  osDelay(1000);
   }
 }
 
 static void StartHighTask(void *argument)
 {
-  (void)argument;
-
   /* Let LOW start first and take the resource */
   osDelay(100);
 
   Print_Line("HIGH: starting");
   Print_Line("HIGH: attempting to acquire shared resource");
 
-#if USE_MUTEX
-  osMutexAcquire(sharedLockHandle, osWaitForever);
-#else
-  osSemaphoreAcquire(sharedLockHandle, osWaitForever);
-#endif
+  // LOW PRIORITY TASK HAS SHARED RESOURCE AT THE TIME, SHOULD DELAY HIGH PRIORITY TASK UNTIL LOW IS DONE
+  if(USE_MUTEX){
+	  osMutexAcquire(sharedLockHandle, osWaitForever);
+  }
+  else{
+	  osSemaphoreAcquire(sharedLockHandle, osWaitForever);
+  }
 
   Print_Line("HIGH: acquired shared resource");
   Print_Line("HIGH: tick before delay = %lu", HAL_GetTick());
-  HAL_Delay(100);
+  HAL_Delay(100); // cpu is doing something
   Print_Line("HIGH: tick after delay = %lu", HAL_GetTick());
 
   Print_Line("HIGH: releasing shared resource");
 
-#if USE_MUTEX
-  osMutexRelease(sharedLockHandle);
-#else
-  osSemaphoreRelease(sharedLockHandle);
-#endif
+  if(USE_MUTEX){
+	  osMutexAcquire(sharedLockHandle, osWaitForever);
+  }
+  else{
+	  osSemaphoreAcquire(sharedLockHandle, osWaitForever);
+  }
 
   Print_Line("HIGH: done");
 
   for (;;)
   {
-    osDelay(1000);
+	  // process is done
+	  osDelay(1000);
   }
 }
 
 static void StartMedTask(void *argument)
 {
-  (void)argument;
-
   /* Start after HIGH has already blocked on LOW's lock */
   osDelay(150);
 
@@ -236,8 +236,10 @@ static void StartMedTask(void *argument)
 
   for (;;)
   {
-    osDelay(1000);
+	  // process is done
+	  osDelay(1000);
   }
 }
 
 /* USER CODE END Application */
+

@@ -65,8 +65,8 @@ all: main-build
 main-build: Lab6_PriorityInversion.elf secondary-outputs
 
 # Tool invocations
-Lab6_PriorityInversion.elf Lab6_PriorityInversion.map: $(OBJS) $(USER_OBJS) C:\Users\Jeffrey\ T\Documents\RIT\RIT-Notes\RIT2025-26\S8\CPET\ 461\ -\ RTOS\Labs\Lab6_PriorityInversion\STM32L476RGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Lab6_PriorityInversion.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Jeffrey T\Documents\RIT\RIT-Notes\RIT2025-26\S8\CPET 461 - RTOS\Labs\Lab6_PriorityInversion\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab6_PriorityInversion.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Lab6_PriorityInversion.elf Lab6_PriorityInversion.map: $(OBJS) $(USER_OBJS) C:\Users\tjeff\Documents\RIT\RIT2025-26\S8\CPET\ 461\ -\ RTOS\Labs\Lab6_PriorityInversion\STM32L476RGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Lab6_PriorityInversion.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\tjeff\Documents\RIT\RIT2025-26\S8\CPET 461 - RTOS\Labs\Lab6_PriorityInversion\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab6_PriorityInversion.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

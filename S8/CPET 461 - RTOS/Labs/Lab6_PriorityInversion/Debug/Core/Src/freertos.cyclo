@@ -1,4 +1,4 @@
-../Core/Src/freertos.c:102:6:App_RTOS_Init	5
-../Core/Src/freertos.c:142:13:StartLowTask	2
-../Core/Src/freertos.c:181:13:StartHighTask	1
+../Core/Src/freertos.c:100:6:App_RTOS_Init	5
+../Core/Src/freertos.c:139:13:StartLowTask	2
+../Core/Src/freertos.c:179:13:StartHighTask	1
 ../Core/Src/freertos.c:218:13:StartMedTask	2
