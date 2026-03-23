@@ -33,7 +33,7 @@ Ale or Lager? : Lager
 Style : German Pilsner
 Color (scale 0-8) : 3
 Aroma Strength (scale 0-5) : 1
-Aroma reminds me of... 
+Aroma reminds me of... Smells somewhat like cat pee
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
@@ -62,7 +62,7 @@ Other Comments...
 Ale or Lager? : Ale
 Style : Witbier
 Color (scale 0-8) : 2
-Aroma Strength (scale 0-5) : 
+Aroma Strength (scale 0-5) : Dish soap? Might be my bad
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
@@ -77,8 +77,8 @@ Other Comments...
 Ale or Lager? : Lager
 Style : Munich Dunkel
 Color (scale 0-8) :  6 Amber
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Aroma Strength (scale 0-5) : 3
+Aroma reminds me of... Coffee, woodsy
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
@@ -107,8 +107,8 @@ Other Comments...
 Ale or Lager? : Ale
 Style : Baltic Porter
 Color (scale 0-8) : 7 Dark Amber (almost black)
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Aroma Strength (scale 0-5) : 3
+Aroma reminds me of... Dark coffee, dark chocolate 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
