@@ -81,15 +81,15 @@ Style : Munich Dunkel
 Color (scale 0-8) :  6 Amber
 Aroma Strength (scale 0-5) : 3
 Aroma reminds me of... Coffee, woodsy
-Taste Strength (scale 0-5) : 
+Taste Strength (scale 0-5) : 4
 Taste Reminds me of... Coffee, light chocolate, licorice, spices
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 2
 Finish reminds me of.... Leaves behind the bitterness of the coffee like taste
-Did I like it? 4/10
+Did I like it? 2/10
 Would I buy this beer? No
 Other Comments...
-Don't like dark beers it seems
+Like a coffee left out too long
 
 **Beer 7** : Warka Premium (Strong)
 Ale or Lager? : Lager
