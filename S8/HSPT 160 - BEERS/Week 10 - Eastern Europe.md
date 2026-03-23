@@ -65,7 +65,7 @@ Ale or Lager? : Ale
 Style : Witbier
 Color (scale 0-8) : 2
 Aroma Strength (scale 0-5) : 3
-Aroma reminds me of... Dish soap? Might be my bad, cleaner, minty
+Aroma reminds me of... Dish soap? Might be my bad, cleaner, minty. Wheat, medicine, floral. Hand soap - not my bad. Banana
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
