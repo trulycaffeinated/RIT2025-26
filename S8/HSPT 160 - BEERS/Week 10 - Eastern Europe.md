@@ -49,7 +49,7 @@ Ale or Lager? : Lager
 Style : Radler
 Color (scale 0-8) : 1-2 / Very Cloudy
 Aroma Strength (scale 0-5) : 4
-Aroma reminds me of... Sour grape, sour patch kids
+Aroma reminds me of... Sour grape, sour patch kids, lemon, air freshner
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 

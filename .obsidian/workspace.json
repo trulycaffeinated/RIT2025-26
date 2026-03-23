@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Week 10 - Eastern Europe"
             }
+          },
+          {
+            "id": "97466a2de664717a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,7 +193,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "da66448e3382b476",
+  "active": "97466a2de664717a",
   "lastOpenFiles": [
     "S8/HSPT 160 - BEERS/Week 7 - German Beers.md",
     "S8/HSPT 160 - BEERS/Week 10 - Eastern Europe.md",
