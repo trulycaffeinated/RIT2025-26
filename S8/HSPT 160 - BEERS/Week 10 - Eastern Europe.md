@@ -17,15 +17,15 @@ Other Comments...
 Ale or Lager? : Lager
 Style : European Pale Lager
 Color (scale 0-8) : 3
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
+Aroma Strength (scale 0-5) : 3
+Aroma reminds me of... Very very nutty - almonds. Smells like coffee grounds too, smells amazing
+Taste Strength (scale 0-5) :  
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Finish Strength (scale 0-5) : 4
+Finish reminds me of.... Finish has a sharp poke
+Did I like it? 7/10 maybe 8/10 - surprisingly good
+Would I buy this beer? Yes
 Other Comments...
 
 **Beer 3** : Wolters Pilsner
