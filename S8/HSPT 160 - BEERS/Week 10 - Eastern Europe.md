@@ -3,7 +3,7 @@ Ale or Lager? : Lager
 Style : Czech Pilsner
 Color (scale 0-8) : 2 - 2.5
 Aroma Strength (scale 0-5) : 2
-Aroma reminds me of... Burnt Toast, idk why but Im smelling nuts, 
+Aroma reminds me of... Burnt Toast, idk why but Im smelling nuts, Lemony, raisin, apple cider. 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
