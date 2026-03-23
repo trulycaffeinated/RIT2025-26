@@ -95,8 +95,8 @@ Like a coffee left out too long
 Ale or Lager? : Lager
 Style : Euro Strong Lager
 Color (scale 0-8) : 5 Light Amber
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Aroma Strength (scale 0-5) : 0
+Aroma reminds me of... I smell nothing. Literally nothing - other people are saying honey, sweet alcohol, biscuits
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
