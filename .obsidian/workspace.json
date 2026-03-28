@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S8/HSPT 160 - BEERS/Week 10 - Eastern Europe.md",
+                "file": "S8/HSPT 161 - WINES/Project Documentation/Pre-Project documentation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 10 - Eastern Europe"
-            }
-          },
-          {
-            "id": "f263054cd12405e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Pre-Project documentation"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,9 +180,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f263054cd12405e2",
+  "active": "97466a2de664717a",
   "lastOpenFiles": [
     "S8/HSPT 160 - BEERS/Week 10 - Eastern Europe.md",
+    "S8/HSPT 161 - WINES/Project Documentation/Pre-Project documentation.md",
+    "S8/HSPT 161 - WINES/Project Documentation",
     "conflict-files-obsidian-git.md",
     "S8/CPET 461 - RTOS/Labs/Lab6_PriorityInversion/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h",
     "S8/CPET 461 - RTOS/Labs/Lab6_PriorityInversion/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c",
@@ -208,7 +195,6 @@
     "S8/CPET 461 - RTOS/Labs/Lab6_PriorityInversion/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h",
     "S8/CPET 461 - RTOS/Labs/Lab6_PriorityInversion/Middlewares/Third_Party/FreeRTOS/Source/include/task.h",
     "S8/CPET 461 - RTOS/Labs/Lab6_PriorityInversion/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h",
-    "S8/CPET 461 - RTOS/Labs/Lab6_PriorityInversion/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h",
     "S8/CPET 461 - RTOS/Labs/Lab5/Lab5 Report.md",
     "S8/CPET 461 - RTOS/Labs/Lab6_PriorityInversion/Drivers/CMSIS/Device/ST/STM32L4xx/License.md",
     "S8/HSPT 160 - BEERS/Week 7 - German Beers.md",
@@ -237,7 +223,6 @@
     "Image Graveyard/Pasted image 20260222121103.png",
     "Image Graveyard/Pasted image 20260222115241.png",
     "S8/CPET 461 - RTOS/Week 6 - 2.16.2026 and 2.18.2026.md",
-    "README.md",
     "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Pasted image 20260213122238.png"
   ]
 }
