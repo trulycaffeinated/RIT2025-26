@@ -1,4 +1,4 @@
-../Core/Src/freertos.c:100:6:App_RTOS_Init	8	static
-../Core/Src/freertos.c:139:13:StartLowTask	24	static
-../Core/Src/freertos.c:179:13:StartHighTask	16	static
-../Core/Src/freertos.c:218:13:StartMedTask	24	static
+../Core/Src/freertos.c:103:6:App_RTOS_Init	8	static
+../Core/Src/freertos.c:136:6:StartLowTask	24	static
+../Core/Src/freertos.c:170:6:StartHighTask	16	static
+../Core/Src/freertos.c:207:6:StartMedTask	24	static

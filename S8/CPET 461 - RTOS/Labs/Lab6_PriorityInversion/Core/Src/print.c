@@ -8,7 +8,7 @@
 extern UART_HandleTypeDef huart2;
 
 /* Binary semaphore to protect UART */
-static osSemaphoreId_t uartPrintSem;
+static osMutexId_t uartPrintMutex;
 
 /**
  * @brief Initialize UART print semaphore
@@ -16,7 +16,7 @@ static osSemaphoreId_t uartPrintSem;
 void Print_Init(void)
 {
     /* max count = 1, initial count = 1 (available) */
-    uartPrintSem = osSemaphoreNew(1, 1, NULL);
+	uartPrintMutex = osMutexNew(NULL);
 }
 
 /**
@@ -27,8 +27,8 @@ void Print_Line(const char *fmt, ...)
     char buffer[128];
 
     /* Take UART semaphore */
-    osSemaphoreAcquire(uartPrintSem, osWaitForever);
-    
+    osMutexAcquire(uartPrintMutex, osWaitForever);
+
     va_list args;
     va_start(args, fmt);
     vsnprintf(buffer, sizeof(buffer), fmt, args);
@@ -41,5 +41,5 @@ void Print_Line(const char *fmt, ...)
     HAL_UART_Transmit(&huart2,(uint8_t *)newline,sizeof(newline) - 1,HAL_MAX_DELAY);
 
     /* Release UART semaphore */
-    osSemaphoreRelease(uartPrintSem);
+    osMutexRelease(uartPrintMutex);
 }
