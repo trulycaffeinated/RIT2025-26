@@ -81,12 +81,12 @@ Aroma Strength (scale 0-5) : 3
 Aroma reminds me of... Very honey scented, sweet citrus, mango or peach, Lemon, brown sugar
 Taste Strength (scale 0-5) : 2
 Taste Reminds me of... Taste like a cleaning product, grass, 
-Mouthfeel (scale 0-5) : 2
+Mouthfeel (scale 0-5) : 3
 Finish Strength (scale 0-5) : 2
 Finish reminds me of.... almost like a soapy aftertase, mint, lemon, blegh
 Did I like it? No 3/10
 Would I buy this beer? No 
-Other Comments... Not as hoppy as the pale ale. **One way to tell, paya**
+Other Comments... Not as hoppy as the pale ale. **One way to tell, pay attention to mouth feel and finish. A little bit more sweetness, and thicker mouthfeel**
 
 **Beer** : Dogfish Head 90min IPA
 Ale or Lager? : Ale
