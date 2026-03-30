@@ -106,14 +106,14 @@ Other Comments... **Stung my nostrils for some reason** - ***CLEANING PRODUCT ME
 **Beer** : KCBC Vicious Crush
 Ale or Lager? : Ale
 Style : Fruited Sour Ale (Gose)
-Color (scale 0-8) : Orange? Just straight up Orange
+Color (scale 0-8) : Orange? Just straight up Orange. Watermelon taffy. Sour patch kids but only slightly
 Aroma Strength (scale 0-5) : 2
 Aroma reminds me of... Orange, Grapefruit, don't really smell any alcohol. 
 Taste Strength (scale 0-5) : 2.5
-Taste Reminds me of... Only a little sour, honestly wouldn't call this a sour beer. Touch of orange, lime, very grapefruity
+Taste Reminds me of... Only a little sour, honestly wouldn't call this a sour beer. Touch of orange, lime, very grapefruity. 
 Mouthfeel (scale 0-5) : 3
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
+Finish Strength (scale 0-5) : 1
+Finish reminds me of.... Not very strong, leaves a touch of sour in your mouth.
 Did I like it? 
 Would I buy this beer? 
 Other Comments... Weirdly full mouthfeeled. 
