@@ -77,23 +77,23 @@ Other Comments...
 Ale or Lager? : Ale
 Style : American IPA
 Color (scale 0-8) : 5 Yellow/Gold Amber
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Aroma Strength (scale 0-5) : 3
+Aroma reminds me of... Very honey scented, sweet citrus, mango or peach, Lemon
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Taste like a cleaning product, grass, 
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 2
+Finish reminds me of.... almost like a soapy aftertase, mint, lemon, blegh
+Did I like it? No 3/10
+Would I buy this beer? No 
 Other Comments...
 
 **Beer** : Dogfish Head 90min IPA
 Ale or Lager? : Ale
 Style : IPA
 Color (scale 0-8) : 6 Deep Golden Amber
-Aroma Strength (scale 0-5) : 3 
-Aroma reminds me of... Very honey scented, sweet citrus, 
+Aroma Strength (scale 0-5) : 
+Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
