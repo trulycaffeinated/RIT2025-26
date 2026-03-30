@@ -49,8 +49,8 @@ Style : Fruit and Field Beer
 Color (scale 0-8) : 5 Amber (somewhat orange, very cloudy)
 Aroma Strength (scale 0-5) : 4
 Aroma reminds me of... Very fruity, Raspberry. Smells like one of those barrel fruit juices you have as a kid. Almost Orange scented
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Taste Strength (scale 0-5) : 3
+Taste Reminds me of... Raspberry Fruit Punch, with a sour alcohol taste
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
