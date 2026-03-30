@@ -35,20 +35,20 @@ Color (scale 0-8) : 4 Amber
 Aroma Strength (scale 0-5) : 2
 Aroma reminds me of... Honey, Maple, Apple, 
 Taste Strength (scale 0-5) : 1
-Taste Reminds me of... Honey, Maple, Yogurt, 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Reminds me of... Honey, Maple, Yogurt, a little bit of Rubber 
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 1
+Finish reminds me of.... Yogurt
+Did I like it? Eh 5/10
+Would I buy this beer? No 
 Other Comments... **"Classic American Craft Beer" - Prof.**
 
 **Beer** : Abita Purple Haze
 Ale or Lager? : Lager
 Style : Fruit and Field Beer
 Color (scale 0-8) : 5 Amber (somewhat orange, very cloudy)
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Aroma Strength (scale 0-5) : 4
+Aroma reminds me of... Very fruity, Raspberry. Smells like one of those barrel fruit juices you have as a kid. Almost Orange scented
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
