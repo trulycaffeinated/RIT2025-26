@@ -31,7 +31,7 @@ Other Comments...
 **Beer** : New Belgium Flat Tire
 Ale or Lager? : Ale
 Style : American Amber
-Color (scale 0-8) : 
+Color (scale 0-8) : 4-ish Light amber
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
