@@ -98,7 +98,7 @@ Taste Strength (scale 0-5) : 2
 Taste Reminds me of... Cleaning product, not  as hoppy but still tastes like dog
 Mouthfeel (scale 0-5) : 1
 Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
+Finish reminds me of.... blugh
 Did I like it? 2/10 No
 Would I buy this beer? No
 Other Comments... **Stung my nostrils for some reason** - ***CLEANING PRODUCT MEANS PALE ALE OF SOME VARIETY***
