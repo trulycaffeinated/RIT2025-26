@@ -51,19 +51,19 @@ Aroma Strength (scale 0-5) : 4
 Aroma reminds me of... Very fruity, Raspberry. Smells like one of those barrel fruit juices you have as a kid. Almost Orange scented
 Taste Strength (scale 0-5) : 3
 Taste Reminds me of... Raspberry Fruit Punch, with a sour alcohol taste
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
-Other Comments...
+Mouthfeel (scale 0-5) : 3
+Finish Strength (scale 0-5) : 2
+Finish reminds me of.... Raspberry
+Did I like it? No 4/10
+Would I buy this beer? No 
+Other Comments... - almost not alcoholic tasting enough which is strange for me to say
 
 **Beer** : Sierra Nevada Pale Ale
 Ale or Lager? : Ale
 Style : APA
 Color (scale 0-8) : 5-6 Golden Amber
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Aroma Strength (scale 0-5) : 3
+Aroma reminds me of... Smells good, can't quite identify things very well though. Honey, 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
