@@ -113,7 +113,13 @@ Taste Strength (scale 0-5) : 2.5
 Taste Reminds me of... Only a little sour, honestly wouldn't call this a sour beer. Touch of orange, lime, very grapefruity. 
 Mouthfeel (scale 0-5) : 3
 Finish Strength (scale 0-5) : 1
-Finish reminds me of.... Not very strong, leaves a touch of sour in your mouth.
-Did I like it? 
-Would I buy this beer? 
+Finish reminds me of.... Not very strong, leaves a touch of sour in your mouth. I guess a little saltwalter?
+Did I like it? Eh 5/10
+Would I buy this beer? No 
 Other Comments... Weirdly full mouthfeeled. 
+
+---
+## Favorites
+in no particular order
+1. KCBC Vicious Crush
+2. 
