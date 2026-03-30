@@ -107,7 +107,7 @@ Other Comments... **Stung my nostrils for some reason** - ***CLEANING PRODUCT ME
 Ale or Lager? : Ale
 Style : Fruited Sour Ale (Gose)
 Color (scale 0-8) : Orange? Just straight up Orange
-Aroma Strength (scale 0-5) : 
+Aroma Strength (scale 0-5) : 2
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
