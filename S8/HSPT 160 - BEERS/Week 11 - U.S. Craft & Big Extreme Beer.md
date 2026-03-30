@@ -46,7 +46,7 @@ Other Comments...
 **Beer** : Abita Purple Haze
 Ale or Lager? : Lager
 Style : Fruit and Field Beer
-Color (scale 0-8) : 
+Color (scale 0-8) : 5 Amber (somewhat orange, very cloudy)
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
@@ -61,7 +61,7 @@ Other Comments...
 **Beer** : Sierra Nevada Pale Ale
 Ale or Lager? : Ale
 Style : APA
-Color (scale 0-8) : 
+Color (scale 0-8) : 5-6 Golden Amber
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
@@ -76,7 +76,7 @@ Other Comments...
 **Beer** : Lagunitas IPA
 Ale or Lager? : Ale
 Style : American IPA
-Color (scale 0-8) : 
+Color (scale 0-8) : 5 Yellow/Gold Amber
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
@@ -91,7 +91,7 @@ Other Comments...
 **Beer** : Dogfish Head 90min IPA
 Ale or Lager? : Ale
 Style : IPA
-Color (scale 0-8) : 
+Color (scale 0-8) : 6 Deep Golden Amber
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
@@ -106,7 +106,7 @@ Other Comments...
 **Beer** : KCBC Vicious Crush
 Ale or Lager? : Ale
 Style : Fruited Sour Ale (Gose)
-Color (scale 0-8) : 
+Color (scale 0-8) : Orange? Just straight up Orange
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
