@@ -90,13 +90,13 @@ Other Comments... Not as hoppy as the pale ale. **One way to tell, pay attention
 
 **Beer** : Dogfish Head 90min IPA
 Ale or Lager? : Ale
-Style : IPA
+Style : Imperial American IPA (**Imperial = double IPA**)
 Color (scale 0-8) : 6 Deep Golden Amber
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
+Aroma Strength (scale 0-5) : 2.5
+Aroma reminds me of... Very fruity, Mango or Peach. Almost car air freshener smelling, but not like minty just smells like it would be a car air freshner
+Taste Strength (scale 0-5) : 2 
 Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
+Mouthfeel (scale 0-5) : 1
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
 Did I like it? 
