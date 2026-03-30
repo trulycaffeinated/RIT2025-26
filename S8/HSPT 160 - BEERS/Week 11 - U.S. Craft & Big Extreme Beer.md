@@ -1,9 +1,9 @@
 **Beer** : Oskar Blues Mama's Little Yella Pils
 Ale or Lager? : Lager
 Style : Czech Pilsner
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Color (scale 0-8) : 2 Yellow Straw
+Aroma Strength (scale 0-5) : 3
+Aroma reminds me of... Somewhat soapy, like dawn dish soap.
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
