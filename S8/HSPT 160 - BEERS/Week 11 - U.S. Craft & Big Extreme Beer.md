@@ -28,10 +28,10 @@ Did I like it? eh 5/10
 Would I buy this beer? No
 Other Comments...
 
-**Beer** : New Belgium Flat Tire
+**Beer** : New Belgium Fat Tire
 Ale or Lager? : Ale
 Style : American Amber
-Color (scale 0-8) : 4-ish Light amber
+Color (scale 0-8) : 4 Amber
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
@@ -41,7 +41,7 @@ Finish Strength (scale 0-5) :
 Finish reminds me of.... 
 Did I like it? 
 Would I buy this beer? 
-Other Comments...
+Other Comments... **"Classic American Craft Beer" - Prof.**
 
 **Beer** : Abita Purple Haze
 Ale or Lager? : Lager
