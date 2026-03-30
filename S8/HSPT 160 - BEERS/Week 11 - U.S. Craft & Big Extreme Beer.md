@@ -5,18 +5,18 @@ Color (scale 0-8) : 2 Yellow Straw
 Aroma Strength (scale 0-5) : 3
 Aroma reminds me of... Somewhat soapy, like dawn dish soap. Very yeast/bready, hops. Honey. Grapefruit maybe
 Taste Strength (scale 0-5) : 2
-Taste Reminds me of... Somewhat bitter, first impression is corn? 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Reminds me of... Somewhat bitter, first impression is corn? Grassy? Citrus, or grapefruit bitterness
+Mouthfeel (scale 0-5) : 1
+Finish Strength (scale 0-5) : 1 
+Finish reminds me of.... Citrus
+Did I like it? No 4/10
+Would I buy this beer? No
 Other Comments...
 
 **Beer** : Jacks Abbey House Lager
 Ale or Lager? : Lager
 Style : Helles
-Color (scale 0-8) : 
+Color (scale 0-8) : 2-3 Yellow Straw somewhat dark
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
