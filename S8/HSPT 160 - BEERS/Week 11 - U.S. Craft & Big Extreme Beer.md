@@ -95,7 +95,7 @@ Color (scale 0-8) : 6 Deep Golden Amber
 Aroma Strength (scale 0-5) : 2.5
 Aroma reminds me of... Very fruity, Mango or Peach. Almost car air freshener smelling, but not like minty just smells like it would be a car air freshner
 Taste Strength (scale 0-5) : 2 
-Taste Reminds me of... Cleaning product
+Taste Reminds me of... Cleaning product, not  as hoppy but still tastes like dog
 Mouthfeel (scale 0-5) : 1
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
