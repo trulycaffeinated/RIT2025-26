@@ -20,12 +20,12 @@ Color (scale 0-8) : 2-3 Yellow Straw somewhat dark - touch hazy
 Aroma Strength (scale 0-5) : 2
 Aroma reminds me of... Wheat, Honey, something sweet in the background
 Taste Strength (scale 0-5) : 3
-Taste Reminds me of... Honey, 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Reminds me of... Honey,  something sweet?  
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 2
+Finish reminds me of.... Honey
+Did I like it? eh 5/10
+Would I buy this beer? No
 Other Comments...
 
 **Beer** : New Belgium Flat Tire
