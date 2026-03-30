@@ -20,28 +20,28 @@ n@_opt
 OL;O;2019.2;69
 R0
 Eraminfr_be
-Z1 w1762371335
+Z1 w1771260925
 Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-R0
-Z6 8../../src/raminfr_be.vhd
-Z7 F../../src/raminfr_be.vhd
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dC:/Users/tjeff/Documents/RIT/RIT2025-26/S7/0 CPET561/Labs/Lab7/Quartus/part3/raminfr_be/sim/script
+Z7 8../../src/raminfr_be.vhd
+Z8 F../../src/raminfr_be.vhd
 l0
 L8
 V1ie<VZYhU<0F3B@6WYeY>1
 !s100 00S5Z4cGaJc3gCOlFiPh13
-Z8 OL;C;2019.2;69
+Z9 OV;C;10.5b;63
 31
-Z9 !s110 1762890307
+Z10 !s110 1774389317
 !i10b 1
-Z10 !s108 1762890307.000000
-Z11 !s90 -reportprogress|300|-93|-work|work|../../src/raminfr_be.vhd|
-Z12 !s107 ../../src/raminfr_be.vhd|
-!i113 0
-Z13 o-93 -work work
-Z14 tExplicit 1 CvgOpt 0
+Z11 !s108 1774389317.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|../../src/raminfr_be.vhd|
+Z13 !s107 ../../src/raminfr_be.vhd|
+!i113 1
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
 Artl
 R2
 R3
@@ -52,58 +52,58 @@ l32
 L20
 V`:><1Czflm8hT==^2jNWi0
 !s100 ma6@PG^6;I3`D8W^[IjN62
-R8
-31
 R9
-!i10b 1
+31
 R10
+!i10b 1
 R11
 R12
-!i113 0
 R13
+!i113 1
 R14
+R15
 Eraminfr_be_tb
-Z15 w1762890077
-Z16 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+Z16 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R2
 R3
 R4
 R5
-R0
+R6
 Z17 8../src/raminfr_be_tb.vhd
 Z18 F../src/raminfr_be_tb.vhd
 l0
 L12
 V`]IWIX5U8H2hlJI_7UIW13
 !s100 @9=IZDL?D3RjXOU`1ICQ62
-R8
+R9
 31
-Z19 !s110 1762890308
+R10
 !i10b 1
-Z20 !s108 1762890308.000000
-Z21 !s90 -reportprogress|300|-93|-work|work|../src/raminfr_be_tb.vhd|
-Z22 !s107 ../src/raminfr_be_tb.vhd|
-!i113 0
-R13
+R11
+Z19 !s90 -reportprogress|300|-93|-work|work|../src/raminfr_be_tb.vhd|
+Z20 !s107 ../src/raminfr_be_tb.vhd|
+!i113 1
 R14
+R15
 Abeh
 R16
 R2
 R3
 R4
 R5
-Z23 DEx4 work 13 raminfr_be_tb 0 22 `]IWIX5U8H2hlJI_7UIW13
+Z21 DEx4 work 13 raminfr_be_tb 0 22 `]IWIX5U8H2hlJI_7UIW13
 l39
 L15
-Z24 V8LRScoAHP1:l]lK`n6F@g2
-Z25 !s100 LJzo2boj9^M9SC4I`YdVI0
-R8
+Z22 V8LRScoAHP1:l]lK`n6F@g2
+Z23 !s100 LJzo2boj9^M9SC4I`YdVI0
+R9
 31
-R19
+R10
 !i10b 1
+R11
+R19
 R20
-R21
-R22
-!i113 0
-R13
+!i113 1
 R14
+R15

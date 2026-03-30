@@ -20,27 +20,27 @@ n@_opt
 OL;O;2019.2;69
 R0
 Eservo_controller
-Z1 w1761090784
-Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z1 w1771260920
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-R0
-Z5 8../../src/servo_controller.vhd
-Z6 F../../src/servo_controller.vhd
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dC:/Users/tjeff/Documents/RIT/RIT2025-26/S7/0 CPET561/Labs/Lab4/simulation/sim/script
+Z6 8../../src/servo_controller.vhd
+Z7 F../../src/servo_controller.vhd
 l0
 L8
 V=F_GQ8l=IfP3biiGg]mDI2
 !s100 SA68WHodE3:lbj:M8OVAL3
-Z7 OL;C;2019.2;69
+Z8 OV;C;10.5b;63
 31
-Z8 !s110 1761145050
+Z9 !s110 1774391643
 !i10b 1
-Z9 !s108 1761145050.000000
-Z10 !s90 -reportprogress|300|-93|-work|work|../../src/servo_controller.vhd|
-Z11 !s107 ../../src/servo_controller.vhd|
-!i113 0
-Z12 o-93 -work work
-Z13 tExplicit 1 CvgOpt 0
+Z10 !s108 1774391643.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|../../src/servo_controller.vhd|
+Z12 !s107 ../../src/servo_controller.vhd|
+!i113 1
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
 Artl
 R2
 R3
@@ -50,40 +50,40 @@ l39
 L22
 VXK=34iHIkld4GTD?7=Ycd2
 !s100 S<Bd8hjVQm:W>kEC[`bR;0
-R7
-31
 R8
-!i10b 1
+31
 R9
+!i10b 1
 R10
 R11
-!i113 0
 R12
+!i113 1
 R13
+R14
 Eservo_controller_tb
-Z14 w1761090897
+R1
 R2
 Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z16 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R3
 R4
-R0
+R5
 Z17 8../src/servo_controller_tb.vhd
 Z18 F../src/servo_controller_tb.vhd
 l0
 L6
 V7CNf4Z7m2TZ_UW0L36aDz3
 !s100 lcA^mf<TiDFFag80j]zBh3
-R7
-31
 R8
-!i10b 1
+31
 R9
+!i10b 1
+R10
 Z19 !s90 -reportprogress|300|-93|-work|work|../src/servo_controller_tb.vhd|
 Z20 !s107 ../src/servo_controller_tb.vhd|
-!i113 0
-R12
+!i113 1
 R13
+R14
 Abeh
 R2
 R15
@@ -95,13 +95,13 @@ l36
 L9
 Z22 V<9hGn>IRoGUJAb1NBCzR13
 Z23 !s100 @ZGUaJ@GTd3>;a=>oCLm=2
-R7
-31
 R8
-!i10b 1
+31
 R9
+!i10b 1
+R10
 R19
 R20
-!i113 0
-R12
+!i113 1
 R13
+R14
