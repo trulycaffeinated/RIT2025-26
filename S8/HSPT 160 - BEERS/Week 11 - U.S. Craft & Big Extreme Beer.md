@@ -32,10 +32,10 @@ Other Comments...
 Ale or Lager? : Ale
 Style : American Amber
 Color (scale 0-8) : 4 Amber
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Aroma Strength (scale 0-5) : 2
+Aroma reminds me of... Honey, Maple, Apple, 
+Taste Strength (scale 0-5) : 1
+Taste Reminds me of... Honey, Maple, Yogurt, 
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
