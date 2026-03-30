@@ -95,13 +95,13 @@ Color (scale 0-8) : 6 Deep Golden Amber
 Aroma Strength (scale 0-5) : 2.5
 Aroma reminds me of... Very fruity, Mango or Peach. Almost car air freshener smelling, but not like minty just smells like it would be a car air freshner
 Taste Strength (scale 0-5) : 2 
-Taste Reminds me of... 
+Taste Reminds me of... Cleaning product
 Mouthfeel (scale 0-5) : 1
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
-Other Comments...
+Did I like it? 2/10 No
+Would I buy this beer? No
+Other Comments... **Stung my nostrils for some reason** - ***CLEANING PRODUCT MEANS PALE ALE OF SOME VARIETY***
 
 **Beer** : KCBC Vicious Crush
 Ale or Lager? : Ale
