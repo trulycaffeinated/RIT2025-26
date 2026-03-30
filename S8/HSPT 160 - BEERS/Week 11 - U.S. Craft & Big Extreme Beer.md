@@ -108,12 +108,12 @@ Ale or Lager? : Ale
 Style : Fruited Sour Ale (Gose)
 Color (scale 0-8) : Orange? Just straight up Orange
 Aroma Strength (scale 0-5) : 2
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
+Aroma reminds me of... Orange, Grapefruit, don't really smell any alcohol. 
+Taste Strength (scale 0-5) : 2.5
+Taste Reminds me of... Only a little sour, honestly wouldn't call this a sour beer. Touch of orange, lime, very grapefruity
+Mouthfeel (scale 0-5) : 3
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
 Did I like it? 
 Would I buy this beer? 
-Other Comments...
+Other Comments... Weirdly full mouthfeeled. 
