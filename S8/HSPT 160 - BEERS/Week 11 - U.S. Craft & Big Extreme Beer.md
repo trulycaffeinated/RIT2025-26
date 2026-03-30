@@ -64,8 +64,8 @@ Style : APA
 Color (scale 0-8) : 5-6 Golden Amber
 Aroma Strength (scale 0-5) : 3
 Aroma reminds me of... Smells good, can't quite identify things very well though. Honey, 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Very bitter, 
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
