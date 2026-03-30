@@ -3,9 +3,9 @@ Ale or Lager? : Lager
 Style : Czech Pilsner
 Color (scale 0-8) : 2 Yellow Straw
 Aroma Strength (scale 0-5) : 3
-Aroma reminds me of... Somewhat soapy, like dawn dish soap.
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Aroma reminds me of... Somewhat soapy, like dawn dish soap. Very yeast/bready, hops. Honey. Grapefruit maybe
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Somewhat bitter, first impression is corn? 
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
