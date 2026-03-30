@@ -65,12 +65,12 @@ Color (scale 0-8) : 5-6 Golden Amber
 Aroma Strength (scale 0-5) : 3
 Aroma reminds me of... Smells good, can't quite identify things very well though. Honey, 
 Taste Strength (scale 0-5) : 2
-Taste Reminds me of... Very bitter, 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Reminds me of... Very bitter, honey, 
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 0
+Finish reminds me of.... it's so bitter if there is a finish I can't find it
+Did I like it? 1/10 NO
+Would I buy this beer? Couldn't pay me to buy it for you 
 Other Comments...
 
 **Beer** : Lagunitas IPA
@@ -92,8 +92,8 @@ Other Comments...
 Ale or Lager? : Ale
 Style : IPA
 Color (scale 0-8) : 6 Deep Golden Amber
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Aroma Strength (scale 0-5) : 3 
+Aroma reminds me of... Very honey scented, sweet citrus, 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
