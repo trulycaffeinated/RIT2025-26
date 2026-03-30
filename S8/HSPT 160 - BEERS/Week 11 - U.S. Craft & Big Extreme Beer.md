@@ -88,9 +88,9 @@ Did I like it?
 Would I buy this beer? 
 Other Comments...
 
-**Beer** : Dogfish 
-Ale or Lager? : 
-Style : 
+**Beer** : Dogfish Head 90min IPA
+Ale or Lager? : Ale
+Style : IPA
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -103,9 +103,9 @@ Did I like it?
 Would I buy this beer? 
 Other Comments...
 
-**Beer** : 
-Ale or Lager? : 
-Style : 
+**Beer** : KCBC Vicious Crush
+Ale or Lager? : Ale
+Style : Fruited Sour Ale (Gose)
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
