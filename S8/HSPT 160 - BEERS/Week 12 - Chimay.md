@@ -19,19 +19,19 @@ Style : Belgian Tripel
 Color (scale 0-8) : 3-4
 Aroma Strength (scale 0-5) : 2
 Aroma reminds me of... Wheat, grain, cleaning products. Banana?
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Acidic, banana, tastes kinda sour
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 2
+Finish reminds me of.... leaves behind the feeling of biting into a lemon
+Did I like it? 4/10
+Would I buy this beer? No 
 Other Comments... Thick head
 
 **Beer** : Chimay Grand Reserve
 Ale or Lager? : Ale
 Style : Strong Dark Ale - Blue
-Color (scale 0-8) : 
+Color (scale 0-8) : 7 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
