@@ -75,7 +75,37 @@ Other Comments...
 
 **Beer** : Cherry Chouffe
 Ale or Lager? : 
-Style : 
+Style : Fruit and Field Beer
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) : 
+Aroma reminds me of... 
+Taste Strength (scale 0-5) : 
+Taste Reminds me of... 
+Mouthfeel (scale 0-5) : 
+Finish Strength (scale 0-5) : 
+Finish reminds me of.... 
+Did I like it? 
+Would I buy this beer? 
+Other Comments...
+
+**Beer** : 1911 Original Hard Cider 
+Ale or Lager? : Ale
+Style : Hard Apple Cider
+Color (scale 0-8) : 
+Aroma Strength (scale 0-5) : 
+Aroma reminds me of... 
+Taste Strength (scale 0-5) : 
+Taste Reminds me of... 
+Mouthfeel (scale 0-5) : 
+Finish Strength (scale 0-5) : 
+Finish reminds me of.... 
+Did I like it? 
+Would I buy this beer? 
+Other Comments...
+
+**Beer** : Little Mack Pomegranate 
+Ale or Lager? : ?
+Style : Pomegranate Infused Hard Apple Cider
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
