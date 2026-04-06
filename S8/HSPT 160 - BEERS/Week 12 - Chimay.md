@@ -50,9 +50,9 @@ Cloudy, but not very smelly
 **Beer** : Modelo Especial
 Ale or Lager? : Lager
 Style : American Adjunct Lager
-Color (scale 0-8) : Yellow Straw
+Color (scale 0-8) : 1-2 Yellow Straw
 Aroma Strength (scale 0-5) : 2.5
-Aroma reminds me of... Skunk (light exposed), hard 
+Aroma reminds me of... Skunk (light struck), hard to get anything other than skunk rn, corn
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
