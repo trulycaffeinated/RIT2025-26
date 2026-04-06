@@ -45,12 +45,14 @@ Other Comments...
 **Beer #3 is the only one that Prof. has seen where people say it is the best beer in the world** - this is NOT the best beer in the world
 Cloudy, but not very smelly
 
+10 minute intermission
+
 **Beer** : Modelo Especial
 Ale or Lager? : Lager
 Style : American Adjunct Lager
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Color (scale 0-8) : Yellow Straw
+Aroma Strength (scale 0-5) : 2.5
+Aroma reminds me of... Skunk (light exposed), hard 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
@@ -59,6 +61,7 @@ Finish reminds me of....
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
+Most sold beer in the US
 
 **Beer** : Ithaca Apricot Wheat
 Ale or Lager? : Ale
