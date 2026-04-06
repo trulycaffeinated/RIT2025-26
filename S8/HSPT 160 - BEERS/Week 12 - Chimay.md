@@ -1,7 +1,7 @@
 **Beer** : Chimay Premiere
 Ale or Lager? : Ale
 Style : Dubbel Red
-Color (scale 0-8) : 
+Color (scale 0-8) : 5 - Somewhat cloudy
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
@@ -59,7 +59,7 @@ Would I buy this beer?
 Other Comments...
 
 **Beer** : Ithaca Apricot Wheat
-Ale or Lager? : ?
+Ale or Lager? : Ale
 Style : Fruit and Field Beer
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
@@ -74,7 +74,7 @@ Would I buy this beer?
 Other Comments...
 
 **Beer** : Cherry Chouffe
-Ale or Lager? : 
+Ale or Lager? : Ale
 Style : Fruit and Field Beer
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
@@ -104,7 +104,7 @@ Would I buy this beer?
 Other Comments...
 
 **Beer** : Little Mack Pomegranate 
-Ale or Lager? : ?
+Ale or Lager? : Ale
 Style : Pomegranate Infused Hard Apple Cider
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
