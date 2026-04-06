@@ -66,11 +66,11 @@ Most sold beer in the US
 **Beer** : Ithaca Apricot Wheat
 Ale or Lager? : Ale
 Style : Fruit and Field Beer
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Color (scale 0-8) : 2-3
+Aroma Strength (scale 0-5) : 3  
+Aroma reminds me of... Strong honey smell, apricot, a bit more peachy
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Apricot, sweet, honey
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
