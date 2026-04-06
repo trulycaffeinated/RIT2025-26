@@ -89,16 +89,16 @@ Taste Reminds me of... Very strong cherry flavor, but it like flips to an alcoho
 Mouthfeel (scale 0-5) : 2
 Finish Strength (scale 0-5) : 3 
 Finish reminds me of.... Cherry... who woula thought
-Did I like it? 8/10
+Did I like it? 9/10
 Would I buy this beer? Yes 
 Other Comments...
 
 **Beer** : 1911 Original Hard Cider 
 Ale or Lager? : Ale
 Style : Hard Apple Cider
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Color (scale 0-8) : 1-2 Yellow Straw
+Aroma Strength (scale 0-5) : 2.5 
+Aroma reminds me of... Rubber, Eggs, Easter painted eggs? 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
@@ -122,3 +122,9 @@ Finish reminds me of....
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
+
+---
+## Favorites
+1. Cherry Chouffe
+2. Chimay White
+3. Chimay Blue
