@@ -4,19 +4,19 @@ Style : Dubbel Red
 Color (scale 0-8) : 5 - Somewhat cloudy
 Aroma Strength (scale 0-5) : 3
 Aroma reminds me of... Very grainy, almost smells sweet? Like honey. Apple. Cherry. 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Grainy like rye. Apple. Fruit bread. Banana bread without the banana. Bit of spice
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 2
+Finish reminds me of.... Pepper
+Did I like it? 6/10
+Would I buy this beer? Maybe 
 Other Comments...
 
 **Beer** : Chimay White
 Ale or Lager? : Ale
 Style : Belgian Tripel
-Color (scale 0-8) : 
+Color (scale 0-8) : 3-4
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
@@ -26,7 +26,7 @@ Finish Strength (scale 0-5) :
 Finish reminds me of.... 
 Did I like it? 
 Would I buy this beer? 
-Other Comments...
+Other Comments... Thick head
 
 **Beer** : Chimay Grand Reserve
 Ale or Lager? : Ale
