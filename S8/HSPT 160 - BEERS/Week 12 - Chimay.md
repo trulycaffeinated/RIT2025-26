@@ -2,8 +2,8 @@
 Ale or Lager? : Ale
 Style : Dubbel Red
 Color (scale 0-8) : 5 - Somewhat cloudy
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Aroma Strength (scale 0-5) : 3
+Aroma reminds me of... Very grainy, 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
@@ -42,6 +42,7 @@ Finish reminds me of....
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
+**Beer #3 is the only one that Prof. has seen where people say it is the best beer in the world**
 
 **Beer** : Modelo Especial
 Ale or Lager? : Lager
