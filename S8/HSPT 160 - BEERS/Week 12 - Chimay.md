@@ -115,12 +115,12 @@ Prof. chooses this Cider b/c it's typically a third a third and a third in terms
 Ale or Lager? : Ale
 Style : Pomegranate Infused Hard Apple Cider
 Color (scale 0-8) : 1-2 Yellow Straw
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
+Aroma Strength (scale 0-5) : 5 
+Aroma reminds me of... Green Jolly Rancher
+Taste Strength (scale 0-5) : 3
+Taste Reminds me of... Green Jolly Rancher or Push Pop
+Mouthfeel (scale 0-5) : 3
+Finish Strength (scale 0-5) :  
 Finish reminds me of.... 
 Did I like it? 
 Would I buy this beer? 
@@ -130,4 +130,4 @@ Other Comments...
 ## Favorites
 1. Cherry Chouffe
 2. 1911 Hard Cider
-3. Chimay White
+3. Chimay Whit
