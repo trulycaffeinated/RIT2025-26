@@ -17,8 +17,8 @@ Other Comments...
 Ale or Lager? : Ale
 Style : Belgian Tripel
 Color (scale 0-8) : 3-4
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Aroma Strength (scale 0-5) : 2
+Aroma reminds me of... Wheat, grain, cleaning products. Banana?
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
