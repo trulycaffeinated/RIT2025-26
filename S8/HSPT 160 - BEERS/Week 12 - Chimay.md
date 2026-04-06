@@ -3,7 +3,7 @@ Ale or Lager? : Ale
 Style : Dubbel Red
 Color (scale 0-8) : 5 - Somewhat cloudy
 Aroma Strength (scale 0-5) : 3
-Aroma reminds me of... Very grainy, 
+Aroma reminds me of... Very grainy, almost smells sweet? Like honey. Apple. Cherry. 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
