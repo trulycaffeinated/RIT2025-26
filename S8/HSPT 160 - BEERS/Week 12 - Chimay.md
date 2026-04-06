@@ -99,16 +99,17 @@ Style : Hard Apple Cider
 Color (scale 0-8) : 1-2 Yellow Straw
 Aroma Strength (scale 0-5) : 2.5 
 Aroma reminds me of... Rubber, Eggs, Easter painted eggs? Vinegar, White Wine
-Taste Strength (scale 0-5) : 2
+Taste Strength (scale 0-5) : 3
 Taste Reminds me of... Tastes kind of like a Riesling. Lots of apple. Somewhat sweet. Very Acidic. 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 3
+Finish reminds me of.... Very apple
+Did I like it? 7/10
 Would I buy this beer? 
 Other Comments...
 **Different between a hard cider and non graped fruit is -> they use different yease. Hard ciders use ale yeast.**
 Acidic like white wine. 
+Prof. chooses this Cider b/c it's typically a third a third and a third in terms of too much, too little, and just right sweetness
 
 **Beer** : Little Mack Pomegranate 
 Ale or Lager? : Ale
@@ -128,5 +129,5 @@ Other Comments...
 ---
 ## Favorites
 1. Cherry Chouffe
-2. Chimay White
-3. Chimay Blue
+2. 1911 Hard Cider
+3. Chimay White
