@@ -83,14 +83,14 @@ Ale or Lager? : Ale
 Style : Fruit and Field Beer
 Color (scale 0-8) : 5.5-6.5 - a hint of cherry
 Aroma Strength (scale 0-5) : 4 
-Aroma reminds me of... CHERRY CHERRY CHERRY - insanely strong cherry smell
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Aroma reminds me of... CHERRY CHERRY CHERRY - insanely strong cherry smell. Almost like an artificial cherry flavor
+Taste Strength (scale 0-5) : 3
+Taste Reminds me of... Very strong cherry flavor, but it like flips to an alcoholic taste, then flips back to cherry. - Ales typically give me a sort of acidic lemon feeling in the mouth, this ale is very subtle
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 3 
+Finish reminds me of.... Cherry... who woula thought
+Did I like it? 8/10
+Would I buy this beer? Yes 
 Other Comments...
 
 **Beer** : 1911 Original Hard Cider 
