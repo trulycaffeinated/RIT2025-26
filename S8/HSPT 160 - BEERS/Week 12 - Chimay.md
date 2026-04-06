@@ -32,8 +32,8 @@ Other Comments... Thick head
 Ale or Lager? : Ale
 Style : Strong Dark Ale - Blue
 Color (scale 0-8) : 7 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Aroma Strength (scale 0-5) : 1
+Aroma reminds me of... Cough medicine, smells sour, grape
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
@@ -43,6 +43,7 @@ Did I like it?
 Would I buy this beer? 
 Other Comments...
 **Beer #3 is the only one that Prof. has seen where people say it is the best beer in the world**
+Cloudy, but not very smelly
 
 **Beer** : Modelo Especial
 Ale or Lager? : Lager
