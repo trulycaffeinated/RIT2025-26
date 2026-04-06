@@ -98,7 +98,7 @@ Ale or Lager? : Ale
 Style : Hard Apple Cider
 Color (scale 0-8) : 1-2 Yellow Straw
 Aroma Strength (scale 0-5) : 2.5 
-Aroma reminds me of... Rubber, Eggs, Easter painted eggs? Vinegar
+Aroma reminds me of... Rubber, Eggs, Easter painted eggs? Vinegar, White Wine
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
