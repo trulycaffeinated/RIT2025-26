@@ -98,7 +98,7 @@ Ale or Lager? : Ale
 Style : Hard Apple Cider
 Color (scale 0-8) : 1-2 Yellow Straw
 Aroma Strength (scale 0-5) : 2.5 
-Aroma reminds me of... Rubber, Eggs, Easter painted eggs? 
+Aroma reminds me of... Rubber, Eggs, Easter painted eggs? Vinegar
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
@@ -107,6 +107,7 @@ Finish reminds me of....
 Did I like it? 
 Would I buy this beer? 
 Other Comments...
+**Different between a hard cider and non graped fruit is -> they use different yease. Hard ciders use ale yeast.**
 
 **Beer** : Little Mack Pomegranate 
 Ale or Lager? : Ale
