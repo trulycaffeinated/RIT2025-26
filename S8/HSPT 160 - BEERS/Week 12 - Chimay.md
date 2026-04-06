@@ -52,14 +52,14 @@ Ale or Lager? : Lager
 Style : American Adjunct Lager
 Color (scale 0-8) : 1-2 Yellow Straw
 Aroma Strength (scale 0-5) : 2.5
-Aroma reminds me of... Skunk (light struck), hard to get anything other than skunk rn, corn
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Aroma reminds me of... Skunk (light struck), hard to get anything other than skunk rn, corn, honey, little malty
+Taste Strength (scale 0-5) : 1
+Taste Reminds me of... Very light, corn, wheat
+Mouthfeel (scale 0-5) : 1
+Finish Strength (scale 0-5) : 1
+Finish reminds me of.... Corn
+Did I like it? eh 5/10
+Would I buy this beer? If others wanted it 
 Other Comments...
 Most sold beer in the US
 
