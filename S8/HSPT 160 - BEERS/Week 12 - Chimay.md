@@ -114,7 +114,7 @@ Prof. chooses this Cider b/c it's typically a third a third and a third in terms
 **Beer** : Little Mack Pomegranate 
 Ale or Lager? : Ale
 Style : Pomegranate Infused Hard Apple Cider
-Color (scale 0-8) : 
+Color (scale 0-8) : 1-2 Yellow Straw
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
