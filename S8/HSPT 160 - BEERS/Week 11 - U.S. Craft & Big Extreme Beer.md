@@ -120,6 +120,7 @@ Other Comments... Weirdly full mouthfeeled.
 
 ---
 ## Favorites
-in no particular order
+in no particular order - as I didn't really like any of these beers
 1. KCBC Vicious Crush
-2. 
+2. Jacks Abbey
+3. New Belgium Fat Tire
