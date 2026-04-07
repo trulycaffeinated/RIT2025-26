@@ -1,5 +1,6 @@
-Did Champagne producers invent sparking wine? If not, who did?  
-**No, the English did**
+## Sparking and Champagne
+Did Champagne producers invent sparking wine? If not, who did? :united
+**No, the English invented it**
 
 What is the third grape allowed in Champagne production, but is often considered less noble than Chardonnay and Pinot Noir?  
 **Pinot Meunier**
