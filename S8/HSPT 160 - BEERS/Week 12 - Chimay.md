@@ -120,14 +120,14 @@ Aroma reminds me of... Green Jolly Rancher
 Taste Strength (scale 0-5) : 3
 Taste Reminds me of... Green Jolly Rancher or Push Pop
 Mouthfeel (scale 0-5) : 3
-Finish Strength (scale 0-5) :  
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Finish Strength (scale 0-5) : 2 
+Finish reminds me of.... Jolly Rancher
+Did I like it? Eh 6/10
+Would I buy this beer? No
 Other Comments...
 
 ---
 ## Favorites
 1. Cherry Chouffe
 2. 1911 Hard Cider
-3. Chimay Whit
+3. Little Mack Pomegranate 
