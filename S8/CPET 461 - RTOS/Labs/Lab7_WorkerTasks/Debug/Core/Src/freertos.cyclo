@@ -1,0 +1,4 @@
+../Core/Src/freertos.c:94:6:App_RTOS_Init	2
+../Core/Src/freertos.c:109:6:StartDefaultTask	2
+../Core/Src/freertos.c:135:6:StartWorkerTask	1
+../Core/Src/freertos.c:156:5:isPerfect	4

@@ -1,41 +1,66 @@
 {
   "main": {
-    "id": "01259e806983efd8",
+    "id": "b726d6f619715591",
     "type": "split",
     "children": [
       {
-        "id": "77f4f800e5b7f7d8",
+        "id": "24dedf0b5d360a73",
         "type": "tabs",
         "children": [
           {
-            "id": "97466a2de664717a",
+            "id": "6da02e77e09c8425",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "343861ef5826f998",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S8/HSPT 161 - WINES/Project Documentation/Pre-Project documentation.md",
+                "file": "S8/CPET 461 - RTOS/Labs/Lab7_WorkerTasks/Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pre-Project documentation"
+              "title": "Notes"
+            }
+          },
+          {
+            "id": "315f6a83fb05ccc7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "3fd704ac39911d91",
+    "id": "b170e5dfec8ec371",
     "type": "split",
     "children": [
       {
-        "id": "1095d04b38795210",
+        "id": "0aa595aadf610df8",
         "type": "tabs",
         "children": [
           {
-            "id": "87df3c8af7f0155e",
+            "id": "03cb28732ef98718",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +73,7 @@
             }
           },
           {
-            "id": "0976a70b927e2352",
+            "id": "c8e6a87cb59a49ca",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +90,7 @@
             }
           },
           {
-            "id": "1abcb2320d51ba50",
+            "id": "46ed42eba389e8a0",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,22 +103,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 300
   },
   "right": {
-    "id": "5f1eae98721f689d",
+    "id": "c87c6331da89591d",
     "type": "split",
     "children": [
       {
-        "id": "3b691b118a23a6d8",
+        "id": "6693cc91384cc1e4",
         "type": "tabs",
         "children": [
           {
-            "id": "d020ee2de9cdaf08",
+            "id": "0fc51a4a0c8c51ee",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,24 +129,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for conflict-files-obsidian-git"
             }
           },
           {
-            "id": "79e86e5d8571c61f",
+            "id": "c149c14fd4ff7f8f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from conflict-files-obsidian-git"
             }
           },
           {
-            "id": "832fe2eec6a110bb",
+            "id": "bd884cefeee15a3f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,21 +162,22 @@
             }
           },
           {
-            "id": "847ce61142500c5a",
+            "id": "e335a12db9dddf38",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of conflict-files-obsidian-git"
             }
           },
           {
-            "id": "cfcc38310940409e",
+            "id": "1d551cf5144f6f20",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -163,7 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,49 +208,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "97466a2de664717a",
+  "active": "315f6a83fb05ccc7",
   "lastOpenFiles": [
-    "S8/HSPT 160 - BEERS/Week 10 - Eastern Europe.md",
-    "S8/HSPT 161 - WINES/Project Documentation/Pre-Project documentation.md",
-    "S8/HSPT 161 - WINES/Project Documentation",
-    "conflict-files-obsidian-git.md",
-    "S8/CPET 461 - RTOS/Labs/Lab6_PriorityInversion/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h",
-    "S8/CPET 461 - RTOS/Labs/Lab6_PriorityInversion/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c",
-    "S8/CPET 461 - RTOS/Labs/Lab6_PriorityInversion/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c",
-    "S8/CPET 461 - RTOS/Labs/Lab6_PriorityInversion/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F",
-    "S8/CPET 461 - RTOS/Labs/Lab6_PriorityInversion/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang",
-    "S8/CPET 461 - RTOS/Labs/Lab6_PriorityInversion/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC",
-    "S8/CPET 461 - RTOS/Labs/Lab6_PriorityInversion/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h",
-    "S8/CPET 461 - RTOS/Labs/Lab6_PriorityInversion/Middlewares/Third_Party/FreeRTOS/Source/include/task.h",
-    "S8/CPET 461 - RTOS/Labs/Lab6_PriorityInversion/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h",
-    "S8/CPET 461 - RTOS/Labs/Lab5/Lab5 Report.md",
-    "S8/CPET 461 - RTOS/Labs/Lab6_PriorityInversion/Drivers/CMSIS/Device/ST/STM32L4xx/License.md",
-    "S8/HSPT 160 - BEERS/Week 7 - German Beers.md",
-    "S8/HSPT 160 - BEERS/TEMPLATE.md",
-    "S8/CPET 461 - RTOS/Week 9 - Task Practice.md",
-    "S8/HSPT 161 - WINES/Week 8 - Quick Quiz Ch 7.md",
-    "S8/CPET 461 - RTOS/Untitled.md",
-    "S8/HSPT 161 - WINES/Week 7 - Quick Quiz Ch 6.md",
-    "S8/HSPT 161 - WINES/Week 6 - Quick Quiz Ch 5.md",
-    "S8/HSPT 160 - BEERS/Week 9 - The British Isles.md",
-    "S8/HSPT 160 - BEERS/Week 6 - The Rest of the World.md",
-    "S8/HSPT 160 - BEERS/Week 8 - Belgian Beers.md",
-    "S8/CPET 461 - RTOS/Week 8 - Shared Resources 2.md",
-    "S8/HSPT 161 - WINES/Week 5 Quick Quiz 4.md",
-    "S8/HSPT 161 - WINES/Week 4 Quick Quiz 3.md",
-    "S8/PACK 301/Homework 8.md",
-    "S8/Untitled.md",
-    "S8/HSPT 160 - BEERS/Week 4 - Tasting Practice.md",
-    "Untitled.md",
-    "S8/CPET 461 - RTOS/EXAM 1 REVIEW.md",
-    "S8/HSPT 160 - BEERS/Week 1 - 1.12.2026.md",
-    "S8/HSPT 161 - WINES/Food Pairing Assignment.md",
-    "Image Graveyard/Pasted image 20260222184220.png",
-    "Image Graveyard/Pasted image 20260222183753.png",
-    "Image Graveyard/Pasted image 20260222121950.png",
-    "Image Graveyard/Pasted image 20260222121103.png",
-    "Image Graveyard/Pasted image 20260222115241.png",
-    "S8/CPET 461 - RTOS/Week 6 - 2.16.2026 and 2.18.2026.md",
-    "S8/CPET 461 - RTOS/Labs/Lab4_Philosophers/Pasted image 20260213122238.png"
+    "S8/CPET 461 - RTOS/Labs/Lab7_WorkerTasks/Notes.md",
+    "S8/CPET 461 - RTOS/Labs/Lab7_WorkerTasks/Debug/Lab7_WorkerTasks.elf",
+    "S8/CPET 461 - RTOS/Labs/Lab7_WorkerTasks/Debug/Core/Src/freertos.o",
+    "S8/CPET 461 - RTOS/Labs/Lab7_WorkerTasks/Debug/Core/Src/freertos.cyclo",
+    "S8/CPET 461 - RTOS/Labs/Lab7_WorkerTasks/Debug/Core/Src/freertos.su",
+    "conflict-files-obsidian-git.md"
   ]
 }
