@@ -44,7 +44,7 @@
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
-#define numTasks 6
+#define numTasks 3
 static int workerNum[numTasks];
 volatile int tasksDone = 0;
 uint32_t startTime = 0;
