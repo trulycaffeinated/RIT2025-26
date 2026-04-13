@@ -90,10 +90,27 @@ Other Comments...
 very bad
 
 **Beer** : **Mystery Beer 1**
-Ale or Lager? : 
-Style : 
+Ale or Lager? : Ale
+Style : IPA
 Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast) ?
-Bonus - What is the name of this beer?
+Bonus - What is the name of this beer? 60% Confident this is Three Heads Brewing Little Biggie
+
+Potential customers....
+**Beer 3** : **Three Heads Bewing Little Biggie (3.3% Alcohol)**
+Ale or Lager? : **Ale (IPA)**
+Style : **IPA**
+Color (scale 0-8) : **1 - cloudy**
+Aroma Strength (scale 0-5) : **3**
+Aroma reminds me of... **Mango, Pineapple, Peach?**
+Taste Strength (scale 0-5) : **2**
+Taste Reminds me of... **Sour Peach, Pineapple, less intense than the smell**
+Mouthfeel (scale 0-5) : **1**
+Finish Strength (scale 0-5) : **1**
+Finish reminds me of.... **Finish is no different than the regular taste**
+Did I like it? **Eh, 3/10**
+Would I buy this beer? **No**
+Other Comments...
+**Underwhelming**
 
 **Beer** : **Mystery Beer 2** - 100% Confident this is Lindemans Framboise
 Ale or Lager? : Ale
