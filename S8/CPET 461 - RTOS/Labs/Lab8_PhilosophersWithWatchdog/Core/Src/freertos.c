@@ -62,7 +62,11 @@ static int PhilosopherNum[NumPHIL];
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN Variables */
+typedef struct {
+	bool inUse;
+} fork_t;
 
+static fork_t forks[NumPHIL];
 /* USER CODE END Variables */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -72,8 +76,8 @@ void App_RTOS_Init(void);
 static void startDefaultTask(void *argument);
 static void PhilosopherTask(void *argument);
 
-static bool GetLeftFork(int leftForkIndex);
-static bool GetRightFork(int rightForkIndex);
+static bool getLeftFork(int leftForkIndex);
+static bool getRightFork(int rightForkIndex);
 static void putLeftFork(int leftForkIndex);
 static void putRightFork(int rightForkIndex);
 
@@ -138,14 +142,8 @@ static void PhilosopherTask(void *argument)
 
         	// Randomize which fork is picked up first
             int randFork = rand() & 1;  // 0 or 1
-            if (randFork == 0) {
-                gotLeft  = GetLeftFork(desiredLeftFork);
-                gotRight = GetRightFork(desiredRightFork);
-            }
-            else {
-                gotRight = GetRightFork(desiredRightFork);
-                gotLeft  = GetLeftFork(desiredLeftFork);
-            }
+            gotLeft = getLeftFork();
+            gotRight = getRightFork();
 
             // Check forks
             if (gotLeft && !gotRight)
@@ -179,11 +177,11 @@ static void PhilosopherTask(void *argument)
 }
 
 
-static bool GetLeftFork(int leftForkIndex){
+static bool getLeftFork(int leftForkIndex){
 	return(osSemaphoreAcquire(forkSemaphoreHandle[leftForkIndex], 0) == osOK);
 }
 
-static bool GetRightFork(int rightForkIndex){
+static bool getRightFork(int rightForkIndex){
 	return(osSemaphoreAcquire(forkSemaphoreHandle[rightForkIndex], 0) == osOK);
 }
 
