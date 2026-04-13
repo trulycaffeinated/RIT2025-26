@@ -76,11 +76,11 @@ Other Comments...
 **Beer** : Stone Delicious IPA **(Gluten Removed IPA)**
 Ale or Lager? : ALE
 Style : IPA
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Color (scale 0-8) : 2 Unhealthy Cat Piss
+Aroma Strength (scale 0-5) :  3
+Aroma reminds me of... Pinesol, Menthol, Cleaning product, a bit fruity
+Taste Strength (scale 0-5) : 3
+Taste Reminds me of... Very bitter and acidic, gets more and more bitter.  
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
