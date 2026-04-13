@@ -61,7 +61,7 @@ Other Comments...
 **Beer** : Ommegang Blueberry Kolsch 
 Ale or Lager? : ALE
 Style : Fruited Kolsch
-Color (scale 0-8) : 
+Color (scale 0-8) : 4-5 Orange Amber - it's very amber. Looks sour idk how to explain that
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
 Taste Strength (scale 0-5) : 
@@ -91,7 +91,8 @@ Other Comments...
 **Beer** : **Mystery Beer 1**
 Ale or Lager? : 
 Style : 
-Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast) 
+Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast) ?
+Bonus - What is the name 
 
 **Beer** : **Mystery Beer 2**
 Ale or Lager? : 
