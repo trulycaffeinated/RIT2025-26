@@ -92,16 +92,17 @@ Other Comments...
 Ale or Lager? : 
 Style : 
 Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast) ?
-Bonus - What is the name 
+Bonus - What is the name of this beer?
 
 **Beer** : **Mystery Beer 2**
 Ale or Lager? : 
 Style : 
-Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast
+Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast ?
+Bonus - What is the name of this beer?
 
 **Beer** : **Mystery Beer 3**
 **Code :**
 Ale or Lager? : 
 Style : 
-Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast
-
+Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast ?
+Bonus - What is the name of this beer?
