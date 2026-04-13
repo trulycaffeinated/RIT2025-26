@@ -13,7 +13,7 @@ Did I like it?
 Would I buy this beer? 
 Other Comments...
 
-**Beer** : 
+**Beer** : Heineken
 Ale or Lager? : 
 Style : 
 Color (scale 0-8) : 
@@ -28,7 +28,7 @@ Did I like it?
 Would I buy this beer? 
 Other Comments...
 
-**Beer** : Guiness Zero
+**Beer** : Guinness Zero
 Ale or Lager? : 
 Style : 
 Color (scale 0-8) : 
@@ -43,7 +43,7 @@ Did I like it?
 Would I buy this beer? 
 Other Comments...
 
-**Beer** : Guiness
+**Beer** : Guinness Draught
 Ale or Lager? : 
 Style : 
 Color (scale 0-8) : 
@@ -58,7 +58,7 @@ Did I like it?
 Would I buy this beer? 
 Other Comments...
 
-**Beer** : 
+**Beer** : Ommegang Blueberry Kolsch 
 Ale or Lager? : 
 Style : 
 Color (scale 0-8) : 
