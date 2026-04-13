@@ -91,10 +91,10 @@ very bad
 
 **Lagers should be CRYSTAL CLEAR. If you have no idea, guess Ale. We've tasted 60-75% ales over lagers**
 **Beer** : **Mystery Beer 1**
-Ale or Lager? : Lager - crisp clean and clear
-Style : Helles
-Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast) ? 
-Bonus - What is the name of this beer? 
+Ale or Lager? : **Lager** - crisp clean and clear
+Style : **Helles (Pale Lager)**
+Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast) ? **Yes**
+Bonus - What is the name of this beer? **Eichbaum Helles** 
 Taste honey, don't taste apple which I smelled. It is a bit sweet. 
 
 **Beer 3** : Eichbaum Helles
@@ -112,6 +112,8 @@ Did I like it? 5/10
 Would I buy this beer? No 
 Other Comments...
 Still a helles, but thinner foam at the head - goes away pretty quickly - thin head usually signifies a wheat beer but since this is German it can't have wheat
+
+**Actual Beer #1 :**
 
 **Beer** : **Mystery Beer 2** - 100% Confident this is Lindemans Framboise
 Ale or Lager? : Ale
