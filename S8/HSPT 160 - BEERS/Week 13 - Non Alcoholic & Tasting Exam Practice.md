@@ -61,9 +61,9 @@ Other Comments...
 **Beer** : Ommegang Blueberry Kolsch 
 Ale or Lager? : ALE
 Style : Fruited Kolsch
-Color (scale 0-8) : 4-5 Orange Amber - it's very amber. Looks sour idk how to explain that. Cloudy
+Color (scale 0-8) : 4-5 Orange Amber - it's very amber. Looks sour idk how to explain that. Cloudy. Purple hint to the head
 Aroma Strength (scale 0-5) : 4
-Aroma reminds me of... VERY Fruity, mango or peachy, 
+Aroma reminds me of... VERY Fruity, mango or peachy. Very pleasant smell. Pink Lemonade, Sour Blueberry, 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
