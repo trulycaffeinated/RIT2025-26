@@ -95,11 +95,12 @@ Style :
 Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast) ?
 Bonus - What is the name of this beer?
 
-**Beer** : **Mystery Beer 2**
-Ale or Lager? : 
-Style : 
-Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast ?
+**Beer** : **Mystery Beer 2** - 100% Confident this is Lindemans Framboise
+Ale or Lager? : Ale
+Style : Fruit Lambec
+Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast ? NO - This has fruits as well
 Bonus - What is the name of this beer?
+100% Confident this is Lindemans Framboise
 
 **Beer** : **Mystery Beer 3**
 **Code :**
