@@ -50,12 +50,12 @@ Color (scale 0-8) : 7-8 Very Dark Amber to Black
 Aroma Strength (scale 0-5) : 2
 Aroma reminds me of... Stronger than Guinness Zero, chocolate, coffee, pretty standard. Smells like guinness
 Taste Strength (scale 0-5) : 2.5
-Taste Reminds me of... Bitter coffee,
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Reminds me of... Bitter coffee, Chocolate, bitter dark chocolate, 
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 2 
+Finish reminds me of.... Bitter taste like a dark chocolate aftertase
+Did I like it? 6/10
+Would I buy this beer? Wouldn't say no to it, but wouldn't buy it 
 Other Comments...
 
 **Beer** : Ommegang Blueberry Kolsch 
