@@ -58,22 +58,22 @@ Did I like it? 6/10
 Would I buy this beer? Wouldn't say no to it, but wouldn't buy it 
 Other Comments...
 
-**Beer** : Ommegang Blueberry Kolsch 
+**Beer** : Ommegang Blueberry and Lemon Kolsch 
 Ale or Lager? : ALE
 Style : Fruited Kolsch
 Color (scale 0-8) : 4-5 Orange Amber - it's very amber. Looks sour idk how to explain that. Cloudy. Purple hint to the head
 Aroma Strength (scale 0-5) : 4
 Aroma reminds me of... VERY Fruity, mango or peachy. Very pleasant smell. Pink Lemonade, Sour Blueberry, 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Strength (scale 0-5) : 3
+Taste Reminds me of... A touch sour, strawberry lemonade, barely taste the alcohol. Tastes more alcohol on the finish. Starts lemony, like cleaning, ends blueberry
+Mouthfeel (scale 0-5) : 3
+Finish Strength (scale 0-5) : 3 
+Finish reminds me of.... Alcohol and blueberry
+Did I like it? 7.5/10
+Would I buy this beer? Would 
 Other Comments...
 
-**Beer** : Stone Delicious IPA
+**Beer** : Stone Delicious IPA **(Gluten Removed IPA)**
 Ale or Lager? : ALE
 Style : IPA
 Color (scale 0-8) : 
