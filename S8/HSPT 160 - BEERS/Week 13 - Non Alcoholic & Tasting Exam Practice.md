@@ -1,9 +1,9 @@
 **Beer** : Heinekin Zero
-Ale or Lager? : 
-Style : 
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
+Ale or Lager? : Lager
+Style : Non Alcoholic
+Color (scale 0-8) : 1 Pale Straw - Clear
+Aroma Strength (scale 0-5) : 2
+Aroma reminds me of... Smells like what I would say a beer smells like. Some honey, some wheat, white bread, 
 Taste Strength (scale 0-5) : 
 Taste Reminds me of... 
 Mouthfeel (scale 0-5) : 
@@ -14,8 +14,8 @@ Would I buy this beer?
 Other Comments...
 
 **Beer** : Heineken
-Ale or Lager? : 
-Style : 
+Ale or Lager? : Lager
+Style : Euro Pale Lager
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -29,8 +29,8 @@ Would I buy this beer?
 Other Comments...
 
 **Beer** : Guinness Zero
-Ale or Lager? : 
-Style : 
+Ale or Lager? : Ale
+Style : Non-Alcoholic Beer
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -44,8 +44,8 @@ Would I buy this beer?
 Other Comments...
 
 **Beer** : Guinness Draught
-Ale or Lager? : 
-Style : 
+Ale or Lager? : Ale
+Style : Irish Dry Stout
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -59,8 +59,8 @@ Would I buy this beer?
 Other Comments...
 
 **Beer** : Ommegang Blueberry Kolsch 
-Ale or Lager? : 
-Style : 
+Ale or Lager? : ALE
+Style : Fruited Kolsch
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -73,9 +73,9 @@ Did I like it?
 Would I buy this beer? 
 Other Comments...
 
-**Beer** : 
-Ale or Lager? : 
-Style : 
+**Beer** : Stone Delicious IPA
+Ale or Lager? : ALE
+Style : IPA
 Color (scale 0-8) : 
 Aroma Strength (scale 0-5) : 
 Aroma reminds me of... 
@@ -91,45 +91,16 @@ Other Comments...
 **Beer** : **Mystery Beer 1**
 Ale or Lager? : 
 Style : 
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
-Other Comments...
+Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast) 
 
 **Beer** : **Mystery Beer 2**
 Ale or Lager? : 
 Style : 
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
-Other Comments...
+Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast
 
-**Beer** : 
+**Beer** : **Mystery Beer 3**
+**Code :**
 Ale or Lager? : 
 Style : 
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
-Other Comments...
+Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast
 
