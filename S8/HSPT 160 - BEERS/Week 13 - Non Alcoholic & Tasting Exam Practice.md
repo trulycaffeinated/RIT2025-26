@@ -125,3 +125,19 @@ Ale or Lager? :
 Style : 
 Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast ?
 Bonus - What is the name of this beer?
+
+Potential Customer...
+**Beer**** : Ithaca Apricot Wheat
+Ale or Lager? : Ale
+Style : Fruit and Field Beer
+Color (scale 0-8) : 2-3
+Aroma Strength (scale 0-5) : 3  
+Aroma reminds me of... Strong honey smell, apricot, a bit more peachy
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Apricot, sweet, honey.
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 1
+Finish reminds me of.... Not a strong finish, lingering sweetness
+Did I like it? Eh 6/10
+Would I buy this beer? Could be convinced 
+Other Comments...
