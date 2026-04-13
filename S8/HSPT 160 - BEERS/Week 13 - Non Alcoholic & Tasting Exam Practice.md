@@ -34,23 +34,23 @@ Style : Non-Alcoholic Beer
 Color (scale 0-8) : 7-8 Very Dark Amber
 Aroma Strength (scale 0-5) : 1
 Aroma reminds me of... Chocolate, maybe some coffee
-Taste Strength (scale 0-5) : 2
-Taste Reminds me of... watered down coffee, bitter, 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Strength (scale 0-5) : 1
+Taste Reminds me of... watered down coffee, a bit bitter, sour berries something acidic (thats the ale)  
+Mouthfeel (scale 0-5) : 1
+Finish Strength (scale 0-5) : 1
+Finish reminds me of.... Watered down coffee, slightly bitter but just uncomfortable really
+Did I like it? Eh 4/10
+Would I buy this beer? No 
 Other Comments...
 
 **Beer** : Guinness Draught
 Ale or Lager? : Ale
 Style : Irish Dry Stout
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Color (scale 0-8) : 7-8 Very Dark Amber to Black
+Aroma Strength (scale 0-5) : 2
+Aroma reminds me of... Stronger than Guinness Zero, chocolate, coffee, pretty standard. Smells like guinness
+Taste Strength (scale 0-5) : 2.5
+Taste Reminds me of... Bitter coffee,
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
