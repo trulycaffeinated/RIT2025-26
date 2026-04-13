@@ -92,42 +92,10 @@ very bad
 **Lagers should be CRYSTAL CLEAR. If you have no idea, guess Ale. We've tasted 60-75% ales over lagers**
 **Beer** : **Mystery Beer 1**
 Ale or Lager? : Lager - crisp clean and clear
-Style : 
+Style : Helles
 Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast) ? 
 Bonus - What is the name of this beer? 
-
-Potential customers....
-**Beer 3** : **Three Heads Bewing Little Biggie (3.3% Alcohol)**
-Ale or Lager? : **Ale (IPA)**
-Style : **IPA**
-Color (scale 0-8) : **1 - cloudy**
-Aroma Strength (scale 0-5) : **3**
-Aroma reminds me of... **Mango, Pineapple, Peach?**
-Taste Strength (scale 0-5) : **2**
-Taste Reminds me of... **Sour Peach, Pineapple, less intense than the smell**
-Mouthfeel (scale 0-5) : **1**
-Finish Strength (scale 0-5) : **1**
-Finish reminds me of.... **Finish is no different than the regular taste**
-Did I like it? **Eh, 3/10**
-Would I buy this beer? **No**
-Other Comments...
-**Underwhelming**
-
-**Beer 8** : Collective Arts - Jam up The Mash
-Ale or Lager? : Ale
-Style : Wild Ale
-Color (scale 0-8) : 1-2
-Aroma Strength (scale 0-5) : 4
-Aroma reminds me of... **Mango, or Peach - maybe pineapple**
-Taste Strength (scale 0-5) : 3
-Taste Reminds me of... **Overripe mango or peach, wayyyy overripe. incredibly sour to sweet - citrus -> sour with a weird sweetness**
-Mouthfeel (scale 0-5) : **1-2**
-Finish Strength (scale 0-5) : **2**
-Finish reminds me of.... **Candy, or just putting sugar on your tongue, goes from sour to sweet**
-Did I like it? **No?**
-Would I buy this beer? **No**
-Other Comments...
-**I could be convinced to drink this but I wouldn't buy it
+Taste honey, don't taste apple which I smelled. It is a bit sweet. 
 
 **Beer 3** : Eichbaum Helles
 Ale or Lager? : Lager
