@@ -9,7 +9,7 @@ Taste Reminds me of... Cough medicine, like EXACTLY like cough medicine. Menthol
 Mouthfeel (scale 0-5) : 2
 Finish Strength (scale 0-5) : 1
 Finish reminds me of.... Rice crispy
-Did I like it? No
+Did I like it? No 1/10
 Would I buy this beer? No 
 Other Comments...
 
@@ -19,13 +19,13 @@ Style : Euro Pale Lager
 Color (scale 0-8) : 1 Pale Straw
 Aroma Strength (scale 0-5) : 2.5
 Aroma reminds me of... Alcohol, Honey, some wheat, white bread, passionfruit of something sweet. 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Honey, rye, a bit like soap (Hops), tastes nothing like the zero to me
+Mouthfeel (scale 0-5) : 2.5
+Finish Strength (scale 0-5) : 1 
+Finish reminds me of.... Rice crispy and honey
+Did I like it? Not particularly 4/10
+Would I buy this beer? No
 Other Comments...
 
 **Beer** : Guinness Zero
