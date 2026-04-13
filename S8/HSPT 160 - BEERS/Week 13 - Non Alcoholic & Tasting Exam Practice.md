@@ -31,11 +31,11 @@ Other Comments...
 **Beer** : Guinness Zero
 Ale or Lager? : Ale
 Style : Non-Alcoholic Beer
-Color (scale 0-8) : 
-Aroma Strength (scale 0-5) : 
-Aroma reminds me of... 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Color (scale 0-8) : 7-8 Very Dark Amber
+Aroma Strength (scale 0-5) : 1
+Aroma reminds me of... Chocolate, maybe some coffee
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... watered down coffee, bitter, 
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
