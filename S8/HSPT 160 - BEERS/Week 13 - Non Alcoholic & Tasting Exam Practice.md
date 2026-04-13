@@ -89,9 +89,9 @@ Would I buy this beer? No
 Other Comments...
 very bad
 
-**Lagers should be CRYSTAL CLEAR**
+**Lagers should be CRYSTAL CLEAR. If you have no idea, guess Ale. We've tasted 60-75% ales over lagers**
 **Beer** : **Mystery Beer 1**
-Ale or Lager? : 
+Ale or Lager? : Lager - crisp clean and clear
 Style : 
 Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast) ? 
 Bonus - What is the name of this beer? 
@@ -128,6 +128,22 @@ Did I like it? **No?**
 Would I buy this beer? **No**
 Other Comments...
 **I could be convinced to drink this but I wouldn't buy it
+
+**Beer 3** : Eichbaum Helles
+Ale or Lager? : Lager
+Style : Helles (Pale Lager)
+Color (scale 0-8) : 1-2 Pale Straw
+Aroma Strength (scale 0-5) : 1
+Aroma reminds me of... Similar to #2 not much, get a bit more of that grainy smell though - sour apple too
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Honey, and a bit of citrus - surprisingly sweet. 
+Mouthfeel (scale 0-5) : 0.5
+Finish Strength (scale 0-5) : 1 
+Finish reminds me of.... Not as intense of a finish as #2, still a touch bitter
+Did I like it? 5/10
+Would I buy this beer? No 
+Other Comments...
+Still a helles, but thinner foam at the head - goes away pretty quickly - thin head usually signifies a wheat beer but since this is German it can't have wheat
 
 **Beer** : **Mystery Beer 2** - 100% Confident this is Lindemans Framboise
 Ale or Lager? : Ale
