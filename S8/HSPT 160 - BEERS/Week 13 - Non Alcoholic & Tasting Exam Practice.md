@@ -113,7 +113,7 @@ Would I buy this beer? No
 Other Comments...
 Still a helles, but thinner foam at the head - goes away pretty quickly - thin head usually signifies a wheat beer but since this is German it can't have wheat
 
-**Actual Beer #1 :**
+**Actual Beer #1 : New Belgium Fat Tire - American Amber Ale**
 
 **Beer** : **Mystery Beer 2** - 100% Confident this is Lindemans Framboise
 Ale or Lager? : Ale
@@ -126,9 +126,9 @@ Bonus - What is the name of this beer?
 
 **Beer** : **Mystery Beer 3**
 **Code :** DM13
-Ale or Lager? : 
-Style : 
-Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast ? No
+Ale or Lager? : Ale
+Style : English Pale Ale
+Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast ? 
 Bonus - What is the name of this beer?
 
 **Actual Beer #3 :**
@@ -147,4 +147,19 @@ Finish Strength (scale 0-5) : 1
 Finish reminds me of.... Not a strong finish, lingering sweetness
 Did I like it? Eh 6/10
 Would I buy this beer? Could be convinced 
+Other Comments...
+
+**Beer** : Sullivan's Irish Gold
+Ale or Lager? : English Pale Ale
+Style : Ale
+Color (scale 0-8) : 3 - Gold yellow - somewhat cloudy
+Aroma Strength (scale 0-5) : 2
+Aroma reminds me of... Wheat, mango, touch of citrus, 
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Citrus, grapefruit, bitter, but not super intense. Like coats your mouth in bitterness
+Mouthfeel (scale 0-5) : 3
+Finish Strength (scale 0-5) : 1
+Finish reminds me of.... Bitterness lasts, medicinal bitterness
+Did I like it? No 5/10
+Would I buy this beer? No 
 Other Comments...
