@@ -3,9 +3,9 @@ Ale or Lager? : Lager
 Style : Non Alcoholic
 Color (scale 0-8) : 1 Pale Straw - Clear
 Aroma Strength (scale 0-5) : 2
-Aroma reminds me of... Smells like what I would say a beer smells like. Some honey, some wheat, white bread, 
-Taste Strength (scale 0-5) : 
-Taste Reminds me of... 
+Aroma reminds me of... Smells like what I would say a beer smells like. Some honey, some wheat, white bread, sour yeast, passionfruit or something sweet
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Cough medicine, like EXACTLY like cough medicine. Menthol, 
 Mouthfeel (scale 0-5) : 
 Finish Strength (scale 0-5) : 
 Finish reminds me of.... 
