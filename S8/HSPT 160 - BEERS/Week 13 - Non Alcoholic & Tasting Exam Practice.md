@@ -80,13 +80,14 @@ Color (scale 0-8) : 2 Unhealthy Cat Piss
 Aroma Strength (scale 0-5) :  3
 Aroma reminds me of... Pinesol, Menthol, Cleaning product, a bit fruity
 Taste Strength (scale 0-5) : 3
-Taste Reminds me of... Very bitter and acidic, gets more and more bitter.  
-Mouthfeel (scale 0-5) : 
-Finish Strength (scale 0-5) : 
-Finish reminds me of.... 
-Did I like it? 
-Would I buy this beer? 
+Taste Reminds me of... Very bitter and acidic, gets more and more bitter. Grapefruit, like a soapy fruit.  
+Mouthfeel (scale 0-5) : 2
+Finish Strength (scale 0-5) : 4 
+Finish reminds me of.... Bitter bitter finish, just keeps getting bitter
+Did I like it? 2/10
+Would I buy this beer? No 
 Other Comments...
+very bad
 
 **Beer** : **Mystery Beer 1**
 Ale or Lager? : 
