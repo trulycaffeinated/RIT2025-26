@@ -92,7 +92,7 @@ very bad
 **Beer** : **Mystery Beer 1**
 Ale or Lager? : Ale
 Style : IPA
-Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast) ?
+Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast) ? 
 Bonus - What is the name of this beer? 60% Confident this is Three Heads Brewing Little Biggie
 
 Potential customers....
@@ -120,7 +120,7 @@ Bonus - What is the name of this beer?
 100% Confident this is Lindemans Framboise
 
 **Beer** : **Mystery Beer 3**
-**Code :**
+**Code :** DM13
 Ale or Lager? : 
 Style : 
 Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast ?
