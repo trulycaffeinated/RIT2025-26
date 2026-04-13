@@ -89,11 +89,12 @@ Would I buy this beer? No
 Other Comments...
 very bad
 
+**Lagers should be CRYSTAL CLEAR**
 **Beer** : **Mystery Beer 1**
-Ale or Lager? : Ale
-Style : IPA
+Ale or Lager? : 
+Style : 
 Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast) ? 
-Bonus - What is the name of this beer? 60% Confident this is Three Heads Brewing Little Biggie
+Bonus - What is the name of this beer? 
 
 Potential customers....
 **Beer 3** : **Three Heads Bewing Little Biggie (3.3% Alcohol)**
@@ -111,6 +112,22 @@ Did I like it? **Eh, 3/10**
 Would I buy this beer? **No**
 Other Comments...
 **Underwhelming**
+
+**Beer 8** : Collective Arts - Jam up The Mash
+Ale or Lager? : Ale
+Style : Wild Ale
+Color (scale 0-8) : 1-2
+Aroma Strength (scale 0-5) : 4
+Aroma reminds me of... **Mango, or Peach - maybe pineapple**
+Taste Strength (scale 0-5) : 3
+Taste Reminds me of... **Overripe mango or peach, wayyyy overripe. incredibly sour to sweet - citrus -> sour with a weird sweetness**
+Mouthfeel (scale 0-5) : **1-2**
+Finish Strength (scale 0-5) : **2**
+Finish reminds me of.... **Candy, or just putting sugar on your tongue, goes from sour to sweet**
+Did I like it? **No?**
+Would I buy this beer? **No**
+Other Comments...
+**I could be convinced to drink this but I wouldn't buy it
 
 **Beer** : **Mystery Beer 2** - 100% Confident this is Lindemans Framboise
 Ale or Lager? : Ale
