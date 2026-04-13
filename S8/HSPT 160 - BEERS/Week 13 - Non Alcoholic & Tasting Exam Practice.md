@@ -122,6 +122,8 @@ Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/
 Bonus - What is the name of this beer?
 100% Confident this is Lindemans Framboise
 
+**Actual Beer #2 : Lindemans Framboise** 
+
 **Beer** : **Mystery Beer 3**
 **Code :** DM13
 Ale or Lager? : 
