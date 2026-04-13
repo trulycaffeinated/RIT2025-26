@@ -128,11 +128,13 @@ Bonus - What is the name of this beer?
 **Code :** DM13
 Ale or Lager? : 
 Style : 
-Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast ?
+Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast ? No
 Bonus - What is the name of this beer?
 
+**Actual Beer #3 :**
+
 Potential Customer...
-**Beer**** : Ithaca Apricot Wheat
+**Beer*** : Ithaca Apricot Wheat
 Ale or Lager? : Ale
 Style : Fruit and Field Beer
 Color (scale 0-8) : 2-3
