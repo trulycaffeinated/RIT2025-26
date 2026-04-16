@@ -7,8 +7,8 @@ Answer - An adjunct is any ingredient added to beer beyond the four basic ingred
 Question - On the standard beer color scale (0–8), what number corresponds to black beer?  
 Answer - 8
 
-Question - What style of beer is characterized by the addition of citrus and coriander?  
-Answer - Belgian Witbier
+Question - What is the main purpose of hops in beer?  
+Answer - To add bitterness and aroma
 
 Question - What is a key visual characteristic expected of lagers?  
 Answer - They should be crystal clear
@@ -34,8 +34,8 @@ Answer - Fruity, spicy, sometimes funky flavors with a dry finish
 Question - What is a Radler, and what is its defining characteristic?  
 Answer - A beer mixed with fruit soda, usually citrus, and is low alcohol
 
-Question - What are typical flavor notes found in Irish Red Ales?  
-Answer - Caramel, molasses, and a balance of sweetness and bitterness
+Question - What mouthfeel is described as “thin” or “watery” on the tasting scale?  
+Answer - Low mouthfeel (around 0–1)
 
 Question - What is a key difference between ales and lagers in fermentation?  
 Answer - Ales use top-fermenting yeast at warmer temperatures while lagers use bottom-fermenting yeast at cooler temperatures
