@@ -176,6 +176,7 @@ static void PhilosopherTask(void *argument)
 }
 
 
+
 static bool getLeftFork(int leftForkIndex){
 	if(osSemaphoreAcquire(forkSemaphoreHandle[leftForkIndex], 0) == osOK) {
 		return true;
