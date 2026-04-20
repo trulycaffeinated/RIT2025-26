@@ -1,4 +1,4 @@
-**Beer** : Oskar Blues Mama's Little Yella Pils
+Color (scale 0-8) : 4**Beer** : Oskar Blues Mama's Little Yella Pils
 Ale or Lager? : Lager
 Style : Czech Pilsner
 Color (scale 0-8) : 2 Yellow Straw
