@@ -7,7 +7,6 @@ finish_strength: 2
 like: 1
 buy: 0
 ---
-# Week 6 - The Rest of the World
 Small note : I sit on the right side of the room, so I consistently think things are a level darker than they might be 
 
 ---
