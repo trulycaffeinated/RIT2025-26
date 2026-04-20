@@ -52,7 +52,7 @@ void timer_isr(void *context)
     // Clear timer interrupt
     *TimerPtr = 0;
 
-    TOGGLE = (TOGGLE == 0) ? 1 : 0;
+    TOGGLE = !TOGGLE;
     *PinPtr = TOGGLE;
 
     if (SAMPLE_CNT < MAX_SAMPLES)
@@ -113,9 +113,6 @@ void switches_isr(void *context) {
 	    *(SWPtr + 3) &= 0xFF;  // Clears Interrupts
 
 }
-
-
-
 
 //this function reads a .wav file and stores the data in the SDRAM
 //first it parses the header and stores that information in variables.

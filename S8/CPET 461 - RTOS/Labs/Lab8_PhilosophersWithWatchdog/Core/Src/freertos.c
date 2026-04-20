@@ -141,9 +141,8 @@ static void PhilosopherTask(void *argument)
         	gotRight = false;
 
         	// Randomize which fork is picked up first
-            int randFork = rand() & 1;  // 0 or 1
-            gotLeft = getLeftFork();
-            gotRight = getRightFork();
+            gotLeft = getLeftFork(desiredLeftFork);
+            gotRight = getRightFork(desiredRightFork);
 
             // Check forks
             if (gotLeft && !gotRight)
@@ -178,11 +177,17 @@ static void PhilosopherTask(void *argument)
 
 
 static bool getLeftFork(int leftForkIndex){
-	return(osSemaphoreAcquire(forkSemaphoreHandle[leftForkIndex], 0) == osOK);
+	if(osSemaphoreAcquire(forkSemaphoreHandle[leftForkIndex], 0) == osOK) {
+		return true;
+	}
+	return false;
 }
 
 static bool getRightFork(int rightForkIndex){
-	return(osSemaphoreAcquire(forkSemaphoreHandle[rightForkIndex], 0) == osOK);
+	if(osSemaphoreAcquire(forkSemaphoreHandle[rightForkIndex], 0) == osOK) {
+		return true;
+	}
+	return false;
 }
 
 static void putLeftFork(int leftForkIndex){

@@ -131,7 +131,7 @@ Style : English Pale Ale
 Does this beer fall in line with Reinheitsgebot? (Only water, malt(barley/wheat/rye), hops, and yeast ? 
 Bonus - What is the name of this beer?
 
-**Actual Beer #3 :**
+**Actual Beer #3 : Lagunitas IPA - AIPA**
 
 Potential Customer...
 **Beer*** : Ithaca Apricot Wheat
@@ -163,3 +163,19 @@ Finish reminds me of.... Bitterness lasts, medicinal bitterness
 Did I like it? No 5/10
 Would I buy this beer? No 
 Other Comments...
+
+
+**Beer** : Lagunitas IPA
+Ale or Lager? : Ale
+Style : American IPA
+Color (scale 0-8) : 5 Yellow/Gold Amber
+Aroma Strength (scale 0-5) : 3
+Aroma reminds me of... Very honey scented, sweet citrus, mango or peach, Lemon, brown sugar
+Taste Strength (scale 0-5) : 2
+Taste Reminds me of... Taste like a cleaning product, grass, 
+Mouthfeel (scale 0-5) : 3
+Finish Strength (scale 0-5) : 2
+Finish reminds me of.... almost like a soapy aftertase, mint, lemon, blegh
+Did I like it? No 3/10
+Would I buy this beer? No 
+Other Comments... Not as hoppy as the pale ale. **One way to tell, pay attention to mouth feel and finish. A little bit more sweetness, and thicker mouthfeel**
