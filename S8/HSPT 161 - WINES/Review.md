@@ -13,3 +13,7 @@ Prosecco - Italy
 - **Sparkling** → France (traditional), Italy (Charmat), Spain (traditional)
 
 Spain - Tempranillo 
+Red Burgundy - Pinot Noir
+White Burgundy - Chardonnay
+
+Fortified Wine is... wines that have added a
