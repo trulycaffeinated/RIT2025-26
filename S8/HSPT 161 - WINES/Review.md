@@ -16,4 +16,10 @@ Spain - Tempranillo
 Red Burgundy - Pinot Noir
 White Burgundy - Chardonnay
 
-Fortified Wine is... wines that have added a
+Fortified Wine is... wines that have added alcohol. 
+Sherry has added after fermentation
+Port has added during fermentation 
+
+Port - Portugal
+Sherry - Spain
+Chianti - Sangiovese - Italy
