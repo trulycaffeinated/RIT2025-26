@@ -1,7 +1,7 @@
-../Core/Src/freertos.c:88:6:App_RTOS_Init	3
-../Core/Src/freertos.c:106:13:startDefaultTask	0
-../Core/Src/freertos.c:111:13:PhilosopherTask	7
-../Core/Src/freertos.c:179:13:getLeftFork	2
-../Core/Src/freertos.c:186:13:getRightFork	2
-../Core/Src/freertos.c:193:13:putLeftFork	1
-../Core/Src/freertos.c:197:13:putRightFork	1
+../Core/Src/freertos.c:97:6:App_RTOS_Init	3
+../Core/Src/freertos.c:123:13:startDefaultTask	0
+../Core/Src/freertos.c:128:13:PhilosopherTask	7
+../Core/Src/freertos.c:196:13:WatchdogTask	5
+../Core/Src/freertos.c:231:13:getFork	3
+../Core/Src/freertos.c:243:13:putFork	2
+../Core/Src/freertos.c:250:13:PhilosopherHeartbeat	2
