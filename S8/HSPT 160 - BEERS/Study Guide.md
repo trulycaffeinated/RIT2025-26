@@ -20,5 +20,11 @@
 6. What are the four major ingredients in beer, and what is the name for these ingredients?
 	1. Reinheitsgebot
 	   Water, Yeast, Grain, Hops
-7. What is a Kolsch?
-		1. A beer that is made within a certain distance of Cologne 
+7. What is a Kolsch (sounds like the name of a Cologne)?
+		1. A beer that is made within a certain distance of Cologne Germany
+8. What are the characteristics of an export stout?
+	1. They have fuller bodies and higher alcohol contents that traditional stouts - helped survive over long journeys at sea
+9. What is a trappist beer?
+	1. Beer brewed by Trappist monks **(Trappist Monks)**
+10. True/False - there is no difference between an American IPA and an English IPA
+	1. False - the difference is in the hops, American IPA's 
