@@ -29,4 +29,6 @@
 10. True/False - there is no difference between an American IPA and an English IPA
 	1. False - the difference is in the hops, American IPA's tend to give off more pine, English are more Tea like
 11. What is a Gruit
-	1. A beer made with little to no hops, other vegetation 
+	1. A beer made with little to no hops, other vegetation such as seaweed or pine is used
+12. What is the story behind Steam beer?
+	1. A steam pipe burst and raise the temperature of the vessels to ale temperatures
