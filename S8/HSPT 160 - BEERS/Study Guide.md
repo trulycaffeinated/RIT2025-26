@@ -1,40 +1,208 @@
-1. The six S's of beer tasting?
-   **sight, swirl, smell, sip, swallow, savor**
-   One for eyes
-   Two for nose
-   Three for taste
-2. What is the difference between an ale and lager?
-   Ale yeast ferments at 50-70 deg F and float on the top, while Lager yeasts ferments at 45-55 deg F and sinks to the bottom
-3. Which of the following are ale or lager styles?
-	1. IPA - Ale
-	2. Stout - Ale
-	3. Pilsner - Lager 
-	4. Wheat Beer - Ale
-	5. California Common/Steam - Lager
-	6. Bock - Lager
-	7. Barley Wine - Lager
-4. What is an Adjunct?
-	1. Anything added to beer that is not allowed by  German purity laws (Reinheitsgebot)
-5. Difference between a good adjunct and a bad adjunct?
-	1. Good adjuncts enhance the beer, a bad adjunct takes away from the beer
-6. What are the four major ingredients in beer, and what is the name for these ingredients?
-	1. Reinheitsgebot
-	   Water, Yeast, Grain, Hops
-7. What is a Kolsch (sounds like the name of a Cologne)?
-		1. A beer that is made within a certain distance of Cologne Germany
-8. What are the characteristics of an export stout?
-	1. They have fuller bodies and higher alcohol contents that traditional stouts - helped survive over long journeys at sea
-9. What is a trappist beer?
-	1. Beer brewed by Trappist monks **(Trappist Monks)** **Chimay**
-10. True/False - there is no difference between an American IPA and an English IPA
-	1. False - the difference is in the hops, American IPA's tend to give off more pine, English are more Tea like
-11. What is a Gruit
-	1. A beer made with little to no hops, other vegetation such as seaweed or pine is used
-12. What is the story behind Steam beer?
-	1. A steam pipe burst and raise the temperature of the vessels to ale temperatures
-13. What is dry hopping?
-	1. Adding hops to late into the brewing process to add flavor and aroma, without extracting the bitter qualities 
-14. What trappiest monastery was the first to sell their beer to the public
-	1. The Chimay Monastery 
+### 🍺 **Beer Basics**
 
-What were the Reinheitsgebot
+What are the 4 main ingredients in beer?  
+Water, barley (malt), hops, yeast
+
+What is the Reinheitsgebot?  
+German Beer Purity Law (1516) limiting beer to barley, water, hops (yeast added later)
+
+What is an adjunct?  
+Any ingredient not included in the Reinheitsgebot
+
+What is a “good” vs “bad” adjunct?  
+Good enhances flavor/quality; bad cheapens or weakens the beer
+
+---
+
+### 🍻 **Ale vs Lager**
+
+What is the difference between ales and lagers?  
+Ales use top-fermenting yeast at warmer temps (50–70°F); lagers use bottom-fermenting yeast at cooler temps (45–55°F)
+
+Can color determine if a beer is an ale or lager?  
+No—color comes from malt, not fermentation type
+
+---
+
+### 🌿 **Hops**
+
+What do hops contribute to beer?  
+Bitterness, aroma, and preservation
+
+Which part and type of hop plant is used?  
+Female flower/cone
+
+What are alpha and beta acids?  
+Alpha = bitterness (heat-activated); Beta = aroma & preservation
+
+What are the noble hops?  
+Hallertau, Saaz, Spalt, Tettnang
+
+Why are hops added at different times during brewing?  
+Early = bitterness, middle = flavor, late = aroma
+
+---
+
+### 🧪 **Brewing Process**
+
+What is fermentation?  
+Yeast converts sugars into alcohol and CO₂
+
+What is wort?  
+Liquid extracted from mashed grains
+
+What is dry hopping?  
+Adding hops late to increase aroma without bitterness
+
+What are the stages of malting?  
+Steeping → Germination → Kilning
+
+What is the most important factor in brewing?  
+Cleanliness and sanitation
+
+---
+
+### 🍺 **Beer Styles & Types**
+
+What is a Kölsch?  
+A hybrid beer: ale yeast brewed like a lager, from Cologne, Germany
+
+What is a Trappist beer?  
+Brewed in a monastery, under monks, profits support monastery/charity
+
+What is a Lambic beer?  
+Spontaneously fermented beer using wild yeast; often sour
+
+What is a Gruit?  
+Beer made without hops, using herbs/spices instead
+
+What is a Rauchbier?  
+Beer made with smoked malt (smoky flavor)
+
+What is a Bock beer?  
+Strong, malty lager (~7% ABV), associated with a goat and springtime
+
+What is an Export Stout?  
+Stronger, fuller-bodied stout designed for long travel
+
+What is a Steam Beer (California Common)?  
+Lager yeast fermented at warmer (ale-like) temperatures
+
+---
+
+### 🌍 **History & Geography**
+
+Where and when was the Reinheitsgebot created?  
+Bavaria, Germany (1516)
+
+Where was beer first brewed?  
+Mesopotamia (~10,000 BCE)
+
+What is the oldest brewery in the world?  
+Weihenstephan Abbey
+
+What is the oldest brewery in the U.S.?  
+Yuengling
+
+Which country consumes the most beer per capita?  
+Czech Republic
+
+Which country produces the most hops?  
+Germany
+
+What enabled year-round lager production?  
+Refrigeration
+
+Why were IPAs developed?  
+To preserve beer for long sea voyages (England → India)
+
+---
+
+### 🍺 **Flavor & Characteristics**
+
+What determines beer color?  
+Type of malt/grain used
+
+What flavors are common in stouts/dark beers?  
+Coffee, chocolate, burnt notes
+
+What are “big beers”?  
+High alcohol, heavy body, intense flavor, meant for slow drinking
+
+---
+
+### 🍽️ **Food & Pairing**
+
+Which beers are most versatile with food?  
+Wheat beers
+
+What is the “10 or 2” cooking rule?  
+Cook with beer for less than 10 minutes or more than 2 hours
+
+---
+
+### 🍹 **Beer Variations**
+
+What is the difference between a shandy and a radler?  
+Shandy = beer + soda; Radler = beer + fruit juice (usually lemonade)
+
+---
+
+### 🧊 **Storage & Quality**
+
+What are the biggest threats to beer quality?  
+Heat, light, age
+
+What does “lightstruck” mean?  
+Beer develops skunky off-flavors from light exposure
+
+What packaging is best and why?  
+Cans—block light and oxygen, better for freshness and transport
+
+---
+
+### 🍷 **Alcohol & Body**
+
+What is ABV?  
+Alcohol by Volume
+
+What is IBU?  
+International Bitterness Units
+
+What organ absorbs most alcohol?  
+Small intestine
+
+How long does it take to process one drink?  
+About 1 hour
+
+What is the legal BAC limit?  
+0.08
+
+What factors affect BAC?  
+Rate of drinking, body size, gender, food, carbonation, age, medications, etc.
+
+---
+
+### 🧠 **Extra Key Concepts**
+
+What is zymurgy?  
+The science of brewing beer
+
+What are esters?  
+Fruity/floral compounds created during fermentation
+
+What does “Imperial” or “Double” mean?  
+Stronger, higher alcohol version of a beer
+
+---
+
+### 🎉 **Miscellaneous**
+
+What is Oktoberfest beer?  
+Beer brewed specifically for the Oktoberfest festival
+
+Why are Märzen beers brewed in March?  
+Stored to last through summer months
+
+What is sake?  
+Japanese alcoholic beverage brewed similarly to beer
