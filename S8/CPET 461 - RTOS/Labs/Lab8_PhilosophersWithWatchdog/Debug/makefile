@@ -65,8 +65,8 @@ all: main-build
 main-build: Lab4_Philosophers.elf secondary-outputs
 
 # Tool invocations
-Lab4_Philosophers.elf Lab4_Philosophers.map: $(OBJS) $(USER_OBJS) C:\Users\tjeff\Documents\RIT\RIT2025-26\S8\CPET\ 461\ -\ RTOS\Labs\Lab8_PhilosophersWithWatchdog\STM32L476RGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Lab4_Philosophers.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\tjeff\Documents\RIT\RIT2025-26\S8\CPET 461 - RTOS\Labs\Lab8_PhilosophersWithWatchdog\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab4_Philosophers.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Lab4_Philosophers.elf Lab4_Philosophers.map: $(OBJS) $(USER_OBJS) C:\Users\Jeffrey\ T\Documents\RIT\RIT-Notes\RIT2025-26\S8\CPET\ 461\ -\ RTOS\Labs\Lab8_PhilosophersWithWatchdog\STM32L476RGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Lab4_Philosophers.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Jeffrey T\Documents\RIT\RIT-Notes\RIT2025-26\S8\CPET 461 - RTOS\Labs\Lab8_PhilosophersWithWatchdog\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab4_Philosophers.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

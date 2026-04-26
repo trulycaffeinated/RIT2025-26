@@ -45,7 +45,6 @@ IWDG_HandleTypeDef hiwdg;
 UART_HandleTypeDef huart2;
 
 /* Definitions for defaultTask */
-
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -62,7 +61,7 @@ void App_RTOS_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-const char uartMsg[] = "Jeff Taylor - Lab 4\r\n CPET 461 - Philosophers\r\n";
+const char uartMsg[] = "Jeff Taylor - Lab 8\r\n CPET 461 - Philosophers with Watchdog\r\n";
 /* USER CODE END 0 */
 
 /**
@@ -109,10 +108,8 @@ int main(void)
 
   /* Create the semaphores(s) */
   /* creation of uartPrintSemaphore */
-  //uartPrintSemaphoreHandle = osSemaphoreNew(1, 1, &uartPrintSemaphore_attributes);
 
   /* creation of forkSemaphore */
-  //forkSemaphoreHandle = osSemaphoreNew(1, 1, &forkSemaphore_attributes);
 
   /* USER CODE BEGIN RTOS_SEMAPHORES */
   /* add semaphores, ... */
@@ -126,15 +123,6 @@ int main(void)
   /* add queues, ... */
   /* USER CODE END RTOS_QUEUES */
 
-  /* Create the thread(s) */
-  /* creation of defaultTask */
-  //defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
-
-  /* creation of printUartTask */
- // printUartTaskHandle = osThreadNew(StartTask02, NULL, &printUartTask_attributes);
-
-  /* creation of philosopherTask */
-  //philosopherTaskHandle = osThreadNew(StartTask03, NULL, &philosopherTask_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -229,7 +217,7 @@ static void MX_IWDG_Init(void)
   hiwdg.Instance = IWDG;
   hiwdg.Init.Prescaler = IWDG_PRESCALER_64;
   hiwdg.Init.Window = 4095;
-  hiwdg.Init.Reload = 2499;
+  hiwdg.Init.Reload = 999;
   if (HAL_IWDG_Init(&hiwdg) != HAL_OK)
   {
     Error_Handler();

@@ -75,7 +75,7 @@ static fork_t forks[NumPHIL];
 static uint32_t lastKickTick[NumPHIL];
 static int PhilosopherNum[NumPHIL];
 
-extern IWDG_HandleTypeDef hiwdg;
+extern IWDG_HandleTypeDef hiwdg; // this comes from main as it's initialized via the ioc
 /* USER CODE END Variables */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -129,7 +129,7 @@ static void PhilosopherTask(void *argument)
 {
 
     int id = *(int*)argument; // Pull Philosopher ID from arbitrary argument
-	srand(id); // SEED Rand() with Philosopher ID - when removed, every philosopher has the same delays
+	srand(id); // SEED Rand() with Philosopher ID - when removed, every philosopher has the same delays. This avoids the RAND() bug
 
     int desiredLeftFork  = id;
     int desiredRightFork = (id + NumPHIL - 1) % NumPHIL;
@@ -137,42 +137,35 @@ static void PhilosopherTask(void *argument)
     bool gotLeft  = false;
     bool gotRight = false;
 
-    while (1) // Begin state machine
+    int ranNum;
+    int ranMAX = 4001;
+
+    while (1)
     {
-    	//heartbeat
-    	PhilosopherHeartbeat(id);
-
-    	// MAX Value for delay
-    	int ranMAX = 4001;
-
-        // Thinking state
+        PhilosopherHeartbeat(id);
         Print_Line("Philosopher %d - Thinking...", id);
-        int ranNum = (rand() % ranMAX) + 1000;
-        //Print_Line("Delay : %d", ranNum); // DEBUG LINE | DELAY
+        ranNum = (rand() % ranMAX) + 1000;
         osDelay(ranNum);
-    	//heartbeat // done thinking
-    	PhilosopherHeartbeat(id);
 
-        // Hungry state
+        PhilosopherHeartbeat(id);
         Print_Line("Philosopher %d - Hungry...", id);
+
         while (!(gotLeft && gotRight))
         {
+            PhilosopherHeartbeat(id);
 
-        	gotLeft = false;
-        	gotRight = false;
+            gotLeft = false;
+            gotRight = false;
 
             gotLeft = getFork(desiredLeftFork);
             gotRight = getFork(desiredRightFork);
 
-            // Check forks
-            if (gotLeft && !gotRight)
-            {
+            if (gotLeft && !gotRight) {
                 putFork(desiredLeftFork);
                 gotLeft = false;
             }
 
-            if (gotRight && !gotLeft)
-            {
+            if (gotRight && !gotLeft) {
                 putFork(desiredRightFork);
                 gotRight = false;
             }
@@ -180,16 +173,15 @@ static void PhilosopherTask(void *argument)
             osDelay(10);
         }
 
-        // Eat
+        PhilosopherHeartbeat(id);
         Print_Line("Philosopher %d - Eating...", id);
         ranNum = (rand() % ranMAX) + 1000;
-    	//heartbeat done eating
-    	PhilosopherHeartbeat(id);
-        //Print_Line("Delay : %d", ranNum); // DEBUG LINE | DELAY
         osDelay(ranNum);
+        PhilosopherHeartbeat(id);
+
         putFork(desiredLeftFork);
         putFork(desiredRightFork);
-    } // End State Machine
+    }
 
     // Debug Section
     //Print_Line("Philosopher #: %d | Desired LF : %d | Desired Right Fork : %d",
@@ -199,8 +191,8 @@ static void PhilosopherTask(void *argument)
 
 static void WatchdogTask(void *argument)
 {
-    const uint32_t philosopherTimeoutMs = 1500;   // freshness window
-    const uint32_t watchdogCheckPeriodMs = 500;
+    const uint32_t philosopherTimeoutMs = 2000; // when a philosopher is declared dead - 2s for a failure, 5s for a non failure
+    const uint32_t watchdogCheckPeriodMs = 500; // how frequently the watchdog checks
 
     while(1)
     {
@@ -221,11 +213,11 @@ static void WatchdogTask(void *argument)
             Print_Line("Watchdog: all philosophers alive, kicking watchdog.");
             HAL_IWDG_Refresh(&hiwdg);
         } else {
-            Print_Line("Watchdog: philosopher timeout detected, watchdog will reset board.");
-            // Do NOT refresh watchdog here
-            while(1){
-                // wait for hardware reset
-            }
+            Print_Line("Watchdog: philosopher timeout detected, watchdog would reset board.");
+            HAL_IWDG_Refresh(&hiwdg); // refreshing the timer since we're just simulating a reset
+//            while(1){
+//            	// wait for IWDG reset
+//            }
         }
 
         osDelay(watchdogCheckPeriodMs);
@@ -233,7 +225,8 @@ static void WatchdogTask(void *argument)
 }
 
 static bool getFork(int forkIndex){
-    if(osSemaphoreAcquire(forkSemaphoreHandle[forkIndex], 0) == osOK) {
+
+    if(osSemaphoreAcquire(forkSemaphoreHandle[forkIndex], HAL_MAX_DELAY) == osOK) {
         if(forks[forkIndex].inUse == false) {
             forks[forkIndex].inUse = true;
             osSemaphoreRelease(forkSemaphoreHandle[forkIndex]);
@@ -245,7 +238,7 @@ static bool getFork(int forkIndex){
 }
 
 static void putFork(int forkIndex){
-	if(osSemaphoreAcquire(forkSemaphoreHandle[forkIndex],0) == osOK){
+	if(osSemaphoreAcquire(forkSemaphoreHandle[forkIndex], HAL_MAX_DELAY) == osOK){
 		forks[forkIndex].inUse = false;
 		osSemaphoreRelease(forkSemaphoreHandle[forkIndex]);
 	}
