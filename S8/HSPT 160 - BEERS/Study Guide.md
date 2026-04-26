@@ -36,3 +36,5 @@
 	1. Adding hops to late into the brewing process to add flavor and aroma, without extracting the bitter qualities 
 14. What trappiest monastery was the first to sell their beer to the public
 	1. The Chimay Monastery 
+
+What were the Reinheitsgebot
