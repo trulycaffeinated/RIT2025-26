@@ -25,10 +25,14 @@
 8. What are the characteristics of an export stout?
 	1. They have fuller bodies and higher alcohol contents that traditional stouts - helped survive over long journeys at sea
 9. What is a trappist beer?
-	1. Beer brewed by Trappist monks **(Trappist Monks)**
+	1. Beer brewed by Trappist monks **(Trappist Monks)** **Chimay**
 10. True/False - there is no difference between an American IPA and an English IPA
 	1. False - the difference is in the hops, American IPA's tend to give off more pine, English are more Tea like
 11. What is a Gruit
 	1. A beer made with little to no hops, other vegetation such as seaweed or pine is used
 12. What is the story behind Steam beer?
 	1. A steam pipe burst and raise the temperature of the vessels to ale temperatures
+13. What is dry hopping?
+	1. Adding hops to late into the brewing process to add flavor and aroma, without extracting the bitter qualities 
+14. What trappiest monastery was the first to sell their beer to the public
+	1. The Chimay Monastery 
