@@ -32,7 +32,7 @@ Bitterness, aroma, and preservation
 Which part and type of hop plant is used?  
 Female flower/cone
 
-What are alpha and beta acids?  
+List and describe the acids that come from hops relating to beer:  
 Alpha = bitterness (heat-activated); Beta = aroma & preservation
 
 **What are the noble hops?** - sound like shit found in an orc stew
@@ -71,7 +71,7 @@ What is a Trappist beer?
 Brewed in a monastery, under monks, profits support monastery/charity
 
 What is the first Trappist Monastery to sell beer to the public?
-The Chimay Monestary 
+The Chimay Monastery 
 
 **What is a Lambic beer?**  
 **Spontaneously fermented beer using wild yeast; often sour**
