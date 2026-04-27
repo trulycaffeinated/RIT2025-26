@@ -144,7 +144,7 @@ Cook with beer for less than 10 minutes or more than 2 hours
 ### 🍹 **Beer Variations**
 
 What is the difference between a shandy and a radler?  
-Shandy = beer + soda; Radler = beer + fruit juice (usually lemonade)
+Shandy = beer + soda; Radler = beer + fruit juice (usually lemonade) (SHANDY is S for SODA + RADLER IS FRUITY LIKE THE GRAPEFRUIT RADLER WHICH I LIKE)
 
 ---
 
