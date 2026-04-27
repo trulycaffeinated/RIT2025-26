@@ -48,4 +48,9 @@ watchDogTask(void* argument) {
 ```
 
 
-### Int
+### Interrupt Service Routine
+There is an API call in FreeRTOS to register it - some RTOS's don't do it that way. There is a decoration in some
+``void FunctionName()`` versus ``interrupt void FunctionName()``
+
+STMicro uses weak functions - so if you overload the name of the function yours will be used rather than the default. But this can be funky, as you can accidentally overload a function
+
