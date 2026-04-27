@@ -38,6 +38,7 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 #define NumPHIL 8
+#define ALL_ALIVE 0xFF
 const osThreadAttr_t defaultAttr = {
     .name       = "defaultTask",
     .stack_size = 1024 * 4,    // bytes (2 KB)
@@ -177,7 +178,7 @@ static void PhilosopherTask(void *argument)
         Print_Line("Philosopher %d - Eating...", id);
         ranNum = (rand() % ranMAX) + 1000;
         osDelay(ranNum);
-    	osEventFlagSet(PhilosopherNum[id], mask);
+    	osEventFlagSet(philosophersHeartbeatHandle, mask);
 
         putFork(desiredLeftFork);
         putFork(desiredRightFork);
@@ -197,7 +198,19 @@ static void WatchdogTask(void *argument)
     while(1)
     {
 
-    	int set = osEventFlagGet()
+    	int set = osEventFlagGet(philosophersHeartbeatHandle);
+
+    	if(set != ALL_ALIVE){
+    		Print_Line("Not all philosophers alive, letting watchdog reset CPU");
+    		while(1){
+    			// reset watchdog
+    		}
+    	}
+    	else{
+    		Print_Line("All philosophers alive. Kicking watchdog.");
+    		// reset watchdog timer
+
+    	}
 
         osDelay(watchdogCheckPeriodMs);
     }
