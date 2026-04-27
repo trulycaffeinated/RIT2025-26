@@ -11,14 +11,24 @@ Exam is cumulative, but focus on L16 and beyond
 Comfortable drawing task description diagram, but also understanding task description diagrams.
 Review Scheduling algorithms 
 
-**Lab 8 Review - Events**
+**Lab 8 Review - USING EVENTS**
 ```C
 taskToCheck(void* argument) {
 	
 	//somewhere in this task
-	osEventSet(Handle,
+	osEventFlagsSet(Handle,
 				 mask);
+	// call this two or three times depending
 	
+}
+
+watchDogTask(void* argument) {
 	
+	// call this
+	set = osEventFlagsGet(Handle);
+
+	if(set != ALL_TASKS_OKAY) { //ALL TASKS OKAY == 0xFF for our 8 tasks
+		// reset here
+	}
 }
 ```
