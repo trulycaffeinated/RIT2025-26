@@ -105,6 +105,8 @@ Typically has a goat on the label**
 **What is a Steam Beer (California Common)?**  
 **Lager yeast fermented at warmer (ale-like) temperatures**
 
+What is an alt
+
 What is the story behind steam beer?
 A steam pipe burst and raise the temperature of the lager vessels to ale temperatures
 
