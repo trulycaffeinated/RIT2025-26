@@ -54,3 +54,12 @@ There is an API call in FreeRTOS to register it - some RTOS's don't do it that w
 
 STMicro uses weak functions - so if you overload the name of the function yours will be used rather than the default. But this can be funky, as you can accidentally overload a function
 
+
+
+### Memory Pools
+Statically allocate variables, but mimic the way we use dynamic variables.
+Achieve the speed of static variables with the use of dynamic variables
+
+How to...
+Pre-Allocate a bunch of buffers
+Keep track of what buffer is being used

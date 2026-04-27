@@ -57,6 +57,7 @@ const osThreadAttr_t watchdogAttr = {
     .stack_size = 1024 * 4,
     .priority = osPriorityHigh
 };
+const osEventFlagsId_t philosophersHeartbeatHandle;
 static osSemaphoreId_t heartbeatSemaphoreHandle;
 /* USER CODE END PD */
 
@@ -143,7 +144,7 @@ static void PhilosopherTask(void *argument)
 
     while (1)
     {
-    	osEventFlagSet(PhilosopherNum[id], mask);
+    	osEventFlagSet(philosophersHeartbeatHandle, mask);
         Print_Line("Philosopher %d - Thinking...", id);
         ranNum = (rand() % ranMAX) + 1000;
         osDelay(ranNum);
@@ -152,7 +153,7 @@ static void PhilosopherTask(void *argument)
         Print_Line("Philosopher %d - Hungry...", id);
         while (!(gotLeft && gotRight))
         {
-            PhilosopherHeartbeat(id);
+        	osEventFlagSet(philosophersHeartbeatHandle, mask);
 
             gotLeft = false;
             gotRight = false;
@@ -195,29 +196,8 @@ static void WatchdogTask(void *argument)
 
     while(1)
     {
-        bool allAlive = true;
-        uint32_t now = osKernelGetTickCount();
 
-        if(osSemaphoreAcquire(heartbeatSemaphoreHandle, HAL_MAX_DELAY) == osOK){
-            for(int i = 0; i < NumPHIL; i++){
-                uint32_t age = now - lastKickTick[i];
-                if(age > philosopherTimeoutMs){
-                    allAlive = false;
-                }
-            }
-            osSemaphoreRelease(heartbeatSemaphoreHandle);
-        }
-
-        if(allAlive){
-            Print_Line("Watchdog: all philosophers alive, kicking watchdog.");
-            HAL_IWDG_Refresh(&hiwdg);
-        } else {
-            Print_Line("Watchdog: philosopher timeout detected, watchdog would reset board.");
-            HAL_IWDG_Refresh(&hiwdg); // refreshing the timer since we're just simulating a reset
-//            while(1){
-//            	// wait for IWDG reset
-//            }
-        }
+    	int set = osEventFlagGet()
 
         osDelay(watchdogCheckPeriodMs);
     }
