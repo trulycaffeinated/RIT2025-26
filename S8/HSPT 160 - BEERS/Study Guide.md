@@ -60,6 +60,9 @@ Adding hops late to increase aroma without bitterness
 What is the most important factor in brewing?  
 Cleanliness and sanitation
 
+Why do we add hops to beer?
+Hops balance the dull sweetness of malted rain based wort (Wort is the liquid extracted from mashed grains)
+
 ---
 
 ### 🍺 **Beer Styles & Types**
@@ -75,6 +78,9 @@ The Chimay Monastery
 
 **What is a Lambic beer?**  
 **Spontaneously fermented beer using wild yeast; often sour**
+
+What are 3 techniques a lambic beer must use?
+
 
 **What is a Gruit?**  
 **Beer made with little to no hops, using herbs/spices instead**
@@ -130,6 +136,12 @@ Refrigeration
 
 **Why were IPAs developed?**  - reasoning is the same as export stout
 **To preserve beer for long sea voyages (England → India)**
+
+What is the most consumed lager style in the world, and where do some of its common variants originate?
+Pilsner - American, Czech, German, and Euro
+
+What state has the largest number of breweries per capita?
+Colorado
 
 ---
 
@@ -193,7 +205,7 @@ What is the legal BAC limit?
 0.08
 
 What factors affect BAC?  
-Rate of drinking, body size, gender, food, carbonation, age, medications, etc.
+Rate of drinking, body size, gender, food, carbonation, age, medications, emotional state.
 
 ---
 
