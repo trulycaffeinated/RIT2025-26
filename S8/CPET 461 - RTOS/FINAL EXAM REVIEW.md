@@ -11,3 +11,14 @@ Exam is cumulative, but focus on L16 and beyond
 Comfortable drawing task description diagram, but also understanding task description diagrams.
 Review Scheduling algorithms 
 
+**Lab 8 Review - Events**
+```C
+taskToCheck(void* argument) {
+	
+	//somewhere in this task
+	osEventSet(Handle,
+				 mask);
+	
+	
+}
+```
