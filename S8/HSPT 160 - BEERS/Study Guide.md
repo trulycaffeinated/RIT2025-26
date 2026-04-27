@@ -35,8 +35,8 @@ Female flower/cone
 What are alpha and beta acids?  
 Alpha = bitterness (heat-activated); Beta = aroma & preservation
 
-What are the noble hops?  
-Hallertau, Saaz, Spalt, Tettnang
+**What are the noble hops?**  
+**Hallertau, Saaz, Spalt, Tettnang**
 
 Why are hops added at different times during brewing?  
 Early = bitterness, middle = flavor, late = aroma
@@ -48,14 +48,14 @@ Early = bitterness, middle = flavor, late = aroma
 What is fermentation?  
 Yeast converts sugars into alcohol and CO₂
 
-What is wort?  
-Liquid extracted from mashed grains
+**What is wort?**  
+**Liquid extracted from mashed grains**
 
 What is dry hopping?  
 Adding hops late to increase aroma without bitterness
 
-What are the stages of malting?  
-Steeping → Germination → Kilning
+**What are the stages of malting?**  
+**Steeping → Germination → Kilning**
 
 What is the most important factor in brewing?  
 Cleanliness and sanitation
@@ -65,28 +65,28 @@ Cleanliness and sanitation
 ### 🍺 **Beer Styles & Types**
 
 What is a Kölsch?  
-A hybrid beer: ale yeast brewed like a lager, from Cologne, Germany
+A hybrid beer: **ale yeast brewed like a lager, from Cologne, Germany**
 
 What is a Trappist beer?  
 Brewed in a monastery, under monks, profits support monastery/charity
 
-What is a Lambic beer?  
-Spontaneously fermented beer using wild yeast; often sour
+**What is a Lambic beer?**  
+**Spontaneously fermented beer using wild yeast; often sour**
 
-What is a Gruit?  
-Beer made without hops, using herbs/spices instead
+**What is a Gruit?**  
+**Beer made without hops, using herbs/spices instead**
 
-What is a Rauchbier?  
-Beer made with smoked malt (smoky flavor)
+**What is a Rauchbier?**  
+**Beer made with smoked malt (smoky flavor)**
 
-What is a Bock beer?  
-Strong, malty lager (~7% ABV), associated with a goat and springtime
+**What is a Bock beer?**  
+**Strong, malty lager (~7% ABV), associated with a goat and springtime**
 
-What is an Export Stout?  
-Stronger, fuller-bodied stout designed for long travel
+**What is an Export Stout?**  
+**Stronger, fuller-bodied stout designed for long travel**
 
-What is a Steam Beer (California Common)?  
-Lager yeast fermented at warmer (ale-like) temperatures
+**What is a Steam Beer (California Common)?**  
+**Lager yeast fermented at warmer (ale-like) temperatures**
 
 ---
 
@@ -113,8 +113,8 @@ Germany
 What enabled year-round lager production?  
 Refrigeration
 
-Why were IPAs developed?  
-To preserve beer for long sea voyages (England → India)
+**Why were IPAs developed?**  
+**To preserve beer for long sea voyages (England → India)**
 
 ---
 
