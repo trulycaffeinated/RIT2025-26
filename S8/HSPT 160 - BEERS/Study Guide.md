@@ -105,7 +105,8 @@ Typically has a goat on the label**
 **What is a Steam Beer (California Common)?**  
 **Lager yeast fermented at warmer (ale-like) temperatures**
 
-What is an alt
+What is an Altbeir?
+Old and German Style Ale
 
 What is the story behind steam beer?
 A steam pipe burst and raise the temperature of the lager vessels to ale temperatures
@@ -249,3 +250,5 @@ Stored to last through summer months
 
 What is sake?  
 Japanese alcoholic beverage brewed similarly to beer
+
+From the Belgian beers week which one had the highest percentage of alcohol 11.4%? Trappiest Rocherfort 10
