@@ -1,7 +1,7 @@
 ### 🍺 **Beer Basics**
 
 What are the 4 main ingredients in beer?  
-Water, barley (malt), hops, yeast
+Water, barley or grains (malt), hops, yeast
 
 What is the Reinheitsgebot?  
 German Beer Purity Law (1516) limiting beer to barley, water, hops (yeast added later)
@@ -87,6 +87,15 @@ Brewed in a monastery, under monks, profits support monastery/charity
 
 **What is a Steam Beer (California Common)?**  
 **Lager yeast fermented at warmer (ale-like) temperatures**
+
+Which of the following are Ale or Lager Styles:
+IPA – Ale
+Stout – Ale
+Pilsner – Lager
+Wheat Beer – Ale
+California Common/Steam – Lager
+Bock – Lager
+Barley Wine – Ale
 
 ---
 
