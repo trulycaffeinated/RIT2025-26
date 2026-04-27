@@ -117,6 +117,10 @@ California Common/Steam – Lager
 Bock – Lager
 Barley Wine – Ale
 
+Name the two Franconian specialty beers we learned about in class and how they are made.
+Rauchbeir: made with malt that is dried over an open fire giving it a smoke flavor.
+Steinbeir: wort is heated using white hot stones, the kettles were traditionally made of wood, and the beer was traditionally ale but is mostly lager style now
+
 ---
 
 ### 🌍 **History & Geography**
@@ -150,6 +154,9 @@ Pilsner - American, Czech, German, and Euro
 
 What state has the largest number of breweries per capita?
 Colorado
+
+The Saaz/Zatec hops are a type of Noble Hop native to...
+The Czech Republic
 
 ---
 
