@@ -12,6 +12,7 @@ Comfortable drawing task description diagram, but also understanding task descri
 Review Scheduling algorithms 
 
 **Lab 8 Review - USING EVENTS**
+when using semaphores the watchdog can get blocked, or block another task. This is what is wrong with mine, I use a semaphore which can BLOCK other tasks. I must change it to use events
 ```C
 taskToCheck(void* argument) {
 	
@@ -23,17 +24,22 @@ taskToCheck(void* argument) {
 	// call this two or three times depending
 	
 }
+```
 
+```C
 watchDogTask(void* argument) {
 	
-	// call this
-	set = osEventFlagsGet(Handle);
-
-	if(set != ALL_TASKS_OKAY) { //ALL TASKS OKAY == 0xFF for our 8 tasks
-		// reset here
-	}
-	else{
-		osEventFlagsClear(Handle, 0xFF);
+	while(1) {
+		// call this
+		set = osEventFlagsGet(Handle);
+	
+		if(set != ALL_TASKS_OKAY) { //ALL TASKS OKAY == 0xFF for our 8 tasks
+			// reset here
+		}
+		else{
+			osEventFlagsClear(Handle, 0xFF);
+		}
+		osDelay(watchingDelayTime);
 	}
 }
 ```
