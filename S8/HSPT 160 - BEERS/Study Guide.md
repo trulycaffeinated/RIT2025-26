@@ -89,20 +89,20 @@ What are 3 techniques a lambic beer must use?
 Must be spontaneously fermented
 The hops used are dried and aged
 
-**What is a Gruit?**  
+**What is a Gruit?**  Grew-it like herbs and spices or vegetation instead of hops
 **Beer made with little to no hops, using herbs/spices instead**
 
-**What is a Rauchbier?**  
+**What is a Rauchbier?**  Rauch is a smokey word - smoke beer
 **Beer made with smoked malt (smoky flavor)**
 
-**What is a Bock beer?**  
+**What is a Bock beer?**  Bock sounds like the noise a goat makes
 **Strong, malty lager (~7% ABV), associated with a goat and springtime
 Typically has a goat on the label**
 
-**What is an Export Stout?**  
-**Stronger, fuller-bodied stout designed for long travel**
+What is an Export Stout?  
+Stronger, fuller-bodied stout designed for long travel
 
-**What is a Steam Beer (California Common)?**  
+**What is a Steam Beer (California Common)?**  California would have shitty piping and fuck this up, creating steam beer
 **Lager yeast fermented at warmer (ale-like) temperatures**
 
 What is an Altbeir?
