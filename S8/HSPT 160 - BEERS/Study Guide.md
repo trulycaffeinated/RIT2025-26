@@ -76,11 +76,18 @@ Brewed in a monastery, under monks, profits support monastery/charity
 What is the first Trappist Monastery to sell beer to the public?
 The Chimay Monastery 
 
+What are the criteria a brewery must meet in order to have a certified trappist beer?
+1. Beer must be made inside a trappist Monastery
+2. Beer must be made under the supervision of the monks
+3. All profits must be used to support the Monastery or charity
+
 **What is a Lambic beer?**  
 **Spontaneously fermented beer using wild yeast; often sour**
 
 What are 3 techniques a lambic beer must use?
-
+30% or more of the mash must be UNMALTED wheat
+Must be spontaneously fermented
+The hops used are dried and aged
 
 **What is a Gruit?**  
 **Beer made with little to no hops, using herbs/spices instead**
@@ -89,7 +96,8 @@ What are 3 techniques a lambic beer must use?
 **Beer made with smoked malt (smoky flavor)**
 
 **What is a Bock beer?**  
-**Strong, malty lager (~7% ABV), associated with a goat and springtime**
+**Strong, malty lager (~7% ABV), associated with a goat and springtime
+Typically has a goat on the label**
 
 **What is an Export Stout?**  
 **Stronger, fuller-bodied stout designed for long travel**
