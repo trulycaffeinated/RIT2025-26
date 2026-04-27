@@ -35,7 +35,7 @@ Female flower/cone
 What are alpha and beta acids?  
 Alpha = bitterness (heat-activated); Beta = aroma & preservation
 
-**What are the noble hops?**  
+**What are the noble hops?** - sound like shit found in an orc stew
 **Hallertau, Saaz, Spalt, Tettnang**
 
 Why are hops added at different times during brewing?  
@@ -113,7 +113,7 @@ Germany
 What enabled year-round lager production?  
 Refrigeration
 
-**Why were IPAs developed?**  
+**Why were IPAs developed?**  - reasoning is the same as export stout
 **To preserve beer for long sea voyages (England → India)**
 
 ---
