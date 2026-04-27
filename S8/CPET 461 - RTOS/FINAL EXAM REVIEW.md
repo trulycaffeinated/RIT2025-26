@@ -15,6 +15,8 @@ Review Scheduling algorithms
 ```C
 taskToCheck(void* argument) {
 	
+	mask = (1 << PHIL_NUM);
+	
 	//somewhere in this task
 	osEventFlagsSet(Handle,
 				 mask);
@@ -29,6 +31,9 @@ watchDogTask(void* argument) {
 
 	if(set != ALL_TASKS_OKAY) { //ALL TASKS OKAY == 0xFF for our 8 tasks
 		// reset here
+	}
+	else{
+		osEventFlagsClear(Handle, 0xFF);
 	}
 }
 ```
