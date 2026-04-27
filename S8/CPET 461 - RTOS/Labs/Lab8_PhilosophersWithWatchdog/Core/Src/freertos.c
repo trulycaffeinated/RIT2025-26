@@ -148,9 +148,8 @@ static void PhilosopherTask(void *argument)
         ranNum = (rand() % ranMAX) + 1000;
         osDelay(ranNum);
 
-    	osEventFlagSet(PhilosopherNum[id], mask);
-        Print_Line("Philosopher %d - Hungry...", id);
 
+        Print_Line("Philosopher %d - Hungry...", id);
         while (!(gotLeft && gotRight))
         {
             PhilosopherHeartbeat(id);
@@ -174,11 +173,10 @@ static void PhilosopherTask(void *argument)
             osDelay(10);
         }
 
-        PhilosopherHeartbeat(id);
         Print_Line("Philosopher %d - Eating...", id);
         ranNum = (rand() % ranMAX) + 1000;
         osDelay(ranNum);
-        PhilosopherHeartbeat(id);
+    	osEventFlagSet(PhilosopherNum[id], mask);
 
         putFork(desiredLeftFork);
         putFork(desiredRightFork);
@@ -245,11 +243,11 @@ static void putFork(int forkIndex){
 	}
 }
 
-static void PhilosopherHeartbeat(int id){
-    if(osSemaphoreAcquire(heartbeatSemaphoreHandle, HAL_MAX_DELAY) == osOK){
-        lastKickTick[id] = osKernelGetTickCount();
-        osSemaphoreRelease(heartbeatSemaphoreHandle);
-    }
-}
+//static void PhilosopherHeartbeat(int id){
+//    if(osSemaphoreAcquire(heartbeatSemaphoreHandle, HAL_MAX_DELAY) == osOK){
+//        lastKickTick[id] = osKernelGetTickCount();
+//        osSemaphoreRelease(heartbeatSemaphoreHandle);
+//    }
+//}
 /* USER CODE END Application */
 
