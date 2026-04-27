@@ -7,5 +7,7 @@ Wed. April 29th ; 1:30pm - 4:00pm ; GLE 2159
 
 Exam is cumulative, but focus on L16 and beyond
 
+**Things to review/do**
 Comfortable drawing task description diagram, but also understanding task description diagrams.
+Review Scheduling algorithms 
 
