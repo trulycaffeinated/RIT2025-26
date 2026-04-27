@@ -70,11 +70,14 @@ A hybrid beer: **ale yeast brewed like a lager, from Cologne, Germany**
 What is a Trappist beer?  
 Brewed in a monastery, under monks, profits support monastery/charity
 
+What is the first Trappist Monastery to sell beer to the public?
+The Chimay Monestary 
+
 **What is a Lambic beer?**  
 **Spontaneously fermented beer using wild yeast; often sour**
 
 **What is a Gruit?**  
-**Beer made without hops, using herbs/spices instead**
+**Beer made with little to no hops, using herbs/spices instead**
 
 **What is a Rauchbier?**  
 **Beer made with smoked malt (smoky flavor)**
@@ -87,6 +90,9 @@ Brewed in a monastery, under monks, profits support monastery/charity
 
 **What is a Steam Beer (California Common)?**  
 **Lager yeast fermented at warmer (ale-like) temperatures**
+
+What is the story behind steam beer?
+A steam pipe burst and raise the temperature of the lager vessels to ale temperatures
 
 Which of the following are Ale or Lager Styles:
 IPA – Ale
@@ -169,7 +175,6 @@ What packaging is best and why?
 Cans—block light and oxygen, better for freshness and transport
 
 ---
-
 ### 🍷 **Alcohol & Body**
 
 What is ABV?  
