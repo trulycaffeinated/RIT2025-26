@@ -252,3 +252,102 @@ What is sake?
 Japanese alcoholic beverage brewed similarly to beer
 
 From the Belgian beers week which one had the highest percentage of alcohol 11.4%? Trappiest Rocherfort 10
+
+## 👃 Beer Tasting & Sensory (you don’t have this at all)
+
+- **6 S’s of beer tasting**  
+    → Sight, Swirl, Smell, Sip, Swallow, Savor
+- **Why glassware matters**
+    - Tulip glass for strong/aromatic beers
+    - ❌ Frosted mugs = bad (kills flavor)
+
+---
+
+## 🧪 Brewing Process – Extra Details
+
+You have the basics, but you’re missing testable specifics:
+
+- **Purpose of the boil**
+    - Sterilizes wort
+    - Isomerizes hop acids (creates bitterness)
+- **What determines ABV**
+    - Difference between **original gravity and final gravity**
+- **Standard boil times**
+    - Ale ≈ 60 min
+    - Lager ≈ 90 min
+- **Stages of homebrewing**
+    - Beginner → extract
+    - Intermediate → partial mash
+    - Expert → all-grain
+
+---
+
+## 🍺 Additional Beer Styles / Terms
+
+Add these—professors love pulling from these:
+
+- **Dunkel** → dark German lager
+- **Porter** → dark English beer
+- **Doppelbock** → strong “liquid bread” beer (monks)
+- **Session beer** → low ABV, easy drinking
+- **Wee Heavy** → Scotch ale
+- **Eisbock** → partially frozen during production
+
+---
+
+## 🌍 Geography & Random Facts (HIGH test bait ⚠️)
+
+You’re missing a bunch of these:
+
+- ~**800 breweries in Bavaria**
+- **China** = largest beer producer (by volume)
+- **New Hampshire** = highest US beer consumption
+- **Alabama & Mississippi** = last to legalize homebrewing
+- **Zatec (Saaz region)** = oldest hop-growing region
+
+---
+
+## 🍽️ Serving & Pairing Details
+
+Add these small but testable points:
+
+- ❌ Don’t use **frosted mugs** (mutes flavor)
+- Garnishes:
+    - **Hefeweizen → lemon**
+    - **Witbier → orange**
+
+---
+
+## 🧬 Fermentation Types (Belgian methods)
+
+You only listed spontaneous—add the full set:
+
+- Top fermentation
+- Bottom fermentation
+- Spontaneous fermentation
+- Mixed fermentation
+
+---
+
+## 🧩 Applied / Multiple-Choice Concepts
+
+These show up in tricky wording—add them explicitly:
+
+- **Malt = main source of fermentable sugar**
+- **Darker malt → darker color + roasted flavor**
+- **Light exposure → skunky (“lightstruck”)**
+- **Hops contribute:**
+    - Bitterness
+    - Aroma
+    - Preservation
+
+---
+
+## ⚙️ Misc Brewing / Industry Details
+
+Small but sneaky:
+
+- **Nitro ball** → nitrogen device for carbonation/texture
+- **Steam beer = trademarked**
+    - Other brewers call it → _California Common_
+- **“More-ish”** → beer that makes you want another
