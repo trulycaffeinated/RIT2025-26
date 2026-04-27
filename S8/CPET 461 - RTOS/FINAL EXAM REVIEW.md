@@ -13,6 +13,9 @@ Review Scheduling algorithms
 
 **Lab 8 Review - USING EVENTS**
 when using semaphores the watchdog can get blocked, or block another task. This is what is wrong with mine, I use a semaphore which can BLOCK other tasks. I must change it to use events
+
+when OS sets a flag it does it in an ATOMIC manner,
+
 ```C
 taskToCheck(void* argument) {
 	
@@ -43,3 +46,6 @@ watchDogTask(void* argument) {
 	}
 }
 ```
+
+
+### Int
