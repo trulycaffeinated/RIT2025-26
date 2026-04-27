@@ -131,6 +131,7 @@ static void PhilosopherTask(void *argument)
     int id = *(int*)argument; // Pull Philosopher ID from arbitrary argument
 	srand(id); // SEED Rand() with Philosopher ID - when removed, every philosopher has the same delays. This avoids the RAND() bug
 
+	int mask = (1 << id);
     int desiredLeftFork  = id;
     int desiredRightFork = (id + NumPHIL - 1) % NumPHIL;
 
@@ -142,12 +143,12 @@ static void PhilosopherTask(void *argument)
 
     while (1)
     {
-        PhilosopherHeartbeat(id);
+    	osEventFlagSet(PhilosopherNum[id], mask);
         Print_Line("Philosopher %d - Thinking...", id);
         ranNum = (rand() % ranMAX) + 1000;
         osDelay(ranNum);
 
-        PhilosopherHeartbeat(id);
+    	osEventFlagSet(PhilosopherNum[id], mask);
         Print_Line("Philosopher %d - Hungry...", id);
 
         while (!(gotLeft && gotRight))
